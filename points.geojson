@@ -270,7 +270,14 @@
         "source": "sreality",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/morkuvky-morkuvky-/3229278284",
         "guid": "sreality:3229278284",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.862216&y=48.966128&z=17&source=coor&id=16.862216,48.966128"
+        "mapy_url": "https://mapy.cz/zakladni?x=16.862216&y=48.966128&z=17&source=coor&id=16.862216,48.966128",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -289,7 +296,14 @@
         "source": "sreality",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/les/mestecko-trnavka-mestecko-trnavka-/100499532",
         "guid": "sreality:100499532",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.727435&y=49.709264&z=17&source=coor&id=16.727435,49.709264"
+        "mapy_url": "https://mapy.cz/zakladni?x=16.727435&y=49.709264&z=17&source=coor&id=16.727435,49.709264",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -634,6 +648,55 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.489646,
+          49.052322
+        ]
+      },
+      "properties": {
+        "title": "Pravlov – KN 2192, 1425 m², zahrada",
+        "price": 24272,
+        "price_label": "24 272 Kč",
+        "source": "spu",
+        "link": "https://spu.gov.cz/nabidky",
+        "guid": "spu:Pravlov:2192",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.489646&y=49.052322&z=17&source=coor&id=16.489646,49.052322",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.489707,
+          49.05228
+        ]
+      },
+      "properties": {
+        "title": "Pravlov – KN 2193, 570 m², orná půda",
+        "price": 6037,
+        "price_label": "6 037 Kč",
+        "source": "spu",
+        "link": "https://spu.gov.cz/nabidky",
+        "guid": "spu:Pravlov:2193",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.489707&y=49.05228&z=17&source=coor&id=16.489707,49.05228",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.844405,
           48.926968
         ]
@@ -827,7 +890,11 @@
         "source": "bezrealitky",
         "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1030386-nabidka-prodej-pozemku-lipova",
         "guid": "bezrealitky:1030386",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.871282&y=49.529539&z=17&source=coor&id=16.871282,49.529539"
+        "mapy_url": "https://mapy.cz/zakladni?x=16.871282&y=49.529539&z=17&source=coor&id=16.871282,49.529539",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575"
       }
     },
     {
@@ -846,7 +913,14 @@
         "source": "bezrealitky",
         "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1030380-nabidka-prodej-pozemku-katov",
         "guid": "bezrealitky:1030380",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.275162&y=49.320091&z=17&source=coor&id=16.275162,49.320091"
+        "mapy_url": "https://mapy.cz/zakladni?x=16.275162&y=49.320091&z=17&source=coor&id=16.275162,49.320091",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS"
+        ]
       }
     },
     {
@@ -1450,7 +1524,14 @@
         "source": "cevd",
         "link": "https://cevd.gov.cz/seznam-drazeb/detail/575",
         "guid": "cevd:575",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.190214&y=49.866088&z=17&source=coor&id=18.190214,49.866088"
+        "mapy_url": "https://mapy.cz/zakladni?x=18.190214&y=49.866088&z=17&source=coor&id=18.190214,49.866088",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS"
+        ]
       }
     },
     {
@@ -1469,7 +1550,14 @@
         "source": "cevd",
         "link": "https://cevd.gov.cz/seznam-drazeb/detail/586",
         "guid": "cevd:586",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.954998&y=49.683557&z=17&source=coor&id=17.954998,49.683557"
+        "mapy_url": "https://mapy.cz/zakladni?x=17.954998&y=49.683557&z=17&source=coor&id=17.954998,49.683557",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP"
+        ]
       }
     },
     {
@@ -2157,6 +2245,59 @@
         "marker-color": "#c62828",
         "flags": [
           "POOR_ACCESS",
+          "AVOID"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.64469,
+          49.629466
+        ]
+      },
+      "properties": {
+        "title": "Nová Ves pod Přimdou, p.č. 2249/8 — Aukce vyhlášena (01.09.2026 11:00 - 02.09.2026 12:00) · přihlášky do 31.08.2026 23:59",
+        "price": 32000,
+        "price_label": "32 000 Kč",
+        "source": "uzsvm",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/94320",
+        "guid": "uzsvm:94320",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.64469&y=49.629466&z=17&source=coor&id=12.64469,49.629466",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "PROTECTED_AREA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.770469,
+          49.670774
+        ]
+      },
+      "properties": {
+        "title": "Stráž u Tachova, p. p. č. 365/12 — Aukce vyhlášena (25.08.2026 11:00 - 26.08.2026 12:00) · přihlášky do 24.08.2026 23:59",
+        "price": 13000,
+        "price_label": "13 000 Kč",
+        "source": "uzsvm",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/94876",
+        "guid": "uzsvm:94876",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.770469&y=49.670774&z=17&source=coor&id=12.770469,49.670774",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
           "AVOID"
         ]
       }
@@ -4116,6 +4257,424 @@
         "link": "https://www.sreality.cz/detail/prodej/dum/chata/hvozdnice-hvozdnice-/1628463948",
         "guid": "chata:1628463948",
         "mapy_url": "https://mapy.cz/zakladni?x=14.385904&y=49.874038&z=17&source=coor&id=14.385904,49.874038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.527598,
+          49.485529
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 5420 m² — Jistebnice, Tábor, Jihočeský kraj",
+        "price": 189700,
+        "price_label": "189 700 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/jistebnice-jistebnice-/2523299916",
+        "guid": "sreality:2523299916",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.527598&y=49.485529&z=17&source=coor&id=14.527598,49.485529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.727435,
+          49.709264
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 10311 m² — Městečko Trnávka, Svitavy, Pardubický kraj",
+        "price": 257775,
+        "price_label": "257 775 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/mestecko-trnavka-mestecko-trnavka-/3678830668",
+        "guid": "sreality:3678830668",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.727435&y=49.709264&z=17&source=coor&id=16.727435,49.709264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.531442,
+          49.298517
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 5157 m² — Kuřim, Brno-venkov, Jihomoravský kraj",
+        "price": 252693,
+        "price_label": "252 693 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kurim-kurim-/682287180",
+        "guid": "sreality:682287180",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.531442&y=49.298517&z=17&source=coor&id=16.531442,49.298517"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.913122,
+          49.029654
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4819 m² — Stříbřec – Mníšek, Jindřichův Hradec, Jihočeský kraj",
+        "price": 231312,
+        "price_label": "231 312 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/stribrec-mnisek-/1476698188",
+        "guid": "sreality:1476698188",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.913122&y=49.029654&z=17&source=coor&id=14.913122,49.029654"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.896157,
+          48.960795
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 9612 m² — Brumovice, Břeclav, Jihomoravský kraj",
+        "price": 297972,
+        "price_label": "297 972 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/brumovice-brumovice-/2187755596",
+        "guid": "sreality:2187755596",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.896157&y=48.960795&z=17&source=coor&id=16.896157,48.960795"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.049267,
+          49.229665
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2734 m² — Čejetice – Mladějovice, Strakonice, Jihočeský kraj",
+        "price": 191345,
+        "price_label": "191 345 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/cejetice-mladejovice-/1507491916",
+        "guid": "sreality:1507491916",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.049267&y=49.229665&z=17&source=coor&id=14.049267,49.229665"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.727435,
+          49.709264
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 13383 m² — Městečko Trnávka, Svitavy, Pardubický kraj",
+        "price": 187362,
+        "price_label": "187 362 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/mestecko-trnavka-mestecko-trnavka-/675709004",
+        "guid": "sreality:675709004",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.727435&y=49.709264&z=17&source=coor&id=16.727435,49.709264"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.35679,
+          49.4685
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 9164 m² — Měčín – Třebýcina, Klatovy, Plzeňský kraj",
+        "price": 128000,
+        "price_label": "128 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/mecin-trebycina-/805953612",
+        "guid": "sreality:805953612",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.35679&y=49.4685&z=17&source=coor&id=13.35679,49.4685"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.35679,
+          49.4685
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 5583 m² — Měčín – Třebýcina, Klatovy, Plzeňský kraj",
+        "price": 217700,
+        "price_label": "217 700 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/mecin-trebycina-/4027179084",
+        "guid": "sreality:4027179084",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.35679&y=49.4685&z=17&source=coor&id=13.35679,49.4685"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.940287,
+          49.112836
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4475 m² — Vlachovice – Vrbětice, Zlín, Zlínský kraj",
+        "price": 50000,
+        "price_label": "50 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/vlachovice-vrbetice-/2970214476",
+        "guid": "sreality:2970214476",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.940287&y=49.112836&z=17&source=coor&id=17.940287,49.112836"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.951201,
+          49.403144
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 3724 m² — Mrákov, Domažlice, Plzeňský kraj",
+        "price": 43000,
+        "price_label": "43 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/mrakov-mrakov-/3507085388",
+        "guid": "sreality:3507085388",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.951201&y=49.403144&z=17&source=coor&id=12.951201,49.403144"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.757477,
+          49.099823
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 6656 m² — Luhačovice, Zlín, Zlínský kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/luhacovice-luhacovice-/981369676",
+        "guid": "sreality:981369676",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.757477&y=49.099823&z=17&source=coor&id=17.757477,49.099823"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.850678,
+          49.038304
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 6930 m² — Pitín, Uherské Hradiště, Zlínský kraj",
+        "price": 80000,
+        "price_label": "80 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/pitin-pitin-/305177420",
+        "guid": "sreality:305177420",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.850678&y=49.038304&z=17&source=coor&id=17.850678,49.038304"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.757477,
+          49.099823
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 3109 m² — Luhačovice, Zlín, Zlínský kraj",
+        "price": 69000,
+        "price_label": "69 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/luhacovice-luhacovice-/4149117772",
+        "guid": "sreality:4149117772",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.757477&y=49.099823&z=17&source=coor&id=17.757477,49.099823"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.88281,
+          49.238539
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 3011 m² — Lutonina, Zlín, Zlínský kraj",
+        "price": 80000,
+        "price_label": "80 000 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/lutonina-lutonina-/1460265036",
+        "guid": "sreality:1460265036",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.88281&y=49.238539&z=17&source=coor&id=17.88281,49.238539"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.004092,
+          49.75294
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4736 m² — Stříbro, Tachov, Plzeňský kraj",
+        "price": 236800,
+        "price_label": "236 800 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/stribro-stribro-/4144619596",
+        "guid": "sreality:4144619596",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.004092&y=49.75294&z=17&source=coor&id=13.004092,49.75294"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.541014,
+          49.368544
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4226 m² — Újezd u Černé Hory, Blansko, Jihomoravský kraj",
+        "price": 126780,
+        "price_label": "126 780 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/ujezd-u-cerne-hory-ujezd-u-cerne-hory-/1336598604",
+        "guid": "sreality:1336598604",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.541014&y=49.368544&z=17&source=coor&id=16.541014,49.368544"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.254076,
+          50.642738
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 5198 m² — Železný Brod, Jablonec nad Nisou, Liberecký kraj",
+        "price": 239108,
+        "price_label": "239 108 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/zelezny-brod-zelezny-brod-/3495657548",
+        "guid": "sreality:3495657548",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.254076&y=50.642738&z=17&source=coor&id=15.254076,50.642738"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.253111,
+          49.203709
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 9179 m² — Honětice, Kroměříž, Zlínský kraj",
+        "price": 339623,
+        "price_label": "339 623 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/honetice-honetice-/4245061708",
+        "guid": "sreality:4245061708",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.253111&y=49.203709&z=17&source=coor&id=17.253111,49.203709"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.751501,
+          49.43099
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 428 m² — Osíčko, Kroměříž, Zlínský kraj",
+        "price": 113934,
+        "price_label": "113 934 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/osicko-osicko-/2722164812",
+        "guid": "sreality:2722164812",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.751501&y=49.43099&z=17&source=coor&id=17.751501,49.43099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.360026,
+          49.254777
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4997 m² — Šelešovice, Kroměříž, Zlínský kraj",
+        "price": 239856,
+        "price_label": "239 856 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/selesovice-selesovice-/2344194124",
+        "guid": "sreality:2344194124",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.360026&y=49.254777&z=17&source=coor&id=17.360026,49.254777"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.210935,
+          49.00126
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6560 m² — Džbánice, Znojmo, Jihomoravský kraj",
+        "price": 249280,
+        "price_label": "249 280 Kč",
+        "source": "sreality",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dzbanice-dzbanice-/1533444172",
+        "guid": "sreality:1533444172",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.210935&y=49.00126&z=17&source=coor&id=16.210935,49.00126"
       }
     }
   ]

@@ -597,7 +597,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "flags": [
-          "POOR_ACCESS",
           "LOW_CONFIDENCE_LOCATION"
         ]
       }
@@ -7914,7 +7913,15 @@
         "source": "chata",
         "guid": "chata:2441831244",
         "mapy_url": "https://mapy.cz/zakladni?x=17.648504&y=49.633878&z=17&source=coor&id=17.648504,49.633878",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/potstat-potstat-padesat-lanu/2441831244"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/potstat-potstat-padesat-lanu/2441831244",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -7933,7 +7940,14 @@
         "source": "chata",
         "guid": "chata:3697582156",
         "mapy_url": "https://mapy.cz/zakladni?x=14.396386&y=49.954344&z=17&source=coor&id=14.396386,49.954344",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/dolni-brezany-jarov-/3697582156"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/dolni-brezany-jarov-/3697582156",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY"
+        ]
       }
     },
     {
@@ -7952,7 +7966,14 @@
         "source": "chata",
         "guid": "chata:551215180",
         "mapy_url": "https://mapy.cz/zakladni?x=17.598196&y=49.207489&z=17&source=coor&id=17.598196,49.207489",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chalupa/zlin-malenovice-/551215180"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chalupa/zlin-malenovice-/551215180",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -7971,7 +7992,16 @@
         "source": "chata",
         "guid": "chata:1692881740",
         "mapy_url": "https://mapy.cz/zakladni?x=15.240222&y=49.260199&z=17&source=coor&id=15.240222,49.260199",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/pocatky-pocatky-/1692881740"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/pocatky-pocatky-/1692881740",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -7990,7 +8020,17 @@
         "source": "chata",
         "guid": "chata:1747640396",
         "mapy_url": "https://mapy.cz/zakladni?x=14.21478&y=50.782152&z=17&source=coor&id=14.21478,50.782152",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/decin-decin-/1747640396"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/decin-decin-/1747640396",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "FLOOD_HAZARD",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8009,7 +8049,14 @@
         "source": "chata",
         "guid": "chata:3247199052",
         "mapy_url": "https://mapy.cz/zakladni?x=17.561071&y=48.951737&z=17&source=coor&id=17.561071,48.951737",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/hluk-hluk-/3247199052"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/hluk-hluk-/3247199052",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -8028,7 +8075,15 @@
         "source": "chata",
         "guid": "chata:3590107212",
         "mapy_url": "https://mapy.cz/zakladni?x=13.510032&y=50.157146&z=17&source=coor&id=13.510032,50.157146",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kolesov-kolesov-/3590107212"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kolesov-kolesov-/3590107212",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8047,7 +8102,14 @@
         "source": "chata",
         "guid": "chata:3668963404",
         "mapy_url": "https://mapy.cz/zakladni?x=13.389382&y=49.66198&z=17&source=coor&id=13.389382,49.66198",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/utusice-robcice-/3668963404"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/utusice-robcice-/3668963404",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY"
+        ]
       }
     },
     {
@@ -8066,7 +8128,15 @@
         "source": "chata",
         "guid": "chata:1727037516",
         "mapy_url": "https://mapy.cz/zakladni?x=17.711848&y=50.078842&z=17&source=coor&id=17.711848,50.078842",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/krnov-pod-cvilinem-nova-cvilinska/1727037516"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/krnov-pod-cvilinem-nova-cvilinska/1727037516",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8085,7 +8155,16 @@
         "source": "chata",
         "guid": "chata:2148237388",
         "mapy_url": "https://mapy.cz/zakladni?x=12.989266&y=49.500015&z=17&source=coor&id=12.989266,49.500015",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/blizejov-chotimer-/2148237388"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/blizejov-chotimer-/2148237388",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8104,7 +8183,15 @@
         "source": "chata",
         "guid": "chata:1833734220",
         "mapy_url": "https://mapy.cz/zakladni?x=15.770037&y=49.035002&z=17&source=coor&id=15.770037,49.035002",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/moravske-budejovice-jackov-/1833734220"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/moravske-budejovice-jackov-/1833734220",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -8123,7 +8210,16 @@
         "source": "chata",
         "guid": "chata:2333859916",
         "mapy_url": "https://mapy.cz/zakladni?x=15.2976&y=49.5063&z=17&source=coor&id=15.2976,49.5063",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/humpolec-kletecna-/2333859916"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/humpolec-kletecna-/2333859916",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8142,7 +8238,15 @@
         "source": "chata",
         "guid": "chata:4183158860",
         "mapy_url": "https://mapy.cz/zakladni?x=17.337554&y=49.551975&z=17&source=coor&id=17.337554,49.551975",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/velky-tynec-velky-tynec-/4183158860"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/velky-tynec-velky-tynec-/4183158860",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -8161,7 +8265,14 @@
         "source": "chata",
         "guid": "chata:2254590796",
         "mapy_url": "https://mapy.cz/zakladni?x=14.368406&y=50.018495&z=17&source=coor&id=14.368406,50.018495",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-slivenec-k-homolce/2254590796"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-slivenec-k-homolce/2254590796",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -8180,7 +8291,15 @@
         "source": "chata",
         "guid": "chata:1800568908",
         "mapy_url": "https://mapy.cz/zakladni?x=14.093229&y=50.1464&z=17&source=coor&id=14.093229,50.1464",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kladno-kladno-havirska/1800568908"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kladno-kladno-havirska/1800568908",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -8199,7 +8318,14 @@
         "source": "chata",
         "guid": "chata:688959564",
         "mapy_url": "https://mapy.cz/zakladni?x=14.085527&y=50.146199&z=17&source=coor&id=14.085527,50.146199",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kladno-kladno-havirska/688959564"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kladno-kladno-havirska/688959564",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -8218,7 +8344,15 @@
         "source": "chata",
         "guid": "chata:2137755724",
         "mapy_url": "https://mapy.cz/zakladni?x=14.383619&y=50.097978&z=17&source=coor&id=14.383619,50.097978",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-stresovice-delostrelecka/2137755724"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-stresovice-delostrelecka/2137755724",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -8237,7 +8371,15 @@
         "source": "chata",
         "guid": "chata:963350604",
         "mapy_url": "https://mapy.cz/zakladni?x=14.383461&y=50.097977&z=17&source=coor&id=14.383461,50.097977",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-stresovice-delostrelecka/963350604"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-stresovice-delostrelecka/963350604",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -15838,6 +15980,44 @@
         "guid": "house:3095191628",
         "mapy_url": "https://mapy.cz/zakladni?x=17.260204&y=49.409565&z=17&source=coor&id=17.260204,49.409565",
         "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/oplocany-oplocany-/3095191628"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.427881,
+          49.116261
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 60 m², pozemek 70 m² — Jalubí, Uherské Hradiště, Zlínský kraj",
+        "price": 890000,
+        "price_label": "890 000 Kč",
+        "source": "house",
+        "guid": "house:2353848396",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.427881&y=49.116261&z=17&source=coor&id=17.427881,49.116261",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/2353848396"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.427881,
+          49.116261
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 60 m², pozemek 70 m² — Jalubí, Uherské Hradiště, Zlínský kraj",
+        "price": 890000,
+        "price_label": "890 000 Kč",
+        "source": "house",
+        "guid": "house:3477921868",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.427881&y=49.116261&z=17&source=coor&id=17.427881,49.116261",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/3477921868"
       }
     }
   ]

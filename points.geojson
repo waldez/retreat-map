@@ -2763,7 +2763,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "flags": [
-          "POOR_ACCESS",
           "LIKELY_NONBUILDABLE"
         ]
       }
@@ -7598,25 +7597,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.936672,
-          50.322959
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2521 m² — Luštěnice, Mladá Boleslav, Středočeský kraj",
-        "price": 93277,
-        "price_label": "93 277 Kč",
-        "source": "sreality",
-        "guid": "sreality:1448837196",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.936672&y=50.322959&z=17&source=coor&id=14.936672,50.322959",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/lustenice-lustenice-/1448837196"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.391519,
           48.908229
         ]
@@ -7973,63 +7953,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.240222,
-          49.260199
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 16 m², pozemek 269 m² — Počátky, Pelhřimov, Kraj Vysočina",
-        "price": 555000,
-        "price_label": "555 000 Kč",
-        "source": "chata",
-        "guid": "chata:1692881740",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.240222&y=49.260199&z=17&source=coor&id=15.240222,49.260199",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/pocatky-pocatky-/1692881740",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.21478,
-          50.782152
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 27 m², pozemek 296 m² — Děčín, Ústecký kraj",
-        "price": 590000,
-        "price_label": "590 000 Kč",
-        "source": "chata",
-        "guid": "chata:1747640396",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.21478&y=50.782152&z=17&source=coor&id=14.21478,50.782152",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/decin-decin-/1747640396",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PROTECTED_AREA",
-          "FLOOD_HAZARD",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
         ]
       }
     },
@@ -15794,7 +15717,14 @@
         "source": "house",
         "guid": "house:902194508",
         "mapy_url": "https://mapy.cz/zakladni?x=15.265969&y=49.219426&z=17&source=coor&id=15.265969,49.219426",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/panske-dubenky-panske-dubenky-/902194508"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/panske-dubenky-panske-dubenky-/902194508",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -15813,7 +15743,14 @@
         "source": "house",
         "guid": "house:270393420",
         "mapy_url": "https://mapy.cz/zakladni?x=17.815014&y=49.041386&z=17&source=coor&id=17.815014,49.041386",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/bojkovice-bojkovice-potok/270393420"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/bojkovice-bojkovice-potok/270393420",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA"
+        ]
       }
     },
     {
@@ -15832,7 +15769,15 @@
         "source": "house",
         "guid": "house:4142297932",
         "mapy_url": "https://mapy.cz/zakladni?x=17.914992&y=49.367694&z=17&source=coor&id=17.914992,49.367694",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ratibor-ratibor-/4142297932"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ratibor-ratibor-/4142297932",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -15851,7 +15796,15 @@
         "source": "house",
         "guid": "house:809730124",
         "mapy_url": "https://mapy.cz/zakladni?x=18.802315&y=49.559245&z=17&source=coor&id=18.802315,49.559245",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/pisek-pisek-/809730124"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/pisek-pisek-/809730124",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -15870,7 +15823,14 @@
         "source": "house",
         "guid": "house:4282224716",
         "mapy_url": "https://mapy.cz/zakladni?x=17.29283&y=49.313554&z=17&source=coor&id=17.29283,49.313554",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kojetin-kojetin-iii-kovalovice-/4282224716"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kojetin-kojetin-iii-kovalovice-/4282224716",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -15889,7 +15849,16 @@
         "source": "house",
         "guid": "house:704569420",
         "mapy_url": "https://mapy.cz/zakladni?x=17.975257&y=49.069499&z=17&source=coor&id=17.975257,49.069499",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/stitna-nad-vlari-popov-stitna-nad-vlari-/704569420"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/stitna-nad-vlari-popov-stitna-nad-vlari-/704569420",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -15908,7 +15877,14 @@
         "source": "house",
         "guid": "house:1657401420",
         "mapy_url": "https://mapy.cz/zakladni?x=17.57492&y=50.205234&z=17&source=coor&id=17.57492,50.205234",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/tremesna-tremesna-/1657401420"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/tremesna-tremesna-/1657401420",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -15927,7 +15903,16 @@
         "source": "house",
         "guid": "house:1439793228",
         "mapy_url": "https://mapy.cz/zakladni?x=16.993511&y=49.849688&z=17&source=coor&id=16.993511,49.849688",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/rohle-janoslavice-/1439793228"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/rohle-janoslavice-/1439793228",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -15946,7 +15931,11 @@
         "source": "house",
         "guid": "house:2036785996",
         "mapy_url": "https://mapy.cz/zakladni?x=17.625347&y=49.794832&z=17&source=coor&id=17.625347,49.794832",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/budisov-nad-budisovkou-budisov-nad-budisovkou-horska/2036785996"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/budisov-nad-budisovkou-budisov-nad-budisovkou-horska/2036785996",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
       }
     },
     {
@@ -15965,7 +15954,15 @@
         "source": "house",
         "guid": "house:3340755020",
         "mapy_url": "https://mapy.cz/zakladni?x=15.049481&y=49.701511&z=17&source=coor&id=15.049481,49.701511",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov-dubejovice-/3340755020"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/trhovy-stepanov-dubejovice-/3340755020",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -15984,7 +15981,11 @@
         "source": "house",
         "guid": "house:2337972300",
         "mapy_url": "https://mapy.cz/zakladni?x=16.346604&y=49.070859&z=17&source=coor&id=16.346604,49.070859",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ivancice-budkovice-/2337972300"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ivancice-budkovice-/2337972300",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
       }
     },
     {
@@ -16003,7 +16004,14 @@
         "source": "house",
         "guid": "house:714101580",
         "mapy_url": "https://mapy.cz/zakladni?x=13.546464&y=49.330734&z=17&source=coor&id=13.546464,49.330734",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/nalzovske-hory-stribrne-hory-/714101580"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/nalzovske-hory-stribrne-hory-/714101580",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP"
+        ]
       }
     },
     {
@@ -16022,7 +16030,14 @@
         "source": "house",
         "guid": "house:3856679756",
         "mapy_url": "https://mapy.cz/zakladni?x=15.782238&y=48.887599&z=17&source=coor&id=15.782238,48.887599",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/podmyce-podmyce-/3856679756"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/podmyce-podmyce-/3856679756",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -16041,7 +16056,15 @@
         "source": "house",
         "guid": "house:1268228172",
         "mapy_url": "https://mapy.cz/zakladni?x=15.684628&y=48.86892&z=17&source=coor&id=15.684628,48.86892",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/stalky-stalky-/1268228172"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/stalky-stalky-/1268228172",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16060,7 +16083,15 @@
         "source": "house",
         "guid": "house:2268164940",
         "mapy_url": "https://mapy.cz/zakladni?x=14.330801&y=50.382658&z=17&source=coor&id=14.330801,50.382658",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kostomlaty-pod-ripem-kostomlaty-pod-ripem-/2268164940"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kostomlaty-pod-ripem-kostomlaty-pod-ripem-/2268164940",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16079,7 +16110,15 @@
         "source": "house",
         "guid": "house:3129012300",
         "mapy_url": "https://mapy.cz/zakladni?x=17.672142&y=50.280009&z=17&source=coor&id=17.672142,50.280009",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/hlinka-hlinka-/3129012300"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/hlinka-hlinka-/3129012300",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16098,7 +16137,14 @@
         "source": "house",
         "guid": "house:1141563468",
         "mapy_url": "https://mapy.cz/zakladni?x=17.762878&y=49.77671&z=17&source=coor&id=17.762878,49.77671",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/vitkov-vitkov-lucni/1141563468"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/vitkov-vitkov-lucni/1141563468",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -16117,7 +16163,11 @@
         "source": "house",
         "guid": "house:667217996",
         "mapy_url": "https://mapy.cz/zakladni?x=17.249599&y=49.055011&z=17&source=coor&id=17.249599,49.055011",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/osvetimany-osvetimany-/667217996"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/osvetimany-osvetimany-/667217996",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
       }
     },
     {
@@ -16136,7 +16186,15 @@
         "source": "house",
         "guid": "house:33005644",
         "mapy_url": "https://mapy.cz/zakladni?x=17.210011&y=49.026978&z=17&source=coor&id=17.210011,49.026978",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jezov-jezov-/33005644"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jezov-jezov-/33005644",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16155,7 +16213,15 @@
         "source": "house",
         "guid": "house:1037085",
         "mapy_url": "https://mapy.cz/zakladni?x=16.077725&y=48.987191&z=17&source=coor&id=16.077725,48.987191",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037085-nabidka-prodej-domu-stupesice"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037085-nabidka-prodej-domu-stupesice",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16174,7 +16240,14 @@
         "source": "house",
         "guid": "house:1035351",
         "mapy_url": "https://mapy.cz/zakladni?x=15.795093&y=49.94722&z=17&source=coor&id=15.795093,49.94722",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1035351-nabidka-prodej-domu-svatopluka-cecha-chrudim"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1035351-nabidka-prodej-domu-svatopluka-cecha-chrudim",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD"
+        ]
       }
     },
     {
@@ -16193,7 +16266,14 @@
         "source": "house",
         "guid": "house:1031917",
         "mapy_url": "https://mapy.cz/zakladni?x=16.261624&y=49.018346&z=17&source=coor&id=16.261624,49.018346",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1031917-nabidka-prodej-domu-vemyslice"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1031917-nabidka-prodej-domu-vemyslice",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
       }
     },
     {
@@ -16212,7 +16292,14 @@
         "source": "house",
         "guid": "house:1033476",
         "mapy_url": "https://mapy.cz/zakladni?x=16.413044&y=49.619973&z=17&source=coor&id=16.413044,49.619973",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033476-nabidka-prodej-domu"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033476-nabidka-prodej-domu",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16231,7 +16318,10 @@
         "source": "house",
         "guid": "house:1034835",
         "mapy_url": "https://mapy.cz/zakladni?x=13.41848&y=48.60036&z=17&source=coor&id=13.41848,48.60036",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1034835-nabidka-prodej-domu-kr-passau-passau"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1034835-nabidka-prodej-domu-kr-passau-passau",
+        "flags": [
+          "PARCEL_NOT_FOUND"
+        ]
       }
     },
     {
@@ -16250,7 +16340,14 @@
         "source": "house",
         "guid": "house:991763",
         "mapy_url": "https://mapy.cz/zakladni?x=13.638904&y=50.332031&z=17&source=coor&id=13.638904,50.332031",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/991763-nabidka-prodej-domu"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/991763-nabidka-prodej-domu",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16269,7 +16366,16 @@
         "source": "house",
         "guid": "house:3095191628",
         "mapy_url": "https://mapy.cz/zakladni?x=17.260204&y=49.409565&z=17&source=coor&id=17.260204,49.409565",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/oplocany-oplocany-/3095191628"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/oplocany-oplocany-/3095191628",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -16288,7 +16394,14 @@
         "source": "house",
         "guid": "house:2353848396",
         "mapy_url": "https://mapy.cz/zakladni?x=17.427881&y=49.116261&z=17&source=coor&id=17.427881,49.116261",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/2353848396"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/2353848396",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16307,7 +16420,14 @@
         "source": "house",
         "guid": "house:3477921868",
         "mapy_url": "https://mapy.cz/zakladni?x=17.427881&y=49.116261&z=17&source=coor&id=17.427881,49.116261",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/3477921868"
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jalubi-jalubi-/3477921868",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -16327,6 +16447,386 @@
         "guid": "sreality:2303516748",
         "mapy_url": "https://mapy.cz/zakladni?x=18.7249&y=49.645&z=17&source=coor&id=18.7249,49.645",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bystrice-bystrice-/2303516748"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.559987,
+          49.079795
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1518 m² — Mistřice - Mistřice I, Zlínský kraj",
+        "price": 79000,
+        "price_label": "79 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1033987",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.559987&y=49.079795&z=17&source=coor&id=17.559987,49.079795",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033987-nabidka-prodej-pozemku-mistrice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.834859,
+          50.316244
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5055 m² — Benátky nad Jizerou - Dražice, Středočeský kraj",
+        "price": 279000,
+        "price_label": "279 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1033899",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.834859&y=50.316244&z=17&source=coor&id=14.834859,50.316244",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033899-nabidka-prodej-pozemku-benatky-nad-jizerou"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.747524,
+          49.387928
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4661 m² — Slatina - Slatina u Horažďovic, Plzeňský kraj",
+        "price": 120000,
+        "price_label": "120 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1033871",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.747524&y=49.387928&z=17&source=coor&id=13.747524,49.387928",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033871-nabidka-prodej-pozemku-slatina"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.161125,
+          49.423602
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 10376 m² — Pelhřimov - Vlásenice u Pelhřimova, Kraj Vysočina",
+        "price": 279000,
+        "price_label": "279 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1023405",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.161125&y=49.423602&z=17&source=coor&id=15.161125,49.423602",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023405-nabidka-prodej-pozemku-pelhrimov"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.405746,
+          49.125068
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6848 m² — Velehrad - Velehrad, Zlínský kraj",
+        "price": 225000,
+        "price_label": "225 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1023356",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.405746&y=49.125068&z=17&source=coor&id=17.405746,49.125068",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023356-nabidka-prodej-pozemku-velehrad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.774934,
+          49.146541
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2470 m² — Vacovice - Vacovice, Jihočeský kraj",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1023357",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.774934&y=49.146541&z=17&source=coor&id=13.774934,49.146541",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023357-nabidka-prodej-pozemku-vacovice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.728897,
+          49.416047
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1267 m² — Loukov - Loukov u Bystřice pod Hostýnem, Zlínský kraj",
+        "price": 55000,
+        "price_label": "55 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1012929",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.728897&y=49.416047&z=17&source=coor&id=17.728897,49.416047",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012929-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.582527,
+          49.406307
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1983 m² — Prusinovice - Prusinovice, Zlínský kraj",
+        "price": 90000,
+        "price_label": "90 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1012893",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.582527&y=49.406307&z=17&source=coor&id=17.582527,49.406307",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012893-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.176368,
+          49.741671
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6744 m² — Stará Ves nad Ondřejnicí - Košatka nad Odrou, Moravskoslezský kraj",
+        "price": 335000,
+        "price_label": "335 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002335",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.176368&y=49.741671&z=17&source=coor&id=18.176368,49.741671",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002335-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.843517,
+          49.476697
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6298 m² — Protivanov - Protivanov, Olomoucký kraj",
+        "price": 220000,
+        "price_label": "220 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002289",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.843517&y=49.476697&z=17&source=coor&id=16.843517,49.476697",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002289-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.843085,
+          49.475924
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 7868 m² — Protivanov - Protivanov, Olomoucký kraj",
+        "price": 275000,
+        "price_label": "275 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002290",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.843085&y=49.475924&z=17&source=coor&id=16.843085,49.475924",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002290-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.675731,
+          48.937815
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2086 m² — Korytná - Korytná, Zlínský kraj",
+        "price": 79000,
+        "price_label": "79 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002287",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.675731&y=48.937815&z=17&source=coor&id=17.675731,48.937815",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002287-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.511014,
+          49.311645
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1633 m² — Černýšovice - Černýšovice, Jihočeský kraj",
+        "price": 75000,
+        "price_label": "75 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002273",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.511014&y=49.311645&z=17&source=coor&id=14.511014,49.311645",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002273-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.739197,
+          49.463682
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3719 m² — Ratibořské Hory - Podolí u Ratibořských Hor, Jihočeský kraj",
+        "price": 169000,
+        "price_label": "169 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002272",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.739197&y=49.463682&z=17&source=coor&id=14.739197,49.463682",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002272-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.182719,
+          49.872528
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2248 m² — Děhylov - Děhylov, Moravskoslezský kraj",
+        "price": 149000,
+        "price_label": "149 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002271",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.182719&y=49.872528&z=17&source=coor&id=18.182719,49.872528",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002271-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.238722,
+          48.888225
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2612 m² — Sudoměřice - Sudoměřice, Jihomoravský kraj",
+        "price": 110000,
+        "price_label": "110 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002270",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.238722&y=48.888225&z=17&source=coor&id=17.238722,48.888225",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002270-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.707182,
+          49.499476
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1630 m² — Nemyšl - Nemyšl, Jihočeský kraj",
+        "price": 20000,
+        "price_label": "20 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1002267",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.707182&y=49.499476&z=17&source=coor&id=14.707182,49.499476",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002267-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.399463,
+          48.966131
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2150 m² — Veselí nad Moravou - Milokošť, Jihomoravský kraj",
+        "price": 349000,
+        "price_label": "349 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:995484",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.399463&y=48.966131&z=17&source=coor&id=17.399463,48.966131",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/995484-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.322563,
+          49.819447
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1401 m² — Ostrava - Slezská Ostrava, Moravskoslezský kraj",
+        "price": 80000,
+        "price_label": "80 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:991711",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.322563&y=49.819447&z=17&source=coor&id=18.322563,49.819447",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/991711-nabidka-prodej-pozemku"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.856412,
+          49.375793
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1581 m² — Kulířov - Kulířov, Jihomoravský kraj",
+        "price": 59000,
+        "price_label": "59 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:958117",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.856412&y=49.375793&z=17&source=coor&id=16.856412,49.375793",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/958117-nabidka-prodej-pozemku"
       }
     }
   ]

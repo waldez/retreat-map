@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>retreat — mapa nálezů</title>
+  <link rel="stylesheet" href="vendor/leaflet.css" />
+  <style>
+    html, body { margin: 0; height: 100%; font: 14px/1.4 system-ui, sans-serif; }
+    #app { display: flex; height: 100%; }
+    #sidebar { width: 260px; padding: 12px 14px; overflow-y: auto;
+               background: #fafafa; border-right: 1px solid #ddd; box-sizing: border-box; }
+    #map { flex: 1; }
+    h1 { font-size: 15px; margin: 0 0 4px; }
+    #count { color: #555; font-size: 12px; margin-bottom: 12px; }
+    fieldset { border: 1px solid #ddd; border-radius: 6px; margin: 0 0 12px; padding: 8px 10px; }
+    legend { font-weight: 600; padding: 0 4px; }
+    label { display: block; margin: 3px 0; cursor: pointer; }
+    .swatch { display: inline-block; width: 10px; height: 10px; border-radius: 50%;
+              margin-right: 5px; vertical-align: middle; }
+    input[type="number"] { width: 100px; }
+    .popup-card h2 { font-size: 14px; margin: 0 0 4px; }
+    .badge { display: inline-block; padding: 1px 7px; border-radius: 10px; color: #fff;
+             font-size: 11px; font-weight: 600; }
+    .price { font-weight: 600; margin-left: 6px; }
+    .chips { margin: 6px 0; }
+    .chip { display: inline-block; background: #eee; border-radius: 8px; padding: 1px 6px;
+            margin: 1px 2px; font-size: 11px; }
+    .btns a { display: inline-block; margin: 4px 6px 0 0; padding: 4px 9px; border-radius: 5px;
+              background: #1565c0; color: #fff; text-decoration: none; font-size: 12px; }
+  </style>
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <h1>retreat — mapa nálezů</h1>
+      <div id="count">načítání…</div>
+
+      <fieldset id="f-tier">
+        <legend>Vhodnost</legend>
+        <label><input type="checkbox" data-tier="primary_candidate" checked>
+          <span class="swatch" style="background:#2e7d32"></span>kandidát</label>
+        <label><input type="checkbox" data-tier="secondary" checked>
+          <span class="swatch" style="background:#f9a825"></span>sekundární</label>
+        <label><input type="checkbox" data-tier="avoid">
+          <span class="swatch" style="background:#c62828"></span>vyhnout se</label>
+        <label><input type="checkbox" data-tier="unknown">
+          <span class="swatch" style="background:#757575"></span>neznámé</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Cena</legend>
+        <label>max Kč: <input type="number" id="f-maxprice" step="50000" min="0"
+                              placeholder="bez limitu"></label>
+        <label><input type="checkbox" id="f-unpriced" checked> zahrnout bez ceny</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Typ / příznaky</legend>
+        <label><input type="checkbox" id="f-struct"> jen stavby (dům/chata)</label>
+        <div id="f-flags"></div>
+      </fieldset>
+    </aside>
+    <div id="map"></div>
+  </div>
+
+  <script src="vendor/leaflet.js"></script>
+  <script type="module">
+    import {
+      tierOf, passesFilters, serializeHash, parseHash, TIER_COLOR,
+    } from "./mapfilter.js";
+
+    const map = L.map("map").setView([49.75, 15.5], 7); // ~centre of Czechia
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19, attribution: "© OpenStreetMap",
+    }).addTo(map);
+
+    let state = parseHash(location.hash);
+    let features = [];
+    const markers = new Map(); // guid -> {marker, props}
+    // consumed geojson feature properties (see geojson.py): title, price, price_label,
+    // source, link, mapy_url, suitability_tier (read via mapfilter.tierOf(), falls
+    // back to verdict), pin_color, flags
+
+    const esc = (s) => String(s ?? "").replace(/[&<>"]/g,
+      (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+
+    // only http(s) URLs are safe as hrefs; anything else (javascript:, data:) → neutralized
+    const safeHref = (u) => /^https?:\/\//i.test(u || "") ? esc(u) : "#";
+
+    function popupHtml(p) {
+      const tier = tierOf(p);
+      const rawColor = p.pin_color || TIER_COLOR[tier] || TIER_COLOR.unknown;
+      const color = /^#[0-9a-f]{3,8}$/i.test(rawColor) ? rawColor : TIER_COLOR.unknown;
+      const flags = Array.isArray(p.flags) && p.flags.length
+        ? `<div class="chips">${p.flags.map((f) => `<span class="chip">${esc(f)}</span>`).join("")}</div>` : "";
+      const btns = [];
+      if (p.link) btns.push(`<a href="${safeHref(p.link)}" target="_blank" rel="noopener">Listing</a>`);
+      if (p.mapy_url) btns.push(`<a href="${safeHref(p.mapy_url)}" target="_blank" rel="noopener">mapy.cz</a>`);
+      return `<div class="popup-card">
+        <h2>${esc(p.title || "(bez názvu)")}</h2>
+        <div><span class="badge" style="background:${color}">${esc(tier)}</span>
+        ${p.price_label ? `<span class="price">${esc(p.price_label)}</span>` : ""}</div>
+        <div style="color:#666;font-size:12px">${esc(p.source || "")}</div>
+        ${flags}
+        <div class="btns">${btns.join("")}</div>
+      </div>`;
+    }
+
+    function buildFlagCheckboxes() {
+      const all = new Set();
+      for (const f of features) for (const fl of (f.properties.flags || [])) all.add(fl);
+      const box = document.getElementById("f-flags");
+      box.innerHTML = [...all].sort().map((fl) =>
+        `<label><input type="checkbox" data-xflag="${esc(fl)}"
+          ${state.excludeFlags.has(fl) ? "checked" : ""}> skrýt ${esc(fl)}</label>`).join("");
+      box.querySelectorAll("[data-xflag]").forEach((el) =>
+        el.addEventListener("change", () => {
+          el.checked ? state.excludeFlags.add(el.dataset.xflag)
+                     : state.excludeFlags.delete(el.dataset.xflag);
+          apply();
+        }));
+    }
+
+    function render() {
+      markers.forEach(({ marker }) => marker.remove());
+      markers.clear();
+      let shown = 0;
+      for (const f of features) {
+        const p = f.properties;
+        if (!passesFilters(p, state)) continue;
+        const [lon, lat] = f.geometry.coordinates;
+        const rawColor = p.pin_color || TIER_COLOR[tierOf(p)] || TIER_COLOR.unknown;
+        const color = /^#[0-9a-f]{3,8}$/i.test(rawColor) ? rawColor : TIER_COLOR.unknown;
+        const m = L.circleMarker([lat, lon], {
+          radius: 7, color: "#333", weight: 1, fillColor: color, fillOpacity: 0.9,
+        }).bindPopup(popupHtml(p)).addTo(map);
+        markers.set(p.guid, { marker: m, props: p });
+        shown++;
+      }
+      document.getElementById("count").textContent =
+        `${shown} z ${features.length} zobrazeno`;
+    }
+
+    function apply() {
+      render();
+      const h = serializeHash(state);
+      history.replaceState(null, "", h ? "#" + h : location.pathname);
+    }
+
+    function focusGuid(guid) {
+      const hit = markers.get(guid);
+      if (hit) { map.setView(hit.marker.getLatLng(), 15); hit.marker.openPopup(); }
+    }
+
+    // wire controls
+    document.querySelectorAll("[data-tier]").forEach((el) => {
+      el.checked = state.tiers.has(el.dataset.tier);
+      el.addEventListener("change", () => {
+        el.checked ? state.tiers.add(el.dataset.tier) : state.tiers.delete(el.dataset.tier);
+        apply();
+      });
+    });
+    const maxEl = document.getElementById("f-maxprice");
+    if (state.maxPrice != null) maxEl.value = state.maxPrice;
+    maxEl.addEventListener("input", () => {
+      const n = parseInt(maxEl.value, 10);
+      state.maxPrice = Number.isFinite(n) ? n : null; apply();
+    });
+    const unpricedEl = document.getElementById("f-unpriced");
+    unpricedEl.checked = state.includeUnpriced;
+    unpricedEl.addEventListener("change", () => { state.includeUnpriced = unpricedEl.checked; apply(); });
+    const structEl = document.getElementById("f-struct");
+    structEl.checked = state.structuresOnly;
+    structEl.addEventListener("change", () => { state.structuresOnly = structEl.checked; apply(); });
+
+    fetch("points.geojson")
+      .then((r) => r.json())
+      .then((fc) => {
+        features = (fc.features || []).filter(
+          (f) => f.geometry && f.geometry.type === "Point");
+        buildFlagCheckboxes();
+        apply();
+        if (state.focusGuid) focusGuid(state.focusGuid);
+      })
+      .catch((e) => {
+        document.getElementById("count").textContent = "chyba načítání points.geojson: " + e;
+      });
+  </script>
+</body>
+</html>

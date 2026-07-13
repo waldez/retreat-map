@@ -23028,6 +23028,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.739897,
+          48.990605
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Nikolčice (2): 130 000",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221132238/prodej-lesniho-pozemku-ku-nikolcice-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.739897&y=48.990605&z=17&source=coor&id=16.739897,48.990605",
+        "link": "https://reality.bazos.cz/inzerat/221132238/prodej-lesniho-pozemku-ku-nikolcice-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.157733,
           49.434782
         ]
@@ -23039,7 +23066,15 @@
         "source": "sreality",
         "guid": "sreality:1909317708",
         "mapy_url": "https://mapy.cz/zakladni?x=18.157733&y=49.434782&z=17&source=coor&id=18.157733,49.434782",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/roznov-pod-radhostem-roznov-pod-radhostem-hazovice/1909317708"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/roznov-pod-radhostem-roznov-pod-radhostem-hazovice/1909317708",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -23058,7 +23093,69 @@
         "source": "sreality",
         "guid": "sreality:3083722828",
         "mapy_url": "https://mapy.cz/zakladni?x=14.67639&y=49.17167&z=17&source=coor&id=14.67639,49.17167",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/veseli-nad-luznici-horusice-/3083722828"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/veseli-nad-luznici-horusice-/3083722828",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.521513,
+          50.096114
+        ]
+      },
+      "properties": {
+        "title": "Prodám pozemky v k.ú. Hrdlořezy u Suchdola nad Lužnicí: 299 000",
+        "price": 299000,
+        "price_label": "299 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221135076/prodam-pozemky-v-ku-hrdlorezy-u-suchdola-nad-luznici.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.521513&y=50.096114&z=17&source=coor&id=14.521513,50.096114",
+        "link": "https://reality.bazos.cz/inzerat/221135076/prodam-pozemky-v-ku-hrdlorezy-u-suchdola-nad-luznici.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.604334,
+          50.381015
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Živonín: 157 000",
+        "price": 157000,
+        "price_label": "157 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221136427/prodej-lesniho-pozemku-ku-zivonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.604334&y=50.381015&z=17&source=coor&id=14.604334,50.381015",
+        "link": "https://reality.bazos.cz/inzerat/221136427/prodej-lesniho-pozemku-ku-zivonin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -23077,7 +23174,67 @@
         "source": "sreality",
         "guid": "sreality:2063523916",
         "mapy_url": "https://mapy.cz/zakladni?x=16.902962&y=49.856479&z=17&source=coor&id=16.902962,49.856479",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/komercni/rajec-rajec-/2063523916"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/komercni/rajec-rajec-/2063523916",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.781881,
+          49.139893
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Vacovice, ev.č. 2026-05-14-064700: 300 000",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221140970/prodej-pole-v-ku-vacovice-evc-2026-05-14-064700.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.781881&y=49.139893&z=17&source=coor&id=13.781881,49.139893",
+        "link": "https://reality.bazos.cz/inzerat/221140970/prodej-pole-v-ku-vacovice-evc-2026-05-14-064700.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.479005,
+          50.098315
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/2 louky 4 665 m², Kladruby nad Labem: 180 000",
+        "price": 180000,
+        "price_label": "180 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221140941/prodej-podilu-12-louky-4-665-m-kladruby-nad-labem.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.479005&y=50.098315&z=17&source=coor&id=15.479005,50.098315",
+        "link": "https://reality.bazos.cz/inzerat/221140941/prodej-podilu-12-louky-4-665-m-kladruby-nad-labem.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -23096,7 +23253,14 @@
         "source": "sreality",
         "guid": "sreality:2522255436",
         "mapy_url": "https://mapy.cz/zakladni?x=16.869774&y=48.748456&z=17&source=coor&id=16.869774,48.748456",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/breclav-postorna-/2522255436"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/breclav-postorna-/2522255436",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -23115,7 +23279,156 @@
         "source": "sreality",
         "guid": "sreality:75886668",
         "mapy_url": "https://mapy.cz/zakladni?x=14.962331&y=50.369327&z=17&source=coor&id=14.962331,50.369327",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dobrovice-dobrovice-/75886668"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dobrovice-dobrovice-/75886668",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.35902,
+          48.847285
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Rájov: 82 000",
+        "price": 82000,
+        "price_label": "82 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221141355/prodej-lesniho-pozemku-ku-rajov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.35902&y=48.847285&z=17&source=coor&id=14.35902,48.847285",
+        "link": "https://reality.bazos.cz/inzerat/221141355/prodej-lesniho-pozemku-ku-rajov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.043155,
+          49.420879
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Malá Bystřice ( 2): 88 000",
+        "price": 88000,
+        "price_label": "88 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221144130/prodej-lesniho-pozemku-ku-mala-bystrice-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.043155&y=49.420879&z=17&source=coor&id=18.043155,49.420879",
+        "link": "https://reality.bazos.cz/inzerat/221144130/prodej-lesniho-pozemku-ku-mala-bystrice-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.385224,
+          48.976255
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Milokošť: 91 000",
+        "price": 91000,
+        "price_label": "91 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221144022/prodej-pozemku-ku-milokost.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.385224&y=48.976255&z=17&source=coor&id=17.385224,48.976255",
+        "link": "https://reality.bazos.cz/inzerat/221144022/prodej-pozemku-ku-milokost.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.084935,
+          49.274671
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Zděchov (2): 133 000",
+        "price": 133000,
+        "price_label": "133 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221143867/prodej-lesnich-pozemku-ku-zdechov-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.084935&y=49.274671&z=17&source=coor&id=18.084935,49.274671",
+        "link": "https://reality.bazos.cz/inzerat/221143867/prodej-lesnich-pozemku-ku-zdechov-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "SECONDARY_ONLY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.383511,
+          49.819883
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 3/16 pole 1 861 m², Třemošná: 69 010",
+        "price": 69010,
+        "price_label": "69 010 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221144658/prodej-podilu-316-pole-1-861-m-tremosna.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.383511&y=49.819883&z=17&source=coor&id=13.383511,49.819883",
+        "link": "https://reality.bazos.cz/inzerat/221144658/prodej-podilu-316-pole-1-861-m-tremosna.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -23134,7 +23447,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1043932",
         "mapy_url": "https://mapy.cz/zakladni?x=13.393996&y=49.838255&z=17&source=coor&id=13.393996,49.838255",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043932-nabidka-prodej-pozemku-tremosna"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043932-nabidka-prodej-pozemku-tremosna",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -23870,6 +24192,61 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.273501,
+          50.544832
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Chotiněves a k.ú. Oparno: 116 000",
+        "price": 116000,
+        "price_label": "116 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221148012/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.273501&y=50.544832&z=17&source=coor&id=14.273501,50.544832",
+        "link": "https://reality.bazos.cz/inzerat/221148012/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.109778,
+          49.881999
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Dolní Libina: 27 000",
+        "price": 27000,
+        "price_label": "27 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221149072/prodej-pozemku-ku-dolni-libina.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.109778&y=49.881999&z=17&source=coor&id=17.109778,49.881999",
+        "link": "https://reality.bazos.cz/inzerat/221149072/prodej-pozemku-ku-dolni-libina.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.260204,
           49.409565
         ]
@@ -23889,6 +24266,32 @@
         "flags": [
           "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.365149,
+          49.867172
+        ]
+      },
+      "properties": {
+        "title": "K.Ú. Rychvald, obec Rychvald, POZEMKY PARC.Č. 6837/18 a 6837/21 — Aukce vyhlášena (04.08.2026 10:00 - 05.08.2026 10:00) · přihlášky do 03.08.2026 23:59",
+        "price": 10000,
+        "price_label": "10 000 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:93340",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.365149&y=49.867172&z=17&source=coor&id=18.365149,49.867172",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/93340",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
           "LIKELY_NONBUILDABLE"
         ]
       }
@@ -23950,6 +24353,88 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.410854,
+          49.164125
+        ]
+      },
+      "properties": {
+        "title": "Pole 23 641 m², Podíl 7 % o výměře 1 576 m²: 44 056",
+        "price": 44056,
+        "price_label": "44 056 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221152602/pole-23-641-m-podil-7-o-vymere-1-576-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.410854&y=49.164125&z=17&source=coor&id=17.410854,49.164125",
+        "link": "https://reality.bazos.cz/inzerat/221152602/pole-23-641-m-podil-7-o-vymere-1-576-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.471909,
+          49.215705
+        ]
+      },
+      "properties": {
+        "title": "Zahrada 4 651 m², Podíl 25 % o výměře 1 118 m²: 19 152",
+        "price": 19152,
+        "price_label": "19 152 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221152673/zahrada-4-651-m-podil-25-o-vymere-1-118-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.471909&y=49.215705&z=17&source=coor&id=17.471909,49.215705",
+        "link": "https://reality.bazos.cz/inzerat/221152673/zahrada-4-651-m-podil-25-o-vymere-1-118-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.483753,
+          49.212761
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 1 657 m², Podíl 38 % o výměř: 15 471",
+        "price": 15471,
+        "price_label": "15 471 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221152631/spekulacni-komercni-a-ostatni-1-657-m-podil-38-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.483753&y=49.212761&z=17&source=coor&id=17.483753,49.212761",
+        "link": "https://reality.bazos.cz/inzerat/221152631/spekulacni-komercni-a-ostatni-1-657-m-podil-38-o-vymer.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           18.7249,
           49.645
         ]
@@ -23961,7 +24446,15 @@
         "source": "sreality",
         "guid": "sreality:2303516748",
         "mapy_url": "https://mapy.cz/zakladni?x=18.7249&y=49.645&z=17&source=coor&id=18.7249,49.645",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bystrice-bystrice-/2303516748"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bystrice-bystrice-/2303516748",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -23980,7 +24473,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1033987",
         "mapy_url": "https://mapy.cz/zakladni?x=17.559987&y=49.079795&z=17&source=coor&id=17.559987,49.079795",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033987-nabidka-prodej-pozemku-mistrice"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033987-nabidka-prodej-pozemku-mistrice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -23999,7 +24501,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1033899",
         "mapy_url": "https://mapy.cz/zakladni?x=14.834859&y=50.316244&z=17&source=coor&id=14.834859,50.316244",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033899-nabidka-prodej-pozemku-benatky-nad-jizerou"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033899-nabidka-prodej-pozemku-benatky-nad-jizerou",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24018,7 +24529,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1033871",
         "mapy_url": "https://mapy.cz/zakladni?x=13.747524&y=49.387928&z=17&source=coor&id=13.747524,49.387928",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033871-nabidka-prodej-pozemku-slatina"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033871-nabidka-prodej-pozemku-slatina",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24037,7 +24557,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1023405",
         "mapy_url": "https://mapy.cz/zakladni?x=15.161125&y=49.423602&z=17&source=coor&id=15.161125,49.423602",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023405-nabidka-prodej-pozemku-pelhrimov"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023405-nabidka-prodej-pozemku-pelhrimov",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24056,7 +24584,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1023356",
         "mapy_url": "https://mapy.cz/zakladni?x=17.405746&y=49.125068&z=17&source=coor&id=17.405746,49.125068",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023356-nabidka-prodej-pozemku-velehrad"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023356-nabidka-prodej-pozemku-velehrad",
+        "verdict": "unknown",
+        "suitability_tier": "unknown",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24075,7 +24611,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1023357",
         "mapy_url": "https://mapy.cz/zakladni?x=13.774934&y=49.146541&z=17&source=coor&id=13.774934,49.146541",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023357-nabidka-prodej-pozemku-vacovice"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023357-nabidka-prodej-pozemku-vacovice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24094,7 +24638,14 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1012929",
         "mapy_url": "https://mapy.cz/zakladni?x=17.728897&y=49.416047&z=17&source=coor&id=17.728897,49.416047",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012929-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012929-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24113,7 +24664,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1012893",
         "mapy_url": "https://mapy.cz/zakladni?x=17.582527&y=49.406307&z=17&source=coor&id=17.582527,49.406307",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012893-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012893-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24132,7 +24691,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002335",
         "mapy_url": "https://mapy.cz/zakladni?x=18.176368&y=49.741671&z=17&source=coor&id=18.176368,49.741671",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002335-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002335-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24151,7 +24719,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002289",
         "mapy_url": "https://mapy.cz/zakladni?x=16.843517&y=49.476697&z=17&source=coor&id=16.843517,49.476697",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002289-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002289-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24170,7 +24746,16 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002290",
         "mapy_url": "https://mapy.cz/zakladni?x=16.843085&y=49.475924&z=17&source=coor&id=16.843085,49.475924",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002290-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002290-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24189,7 +24774,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002287",
         "mapy_url": "https://mapy.cz/zakladni?x=17.675731&y=48.937815&z=17&source=coor&id=17.675731,48.937815",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002287-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002287-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24208,7 +24801,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002273",
         "mapy_url": "https://mapy.cz/zakladni?x=14.511014&y=49.311645&z=17&source=coor&id=14.511014,49.311645",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002273-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002273-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24227,7 +24828,14 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002272",
         "mapy_url": "https://mapy.cz/zakladni?x=14.739197&y=49.463682&z=17&source=coor&id=14.739197,49.463682",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002272-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002272-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24246,7 +24854,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002271",
         "mapy_url": "https://mapy.cz/zakladni?x=18.182719&y=49.872528&z=17&source=coor&id=18.182719,49.872528",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002271-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002271-nabidka-prodej-pozemku",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "AVOID",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24265,7 +24881,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002270",
         "mapy_url": "https://mapy.cz/zakladni?x=17.238722&y=48.888225&z=17&source=coor&id=17.238722,48.888225",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002270-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002270-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24284,7 +24908,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1002267",
         "mapy_url": "https://mapy.cz/zakladni?x=14.707182&y=49.499476&z=17&source=coor&id=14.707182,49.499476",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002267-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1002267-nabidka-prodej-pozemku",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24303,7 +24935,11 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:995484",
         "mapy_url": "https://mapy.cz/zakladni?x=17.399463&y=48.966131&z=17&source=coor&id=17.399463,48.966131",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/995484-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/995484-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575"
       }
     },
     {
@@ -24322,7 +24958,14 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:991711",
         "mapy_url": "https://mapy.cz/zakladni?x=18.322563&y=49.819447&z=17&source=coor&id=18.322563,49.819447",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/991711-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/991711-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24341,7 +24984,42 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:958117",
         "mapy_url": "https://mapy.cz/zakladni?x=16.856412&y=49.375793&z=17&source=coor&id=16.856412,49.375793",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/958117-nabidka-prodej-pozemku"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/958117-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.934604,
+          49.892011
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Lesnice: 49 000",
+        "price": 49000,
+        "price_label": "49 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221156735/prodej-lesniho-pozemku-ku-lesnice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.934604&y=49.892011&z=17&source=coor&id=16.934604,49.892011",
+        "link": "https://reality.bazos.cz/inzerat/221156735/prodej-lesniho-pozemku-ku-lesnice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24360,7 +25038,15 @@
         "source": "sreality",
         "guid": "sreality:2974347340",
         "mapy_url": "https://mapy.cz/zakladni?x=13.968124&y=49.203895&z=17&source=coor&id=13.968124,49.203895",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kurimany-kurimany-/2974347340"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kurimany-kurimany-/2974347340",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24379,7 +25065,43 @@
         "source": "sreality",
         "guid": "sreality:4216909900",
         "mapy_url": "https://mapy.cz/zakladni?x=16.813924&y=48.966676&z=17&source=coor&id=16.813924,48.966676",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/boleradice-boleradice-/4216909900"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/boleradice-boleradice-/4216909900",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.148892,
+          48.914894
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Ratíškovice: 100 000",
+        "price": 100000,
+        "price_label": "100 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221160985/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.148892&y=48.914894&z=17&source=coor&id=17.148892,48.914894",
+        "link": "https://reality.bazos.cz/inzerat/221160985/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24398,7 +25120,15 @@
         "source": "sreality",
         "guid": "sreality:4156813388",
         "mapy_url": "https://mapy.cz/zakladni?x=13.160182&y=49.344772&z=17&source=coor&id=13.160182,49.344772",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/beharov-beharov-/4156813388"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/beharov-beharov-/4156813388",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24417,7 +25147,16 @@
         "source": "sreality",
         "guid": "sreality:2671308876",
         "mapy_url": "https://mapy.cz/zakladni?x=17.717525&y=48.988013&z=17&source=coor&id=17.717525,48.988013",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/banov-banov-/2671308876"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/banov-banov-/2671308876",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24436,7 +25175,16 @@
         "source": "sreality",
         "guid": "sreality:1044967500",
         "mapy_url": "https://mapy.cz/zakladni?x=16.876241&y=49.907686&z=17&source=coor&id=16.876241,49.907686",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/rovensko-rovensko-/1044967500"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/rovensko-rovensko-/1044967500",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24455,7 +25203,14 @@
         "source": "sreality",
         "guid": "sreality:511242316",
         "mapy_url": "https://mapy.cz/zakladni?x=15.269931&y=50.697683&z=17&source=coor&id=15.269931,50.697683",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zasada-zasada-/511242316"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zasada-zasada-/511242316",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24474,7 +25229,15 @@
         "source": "sreality",
         "guid": "sreality:3932352588",
         "mapy_url": "https://mapy.cz/zakladni?x=16.708762&y=49.350329&z=17&source=coor&id=16.708762,49.350329",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/blansko-lazanky-/3932352588"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/blansko-lazanky-/3932352588",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24493,7 +25256,16 @@
         "source": "sreality",
         "guid": "sreality:3163217996",
         "mapy_url": "https://mapy.cz/zakladni?x=17.083961&y=48.971445&z=17&source=coor&id=17.083961,48.971445",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/svatoborice-mistrin-mistrin-/3163217996"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/svatoborice-mistrin-mistrin-/3163217996",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24512,7 +25284,15 @@
         "source": "sreality",
         "guid": "sreality:1533210700",
         "mapy_url": "https://mapy.cz/zakladni?x=16.74673&y=49.363786&z=17&source=coor&id=16.74673,49.363786",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/vilemovice-vilemovice-/1533210700"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/vilemovice-vilemovice-/1533210700",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24531,7 +25311,15 @@
         "source": "sreality",
         "guid": "sreality:1111261260",
         "mapy_url": "https://mapy.cz/zakladni?x=17.013222&y=48.779433&z=17&source=coor&id=17.013222,48.779433",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/tynec-tynec-/1111261260"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/tynec-tynec-/1111261260",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24550,7 +25338,15 @@
         "source": "sreality",
         "guid": "sreality:1573748812",
         "mapy_url": "https://mapy.cz/zakladni?x=13.947145&y=49.869039&z=17&source=coor&id=13.947145,49.869039",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/otmice-otmice-/1573748812"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/otmice-otmice-/1573748812",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24569,7 +25365,16 @@
         "source": "sreality",
         "guid": "sreality:2376785996",
         "mapy_url": "https://mapy.cz/zakladni?x=18.068976&y=49.692462&z=17&source=coor&id=18.068976,49.692462",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/studenka-nova-horka-/2376785996"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/studenka-nova-horka-/2376785996",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24588,7 +25393,14 @@
         "source": "sreality",
         "guid": "sreality:1354424396",
         "mapy_url": "https://mapy.cz/zakladni?x=16.835858&y=49.943655&z=17&source=coor&id=16.835858,49.943655",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/zborov-zborov-/1354424396"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/zborov-zborov-/1354424396",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24607,7 +25419,15 @@
         "source": "sreality",
         "guid": "sreality:2863325260",
         "mapy_url": "https://mapy.cz/zakladni?x=15.656424&y=49.846936&z=17&source=coor&id=15.656424,49.846936",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/sec-sec-/2863325260"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/sec-sec-/2863325260",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24626,7 +25446,14 @@
         "source": "sreality",
         "guid": "sreality:645627980",
         "mapy_url": "https://mapy.cz/zakladni?x=13.663449&y=49.66827&z=17&source=coor&id=13.663449,49.66827",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/prikosice-prikosice-/645627980"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/prikosice-prikosice-/645627980",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24645,7 +25472,15 @@
         "source": "sreality",
         "guid": "sreality:3921510476",
         "mapy_url": "https://mapy.cz/zakladni?x=17.100857&y=49.042168&z=17&source=coor&id=17.100857,49.042168",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bukovany-bukovany-/3921510476"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bukovany-bukovany-/3921510476",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24664,7 +25499,14 @@
         "source": "sreality",
         "guid": "sreality:827453516",
         "mapy_url": "https://mapy.cz/zakladni?x=15.948511&y=49.866585&z=17&source=coor&id=15.948511,49.866585",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/chrast-skala-/827453516"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/chrast-skala-/827453516",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24683,7 +25525,15 @@
         "source": "sreality",
         "guid": "sreality:1279619916",
         "mapy_url": "https://mapy.cz/zakladni?x=13.176745&y=49.424971&z=17&source=coor&id=13.176745,49.424971",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/polen-polen-/1279619916"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/polen-polen-/1279619916",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24702,7 +25552,14 @@
         "source": "sreality",
         "guid": "sreality:456987468",
         "mapy_url": "https://mapy.cz/zakladni?x=18.093305&y=49.863597&z=17&source=coor&id=18.093305,49.863597",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/velka-polom-velka-polom-/456987468"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/velka-polom-velka-polom-/456987468",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24721,7 +25578,15 @@
         "source": "sreality",
         "guid": "sreality:314585676",
         "mapy_url": "https://mapy.cz/zakladni?x=16.116203&y=49.805894&z=17&source=coor&id=16.116203,49.805894",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/prosec-prosec-/314585676"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/prosec-prosec-/314585676",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24740,7 +25605,15 @@
         "source": "sreality",
         "guid": "sreality:864718924",
         "mapy_url": "https://mapy.cz/zakladni?x=15.02944&y=50.050103&z=17&source=coor&id=15.02944,50.050103",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/planany-planany-/864718924"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/planany-planany-/864718924",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     },
     {
@@ -24759,7 +25632,14 @@
         "source": "sreality",
         "guid": "sreality:226366284",
         "mapy_url": "https://mapy.cz/zakladni?x=18.093305&y=49.863597&z=17&source=coor&id=18.093305,49.863597",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/velka-polom-velka-polom-/226366284"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/velka-polom-velka-polom-/226366284",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -24778,7 +25658,16 @@
         "source": "sreality",
         "guid": "sreality:2509181772",
         "mapy_url": "https://mapy.cz/zakladni?x=14.387516&y=49.295981&z=17&source=coor&id=14.387516,49.295981",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/chrastany-chrastany-/2509181772"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/chrastany-chrastany-/2509181772",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -26360,6 +27249,398 @@
         "guid": "portaldrazeb:134ex16952-11-1146-4pwnj",
         "mapy_url": "https://mapy.cz/zakladni?x=12.823327&y=49.484521&z=17&source=coor&id=12.823327,49.484521",
         "link": "https://www.portaldrazeb.cz/drazba/134ex16952-11-1146-4pwnj"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.268165,
+          49.948388
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 13 m² — Kutná Hora, Středočeský kraj",
+        "price": 250000,
+        "price_label": "250 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3767730764",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.268165&y=49.948388&z=17&source=coor&id=15.268165,49.948388",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/kutna-hora-kutna-hora-/3767730764"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.380476,
+          49.851182
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 1801 m² — Štěchovice – Masečín, Praha-západ, Středočeský kraj",
+        "price": 240000,
+        "price_label": "240 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1589436492",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.380476&y=49.851182&z=17&source=coor&id=14.380476,49.851182",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/stechovice-masecin-/1589436492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.424075,
+          50.006016
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 1217 m² — Horušice, Kutná Hora, Středočeský kraj",
+        "price": 49000,
+        "price_label": "49 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2976112716",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.424075&y=50.006016&z=17&source=coor&id=15.424075,50.006016",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/horusice-horusice-/2976112716"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.219873,
+          50.37346
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 54 m², pozemek 130 m² — Libáň, Jičín, Královéhradecký kraj",
+        "price": 984700,
+        "price_label": "984 700 Kč",
+        "source": "house",
+        "guid": "house:1732501580",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.219873&y=50.37346&z=17&source=coor&id=15.219873,50.37346",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/liban-liban-jiraskova/1732501580",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0091,
+          49.593414
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 8001 m² — Nový Jičín, Moravskoslezský kraj",
+        "price": 350000,
+        "price_label": "350 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1833164876",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.0091&y=49.593414&z=17&source=coor&id=18.0091,49.593414",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/novy-jicin-novy-jicin-/1833164876"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.76799,
+          50.73387
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Pozemek o velikosti 4685m2,Postřelná — vyvolávací 46000 Kč (odhad 46000 Kč), koná se 2026-07-14",
+        "price": 46000,
+        "price_label": "46 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:213dd83-26-3-ky4zp",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.76799&y=50.73387&z=17&source=coor&id=14.76799,50.73387",
+        "link": "https://www.portaldrazeb.cz/drazba/213dd83-26-3-ky4zp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.030343,
+          49.495822
+        ]
+      },
+      "properties": {
+        "title": "Dražba: vodní plocha-podíl v obci Mirovice, okres Písek — vyvolávací 930 Kč (odhad 930 Kč), koná se 2026-07-14",
+        "price": 930,
+        "price_label": "930 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:233dd83-02-2-xyprq",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.030343&y=49.495822&z=17&source=coor&id=14.030343,49.495822",
+        "link": "https://www.portaldrazeb.cz/drazba/233dd83-02-2-xyprq"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.602515,
+          49.559669
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4273 m² — Louňová, Plzeň-jih, Plzeňský kraj",
+        "price": 220000,
+        "price_label": "220 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1411637324",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.602515&y=49.559669&z=17&source=coor&id=13.602515,49.559669",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/lounova-lounova-/1411637324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.690649,
+          49.586879
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 11703 m² — Nové Mitrovice, Plzeň-jih, Plzeňský kraj",
+        "price": 220000,
+        "price_label": "220 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3039027276",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.690649&y=49.586879&z=17&source=coor&id=13.690649,49.586879",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/nove-mitrovice-nove-mitrovice-/3039027276"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.479988,
+          49.27007
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 360 m² — Hodice, Jihlava, Kraj Vysočina",
+        "price": 299000,
+        "price_label": "299 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2240885324",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.479988&y=49.27007&z=17&source=coor&id=15.479988,49.27007",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/hodice-hodice-/2240885324"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.943372,
+          49.635584
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 237 m² — Pravonín, Benešov, Středočeský kraj",
+        "price": 84200,
+        "price_label": "84 200 Kč",
+        "source": "sreality",
+        "guid": "sreality:2185658956",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.943372&y=49.635584&z=17&source=coor&id=14.943372,49.635584",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/pravonin-pravonin-/2185658956"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.12095,
+          49.765825
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3979 m² — Klimkovice - Klimkovice, Moravskoslezský kraj",
+        "price": 159000,
+        "price_label": "159 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1044761",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.12095&y=49.765825&z=17&source=coor&id=18.12095,49.765825",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044761-nabidka-prodej-pozemku-klimkovice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.558054,
+          49.186018
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 32 m², pozemek 32 m² — Brno – Brno-Nový Lískovec, Brno-město, Jihomoravský kraj",
+        "price": 400000,
+        "price_label": "400 000 Kč",
+        "source": "chata",
+        "guid": "chata:117694540",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.558054&y=49.186018&z=17&source=coor&id=16.558054,49.186018",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/brno-brno-novy-liskovec-/117694540",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.095882,
+          48.860147
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1200 m² — Dobšice, Znojmo, Jihomoravský kraj",
+        "price": 46350,
+        "price_label": "46 350 Kč",
+        "source": "sreality",
+        "guid": "sreality:320069708",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.095882&y=48.860147&z=17&source=coor&id=16.095882,48.860147",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dobsice-dobsice-/320069708"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.095882,
+          48.860147
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1200 m² — Dobšice - Dobšice u Znojma, Jihomoravský kraj",
+        "price": 46350,
+        "price_label": "46 350 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1044772",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.095882&y=48.860147&z=17&source=coor&id=16.095882,48.860147",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044772-nabidka-prodej-pozemku-dobsice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.885874,
+          50.03138
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 160 m², pozemek 780 m² — Otročín, Karlovy Vary, Karlovarský kraj",
+        "price": 999900,
+        "price_label": "999 900 Kč",
+        "source": "house",
+        "guid": "house:2518573900",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.885874&y=50.03138&z=17&source=coor&id=12.885874,50.03138",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/otrocin-otrocin-/2518573900",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.996933,
+          49.864988
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 80 m², pozemek 424 m² — Konstantinovy Lázně, Tachov, Plzeňský kraj",
+        "price": 880000,
+        "price_label": "880 000 Kč",
+        "source": "house",
+        "guid": "house:98820172",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.996933&y=49.864988&z=17&source=coor&id=12.996933,49.864988",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/konstantinovy-lazne-konstantinovy-lazne-/98820172",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.289073,
+          48.761318
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3292 m² — Větřní - Hašlovice, Jihočeský kraj",
+        "price": 82400,
+        "price_label": "82 400 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1044775",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.289073&y=48.761318&z=17&source=coor&id=14.289073,48.761318",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044775-nabidka-prodej-pozemku-vetrni"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.296644,
+          48.761456
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4384 m² — Větřní - Hašlovice, Jihočeský kraj",
+        "price": 180250,
+        "price_label": "180 250 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1044774",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.296644&y=48.761456&z=17&source=coor&id=14.296644,48.761456",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044774-nabidka-prodej-pozemku-vetrni"
       }
     }
   ]

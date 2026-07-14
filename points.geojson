@@ -17667,29 +17667,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.536965,
-          49.89496
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 29 m², pozemek 230 m² — Pohoří – Skalsko, Praha-západ, Středočeský kraj",
-        "price": 449000,
-        "price_label": "449 000 Kč",
-        "source": "chata",
-        "guid": "chata:200380492",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.536965&y=49.89496&z=17&source=coor&id=14.536965,49.89496",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/pohori-skalsko-/200380492",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.096603,
           49.334329
         ]
@@ -17737,34 +17714,6 @@
         "flags": [
           "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.319249,
-          48.854397
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 1979 m² — Strážnice, Hodonín, Jihomoravský kraj",
-        "price": 95000,
-        "price_label": "95 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1526718540",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.319249&y=48.854397&z=17&source=coor&id=17.319249,48.854397",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/straznice-straznice-/1526718540",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "NARROW_PLOT",
-          "PROTECTED_AREA",
-          "LIKELY_NONBUILDABLE"
         ]
       }
     },
@@ -27855,34 +27804,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.823327,
-          49.484521
-        ]
-      },
-      "properties": {
-        "title": "Dražba: Pozemek o velikosti 972m2, Havlíčkův Brod — vyvolávací 14000 Kč (odhad 21000 Kč), koná se 2026-07-14",
-        "price": 14000,
-        "price_label": "14 000 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:134ex16952-11-1146-4pwnj",
-        "mapy_url": "https://mapy.cz/zakladni?x=12.823327&y=49.484521&z=17&source=coor&id=12.823327,49.484521",
-        "link": "https://www.portaldrazeb.cz/drazba/134ex16952-11-1146-4pwnj",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.377311,
           50.038507
         ]
@@ -28308,53 +28229,6 @@
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
         ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.76799,
-          50.73387
-        ]
-      },
-      "properties": {
-        "title": "Dražba: Pozemek o velikosti 4685m2,Postřelná — vyvolávací 46000 Kč (odhad 46000 Kč), koná se 2026-07-14",
-        "price": 46000,
-        "price_label": "46 000 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:213dd83-26-3-ky4zp",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.76799&y=50.73387&z=17&source=coor&id=14.76799,50.73387",
-        "link": "https://www.portaldrazeb.cz/drazba/213dd83-26-3-ky4zp",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.030343,
-          49.495822
-        ]
-      },
-      "properties": {
-        "title": "Dražba: vodní plocha-podíl v obci Mirovice, okres Písek — vyvolávací 930 Kč (odhad 930 Kč), koná se 2026-07-14",
-        "price": 930,
-        "price_label": "930 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:233dd83-02-2-xyprq",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.030343&y=49.495822&z=17&source=coor&id=14.030343,49.495822",
-        "link": "https://www.portaldrazeb.cz/drazba/233dd83-02-2-xyprq"
       }
     },
     {
@@ -31518,6 +31392,385 @@
           "POOR_ACCESS",
           "ZPF_SOIL",
           "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.381221,
+          49.945793
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 38 m², pozemek 218 m² — Řetová, Ústí nad Orlicí, Pardubický kraj",
+        "price": 599000,
+        "price_label": "599 000 Kč",
+        "source": "chata",
+        "guid": "chata:2617992012",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.381221&y=49.945793&z=17&source=coor&id=16.381221,49.945793",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/retova-retova-/2617992012",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.594585,
+          49.742698
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 516 m² — Rokycany, Plzeňský kraj",
+        "price": 59000,
+        "price_label": "59 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3329417292",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.594585&y=49.742698&z=17&source=coor&id=13.594585,49.742698",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/rokycany-rokycany-/3329417292",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.690552,
+          49.586937
+        ]
+      },
+      "properties": {
+        "title": "Prodej celé louky s dalšími podíly, 11703 m², Nové Mitrovice: 220 000",
+        "price": 220000,
+        "price_label": "220 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221288629/prodej-cele-louky-s-dalsimi-podily-11703-m-nove-mitrovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.690552&y=49.586937&z=17&source=coor&id=13.690552,49.586937",
+        "link": "https://reality.bazos.cz/inzerat/221288629/prodej-cele-louky-s-dalsimi-podily-11703-m-nove-mitrovice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.880298,
+          49.807046
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2887 m² — Hvozdec, Beroun, Středočeský kraj",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1859527500",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.880298&y=49.807046&z=17&source=coor&id=13.880298,49.807046",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hvozdec-hvozdec-/1859527500",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.017081,
+          49.469704
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků v k.ú. Milavče: 185 000",
+        "price": 185000,
+        "price_label": "185 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221291527/prodej-lesnich-pozemku-v-ku-milavce.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.017081&y=49.469704&z=17&source=coor&id=13.017081,49.469704",
+        "link": "https://reality.bazos.cz/inzerat/221291527/prodej-lesnich-pozemku-v-ku-milavce.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.783413,
+          49.597816
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6903 m² — Hostouň – Holubeč, Domažlice, Plzeňský kraj",
+        "price": 331344,
+        "price_label": "331 344 Kč",
+        "source": "sreality",
+        "guid": "sreality:1733484620",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.783413&y=49.597816&z=17&source=coor&id=12.783413,49.597816",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hostoun-holubec-/1733484620",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.043734,
+          50.678205
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 390 m² — Ústí nad Labem – Severní Terasa, Ústecký kraj",
+        "price": 152100,
+        "price_label": "152 100 Kč",
+        "source": "sreality",
+        "guid": "sreality:609411148",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.043734&y=50.678205&z=17&source=coor&id=14.043734,50.678205",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/usti-nad-labem-severni-terasa-sumavska/609411148",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.536095,
+          48.839452
+        ]
+      },
+      "properties": {
+        "title": "Prodám lesní pozemky v k.ú. Ločenice, p.č. 1452 a 1453: 170 000",
+        "price": 170000,
+        "price_label": "170 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221294456/prodam-lesni-pozemky-v-ku-locenice-pc-1452-a-1453.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.536095&y=48.839452&z=17&source=coor&id=14.536095,48.839452",
+        "link": "https://reality.bazos.cz/inzerat/221294456/prodam-lesni-pozemky-v-ku-locenice-pc-1452-a-1453.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.284978,
+          50.633541
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Železný Brod: 222 000",
+        "price": 222000,
+        "price_label": "222 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221294083/prodej-lesnich-pozemku-ku-zelezny-brod.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.284978&y=50.633541&z=17&source=coor&id=15.284978,50.633541",
+        "link": "https://reality.bazos.cz/inzerat/221294083/prodej-lesnich-pozemku-ku-zelezny-brod.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.213479,
+          49.421967
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 258 m² — Pelhřimov, Kraj Vysočina",
+        "price": 299000,
+        "price_label": "299 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2132992076",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.213479&y=49.421967&z=17&source=coor&id=15.213479,49.421967",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/pelhrimov-pelhrimov-/2132992076",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.993487,
+          50.572687
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 7951 m² — Chocnějovice – Sovenice, Mladá Boleslav, Středočeský kraj",
+        "price": 310100,
+        "price_label": "310 100 Kč",
+        "source": "sreality",
+        "guid": "sreality:3424837708",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.993487&y=50.572687&z=17&source=coor&id=14.993487,50.572687",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/chocnejovice-sovenice-/3424837708",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.144386,
+          49.29418
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Podíl na pozemcích v k.ú. Nýrsko, okr. Klatovy — vyvolávací 98860 Kč (odhad 197720 Kč), koná se 2026-07-15",
+        "price": 98860,
+        "price_label": "98 860 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:203ex40441-10-238-ngj2g",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.144386&y=49.29418&z=17&source=coor&id=13.144386,49.29418",
+        "link": "https://www.portaldrazeb.cz/drazba/203ex40441-10-238-ngj2g",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.321596,
+          49.825647
+        ]
+      },
+      "properties": {
+        "title": "Ledce u Plzně - p. č. 1567/13 — Aukce vyhlášena (11.08.2026 10:00 - 12.08.2026 10:00) · přihlášky do 10.08.2026 23:59",
+        "price": 83000,
+        "price_label": "83 000 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:110845",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.321596&y=49.825647&z=17&source=coor&id=13.321596,49.825647",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/110845",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.573238,
+          49.478201
+        ]
+      },
+      "properties": {
+        "title": "Nepomuk - pozemky p. č. 813 a p. č. 822 — Aukce vyhlášena (26.08.2026 10:00 - 27.08.2026 9:00) · přihlášky do 25.08.2026 23:59",
+        "price": 34100,
+        "price_label": "34 100 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:110900",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.573238&y=49.478201&z=17&source=coor&id=13.573238,49.478201",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/110900",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
           "LIKELY_NONBUILDABLE"
         ]
       }

@@ -20924,32 +20924,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.000263,
-          49.421256
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 1251 m² — Prostějovičky, Prostějov, Olomoucký kraj",
-        "price": 270200,
-        "price_label": "270 200 Kč",
-        "source": "sreality",
-        "guid": "sreality:667869260",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.000263&y=49.421256&z=17&source=coor&id=17.000263,49.421256",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/prostejovicky-prostejovicky-/667869260",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.466218,
           50.295344
         ]
@@ -34027,6 +34001,329 @@
         "marker-color": "#757575",
         "flags": [
           "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.768418,
+          49.066835
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6776 m² — Litohoř, Třebíč, Kraj Vysočina",
+        "price": 325248,
+        "price_label": "325 248 Kč",
+        "source": "sreality",
+        "guid": "sreality:2334318668",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.768418&y=49.066835&z=17&source=coor&id=15.768418,49.066835",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/litohor-litohor-/2334318668",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PARCEL_NOT_FOUND"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.027499,
+          49.328294
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Pustiměř: 45 000",
+        "price": 45000,
+        "price_label": "45 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221323680/prodej-lesniho-pozemku-ku-pustimer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.027499&y=49.328294&z=17&source=coor&id=17.027499,49.328294",
+        "link": "https://reality.bazos.cz/inzerat/221323680/prodej-lesniho-pozemku-ku-pustimer.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.288301,
+          50.394475
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 514 m² — Chyjice, Jičín, Královéhradecký kraj",
+        "price": 167050,
+        "price_label": "167 050 Kč",
+        "source": "sreality",
+        "guid": "sreality:912384076",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.288301&y=50.394475&z=17&source=coor&id=15.288301,50.394475",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/chyjice-chyjice-/912384076",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.340753,
+          49.543593
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 835 m² — Humpolec - Humpolec, Kraj Vysočina",
+        "price": 87550,
+        "price_label": "87 550 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1045559",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.340753&y=49.543593&z=17&source=coor&id=15.340753,49.543593",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045559-nabidka-prodej-pozemku-humpolec",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.340693,
+          49.54366
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/3 pole 835 m², Humpolec: 87 550",
+        "price": 87550,
+        "price_label": "87 550 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221325486/prodej-podilu-13-pole-835-m-humpolec.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.340693&y=49.54366&z=17&source=coor&id=15.340693,49.54366",
+        "link": "https://reality.bazos.cz/inzerat/221325486/prodej-podilu-13-pole-835-m-humpolec.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.800086,
+          49.107348
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2755 m² — Petrůvka, Zlín, Zlínský kraj",
+        "price": 84975,
+        "price_label": "84 975 Kč",
+        "source": "sreality",
+        "guid": "sreality:3866222668",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.800086&y=49.107348&z=17&source=coor&id=17.800086,49.107348",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/petruvka-petruvka-/3866222668",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.49274,
+          50.168675
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 485 m² — Milhostov, Cheb, Karlovarský kraj",
+        "price": 288575,
+        "price_label": "288 575 Kč",
+        "source": "sreality",
+        "guid": "sreality:3395412044",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.49274&y=50.168675&z=17&source=coor&id=12.49274,50.168675",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/milhostov-milhostov-/3395412044",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.800086,
+          49.107348
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2755 m² — Petrůvka - Petrůvka u Slavičína, Zlínský kraj",
+        "price": 84975,
+        "price_label": "84 975 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1045562",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.800086&y=49.107348&z=17&source=coor&id=17.800086,49.107348",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045562-nabidka-prodej-pozemku-petruvka",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.45667,
+          49.87194
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2629 m² — Dětmarovice, Karviná, Moravskoslezský kraj",
+        "price": 79000,
+        "price_label": "79 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2977030220",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.45667&y=49.87194&z=17&source=coor&id=18.45667,49.87194",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/detmarovice-detmarovice-/2977030220",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.825493,
+          49.105145
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4867 m² — Petrůvka - Petrůvka u Slavičína, Zlínský kraj",
+        "price": 144200,
+        "price_label": "144 200 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1045563",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.825493&y=49.105145&z=17&source=coor&id=17.825493,49.105145",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1045563-nabidka-prodej-pozemku-petruvka",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.57398,
+          49.546459
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Podíl 1/4 na pozemku v k.ú. Letovice, okres Blansko — vyvolávací 90667 Kč (odhad 136000 Kč), koná se 2026-07-15",
+        "price": 90667,
+        "price_label": "90 667 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:203ex24802-23-2ynxo",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.57398&y=49.546459&z=17&source=coor&id=16.57398,49.546459",
+        "link": "https://www.portaldrazeb.cz/drazba/203ex24802-23-2ynxo",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.317395,
+          50.415025
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Ideální spoluvlastnický podíl 1/6 pozemku o výměře 1784 m2 – ovocný sad, k.ú. Podhradí u Jičína, obec Podhradí — vyvolávací 25000 Kč (odhad 37500 Kč), koná se 2026-07-15",
+        "price": 25000,
+        "price_label": "25 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:094ex21228-08-1076-aboqn",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.317395&y=50.415025&z=17&source=coor&id=15.317395,50.415025",
+        "link": "https://www.portaldrazeb.cz/drazba/094ex21228-08-1076-aboqn",
+        "verdict": "unknown",
+        "suitability_tier": "unknown",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "CO_OWNERSHIP",
           "LIKELY_NONBUILDABLE"
         ]
       }

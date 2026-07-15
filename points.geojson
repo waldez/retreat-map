@@ -35757,6 +35757,116 @@
           "PROTECTED_AREA"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.21813,
+          49.34515
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4786 m² — Janovice nad Úhlavou, Klatovy, Plzeňský kraj",
+        "price": 139000,
+        "price_label": "139 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3418480716",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.21813&y=49.34515&z=17&source=coor&id=13.21813,49.34515",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/janovice-nad-uhlavou-janovice-nad-uhlavou-/3418480716",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.228727,
+          49.618286
+        ]
+      },
+      "properties": {
+        "title": "Zahrada 2 956 m², Podíl 50 % o výměře 1 478 m²: 159 080",
+        "price": 159080,
+        "price_label": "159 080 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221343649/zahrada-2-956-m-podil-50-o-vymere-1-478-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.228727&y=49.618286&z=17&source=coor&id=14.228727,49.618286",
+        "link": "https://reality.bazos.cz/inzerat/221343649/zahrada-2-956-m-podil-50-o-vymere-1-478-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.701357,
+          49.934994
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky v k.ú. Herbortice, ev.č. 2026-03-24-090517: 165 000",
+        "price": 165000,
+        "price_label": "165 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221344040/prodej-louky-v-ku-herbortice-evc-2026-03-24-090517.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.701357&y=49.934994&z=17&source=coor&id=16.701357,49.934994",
+        "link": "https://reality.bazos.cz/inzerat/221344040/prodej-louky-v-ku-herbortice-evc-2026-03-24-090517.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.076097,
+          50.594867
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1162 m² — Pěnčín – Albrechtice, Liberec, Liberecký kraj",
+        "price": 65000,
+        "price_label": "65 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1242685516",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.076097&y=50.594867&z=17&source=coor&id=15.076097,50.594867",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/pencin-albrechtice-/1242685516",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
     }
   ]
 }

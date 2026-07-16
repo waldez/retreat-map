@@ -24627,33 +24627,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.160182,
-          49.344772
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 853 m² — Běhařov, Klatovy, Plzeňský kraj",
-        "price": 349070,
-        "price_label": "349 070 Kč",
-        "source": "sreality",
-        "guid": "sreality:4156813388",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.160182&y=49.344772&z=17&source=coor&id=13.160182,49.344772",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/beharov-beharov-/4156813388",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "NARROW_PLOT",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.717525,
           48.988013
         ]
@@ -34762,62 +34735,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.50577,
-          49.78718
-        ]
-      },
-      "properties": {
-        "title": "Dražba: Pozemek o velikosti 3716 m2, podíl 1/3, kat. území Albrechtice u Českého Těšína — vyvolávací 40000 Kč (odhad 49000 Kč), koná se 2026-07-16",
-        "price": 40000,
-        "price_label": "40 000 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:185dd10010-26-2-dbpym",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.50577&y=49.78718&z=17&source=coor&id=18.50577,49.78718",
-        "link": "https://www.portaldrazeb.cz/drazba/185dd10010-26-2-dbpym",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.61654,
-          49.41967
-        ]
-      },
-      "properties": {
-        "title": "Dražba: Pozemky, Přerov, podíl 1/3 — vyvolávací 118667 Kč (odhad 178000 Kč), koná se 2026-07-16",
-        "price": 118667,
-        "price_label": "118 667 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:201dd00001-26-011-wep5j",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.61654&y=49.41967&z=17&source=coor&id=17.61654,49.41967",
-        "link": "https://www.portaldrazeb.cz/drazba/201dd00001-26-011-wep5j",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.953098,
           50.661532
         ]
@@ -36847,6 +36764,170 @@
         "flags": [
           "CO_OWNERSHIP",
           "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.097813,
+          49.177202
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4100 m² — Střelná, Vsetín, Zlínský kraj",
+        "price": 282900,
+        "price_label": "282 900 Kč",
+        "source": "sreality",
+        "guid": "sreality:4251432268",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.097813&y=49.177202&z=17&source=coor&id=18.097813,49.177202",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/strelna-strelna-/4251432268",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.183191,
+          49.811789
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 2102 m² — Zbraslavice, Kutná Hora, Středočeský kraj",
+        "price": 2500,
+        "price_label": "2 500 Kč",
+        "source": "sreality",
+        "guid": "sreality:2219892812",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.183191&y=49.811789&z=17&source=coor&id=15.183191,49.811789",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/zbraslavice-zbraslavice-/2219892812",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.929199,
+          49.175381
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Milejovice: 39 000",
+        "price": 39000,
+        "price_label": "39 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221374391/prodej-lesnich-pozemku-ku-milejovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.929199&y=49.175381&z=17&source=coor&id=13.929199,49.175381",
+        "link": "https://reality.bazos.cz/inzerat/221374391/prodej-lesnich-pozemku-ku-milejovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.092969,
+          49.880884
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků v k.ú. Velká Polom (2): 144 000",
+        "price": 144000,
+        "price_label": "144 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221374186/prodej-lesnich-pozemku-v-ku-velka-polom-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.092969&y=49.880884&z=17&source=coor&id=18.092969,49.880884",
+        "link": "https://reality.bazos.cz/inzerat/221374186/prodej-lesnich-pozemku-v-ku-velka-polom-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.033839,
+          50.648838
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 27 m², pozemek 430 m² — Ústí nad Labem – Ústí nad Labem-centrum, Ústecký kraj",
+        "price": 490000,
+        "price_label": "490 000 Kč",
+        "source": "house",
+        "guid": "house:2164318284",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.033839&y=50.648838&z=17&source=coor&id=14.033839,50.648838",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/usti-nad-labem-usti-nad-labem-centrum-solni-stezka/2164318284",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.933951,
+          49.835097
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 33 m², pozemek 37 m² — Sázava – Čeřenice, Benešov, Středočeský kraj",
+        "price": 699000,
+        "price_label": "699 000 Kč",
+        "source": "chata",
+        "guid": "chata:1744887884",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.933951&y=49.835097&z=17&source=coor&id=14.933951,49.835097",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/sazava-cerenice-/1744887884",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
         ]
       }
     }

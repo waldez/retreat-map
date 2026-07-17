@@ -39951,6 +39951,89 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.604334,
+          50.381015
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Živonín: 157 000",
+        "price": 157000,
+        "price_label": "157 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221419084/prodej-lesniho-pozemku-ku-zivonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.604334&y=50.381015&z=17&source=coor&id=14.604334,50.381015",
+        "link": "https://reality.bazos.cz/inzerat/221419084/prodej-lesniho-pozemku-ku-zivonin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.262466,
+          50.097836
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2561 m² — Jestřabí Lhota - Jestřabí Lhota, Středočeský kraj",
+        "price": 110210,
+        "price_label": "110 210 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1046326",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.262466&y=50.097836&z=17&source=coor&id=15.262466,50.097836",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1046326-nabidka-prodej-pozemku-jestrabi-lhota",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.26251,
+          50.097825
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/4 pole 2 561 m², Jestřabí Lhota: 110 210",
+        "price": 110210,
+        "price_label": "110 210 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221421531/prodej-podilu-14-pole-2-561-m-jestrabi-lhota.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.26251&y=50.097825&z=17&source=coor&id=15.26251,50.097825",
+        "link": "https://reality.bazos.cz/inzerat/221421531/prodej-podilu-14-pole-2-561-m-jestrabi-lhota.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

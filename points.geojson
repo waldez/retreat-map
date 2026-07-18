@@ -41210,6 +41210,60 @@
           "LOW_CONFIDENCE_LOCATION"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.322401,
+          49.649876
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7506 m² — Dolany, Olomouc, Olomoucký kraj",
+        "price": 285000,
+        "price_label": "285 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3700940876",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.322401&y=49.649876&z=17&source=coor&id=17.322401,49.649876",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/dolany-dolany-/3700940876",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.213465,
+          50.23557
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 303 m² — Jeseník, Olomoucký kraj",
+        "price": 285000,
+        "price_label": "285 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:764928076",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.213465&y=50.23557&z=17&source=coor&id=17.213465,50.23557",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/jesenik-jesenik-nerudova/764928076",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "PROTECTED_AREA"
+        ]
+      }
     }
   ]
 }

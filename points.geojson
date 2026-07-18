@@ -40247,6 +40247,33 @@
         "mapy_url": "https://mapy.cz/zakladni?x=17.282934&y=48.976356&z=17&source=coor&id=17.282934,48.976356",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/bzenec-bzenec-/2344083532"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7182,
+          49.0318
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 940 m² — Šumice, Uherské Hradiště, Zlínský kraj",
+        "price": 47594,
+        "price_label": "47 594 Kč",
+        "source": "sreality",
+        "guid": "sreality:344449100",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.7182&y=49.0318&z=17&source=coor&id=17.7182,49.0318",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/sumice-sumice-/344449100",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

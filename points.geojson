@@ -41347,6 +41347,60 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.436323,
+          49.004339
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 1539 m² — Ostrožská Nová Ves, Uherské Hradiště, Zlínský kraj",
+        "price": 62000,
+        "price_label": "62 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2886963276",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.436323&y=49.004339&z=17&source=coor&id=17.436323,49.004339",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/ostrozska-nova-ves-ostrozska-nova-ves-/2886963276",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.106059,
+          49.740103
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4719 m² — Zruč nad Sázavou, Kutná Hora, Středočeský kraj",
+        "price": 151000,
+        "price_label": "151 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3826487372",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.106059&y=49.740103&z=17&source=coor&id=15.106059,49.740103",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou-zruc-nad-sazavou-/3826487372",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
     }
   ]
 }

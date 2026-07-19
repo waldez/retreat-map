@@ -42490,6 +42490,34 @@
           "LOW_CONFIDENCE_LOCATION"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.21466,
+          50.535246
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 1457 m² — Křešice – Zahořany, Litoměřice, Ústecký kraj",
+        "price": 32054,
+        "price_label": "32 054 Kč",
+        "source": "sreality",
+        "guid": "sreality:2000085068",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.21466&y=50.535246&z=17&source=coor&id=14.21466,50.535246",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/kresice-zahorany-/2000085068",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

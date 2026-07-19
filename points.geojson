@@ -42218,6 +42218,59 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.97757,
+          50.32686
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 1 m² — Ostrov – Květnová, Karlovy Vary, Karlovarský kraj",
+        "price": 2790,
+        "price_label": "2 790 Kč",
+        "source": "sreality",
+        "guid": "sreality:3645300812",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.97757&y=50.32686&z=17&source=coor&id=12.97757,50.32686",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/ostrov-kvetnova-/3645300812",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.353465,
+          50.253517
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 3590 m² — Krásný Dvůr, Louny, Ústecký kraj",
+        "price": 350000,
+        "price_label": "350 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3297018700",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.353465&y=50.253517&z=17&source=coor&id=13.353465,50.253517",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/krasny-dvur-krasny-dvur-/3297018700",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

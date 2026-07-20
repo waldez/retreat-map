@@ -44775,7 +44775,96 @@
         "source": "sreality",
         "guid": "sreality:2702565452",
         "mapy_url": "https://mapy.cz/zakladni?x=16.422911&y=49.483531&z=17&source=coor&id=16.422911,49.483531",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/cernovice-cernovice-/2702565452"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/cernovice-cernovice-/2702565452",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.720099,
+          50.092674
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Stéblová (2): 22 000",
+        "price": 22000,
+        "price_label": "22 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221551167/prodej-lesnich-pozemku-ku-steblova-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.720099&y=50.092674&z=17&source=coor&id=15.720099,50.092674",
+        "link": "https://reality.bazos.cz/inzerat/221551167/prodej-lesnich-pozemku-ku-steblova-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.245878,
+          49.953944
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Vračovice: 51 000",
+        "price": 51000,
+        "price_label": "51 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221551940/prodej-pozemku-ku-vracovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.245878&y=49.953944&z=17&source=coor&id=16.245878,49.953944",
+        "link": "https://reality.bazos.cz/inzerat/221551940/prodej-pozemku-ku-vracovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.046954,
+          48.917752
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Mutěnice: 113 000",
+        "price": 113000,
+        "price_label": "113 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221551771/prodej-pozemku-ku-mutenice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.046954&y=48.917752&z=17&source=coor&id=17.046954,48.917752",
+        "link": "https://reality.bazos.cz/inzerat/221551771/prodej-pozemku-ku-mutenice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "SECONDARY_ONLY"
+        ]
       }
     },
     {
@@ -44794,7 +44883,70 @@
         "source": "sreality",
         "guid": "sreality:420864076",
         "mapy_url": "https://mapy.cz/zakladni?x=14.216367&y=49.6804&z=17&source=coor&id=14.216367,49.6804",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/obory-obory-/420864076"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/obory-obory-/420864076",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.190772,
+          48.972342
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Vracov: 159 000",
+        "price": 159000,
+        "price_label": "159 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221553389/prodej-lesnich-pozemku-ku-vracov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.190772&y=48.972342&z=17&source=coor&id=17.190772,48.972342",
+        "link": "https://reality.bazos.cz/inzerat/221553389/prodej-lesnich-pozemku-ku-vracov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.026531,
+          49.95739
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Nový Malín: 307 000",
+        "price": 307000,
+        "price_label": "307 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221554646/prodej-pozemku-ku-novy-malin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.026531&y=49.95739&z=17&source=coor&id=17.026531,49.95739",
+        "link": "https://reality.bazos.cz/inzerat/221554646/prodej-pozemku-ku-novy-malin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -44840,7 +44992,17 @@
         "source": "sreality",
         "guid": "sreality:2960488268",
         "mapy_url": "https://mapy.cz/zakladni?x=16.974048&y=48.792724&z=17&source=coor&id=16.974048,48.792724",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hrusky-hrusky-/2960488268"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hrusky-hrusky-/2960488268",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -44859,7 +45021,68 @@
         "source": "sreality",
         "guid": "sreality:3346364236",
         "mapy_url": "https://mapy.cz/zakladni?x=16.824262&y=48.93559&z=17&source=coor&id=16.824262,48.93559",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/nemcicky-nemcicky-/3346364236"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/nemcicky-nemcicky-/3346364236",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.768856,
+          50.367587
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Velké Všelisy: 287 000",
+        "price": 287000,
+        "price_label": "287 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221556451/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.768856&y=50.367587&z=17&source=coor&id=14.768856,50.367587",
+        "link": "https://reality.bazos.cz/inzerat/221556451/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.591244,
+          49.3961
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 381 m² — Jihlava, Kraj Vysočina",
+        "price": 250000,
+        "price_label": "250 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2532696140",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.591244&y=49.3961&z=17&source=coor&id=15.591244,49.3961",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/jihlava-jihlava-/2532696140",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     }
   ]

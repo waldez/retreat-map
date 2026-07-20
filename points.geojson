@@ -43137,6 +43137,56 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.140705,
+          49.996032
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 3149 m² — Vráž, Beroun, Středočeský kraj",
+        "price": 270000,
+        "price_label": "270 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1154957900",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.140705&y=49.996032&z=17&source=coor&id=14.140705,49.996032",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/vraz-vraz-/1154957900",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.779255,
+          48.947516
+        ]
+      },
+      "properties": {
+        "title": "Dražba: id. 1/2 orné půdy v Lopeníku, okr. Uherské Hradiště — vyvolávací 93333 Kč (odhad 140000 Kč), koná se 2026-07-21",
+        "price": 93333,
+        "price_label": "93 333 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:137ex23068-25-mb-5pwr5",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.779255&y=48.947516&z=17&source=coor&id=17.779255,48.947516",
+        "link": "https://www.portaldrazeb.cz/drazba/137ex23068-25-mb-5pwr5",
+        "flags": [
+          "PARCEL_NOT_FOUND"
+        ]
+      }
     }
   ]
 }

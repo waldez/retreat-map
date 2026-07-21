@@ -45084,6 +45084,86 @@
           "LOW_CONFIDENCE_LOCATION"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.908466,
+          50.438594
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 1581 m² — Děčany, Litoměřice, Ústecký kraj",
+        "price": 56000,
+        "price_label": "56 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1539740492",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.908466&y=50.438594&z=17&source=coor&id=13.908466,50.438594",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/decany-decany-/1539740492",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.961694,
+          49.576863
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 12582 m² — Starý Jičín, Nový Jičín, Moravskoslezský kraj",
+        "price": 290000,
+        "price_label": "290 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1096503884",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.961694&y=49.576863&z=17&source=coor&id=17.961694,49.576863",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/stary-jicin-stary-jicin-/1096503884",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.947279,
+          49.649145
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 8606 m² — Luká, Olomouc, Olomoucký kraj",
+        "price": 302000,
+        "price_label": "302 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2974167628",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.947279&y=49.649145&z=17&source=coor&id=16.947279,49.649145",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/luka-luka-/2974167628",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
     }
   ]
 }

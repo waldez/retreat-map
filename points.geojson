@@ -48776,24 +48776,25 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.627909,
-          49.131436
+          15.46956,
+          50.507363
         ]
       },
       "properties": {
-        "title": "Dražba: Podíl na pozemcích v k.ú. Zlámanec, okr. Uherské Hradiště — vyvolávací 53627 Kč (odhad 80440 Kč), koná se 2026-07-22",
-        "price": 53627,
-        "price_label": "53 627 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:203ex64818-14-ykowj",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.627909&y=49.131436&z=17&source=coor&id=17.627909,49.131436",
-        "link": "https://www.portaldrazeb.cz/drazba/203ex64818-14-ykowj",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
+        "title": "Prodej lesních pozemků v k.ú. Roškopov: 130 000",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221623990/prodej-lesnich-pozemku-v-ku-roskopov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.46956&y=50.507363&z=17&source=coor&id=15.46956,50.507363",
+        "link": "https://reality.bazos.cz/inzerat/221623990/prodej-lesnich-pozemku-v-ku-roskopov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
         "flags": [
-          "CO_OWNERSHIP"
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
         ]
       }
     },
@@ -48802,26 +48803,685 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.480655,
-          50.248245
+          14.363245,
+          49.565484
         ]
       },
       "properties": {
-        "title": "Dražba: Podíl na pozemcích v k.ú. Janov u Krnova, okr. Bruntál — vyvolávací 210667 Kč (odhad 316000 Kč), koná se 2026-07-22",
-        "price": 210667,
-        "price_label": "210 667 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:203ex26242-18-9pwb3",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.480655&y=50.248245&z=17&source=coor&id=17.480655,50.248245",
-        "link": "https://www.portaldrazeb.cz/drazba/203ex26242-18-9pwb3",
+        "title": "Prodej pole 4828 m² — Petrovice – Žemličkova Lhota, Příbram, Středočeský kraj",
+        "price": 327900,
+        "price_label": "327 900 Kč",
+        "source": "sreality",
+        "guid": "sreality:2303447116",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.363245&y=49.565484&z=17&source=coor&id=14.363245,49.565484",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/petrovice-zemlickova-lhota-/2303447116",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.168139,
+          50.666911
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 14517 m² — Malé Březno, Ústí nad Labem, Ústecký kraj",
+        "price": 276000,
+        "price_label": "276 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:776720460",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.168139&y=50.666911&z=17&source=coor&id=14.168139,50.666911",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/male-brezno-male-brezno-/776720460",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.384185,
+          48.896644
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/5 louky 1 208 m², Kněždub: 34 000",
+        "price": 34000,
+        "price_label": "34 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221625280/prodej-podilu-15-louky-1-208-m-knezdub.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.384185&y=48.896644&z=17&source=coor&id=17.384185,48.896644",
+        "link": "https://reality.bazos.cz/inzerat/221625280/prodej-podilu-15-louky-1-208-m-knezdub.php",
         "verdict": "primary_conditional",
         "suitability_tier": "primary_conditional",
         "pin_color": "#757575",
         "marker-color": "#757575",
         "flags": [
           "POOR_ACCESS",
+          "ZPF_SOIL",
           "CO_OWNERSHIP",
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5948,
+          49.156052
+        ]
+      },
+      "properties": {
+        "title": "Prodej orné půdy k.ú. Šarovy: 40 000",
+        "price": 40000,
+        "price_label": "40 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221625250/prodej-orne-pudy-ku-sarovy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.5948&y=49.156052&z=17&source=coor&id=17.5948,49.156052",
+        "link": "https://reality.bazos.cz/inzerat/221625250/prodej-orne-pudy-ku-sarovy.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.591815,
+          49.156584
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Šarovy: 73 000",
+        "price": 73000,
+        "price_label": "73 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221624935/prodej-lesnich-pozemku-ku-sarovy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.591815&y=49.156584&z=17&source=coor&id=17.591815,49.156584",
+        "link": "https://reality.bazos.cz/inzerat/221624935/prodej-lesnich-pozemku-ku-sarovy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.29359,
+          49.906893
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 90 m², pozemek 24 m² — Černolice, Praha-západ, Středočeský kraj",
+        "price": 580000,
+        "price_label": "580 000 Kč",
+        "source": "chata",
+        "guid": "chata:1220834124",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.29359&y=49.906893&z=17&source=coor&id=14.29359,49.906893",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/cernolice-cernolice-/1220834124",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.315647,
+          50.122665
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky v k.ú. Vamberk, ev.č. 2026-07-22-115306: 350 000",
+        "price": 350000,
+        "price_label": "350 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221627363/prodej-louky-v-ku-vamberk-evc-2026-07-22-115306.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.315647&y=50.122665&z=17&source=coor&id=16.315647,50.122665",
+        "link": "https://reality.bazos.cz/inzerat/221627363/prodej-louky-v-ku-vamberk-evc-2026-07-22-115306.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.291499,
+          49.075047
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Buchlovice: 42 000",
+        "price": 42000,
+        "price_label": "42 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221626910/prodej-lesniho-pozemku-ku-buchlovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.291499&y=49.075047&z=17&source=coor&id=17.291499,49.075047",
+        "link": "https://reality.bazos.cz/inzerat/221626910/prodej-lesniho-pozemku-ku-buchlovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.18498,
+          50.486701
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Hronov: 40 000",
+        "price": 40000,
+        "price_label": "40 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221626906/prodej-lesniho-pozemku-ku-hronov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.18498&y=50.486701&z=17&source=coor&id=16.18498,50.486701",
+        "link": "https://reality.bazos.cz/inzerat/221626906/prodej-lesniho-pozemku-ku-hronov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.315735,
+          50.122769
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 7806 m² — Vamberk, Rychnov nad Kněžnou, Královéhradecký kraj",
+        "price": 350000,
+        "price_label": "350 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2469122124",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.315735&y=50.122769&z=17&source=coor&id=16.315735,50.122769",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vamberk-vamberk-/2469122124",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.74165,
+          49.908491
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6017 m² — Cotkytle - Cotkytle, Pardubický kraj",
+        "price": 226600,
+        "price_label": "226 600 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048001",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.74165&y=49.908491&z=17&source=coor&id=16.74165,49.908491",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048001-nabidka-prodej-pozemku-cotkytle",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.315735,
+          50.122769
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 7806 m² — Vamberk - Vamberk, Královéhradecký kraj",
+        "price": 350000,
+        "price_label": "350 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1047986",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.315735&y=50.122769&z=17&source=coor&id=16.315735,50.122769",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1047986-nabidka-prodej-pozemku-vamberk",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.280294,
+          49.44204
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Dehtín: 229 000",
+        "price": 229000,
+        "price_label": "229 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221628096/prodej-lesnich-pozemku-ku-dehtin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.280294&y=49.44204&z=17&source=coor&id=13.280294,49.44204",
+        "link": "https://reality.bazos.cz/inzerat/221628096/prodej-lesnich-pozemku-ku-dehtin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.37711,
+          50.551919
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Želechy: 98 000",
+        "price": 98000,
+        "price_label": "98 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221627929/prodej-lesniho-pozemku-ku-zelechy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.37711&y=50.551919&z=17&source=coor&id=15.37711,50.551919",
+        "link": "https://reality.bazos.cz/inzerat/221627929/prodej-lesniho-pozemku-ku-zelechy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.81356,
+          48.953549
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Boleradice, ev.č. 2026-07-22-120254: 184 370",
+        "price": 184370,
+        "price_label": "184 370 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221627693/prodej-pole-v-ku-boleradice-evc-2026-07-22-120254.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.81356&y=48.953549&z=17&source=coor&id=16.81356,48.953549",
+        "link": "https://reality.bazos.cz/inzerat/221627693/prodej-pole-v-ku-boleradice-evc-2026-07-22-120254.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7376,
+          49.911943
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/2 louky 1 605 m², Cotkytle: 101 970",
+        "price": 101970,
+        "price_label": "101 970 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221627628/prodej-podilu-12-louky-1-605-m-cotkytle.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.7376&y=49.911943&z=17&source=coor&id=16.7376,49.911943",
+        "link": "https://reality.bazos.cz/inzerat/221627628/prodej-podilu-12-louky-1-605-m-cotkytle.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.741647,
+          49.90853
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/2 pole 6 017 m², Cotkytle: 226 600",
+        "price": 226600,
+        "price_label": "226 600 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221627590/prodej-podilu-12-pole-6-017-m-cotkytle.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.741647&y=49.90853&z=17&source=coor&id=16.741647,49.90853",
+        "link": "https://reality.bazos.cz/inzerat/221627590/prodej-podilu-12-pole-6-017-m-cotkytle.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.813516,
+          48.951946
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 3992 m² — Boleradice, Břeclav, Jihomoravský kraj",
+        "price": 184370,
+        "price_label": "184 370 Kč",
+        "source": "sreality",
+        "guid": "sreality:522965068",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.813516&y=48.951946&z=17&source=coor&id=16.813516,48.951946",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/boleradice-boleradice-/522965068",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.813516,
+          48.951946
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3992 m² — Boleradice - Boleradice, Jihomoravský kraj",
+        "price": 184370,
+        "price_label": "184 370 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048007",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.813516&y=48.951946&z=17&source=coor&id=16.813516,48.951946",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048007-nabidka-prodej-pozemku-boleradice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.737542,
+          49.911986
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1605 m² — Cotkytle - Cotkytle, Pardubický kraj",
+        "price": 101970,
+        "price_label": "101 970 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048003",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.737542&y=49.911986&z=17&source=coor&id=16.737542,49.911986",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048003-nabidka-prodej-pozemku-cotkytle",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.330644,
+          49.348625
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Malé Karlovice: 223 000",
+        "price": 223000,
+        "price_label": "223 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221628610/prodej-lesniho-pozemku-ku-male-karlovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.330644&y=49.348625&z=17&source=coor&id=18.330644,49.348625",
+        "link": "https://reality.bazos.cz/inzerat/221628610/prodej-lesniho-pozemku-ku-male-karlovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.956864,
+          48.750891
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Kostice, ev.č. 2025-11-04-134907: 125 000",
+        "price": 125000,
+        "price_label": "125 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221629208/prodej-pole-v-ku-kostice-evc-2025-11-04-134907.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.956864&y=48.750891&z=17&source=coor&id=16.956864,48.750891",
+        "link": "https://reality.bazos.cz/inzerat/221629208/prodej-pole-v-ku-kostice-evc-2025-11-04-134907.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.549843,
+          49.748607
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Rokycany, ev.č. 2026-01-20-114303: 85 000",
+        "price": 85000,
+        "price_label": "85 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221629195/prodej-pole-v-ku-rokycany-evc-2026-01-20-114303.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.549843&y=49.748607&z=17&source=coor&id=13.549843,49.748607",
+        "link": "https://reality.bazos.cz/inzerat/221629195/prodej-pole-v-ku-rokycany-evc-2026-01-20-114303.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.364446,
+          49.560703
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 4863 m² — Petrovice – Žemličkova Lhota, Příbram, Středočeský kraj",
+        "price": 279900,
+        "price_label": "279 900 Kč",
+        "source": "sreality",
+        "guid": "sreality:943444044",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.364446&y=49.560703&z=17&source=coor&id=14.364446,49.560703",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/petrovice-zemlickova-lhota-/943444044",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.84488,
+          50.6503
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Pozemek o velikosti 231m2, Teplice, podíl 1/2 — vyvolávací 60000 Kč (odhad 90000 Kč), koná se 2026-07-23",
+        "price": 60000,
+        "price_label": "60 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:185ex227-25-72-jkwa0",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.84488&y=50.6503&z=17&source=coor&id=13.84488,50.6503",
+        "link": "https://www.portaldrazeb.cz/drazba/185ex227-25-72-jkwa0",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "CO_OWNERSHIP"
         ]
       }
     }

@@ -51754,6 +51754,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.983333,
+          49.107329
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Mouřínov: 99 000",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221668376/prodej-lesnich-pozemku-ku-mourinov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.983333&y=49.107329&z=17&source=coor&id=16.983333,49.107329",
+        "link": "https://reality.bazos.cz/inzerat/221668376/prodej-lesnich-pozemku-ku-mourinov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "SECONDARY_ONLY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.50827,
           48.91948
         ]
@@ -51984,7 +52012,17 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1048453",
         "mapy_url": "https://mapy.cz/zakladni?x=17.528988&y=48.887474&z=17&source=coor&id=17.528988,48.887474",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048453-nabidka-prodej-pozemku-velka-nad-velickou"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048453-nabidka-prodej-pozemku-velka-nad-velickou",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -52003,7 +52041,14 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1048449",
         "mapy_url": "https://mapy.cz/zakladni?x=17.494978&y=48.891828&z=17&source=coor&id=17.494978,48.891828",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048449-nabidka-prodej-pozemku-velka-nad-velickou"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048449-nabidka-prodej-pozemku-velka-nad-velickou",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -52022,7 +52067,15 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1048445",
         "mapy_url": "https://mapy.cz/zakladni?x=17.499173&y=48.885104&z=17&source=coor&id=17.499173,48.885104",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048445-nabidka-prodej-pozemku-velka-nad-velickou"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048445-nabidka-prodej-pozemku-velka-nad-velickou",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -52048,6 +52101,114 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.117447,
+          48.920653
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Výrovice: 53 000",
+        "price": 53000,
+        "price_label": "53 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221669074/prodej-lesnich-pozemku-ku-vyrovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.117447&y=48.920653&z=17&source=coor&id=16.117447,48.920653",
+        "link": "https://reality.bazos.cz/inzerat/221669074/prodej-lesnich-pozemku-ku-vyrovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.360365,
+          50.715063
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 2065 m² — Starý Šachov, Děčín, Ústecký kraj",
+        "price": 290000,
+        "price_label": "290 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:68866124",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.360365&y=50.715063&z=17&source=coor&id=14.360365,50.715063",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/stary-sachov-stary-sachov-/68866124",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.351292,
+          50.003133
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 3422 m² — Orlické Podhůří – Dobrá Voda, Ústí nad Orlicí, Pardubický kraj",
+        "price": 263494,
+        "price_label": "263 494 Kč",
+        "source": "sreality",
+        "guid": "sreality:4095397964",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.351292&y=50.003133&z=17&source=coor&id=16.351292,50.003133",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/orlicke-podhuri-dobra-voda-/4095397964",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.282432,
+          49.60456
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 5121 m² — Kaliště – Podivice, Pelhřimov, Kraj Vysočina",
+        "price": 128025,
+        "price_label": "128 025 Kč",
+        "source": "sreality",
+        "guid": "sreality:216715340",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.282432&y=49.60456&z=17&source=coor&id=15.282432,49.60456",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/kaliste-podivice-/216715340",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PARCEL_NOT_FOUND"
         ]
       }
     }

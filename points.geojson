@@ -7005,35 +7005,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.254151,
-          50.760517
-        ]
-      },
-      "properties": {
-        "title": "Pozemková parcela č. 133/1 v k.ú. Březiny u Děčína, obec Děčín — Aukce vyhlášena (23.07.2026 9:00 - 24.07.2026 9:00) · přihlášky do 22.07.2026 23:59",
-        "price": 252000,
-        "price_label": "252 000 Kč",
-        "source": "uzsvm",
-        "guid": "uzsvm:104917",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.254151&y=50.760517&z=17&source=coor&id=14.254151,50.760517",
-        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/104917",
-        "verdict": "avoid",
-        "suitability_tier": "avoid",
-        "pin_color": "#c62828",
-        "marker-color": "#c62828",
-        "flags": [
-          "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "FLOOD_HAZARD",
-          "AVOID"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.568285,
           49.475561
         ]
@@ -50609,6 +50580,320 @@
         "guid": "sreality:2528890956",
         "mapy_url": "https://mapy.cz/zakladni?x=16.112&y=50.2943&z=17&source=coor&id=16.112,50.2943",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/pohori-pohori-/2528890956",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.43276,
+          50.1083
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Bílé Vchynice, ev.č. 2026-07-23-061558: 139 050",
+        "price": 139050,
+        "price_label": "139 050 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221652942/prodej-pole-v-ku-bile-vchynice-evc-2026-07-23-061558.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.43276&y=50.1083&z=17&source=coor&id=15.43276,50.1083",
+        "link": "https://reality.bazos.cz/inzerat/221652942/prodej-pole-v-ku-bile-vchynice-evc-2026-07-23-061558.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.434514,
+          50.108245
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2705 m² — Kladruby nad Labem, Pardubice, Pardubický kraj",
+        "price": 139050,
+        "price_label": "139 050 Kč",
+        "source": "sreality",
+        "guid": "sreality:1418448972",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.434514&y=50.108245&z=17&source=coor&id=15.434514,50.108245",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kladruby-nad-labem-kladruby-nad-labem-/1418448972",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.149419,
+          48.914784
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 2098 m² — Ratíškovice, Hodonín, Jihomoravský kraj",
+        "price": 50000,
+        "price_label": "50 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:4223389772",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.149419&y=48.914784&z=17&source=coor&id=17.149419,48.914784",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/ratiskovice-ratiskovice-/4223389772",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.434514,
+          50.108245
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2705 m² — Kladruby nad Labem - Bílé Vchynice, Pardubický kraj",
+        "price": 139050,
+        "price_label": "139 050 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048367",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.434514&y=50.108245&z=17&source=coor&id=15.434514,50.108245",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048367-nabidka-prodej-pozemku-kladruby-nad-labem",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.149419,
+          48.914784
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2098 m² — Ratíškovice - Ratíškovice, Jihomoravský kraj",
+        "price": 50000,
+        "price_label": "50 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048366",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.149419&y=48.914784&z=17&source=coor&id=17.149419,48.914784",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048366-nabidka-prodej-pozemku-ratiskovice",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.441968,
+          50.102075
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole v k.ú. Bílé Vchynice, ev.č. 2026-07-23-062043: 174 070",
+        "price": 174070,
+        "price_label": "174 070 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221653170/prodej-pole-v-ku-bile-vchynice-evc-2026-07-23-062043.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.441968&y=50.102075&z=17&source=coor&id=15.441968,50.102075",
+        "link": "https://reality.bazos.cz/inzerat/221653170/prodej-pole-v-ku-bile-vchynice-evc-2026-07-23-062043.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.441911,
+          50.102054
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 3395 m² — Kladruby nad Labem, Pardubice, Pardubický kraj",
+        "price": 174070,
+        "price_label": "174 070 Kč",
+        "source": "sreality",
+        "guid": "sreality:3062616140",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.441911&y=50.102054&z=17&source=coor&id=15.441911,50.102054",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kladruby-nad-labem-kladruby-nad-labem-/3062616140",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.301219,
+          50.496481
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1360 m² — Vrutice – Svařenice, Litoměřice, Ústecký kraj",
+        "price": 47600,
+        "price_label": "47 600 Kč",
+        "source": "sreality",
+        "guid": "sreality:700174412",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.301219&y=50.496481&z=17&source=coor&id=14.301219,50.496481",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/vrutice-svarenice-/700174412",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.441911,
+          50.102054
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3395 m² — Kladruby nad Labem - Bílé Vchynice, Pardubický kraj",
+        "price": 174070,
+        "price_label": "174 070 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1048368",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.441911&y=50.102054&z=17&source=coor&id=15.441911,50.102054",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1048368-nabidka-prodej-pozemku-kladruby-nad-labem",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "NARROW_PLOT",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.664742,
+          49.050199
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 7027 m² — Lišov - Dolní Slověnice, Jihočeský kraj",
+        "price": 1500,
+        "price_label": "1 500 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1042750",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.664742&y=49.050199&z=17&source=coor&id=14.664742,49.050199",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1042750-nabidka-prodej-pozemku-lisov",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.208462,
+          50.39695
+        ]
+      },
+      "properties": {
+        "title": "Dobrošov - p.p.č. 262/4 — Aukce vyhlášena (19.08.2026 10:00 - 20.08.2026 10:00) · přihlášky do 18.08.2026 23:59",
+        "price": 19400,
+        "price_label": "19 400 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:104281",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.208462&y=50.39695&z=17&source=coor&id=16.208462,50.39695",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/104281",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.169691,
+          49.53737
+        ]
+      },
+      "properties": {
+        "title": "Prodej chalupy 120 m², pozemek 146 m² — Křelovice, Pelhřimov, Kraj Vysočina",
+        "price": 360000,
+        "price_label": "360 000 Kč",
+        "source": "chata",
+        "guid": "chata:1066127436",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.169691&y=49.53737&z=17&source=coor&id=15.169691,49.53737",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chalupa/krelovice-krelovice-/1066127436",
         "verdict": "primary_candidate",
         "suitability_tier": "primary_candidate",
         "pin_color": "#2e7d32",

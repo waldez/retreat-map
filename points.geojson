@@ -422,44 +422,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.106059,
-          49.740103
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 2604 m² — Zruč nad Sázavou, Kutná Hora, Středočeský kraj",
-        "price": 104160,
-        "price_label": "104 160 Kč",
-        "source": "sreality",
-        "guid": "sreality:2882043980",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.106059&y=49.740103&z=17&source=coor&id=15.106059,49.740103",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/zruc-nad-sazavou-zruc-nad-sazavou-/2882043980"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.437436,
-          50.307803
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 1857 m² — Zálezlice, Mělník, Středočeský kraj",
-        "price": 85385,
-        "price_label": "85 385 Kč",
-        "source": "sreality",
-        "guid": "sreality:4262957132",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.437436&y=50.307803&z=17&source=coor&id=14.437436,50.307803",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/zalezlice-zalezlice-/4262957132"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.907983,
           49.82008
         ]
@@ -544,34 +506,6 @@
         "flags": [
           "LOW_CONFIDENCE_LOCATION",
           "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.47011,
-          49.044989
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2620 m² — Kunovice, Uherské Hradiště, Zlínský kraj",
-        "price": 138860,
-        "price_label": "138 860 Kč",
-        "source": "sreality",
-        "guid": "sreality:813359180",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.47011&y=49.044989&z=17&source=coor&id=17.47011,49.044989",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kunovice-kunovice-/813359180",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "FLOOD_HAZARD",
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     },
@@ -769,32 +703,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.677407,
-          49.65353
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 1766 m² — Přimda, Tachov, Plzeňský kraj",
-        "price": 35000,
-        "price_label": "35 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2911625292",
-        "mapy_url": "https://mapy.cz/zakladni?x=12.677407&y=49.65353&z=17&source=coor&id=12.677407,49.65353",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/primda-primda-/2911625292",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "PROTECTED_AREA"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.71869,
           49.928593
         ]
@@ -862,33 +770,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "ZPF_SOIL"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.737623,
-          48.940846
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 5091 m² — Hustopeče, Břeclav, Jihomoravský kraj",
-        "price": 274914,
-        "price_label": "274 914 Kč",
-        "source": "sreality",
-        "guid": "sreality:1746632780",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.737623&y=48.940846&z=17&source=coor&id=16.737623,48.940846",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hustopece-hustopece-/1746632780",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     },
@@ -55169,6 +55050,32 @@
         "flags": [
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.160951,
+          49.17561
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 8902 m² — Nová Olešná, Jindřichův Hradec, Jihočeský kraj",
+        "price": 222550,
+        "price_label": "222 550 Kč",
+        "source": "sreality",
+        "guid": "sreality:3371814988",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.160951&y=49.17561&z=17&source=coor&id=15.160951,49.17561",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/nova-olesna-nova-olesna-/3371814988",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     }

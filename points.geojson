@@ -6410,34 +6410,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.93085,
-          50.1742
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1481 m² — Mšecké Žehrovice - Mšecké Žehrovice, Středočeský kraj",
-        "price": 59000,
-        "price_label": "59 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:972699",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.93085&y=50.1742&z=17&source=coor&id=13.93085,50.1742",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/972699-nabidka-prodej-pozemku",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "NARROW_PLOT",
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.115964,
           50.43394
         ]
@@ -55895,6 +55867,116 @@
           "FLOOD_HAZARD",
           "ZPF_SOIL",
           "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.934604,
+          49.892011
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Lesnice: 49 000",
+        "price": 49000,
+        "price_label": "49 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221727298/prodej-lesniho-pozemku-ku-lesnice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.934604&y=49.892011&z=17&source=coor&id=16.934604,49.892011",
+        "link": "https://reality.bazos.cz/inzerat/221727298/prodej-lesniho-pozemku-ku-lesnice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.841146,
+          49.559552
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7684 m² — Hustopeče nad Bečvou – Hranické Loučky, Přerov, Olomoucký kraj",
+        "price": 180000,
+        "price_label": "180 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2026491980",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.841146&y=49.559552&z=17&source=coor&id=17.841146,49.559552",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/hustopece-nad-becvou-hranicke-loucky-/2026491980",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.842239,
+          49.561577
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků s těžebním povolením–Hranické Loučky: 180 000",
+        "price": 180000,
+        "price_label": "180 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221733432/prodej-lesnich-pozemku-s-tezebnim-povolenimhranicke-loucky.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.842239&y=49.561577&z=17&source=coor&id=17.842239,49.561577",
+        "link": "https://reality.bazos.cz/inzerat/221733432/prodej-lesnich-pozemku-s-tezebnim-povolenimhranicke-loucky.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.148892,
+          48.914894
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Ratíškovice: 100 000",
+        "price": 100000,
+        "price_label": "100 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221732549/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.148892&y=48.914894&z=17&source=coor&id=17.148892,48.914894",
+        "link": "https://reality.bazos.cz/inzerat/221732549/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
         ]
       }

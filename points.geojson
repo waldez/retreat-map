@@ -6947,34 +6947,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.834826,
-          49.849537
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 2250 m² — Cerhovice, Beroun, Středočeský kraj",
-        "price": 130500,
-        "price_label": "130 500 Kč",
-        "source": "sreality",
-        "guid": "sreality:2664988748",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.834826&y=49.849537&z=17&source=coor&id=13.834826,49.849537",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/cerhovice-cerhovice-/2664988748",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.070959,
           49.448501
         ]
@@ -56105,6 +56077,114 @@
         "marker-color": "#2e7d32",
         "flags": [
           "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.834814,
+          48.99976
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 77 m² — Blížkovice, Znojmo, Jihomoravský kraj",
+        "price": 280000,
+        "price_label": "280 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2258669644",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.834814&y=48.99976&z=17&source=coor&id=15.834814,48.99976",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/blizkovice-blizkovice-/2258669644",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.52946,
+          49.040802
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 23 m², pozemek 2169 m² — Podolí, Uherské Hradiště, Zlínský kraj",
+        "price": 590000,
+        "price_label": "590 000 Kč",
+        "source": "chata",
+        "guid": "chata:665440332",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.52946&y=49.040802&z=17&source=coor&id=17.52946,49.040802",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/podoli-podoli-/665440332",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.449233,
+          49.000265
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 13 m² — České Vrbné, České Budějovice - České Vrbné, Jihočeský kraj",
+        "price": 280000,
+        "price_label": "280 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1038497",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.449233&y=49.000265&z=17&source=coor&id=14.449233,49.000265",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1038497-nabidka-prodej-pozemku-ceske-vrbne-ceske-budejovice",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.544972,
+          49.207745
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 12 m², pozemek 400 m² — Brno – Brno-Jundrov, Brno-město, Jihomoravský kraj",
+        "price": 490000,
+        "price_label": "490 000 Kč",
+        "source": "chata",
+        "guid": "chata:2609017420",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.544972&y=49.207745&z=17&source=coor&id=16.544972,49.207745",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/brno-brno-jundrov-/2609017420",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
           "LOW_CONFIDENCE_LOCATION",
           "LIKELY_NONBUILDABLE"
         ]

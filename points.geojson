@@ -8398,33 +8398,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.711848,
-          50.078842
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 149 m², pozemek 181 m² — Krnov – Pod Cvilínem, Bruntál, Moravskoslezský kraj",
-        "price": 450000,
-        "price_label": "450 000 Kč",
-        "source": "chata",
-        "guid": "chata:1727037516",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.711848&y=50.078842&z=17&source=coor&id=17.711848,50.078842",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/krnov-pod-cvilinem-nova-cvilinska/1727037516",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.989266,
           49.500015
         ]
@@ -8472,34 +8445,6 @@
         "flags": [
           "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.2976,
-          49.5063
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 47 m², pozemek 47 m² — Humpolec – Kletečná, Pelhřimov, Kraj Vysočina",
-        "price": 550000,
-        "price_label": "550 000 Kč",
-        "source": "chata",
-        "guid": "chata:2333859916",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.2976&y=49.5063&z=17&source=coor&id=15.2976,49.5063",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/humpolec-kletecna-/2333859916",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
         ]
       }
     },
@@ -8653,33 +8598,6 @@
         "guid": "chata:963350604",
         "mapy_url": "https://mapy.cz/zakladni?x=14.383461&y=50.097977&z=17&source=coor&id=14.383461,50.097977",
         "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-stresovice-delostrelecka/963350604",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.476271,
-          50.040067
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 12 m², pozemek 225 m² — Praha – Záběhlice, Praha 4, Hlavní město Praha",
-        "price": 565000,
-        "price_label": "565 000 Kč",
-        "source": "chata",
-        "guid": "chata:808812620",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.476271&y=50.040067&z=17&source=coor&id=14.476271,50.040067",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-zabehlice-bocni-ii/808812620",
         "verdict": "primary_candidate",
         "suitability_tier": "primary_candidate",
         "pin_color": "#2e7d32",
@@ -56078,6 +55996,114 @@
         "marker-color": "#f9a825",
         "flags": [
           "SECONDARY_ONLY",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.777424,
+          50.037579
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7559 m² — Pardubice, Pardubický kraj",
+        "price": 288000,
+        "price_label": "288 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3639485772",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.777424&y=50.037579&z=17&source=coor&id=15.777424,50.037579",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/pardubice-pardubice-/3639485772",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "FLOOD_HAZARD",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.279242,
+          50.552083
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 3854 m² — Chotiněves, Litoměřice, Ústecký kraj",
+        "price": 116000,
+        "price_label": "116 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1642635340",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.279242&y=50.552083&z=17&source=coor&id=14.279242,50.552083",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/chotineves-chotineves-/1642635340",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.396486,
+          50.608399
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2644 m² — Blíževedly, Česká Lípa, Liberecký kraj",
+        "price": 80000,
+        "price_label": "80 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:739426892",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.396486&y=50.608399&z=17&source=coor&id=14.396486,50.608399",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/blizevedly-blizevedly-/739426892",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.86099,
+          49.332533
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 2163 m² — Třebohostice, Strakonice, Jihočeský kraj",
+        "price": 74000,
+        "price_label": "74 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3879912012",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.86099&y=49.332533&z=17&source=coor&id=13.86099,49.332533",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/trebohostice-trebohostice-/3879912012",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION",
           "LIKELY_NONBUILDABLE"
         ]

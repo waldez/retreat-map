@@ -8774,33 +8774,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.304415,
-          49.093124
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 9029 m² — Ivančice – Hrubšice, Brno-venkov, Jihomoravský kraj",
-        "price": 306986,
-        "price_label": "306 986 Kč",
-        "source": "sreality",
-        "guid": "sreality:2363326540",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.304415&y=49.093124&z=17&source=coor&id=16.304415,49.093124",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/ivancice-hrubsice-/2363326540",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.673919,
           49.273619
         ]
@@ -8843,32 +8816,6 @@
         "suitability_tier": "primary_candidate",
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.21501,
-          49.059083
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 4471 m² — Vřesovice, Hodonín, Jihomoravský kraj",
-        "price": 245905,
-        "price_label": "245 905 Kč",
-        "source": "sreality",
-        "guid": "sreality:2475593804",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.21501&y=49.059083&z=17&source=coor&id=17.21501,49.059083",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/vresovice-vresovice-/2475593804",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION"
-        ]
       }
     },
     {
@@ -56105,6 +56052,335 @@
         "flags": [
           "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.228301,
+          50.529547
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4562 m² — Hrubá Skála - Hrubá Skála, Liberecký kraj",
+        "price": 325000,
+        "price_label": "325 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1018327",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.228301&y=50.529547&z=17&source=coor&id=15.228301,50.529547",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1018327-nabidka-prodej-pozemku-hruba-skala",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.351986,
+          49.243218
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2910 m² — Šelešovice - Šelešovice, Zlínský kraj",
+        "price": 140000,
+        "price_label": "140 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1007912",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.351986&y=49.243218&z=17&source=coor&id=17.351986,49.243218",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007912-nabidka-prodej-pozemku-selesovice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.527017,
+          49.245418
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3142 m² — Rozdrojovice - Rozdrojovice, Jihomoravský kraj",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1007882",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.527017&y=49.245418&z=17&source=coor&id=16.527017,49.245418",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007882-nabidka-prodej-pozemku-rozdrojovice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.956975,
+          50.490865
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4031 m² — Vlastislav - Vlastislav, Ústecký kraj",
+        "price": 215000,
+        "price_label": "215 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:996928",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.956975&y=50.490865&z=17&source=coor&id=13.956975,50.490865",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/996928-nabidka-prodej-pozemku-vlastislav",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.49216,
+          49.156061
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3983 m² — Spytihněv - Spytihněv, Zlínský kraj",
+        "price": 190000,
+        "price_label": "190 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:987048",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.49216&y=49.156061&z=17&source=coor&id=17.49216,49.156061",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/987048-nabidka-prodej-pozemku-spytihnev",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.81479,
+          49.515388
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3464 m² — Zámrsky - Zámrsky, Olomoucký kraj",
+        "price": 125000,
+        "price_label": "125 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977689",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.81479&y=49.515388&z=17&source=coor&id=17.81479,49.515388",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977689-nabidka-prodej-pozemku-zamrsky",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.507589,
+          49.203767
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2466 m² — Napajedla - Napajedla, Zlínský kraj",
+        "price": 75000,
+        "price_label": "75 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977677",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.507589&y=49.203767&z=17&source=coor&id=17.507589,49.203767",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977677-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.339993,
+          50.980863
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5142 m² — Mikulášovice - Mikulášovice, Ústecký kraj",
+        "price": 120000,
+        "price_label": "120 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977675",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.339993&y=50.980863&z=17&source=coor&id=14.339993,50.980863",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977675-nabidka-prodej-pozemku-mikulasovice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.33901,
+          50.981756
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5265 m² — Mikulášovice - Mikulášovice, Ústecký kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977674",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.33901&y=50.981756&z=17&source=coor&id=14.33901,50.981756",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977674-nabidka-prodej-pozemku-mikulasovice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "PROTECTED_AREA",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.340571,
+          50.982822
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4746 m² — Mikulášovice - Mikulášovice, Ústecký kraj",
+        "price": 140000,
+        "price_label": "140 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977673",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.340571&y=50.982822&z=17&source=coor&id=14.340571,50.982822",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977673-nabidka-prodej-pozemku-mikulasovice",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.01165,
+          50.049739
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1252 m² — Ostřetín - Ostřetín, Pardubický kraj",
+        "price": 45000,
+        "price_label": "45 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:962872",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.01165&y=50.049739&z=17&source=coor&id=16.01165,50.049739",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/962872-nabidka-prodej-pozemku-ostretin",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.338841,
+          50.984093
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3682 m² — Mikulášovice - Mikulášovice, Ústecký kraj",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:977671",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.338841&y=50.984093&z=17&source=coor&id=14.338841,50.984093",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/977671-nabidka-prodej-pozemku-mikulasovice",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
           "LIKELY_NONBUILDABLE"
         ]
       }

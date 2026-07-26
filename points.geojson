@@ -10662,32 +10662,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.578264,
-          49.707227
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 6824 m² — Raková - Raková u Rokycan, Plzeňský kraj",
-        "price": 310000,
-        "price_label": "310 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1010968",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.578264&y=49.707227&z=17&source=coor&id=13.578264,49.707227",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1010968-nabidka-prodej-pozemku-rakova",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#757575",
-        "marker-color": "#757575",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.833044,
           49.615574
         ]
@@ -55947,6 +55921,60 @@
           "PROTECTED_AREA",
           "ZPF_SOIL",
           "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.916974,
+          50.370275
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 106 m², pozemek 246 m² — Jáchymov, Karlovy Vary, Karlovarský kraj",
+        "price": 1199000,
+        "price_label": "1 199 000 Kč",
+        "source": "house",
+        "guid": "house:3769942860",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.916974&y=50.370275&z=17&source=coor&id=12.916974,50.370275",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jachymov-jachymov-safarikova/3769942860",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.056144,
+          49.028525
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 160 m², pozemek 733 m² — Věteřov, Hodonín, Jihomoravský kraj",
+        "price": 997500,
+        "price_label": "997 500 Kč",
+        "source": "house",
+        "guid": "house:1665716300",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.056144&y=49.028525&z=17&source=coor&id=17.056144,49.028525",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/veterov-veterov-/1665716300",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
         ]
       }
     }

@@ -64470,6 +64470,32 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.250157,
+          50.262183
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Velká Bučina, Velvary, Kladno: 288 674",
+        "price": 288674,
+        "price_label": "288 674 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221823334/zemedelska-puda-prodej-velka-bucina-velvary-kladno.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.250157&y=50.262183&z=17&source=coor&id=14.250157,50.262183",
+        "link": "https://reality.bazos.cz/inzerat/221823334/zemedelska-puda-prodej-velka-bucina-velvary-kladno.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.042874,
           50.378949
         ]
@@ -64608,7 +64634,14 @@
         "source": "sreality",
         "guid": "sreality:3350777932",
         "mapy_url": "https://mapy.cz/zakladni?x=15.053515&y=50.219581&z=17&source=coor&id=15.053515,50.219581",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bobnice-bobnice-/3350777932"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bobnice-bobnice-/3350777932",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
       }
     },
     {
@@ -64627,7 +64660,123 @@
         "source": "chata",
         "guid": "chata:632868940",
         "mapy_url": "https://mapy.cz/zakladni?x=13.583847&y=49.553926&z=17&source=coor&id=13.583847,49.553926",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/zdirec-zdar-/632868940"
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/zdirec-zdar-/632868940",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.042594,
+          50.379006
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesu v k.ú. Spyta, ev.č. 2026-07-27-120606: 270 250",
+        "price": 270250,
+        "price_label": "270 250 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221823435/prodej-lesu-v-ku-spyta-evc-2026-07-27-120606.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.042594&y=50.379006&z=17&source=coor&id=16.042594,50.379006",
+        "link": "https://reality.bazos.cz/inzerat/221823435/prodej-lesu-v-ku-spyta-evc-2026-07-27-120606.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.405655,
+          50.075309
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 32 m², pozemek 20 m² — Praha – Smíchov, Praha 5, Hlavní město Praha",
+        "price": 690000,
+        "price_label": "690 000 Kč",
+        "source": "chata",
+        "guid": "chata:2478362700",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.405655&y=50.075309&z=17&source=coor&id=14.405655,50.075309",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-smichov-/2478362700",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.476751,
+          49.113089
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Prštice, Brno-venkov: 90 725",
+        "price": 90725,
+        "price_label": "90 725 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221825228/zemedelska-puda-prodej-prstice-brno-venkov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.476751&y=49.113089&z=17&source=coor&id=16.476751,49.113089",
+        "link": "https://reality.bazos.cz/inzerat/221825228/zemedelska-puda-prodej-prstice-brno-venkov.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.470763,
+          49.115017
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1178 m² — Prštice, Brno-venkov, Jihomoravský kraj",
+        "price": 90725,
+        "price_label": "90 725 Kč",
+        "source": "sreality",
+        "guid": "sreality:1720242252",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.470763&y=49.115017&z=17&source=coor&id=16.470763,49.115017",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/prstice-prstice-/1720242252",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
       }
     }
   ]

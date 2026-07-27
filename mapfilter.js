@@ -2,20 +2,29 @@
 // Unit-tested with `node --test` (see mapfilter.test.mjs). No imports, no DOM,
 // so index.html and the test runner share exactly one source of truth.
 
-export const TIERS = ["primary_candidate", "secondary", "avoid", "unknown"];
+// Must stay in step with land-pipeline's emitted tiers AND results_map/geojson.py's
+// _TIER_COLORS — a tier missing here has NO checkbox, so passesFilters() rejects it
+// and those pins are unreachable (that is exactly how primary_conditional hid 42% of
+// the map between 2026-07-12 and 2026-07-27).
+export const TIERS = [
+  "primary_candidate", "primary_conditional", "secondary", "avoid", "unknown",
+];
 
 export const TIER_COLOR = {
-  primary_candidate: "#2e7d32", // green
-  secondary: "#f9a825",         // amber
-  avoid: "#c62828",             // red
-  unknown: "#757575",           // grey
+  primary_candidate: "#2e7d32",   // green
+  primary_conditional: "#1565c0", // blue — deliberately off the green→red ramp:
+                                  // a light green reads as noise on the OSM basemap
+  secondary: "#f9a825",           // amber
+  avoid: "#c62828",               // red
+  unknown: "#757575",             // grey
 };
 
 const STRUCTURE_SOURCES = new Set(["house", "chata"]);
 
 export function defaultState() {
   return {
-    tiers: new Set(["primary_candidate", "secondary"]), // avoid + unknown OFF
+    // the three positive verdicts ON; avoid + unknown OFF
+    tiers: new Set(["primary_candidate", "primary_conditional", "secondary"]),
     maxPrice: null,        // null = no ceiling
     includeUnpriced: true,
     structuresOnly: false,

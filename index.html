@@ -10,8 +10,27 @@
     #app { display: flex; height: 100%; }
     #sidebar { width: 260px; padding: 12px 14px; overflow-y: auto;
                background: #fafafa; border-right: 1px solid #ddd; box-sizing: border-box; }
-    #map { flex: 1; }
+    #map { flex: 1; min-width: 0; }
     h1 { font-size: 15px; margin: 0 0 4px; }
+
+    /* --- sidebar toggle --------------------------------------------------
+       Desktop: sidebar is a column, open by default, collapsible.
+       Mobile: sidebar is an off-canvas drawer over the map, closed by default,
+       so the map is usable in portrait without rotating the phone. */
+    #sidebar-toggle { position: fixed; top: 10px; right: 10px; z-index: 1200;
+                      width: 40px; height: 40px; border: 1px solid #bbb; border-radius: 6px;
+                      background: #fff; color: #222; font-size: 17px; line-height: 1;
+                      cursor: pointer; box-shadow: 0 1px 4px rgba(0,0,0,.3); }
+    #backdrop { display: none; position: fixed; inset: 0; z-index: 1100;
+                background: rgba(0,0,0,.35); }
+    body:not(.nav-open) #sidebar { display: none; }
+
+    @media (max-width: 700px) {
+      #sidebar { position: fixed; z-index: 1150; top: 0; left: 0; height: 100%;
+                 width: min(280px, 82vw); border-right: 1px solid #ccc;
+                 box-shadow: 2px 0 8px rgba(0,0,0,.25); }
+      body.nav-open #backdrop { display: block; }
+    }
     #count { color: #555; font-size: 12px; margin-bottom: 12px; }
     fieldset { border: 1px solid #ddd; border-radius: 6px; margin: 0 0 12px; padding: 8px 10px; }
     legend { font-weight: 600; padding: 0 4px; }
@@ -31,6 +50,15 @@
   </style>
 </head>
 <body>
+  <!-- decide the drawer's initial state before first paint, so phones never
+       flash the sidebar and desktops never flash a collapsed one -->
+  <script>
+    if (!window.matchMedia("(max-width: 700px)").matches)
+      document.body.classList.add("nav-open");
+  </script>
+  <button id="sidebar-toggle" type="button" aria-controls="sidebar"
+          aria-expanded="false" aria-label="Filtry">☰</button>
+  <div id="backdrop"></div>
   <div id="app">
     <aside id="sidebar">
       <h1>retreat — mapa nálezů</h1>
@@ -152,6 +180,25 @@
       const hit = markers.get(guid);
       if (hit) { map.setView(hit.marker.getLatLng(), 15); hit.marker.openPopup(); }
     }
+
+    // sidebar toggle — off-canvas drawer on phones (closed by default so the map
+    // is usable in portrait), collapsible column on wider screens (open by default).
+    const toggleEl = document.getElementById("sidebar-toggle");
+    const backdropEl = document.getElementById("backdrop");
+    const isNarrow = () => window.matchMedia("(max-width: 700px)").matches;
+
+    function setNav(open) {
+      document.body.classList.toggle("nav-open", open);
+      toggleEl.setAttribute("aria-expanded", open ? "true" : "false");
+      toggleEl.textContent = open ? "✕" : "☰";
+      // on wide screens the sidebar is in flow, so collapsing resizes the map
+      map.invalidateSize();
+    }
+
+    toggleEl.addEventListener("click", () => setNav(!document.body.classList.contains("nav-open")));
+    backdropEl.addEventListener("click", () => setNav(false));
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") setNav(false); });
+    setNav(!isNarrow());
 
     // wire controls
     document.querySelectorAll("[data-tier]").forEach((el) => {

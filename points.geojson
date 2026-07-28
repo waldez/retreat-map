@@ -20561,29 +20561,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.249685,
-          49.055772
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 4331 m² — Osvětimany, Uherské Hradiště, Zlínský kraj",
-        "price": 177551,
-        "price_label": "177 551 Kč",
-        "source": "sreality",
-        "guid": "sreality:321294412",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.249685&y=49.055772&z=17&source=coor&id=17.249685,49.055772",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/osvetimany-osvetimany-/321294412",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.784203,
           49.904615
         ]
@@ -20602,32 +20579,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.127554,
-          50.940221
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 6397 m² — Krásný Les, Liberec, Liberecký kraj",
-        "price": 330000,
-        "price_label": "330 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:3625358156",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.127554&y=50.940221&z=17&source=coor&id=15.127554,50.940221",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/krasny-les-krasny-les-/3625358156",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     },
@@ -65537,6 +65488,32 @@
           "POOR_ACCESS",
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.16169,
+          49.953204
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 5791 m² — Vysoké Mýto, Ústí nad Orlicí, Pardubický kraj",
+        "price": 87000,
+        "price_label": "87 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:853516364",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.16169&y=49.953204&z=17&source=coor&id=16.16169,49.953204",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/vysoke-myto-vysoke-myto-/853516364",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     }

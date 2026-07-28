@@ -21020,33 +21020,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.259732,
-          49.618801
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 6783 m² — Jimramov – Ubušín, Žďár nad Sázavou, Kraj Vysočina",
-        "price": 264537,
-        "price_label": "264 537 Kč",
-        "source": "sreality",
-        "guid": "sreality:2287530060",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.259732&y=49.618801&z=17&source=coor&id=16.259732,49.618801",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/jimramov-ubusin-/2287530060",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.421417,
           49.321236
         ]
@@ -56883,34 +56856,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.80983,
-          49.869247
-        ]
-      },
-      "properties": {
-        "title": "Dražba: Elektronická dražba lesních pozemků v obci Zábřeh — vyvolávací 218000 Kč (odhad 327000 Kč), koná se 2026-07-28",
-        "price": 218000,
-        "price_label": "218 000 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:167ex3263-17-3396-mjnpx",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.80983&y=49.869247&z=17&source=coor&id=16.80983,49.869247",
-        "link": "https://www.portaldrazeb.cz/drazba/167ex3263-17-3396-mjnpx",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.487345,
           49.880434
         ]
@@ -65650,6 +65595,88 @@
         "pin_color": "#1565c0",
         "marker-color": "#1565c0",
         "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.878991,
+          49.202592
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Lhotsko: 123 000",
+        "price": 123000,
+        "price_label": "123 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221855990/prodej-pozemku-ku-lhotsko.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.878991&y=49.202592&z=17&source=coor&id=17.878991,49.202592",
+        "link": "https://reality.bazos.cz/inzerat/221855990/prodej-pozemku-ku-lhotsko.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.562233,
+          49.389826
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Loužná: 190 000",
+        "price": 190000,
+        "price_label": "190 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221855383/prodej-lesnich-pozemku-ku-louzna.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.562233&y=49.389826&z=17&source=coor&id=13.562233,49.389826",
+        "link": "https://reality.bazos.cz/inzerat/221855383/prodej-lesnich-pozemku-ku-louzna.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.93448,
+          50.019393
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Elektronická dražba podílu id. 1/2 na lesních pozemcích v obci Bratrušov — vyvolávací 224000 Kč (odhad 336000 Kč), koná se 2026-07-28",
+        "price": 224000,
+        "price_label": "224 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:167ex3263-17-3397-wepyg",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.93448&y=50.019393&z=17&source=coor&id=16.93448,50.019393",
+        "link": "https://www.portaldrazeb.cz/drazba/167ex3263-17-3397-wepyg",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
           "LIKELY_NONBUILDABLE"
         ]
       }

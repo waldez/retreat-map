@@ -70209,6 +70209,59 @@
           "POOR_ACCESS"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.040581,
+          50.031972
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7690 m² — Velké Losiny, Šumperk, Olomoucký kraj",
+        "price": 292000,
+        "price_label": "292 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3212693580",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.040581&y=50.031972&z=17&source=coor&id=17.040581,50.031972",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/velke-losiny-velke-losiny-/3212693580",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.058057,
+          50.029133
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Maršíkov: 292 000",
+        "price": 292000,
+        "price_label": "292 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221921528/prodej-lesnich-pozemku-ku-marsikov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.058057&y=50.029133&z=17&source=coor&id=17.058057,50.029133",
+        "link": "https://reality.bazos.cz/inzerat/221921528/prodej-lesnich-pozemku-ku-marsikov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS"
+        ]
+      }
     }
   ]
 }

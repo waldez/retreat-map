@@ -70262,6 +70262,59 @@
           "POOR_ACCESS"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.254076,
+          50.642738
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4901 m² — Železný Brod, Jablonec nad Nisou, Liberecký kraj",
+        "price": 98000,
+        "price_label": "98 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2880995404",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.254076&y=50.642738&z=17&source=coor&id=15.254076,50.642738",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/zelezny-brod-zelezny-brod-/2880995404",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.52751,
+          48.8242
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7181 m² — Ločenice, České Budějovice, Jihočeský kraj",
+        "price": 170000,
+        "price_label": "170 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3806335564",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.52751&y=48.8242&z=17&source=coor&id=14.52751,48.8242",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/locenice-locenice-/3806335564",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

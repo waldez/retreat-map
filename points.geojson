@@ -72402,6 +72402,62 @@
           "CO_OWNERSHIP"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.679468,
+          49.612372
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 2070 m² — Velké Opatovice, Blansko, Jihomoravský kraj",
+        "price": 450,
+        "price_label": "450 Kč",
+        "source": "sreality",
+        "guid": "sreality:2926366796",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.679468&y=49.612372&z=17&source=coor&id=16.679468,49.612372",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/velke-opatovice-velke-opatovice-/2926366796",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.56331,
+          49.67489
+        ]
+      },
+      "properties": {
+        "title": "Dražba: ideální podíl 1/4 lesního pozemku v k.ú. Horní Krupá u Havlíčkova Brodu, okres Havlíčkův Brod, opakovaná dražba — vyvolávací 3000 Kč (odhad 8400 Kč), koná se 2026-08-04",
+        "price": 3000,
+        "price_label": "3 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:193dd185-25-ii-avwnb",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.56331&y=49.67489&z=17&source=coor&id=15.56331,49.67489",
+        "link": "https://www.portaldrazeb.cz/drazba/193dd185-25-ii-avwnb",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

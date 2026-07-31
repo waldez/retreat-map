@@ -72458,6 +72458,64 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.064407,
+          50.478355
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Solec: 55 000",
+        "price": 55000,
+        "price_label": "55 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221974271/prodej-lesniho-pozemku-ku-solec.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.064407&y=50.478355&z=17&source=coor&id=15.064407,50.478355",
+        "link": "https://reality.bazos.cz/inzerat/221974271/prodej-lesniho-pozemku-ku-solec.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5136,
+          49.1806
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4468 m² — Napajedla, Zlín, Zlínský kraj",
+        "price": 223400,
+        "price_label": "223 400 Kč",
+        "source": "sreality",
+        "guid": "sreality:3128741964",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.5136&y=49.1806&z=17&source=coor&id=17.5136,49.1806",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/napajedla-napajedla-/3128741964",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
     }
   ]
 }

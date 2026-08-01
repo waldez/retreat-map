@@ -73316,6 +73316,139 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.752728,
+          50.214311
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 1785 m² — Třeboc, Rakovník, Středočeský kraj",
+        "price": 68000,
+        "price_label": "68 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:607449164",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.752728&y=50.214311&z=17&source=coor&id=13.752728,50.214311",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/treboc-treboc-/607449164",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.535971,
+          49.08668
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2190 m² — Mistřice, Uherské Hradiště, Zlínský kraj",
+        "price": 88000,
+        "price_label": "88 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2161016908",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.535971&y=49.08668&z=17&source=coor&id=17.535971,49.08668",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/mistrice-mistrice-/2161016908",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.929551,
+          48.982695
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 1959 m² — Boskovštejn, Znojmo, Jihomoravský kraj",
+        "price": 45000,
+        "price_label": "45 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:284640076",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.929551&y=48.982695&z=17&source=coor&id=15.929551,48.982695",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/boskovstejn-boskovstejn-/284640076",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "NARROW_PLOT",
+          "AVOID",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.44146,
+          49.849068
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 8400 m² — Hromnice, Plzeň-sever, Plzeňský kraj",
+        "price": 286000,
+        "price_label": "286 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:4038767436",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.44146&y=49.849068&z=17&source=coor&id=13.44146,49.849068",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/hromnice-hromnice-/4038767436",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.016065,
+          50.512372
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 7765 m² — Úpice, Trutnov, Královéhradecký kraj",
+        "price": 265000,
+        "price_label": "265 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1908941388",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.016065&y=50.512372&z=17&source=coor&id=16.016065,50.512372",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/upice-upice-/1908941388",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
     }
   ]
 }

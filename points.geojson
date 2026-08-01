@@ -22280,92 +22280,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.108102,
-          50.692227
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 753 m² — Povrly - Mírkov, Ústecký kraj",
-        "price": 14000,
-        "price_label": "14 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1022145",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.108102&y=50.692227&z=17&source=coor&id=14.108102,50.692227",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1022145-nabidka-prodej-pozemku-povrly",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.107557,
-          50.694113
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1460 m² — Povrly - Mírkov, Ústecký kraj",
-        "price": 24000,
-        "price_label": "24 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1022143",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.107557&y=50.694113&z=17&source=coor&id=14.107557,50.694113",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1022143-nabidka-prodej-pozemku-povrly",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.103988,
-          50.691255
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1059 m² — Povrly - Mírkov, Ústecký kraj",
-        "price": 19000,
-        "price_label": "19 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1022141",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.103988&y=50.691255&z=17&source=coor&id=14.103988,50.691255",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1022141-nabidka-prodej-pozemku-povrly",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "PROTECTED_AREA",
-          "CO_OWNERSHIP",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.350785,
           49.372697
         ]
@@ -73667,6 +73581,33 @@
           "ZPF_SOIL",
           "CO_OWNERSHIP",
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.792798,
+          50.113862
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 129 m², pozemek 360 m² — Krásno, Sokolov, Karlovarský kraj",
+        "price": 690000,
+        "price_label": "690 000 Kč",
+        "source": "house",
+        "guid": "house:3982741580",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.792798&y=50.113862&z=17&source=coor&id=12.792798,50.113862",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/krasno-krasno-hlavni/3982741580",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "ZPF_SOIL"
         ]
       }
     }

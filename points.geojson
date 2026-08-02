@@ -24072,32 +24072,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.932117,
-          49.158151
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2531 m² — Vysoké Pole - Vysoké Pole, Zlínský kraj",
-        "price": 77250,
-        "price_label": "77 250 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1043167",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.932117&y=49.158151&z=17&source=coor&id=17.932117,49.158151",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1043167-nabidka-prodej-pozemku-vysoke-pole",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.462405,
           49.849046
         ]
@@ -24233,33 +24207,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.980684,
-          48.828399
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 6063 m² — Prušánky, Hodonín, Jihomoravský kraj",
-        "price": 333465,
-        "price_label": "333 465 Kč",
-        "source": "sreality",
-        "guid": "sreality:1535414348",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.980684&y=48.828399&z=17&source=coor&id=16.980684,48.828399",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/prusanky-prusanky-/1535414348",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.918958,
           50.452952
         ]
@@ -24309,33 +24256,6 @@
           "ZPF_SOIL",
           "CO_OWNERSHIP",
           "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.414875,
-          49.965596
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 42 m², pozemek 1 m² — Praha – Točná, Praha 4, Hlavní město Praha",
-        "price": 699000,
-        "price_label": "699 000 Kč",
-        "source": "chata",
-        "guid": "chata:3950960716",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.414875&y=49.965596&z=17&source=coor&id=14.414875,49.965596",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-tocna-pod-cihadlem/3950960716",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     },
@@ -73370,6 +73290,57 @@
           "PROTECTED_AREA",
           "ZPF_SOIL"
         ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.711848,
+          50.078842
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 438 m², pozemek 438 m² — Krnov – Pod Cvilínem, Bruntál, Moravskoslezský kraj",
+        "price": 500000,
+        "price_label": "500 000 Kč",
+        "source": "chata",
+        "guid": "chata:2185482316",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.711848&y=50.078842&z=17&source=coor&id=17.711848,50.078842",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/krnov-pod-cvilinem-nova-cvilinska/2185482316",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.602252,
+          49.932922
+        ]
+      },
+      "properties": {
+        "title": "Stavební pozemek v Železných horách: Dohodou",
+        "price": null,
+        "price_label": null,
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222049441/stavebni-pozemek-v-zeleznych-horach.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.602252&y=49.932922&z=17&source=coor&id=15.602252,49.932922",
+        "link": "https://reality.bazos.cz/inzerat/222049441/stavebni-pozemek-v-zeleznych-horach.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32"
       }
     }
   ]

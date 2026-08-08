@@ -35376,35 +35376,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.083182,
-          48.936702
-        ]
-      },
-      "properties": {
-        "title": "Pole 4 465 m², Podíl 25 % o výměře 1 289 m²: 46 239",
-        "price": 46239,
-        "price_label": "46 239 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221395548/pole-4-465-m-podil-25-o-vymere-1-289-m.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.083182&y=48.936702&z=17&source=coor&id=17.083182,48.936702",
-        "link": "https://reality.bazos.cz/inzerat/221395548/pole-4-465-m-podil-25-o-vymere-1-289-m.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.127085,
           49.557181
         ]
@@ -36688,34 +36659,6 @@
         "flags": [
           "ZPF_SOIL",
           "LIKELY_NONBUILDABLE"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.198048,
-          49.156665
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 986 m² — Strmilov, Jindřichův Hradec, Jihočeský kraj",
-        "price": 99000,
-        "price_label": "99 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1807889228",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.198048&y=49.156665&z=17&source=coor&id=15.198048,49.156665",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/strmilov-strmilov-kunzatecka/1807889228",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
         ]
       }
     },
@@ -73823,6 +73766,230 @@
         "marker-color": "#1565c0",
         "flags": [
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.328425,
+          49.82163
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6013 m² — Ledce, Plzeň-sever, Plzeňský kraj",
+        "price": 349000,
+        "price_label": "349 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3853849420",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.328425&y=49.82163&z=17&source=coor&id=13.328425,49.82163",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/ledce-ledce-/3853849420",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.934604,
+          49.892011
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Lesnice: 49 000",
+        "price": 49000,
+        "price_label": "49 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222286990/prodej-lesniho-pozemku-ku-lesnice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.934604&y=49.892011&z=17&source=coor&id=16.934604,49.892011",
+        "link": "https://reality.bazos.cz/inzerat/222286990/prodej-lesniho-pozemku-ku-lesnice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.960199,
+          49.012177
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 7360 m² — Násedlovice, Hodonín, Jihomoravský kraj",
+        "price": 397422,
+        "price_label": "397 422 Kč",
+        "source": "sreality",
+        "guid": "sreality:187822156",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.960199&y=49.012177&z=17&source=coor&id=16.960199,49.012177",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/nasedlovice-nasedlovice-/187822156",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.069745,
+          50.275559
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 8795 m² — Dřínov, Kladno, Středočeský kraj",
+        "price": 395775,
+        "price_label": "395 775 Kč",
+        "source": "sreality",
+        "guid": "sreality:1244848204",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.069745&y=50.275559&z=17&source=coor&id=14.069745,50.275559",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/drinov-drinov-/1244848204",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.194339,
+          49.110954
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 48 m², pozemek 200 m² — Mohelno, Třebíč, Kraj Vysočina",
+        "price": 990000,
+        "price_label": "990 000 Kč",
+        "source": "house",
+        "guid": "house:4291219532",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.194339&y=49.110954&z=17&source=coor&id=16.194339,49.110954",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/mohelno-mohelno-/4291219532",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.697205,
+          49.870977
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 10358 m² — Tatenice, Ústí nad Orlicí, Pardubický kraj",
+        "price": 435036,
+        "price_label": "435 036 Kč",
+        "source": "sreality",
+        "guid": "sreality:1177739340",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.697205&y=49.870977&z=17&source=coor&id=16.697205,49.870977",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/tatenice-tatenice-/1177739340",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.148893,
+          48.914897
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Ratíškovice: 100 000",
+        "price": 100000,
+        "price_label": "100 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222291056/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.148893&y=48.914897&z=17&source=coor&id=17.148893,48.914897",
+        "link": "https://reality.bazos.cz/inzerat/222291056/prodej-lesnich-pozemku-ku-ratiskovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.683507,
+          48.994589
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2769 m² — Uherský Brod, Uherské Hradiště, Zlínský kraj",
+        "price": 170000,
+        "price_label": "170 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2995999564",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.683507&y=48.994589&z=17&source=coor&id=17.683507,48.994589",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/uhersky-brod-uhersky-brod-/2995999564",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "GROUP_HAS_ZPF",
+          "SECONDARY_ONLY"
         ]
       }
     }

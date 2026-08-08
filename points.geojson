@@ -39306,29 +39306,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.088947,
-          49.789555
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 2070 m² — Olbramice, Ostrava-město, Moravskoslezský kraj",
-        "price": 58000,
-        "price_label": "58 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2336612428",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.088947&y=49.789555&z=17&source=coor&id=18.088947,49.789555",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/olbramice-olbramice-/2336612428",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.478624,
           50.093724
         ]
@@ -74240,6 +74217,63 @@
           "FLOOD_HAZARD",
           "LOW_CONFIDENCE_LOCATION",
           "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.491022,
+          49.956484
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1122 m² — Bílé Podolí, Kutná Hora, Středočeský kraj",
+        "price": 55490,
+        "price_label": "55 490 Kč",
+        "source": "sreality",
+        "guid": "sreality:1127845964",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.491022&y=49.956484&z=17&source=coor&id=15.491022,49.956484",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bile-podoli-bile-podoli-/1127845964",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.914926,
+          49.514366
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 34 m², pozemek 34 m² — Horšovský Týn – Podhájí, Domažlice, Plzeňský kraj",
+        "price": 650000,
+        "price_label": "650 000 Kč",
+        "source": "chata",
+        "guid": "chata:802066508",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.914926&y=49.514366&z=17&source=coor&id=12.914926,49.514366",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/horsovsky-tyn-podhaji-/802066508",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "PLACEHOLDER_PIN",
           "LIKELY_NONBUILDABLE",
           "SMALL_PLOT"
         ]

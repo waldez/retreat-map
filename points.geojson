@@ -50411,35 +50411,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.405655,
-          50.075309
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 32 m², pozemek 20 m² — Praha – Smíchov, Praha 5, Hlavní město Praha",
-        "price": 690000,
-        "price_label": "690 000 Kč",
-        "source": "chata",
-        "guid": "chata:2478362700",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.405655&y=50.075309&z=17&source=coor&id=14.405655,50.075309",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-smichov-/2478362700",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "FLOOD_HAZARD",
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.476751,
           49.113089
         ]
@@ -62974,35 +62945,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.255214,
-          49.872678
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 46 m², pozemek 423 m² — Ostrava – Petřkovice, Ostrava-město, Moravskoslezský kraj",
-        "price": 860000,
-        "price_label": "860 000 Kč",
-        "source": "chata",
-        "guid": "chata:2076299340",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.255214&y=49.872678&z=17&source=coor&id=18.255214,49.872678",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/ostrava-petrkovice-/2076299340",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.861537,
           49.811546
         ]
@@ -74724,6 +74666,116 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.408313,
+          50.254974
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 213 m², pozemek 334 m² — Luby, Cheb, Karlovarský kraj",
+        "price": 1391500,
+        "price_label": "1 391 500 Kč",
+        "source": "house",
+        "guid": "house:1797120076",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.408313&y=50.254974&z=17&source=coor&id=12.408313,50.254974",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/luby-luby-sokolovska/1797120076",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.69424,
+          49.082395
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 7091 m² — Měnín, Brno-venkov, Jihomoravský kraj",
+        "price": 368732,
+        "price_label": "368 732 Kč",
+        "source": "sreality",
+        "guid": "sreality:699584588",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.69424&y=49.082395&z=17&source=coor&id=16.69424,49.082395",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/menin-menin-/699584588",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.81567,
+          50.288536
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 24 m², pozemek 398 m² — Benátky nad Jizerou – Benátky nad Jizerou III, Mladá Boleslav, Středočeský kraj",
+        "price": 799000,
+        "price_label": "799 000 Kč",
+        "source": "chata",
+        "guid": "chata:2232135756",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.81567&y=50.288536&z=17&source=coor&id=14.81567,50.288536",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/benatky-nad-jizerou-benatky-nad-jizerou-iii-/2232135756",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.090239,
+          50.14551
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 20 m², pozemek 308 m² — Kladno, Středočeský kraj",
+        "price": 550000,
+        "price_label": "550 000 Kč",
+        "source": "chata",
+        "guid": "chata:175493196",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.090239&y=50.14551&z=17&source=coor&id=14.090239,50.14551",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/kladno-kladno-kolmistrova/175493196",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
           "SMALL_PLOT"
         ]
       }

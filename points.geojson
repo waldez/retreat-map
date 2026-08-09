@@ -47400,33 +47400,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.665933,
-          49.613824
-        ]
-      },
-      "properties": {
-        "title": "Prodej podílu 3/16 louky 1 433 m², Velké Opatovice: 55 000",
-        "price": 55000,
-        "price_label": "55 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221709591/prodej-podilu-316-louky-1-433-m-velke-opatovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.665933&y=49.613824&z=17&source=coor&id=16.665933,49.613824",
-        "link": "https://reality.bazos.cz/inzerat/221709591/prodej-podilu-316-louky-1-433-m-velke-opatovice.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.487474,
           49.981918
         ]
@@ -47522,34 +47495,6 @@
         "guid": "sreality:3255423052",
         "mapy_url": "https://mapy.cz/zakladni?x=14.717273&y=49.084681&z=17&source=coor&id=14.717273,49.084681",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/lomnice-nad-luznici-lomnice-nad-luznici-/3255423052"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.608378,
-          49.015968
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 5638 m² — Lišov, České Budějovice, Jihočeský kraj",
-        "price": 310090,
-        "price_label": "310 090 Kč",
-        "source": "sreality",
-        "guid": "sreality:3590967372",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.608378&y=49.015968&z=17&source=coor&id=14.608378,49.015968",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/lisov-lisov-/3590967372",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ]
       }
     },
     {
@@ -74414,6 +74359,33 @@
         "marker-color": "#1565c0",
         "flags": [
           "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.448333,
+          49.669194
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 2645 m² — Losiná, Plzeň-město, Plzeňský kraj",
+        "price": 129000,
+        "price_label": "129 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2493489228",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.448333&y=49.669194&z=17&source=coor&id=13.448333,49.669194",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/losina-losina-/2493489228",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "PIN_HIT_COMMON_LAND"
         ]
       }
     }

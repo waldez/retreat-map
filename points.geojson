@@ -76521,6 +76521,90 @@
           "LIKELY_NONBUILDABLE"
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.611111,
+          50.600686
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 15 m², pozemek 267 m² — Litvínov, Most, Ústecký kraj",
+        "price": 850000,
+        "price_label": "850 000 Kč",
+        "source": "chata",
+        "guid": "chata:50647116",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.611111&y=50.600686&z=17&source=coor&id=13.611111,50.600686",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/litvinov-litvinov-/50647116",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.768856,
+          50.367586
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Velké Všelisy: 287 000",
+        "price": 287000,
+        "price_label": "287 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222402207/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.768856&y=50.367586&z=17&source=coor&id=14.768856,50.367586",
+        "link": "https://reality.bazos.cz/inzerat/222402207/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.589785,
+          49.203839
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 195 m² — Kraví hora, Brno - Veveří, Jihomoravský kraj",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1044287",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.589785&y=49.203839&z=17&source=coor&id=16.589785,49.203839",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1044287-nabidka-prodej-pozemku-kravi-hora-brno",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ]
+      }
     }
   ]
 }

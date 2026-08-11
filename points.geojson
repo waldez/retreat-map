@@ -41424,6 +41424,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.722599,
+          49.691953
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 480 m², Biskupice u Jevíčka: 310 000",
+        "price": 310000,
+        "price_label": "310 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221532292/prodej-pozemku-480-m-biskupice-u-jevicka.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.722599&y=49.691953&z=17&source=coor&id=16.722599,49.691953",
+        "link": "https://reality.bazos.cz/inzerat/221532292/prodej-pozemku-480-m-biskupice-u-jevicka.php",
+        "verdict": "unknown",
+        "suitability_tier": "unknown",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ovocný sad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.259317,
           49.548575
         ]
@@ -41605,6 +41633,35 @@
         "guid": "bazos:https://reality.bazos.cz/inzerat/221544579/prodam-lesni-pozemky-v-ku-prestenice.php",
         "mapy_url": "https://mapy.cz/zakladni?x=14.422156&y=49.488373&z=17&source=coor&id=14.422156,49.488373",
         "link": "https://reality.bazos.cz/inzerat/221544579/prodam-lesni-pozemky-v-ku-prestenice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.999618,
+          50.518043
+        ]
+      },
+      "properties": {
+        "title": "Prodám lesní pozemek v k.ú. Úpice: 265 000",
+        "price": 265000,
+        "price_label": "265 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221544534/prodam-lesni-pozemek-v-ku-upice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.999618&y=50.518043&z=17&source=coor&id=15.999618,50.518043",
+        "link": "https://reality.bazos.cz/inzerat/221544534/prodam-lesni-pozemek-v-ku-upice.php",
         "verdict": "secondary",
         "suitability_tier": "secondary",
         "pin_color": "#f9a825",
@@ -41893,6 +41950,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.40638,
+          48.860284
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Kněždub, Hodonín: 159 978",
+        "price": 159978,
+        "price_label": "159 978 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221547335/zemedelska-puda-prodej-knezdub-hodonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.40638&y=48.860284&z=17&source=coor&id=17.40638,48.860284",
+        "link": "https://reality.bazos.cz/inzerat/221547335/zemedelska-puda-prodej-knezdub-hodonin.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.255343,
           48.979683
         ]
@@ -42068,6 +42153,30 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.82613,
+          49.712099
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Vranová Lhota, Svitavy: 281 619",
+        "price": 281619,
+        "price_label": "281 619 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221548072/zemedelska-puda-prodej-vranova-lhota-svitavy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.82613&y=49.712099&z=17&source=coor&id=16.82613,49.712099",
+        "link": "https://reality.bazos.cz/inzerat/221548072/zemedelska-puda-prodej-vranova-lhota-svitavy.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.170973,
           50.486505
         ]
@@ -42086,6 +42195,35 @@
         "marker-color": "#1565c0",
         "flags": [
           "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.964085,
+          48.855496
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Nový Poddvorov, Hodonín: 267 960",
+        "price": 267960,
+        "price_label": "267 960 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221547481/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.964085&y=48.855496&z=17&source=coor&id=16.964085,48.855496",
+        "link": "https://reality.bazos.cz/inzerat/221547481/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
           "POOR_ACCESS",
           "ZPF_SOIL",
           "LIKELY_NONBUILDABLE"
@@ -42290,6 +42428,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.216534,
+          49.678017
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Obory, Příbram: 282 787",
+        "price": 282787,
+        "price_label": "282 787 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221551879/zemedelska-puda-prodej-obory-pribram.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.216534&y=49.678017&z=17&source=coor&id=14.216534,49.678017",
+        "link": "https://reality.bazos.cz/inzerat/221551879/zemedelska-puda-prodej-obory-pribram.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "RADON_HIGH",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.216367,
           49.6804
         ]
@@ -42426,6 +42592,62 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.784413,
+          48.933393
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa, 3219 m², Horní Bojanovice: 239 000",
+        "price": 239000,
+        "price_label": "239 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221560222/prodej-lesa-3219-m-horni-bojanovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.784413&y=48.933393&z=17&source=coor&id=16.784413,48.933393",
+        "link": "https://reality.bazos.cz/inzerat/221560222/prodej-lesa-3219-m-horni-bojanovice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.40638,
+          48.860284
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa, 953 m², Kněždub: 140 000",
+        "price": 140000,
+        "price_label": "140 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221560220/prodej-lesa-953-m-knezdub.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.40638&y=48.860284&z=17&source=coor&id=17.40638,48.860284",
+        "link": "https://reality.bazos.cz/inzerat/221560220/prodej-lesa-953-m-knezdub.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -43007,6 +43229,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          12.617415,
+          50.163539
+        ]
+      },
+      "properties": {
+        "title": "Pozemek Zahrada Investice: 300 000",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221569151/pozemek-zahrada-investice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.617415&y=50.163539&z=17&source=coor&id=12.617415,50.163539",
+        "link": "https://reality.bazos.cz/inzerat/221569151/pozemek-zahrada-investice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.369668,
           49.55501
         ]
@@ -43031,6 +43282,33 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "vodní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.374287,
+          49.230531
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 4297 m2, Všemyslice: 1 200",
+        "price": 1200,
+        "price_label": "1 200 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221574611/prodej-stavebniho-pozemku-4297-m2-vsemyslice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.374287&y=49.230531&z=17&source=coor&id=14.374287,49.230531",
+        "link": "https://reality.bazos.cz/inzerat/221574611/prodej-stavebniho-pozemku-4297-m2-vsemyslice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PRICE_PER_M2"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -43408,6 +43686,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.605172,
+          49.588158
+        ]
+      },
+      "properties": {
+        "title": "Ucelený soubor pozemků s vlastním lesem a potokem – Záluží u: 249 000",
+        "price": 249000,
+        "price_label": "249 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221578662/uceleny-soubor-pozemku-s-vlastnim-lesem-a-potokem-zaluzi-u.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.605172&y=49.588158&z=17&source=coor&id=13.605172,49.588158",
+        "link": "https://reality.bazos.cz/inzerat/221578662/uceleny-soubor-pozemku-s-vlastnim-lesem-a-potokem-zaluzi-u.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.64157,
           49.628308
         ]
@@ -43430,6 +43735,33 @@
           "LOW_CONFIDENCE_LOCATION"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.281628,
+          50.147617
+        ]
+      },
+      "properties": {
+        "title": "Prodej, pozemek, Mukoděly, okr. Louny: 852",
+        "price": 852,
+        "price_label": "852 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221578889/prodej-pozemek-mukodely-okr-louny.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.281628&y=50.147617&z=17&source=coor&id=13.281628,50.147617",
+        "link": "https://reality.bazos.cz/inzerat/221578889/prodej-pozemek-mukodely-okr-louny.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PRICE_UNIT_UNKNOWN"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -44015,6 +44347,34 @@
           "LOW_CONFIDENCE_LOCATION"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.317476,
+          48.987315
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu na orné půdě, výměra 1.647,5 m², Mor. Písek: 99 000",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221601254/prodej-podilu-na-orne-pude-vymera-16475-m-mor-pisek.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.317476&y=48.987315&z=17&source=coor&id=17.317476,48.987315",
+        "link": "https://reality.bazos.cz/inzerat/221601254/prodej-podilu-na-orne-pude-vymera-16475-m-mor-pisek.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -44754,6 +45114,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.718064,
+          48.997546
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 36 434 m², Podíl 4 % o výměř: 76 580",
+        "price": 76580,
+        "price_label": "76 580 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221614665/spekulacni-komercni-a-ostatni-36-434-m-podil-4-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.718064&y=48.997546&z=17&source=coor&id=17.718064,48.997546",
+        "link": "https://reality.bazos.cz/inzerat/221614665/spekulacni-komercni-a-ostatni-36-434-m-podil-4-o-vymer.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.844203,
           49.530623
         ]
@@ -44833,6 +45221,65 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.95133,
+          49.520938
+        ]
+      },
+      "properties": {
+        "title": "Les 71 845 m², Podíl 7 % o výměře 4 755 m²: 75 802",
+        "price": 75802,
+        "price_label": "75 802 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221616122/les-71-845-m-podil-7-o-vymere-4-755-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.95133&y=49.520938&z=17&source=coor&id=16.95133,49.520938",
+        "link": "https://reality.bazos.cz/inzerat/221616122/les-71-845-m-podil-7-o-vymere-4-755-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.578697,
+          48.910278
+        ]
+      },
+      "properties": {
+        "title": "POZEMEK PRO MOBILHEIM mezi obcí Suchov a Boršice: 49 000",
+        "price": 49000,
+        "price_label": "49 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221617326/pozemek-pro-mobilheim-mezi-obci-suchov-a-borsice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.578697&y=48.910278&z=17&source=coor&id=17.578697,48.910278",
+        "link": "https://reality.bazos.cz/inzerat/221617326/pozemek-pro-mobilheim-mezi-obci-suchov-a-borsice.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -45764,6 +46211,64 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.434866,
+          49.137882
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků o výměre 4 459 m2 v obci Traplice: 100 000",
+        "price": 100000,
+        "price_label": "100 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221643385/prodej-pozemku-o-vymere-4-459-m2-v-obci-traplice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.434866&y=49.137882&z=17&source=coor&id=17.434866,49.137882",
+        "link": "https://reality.bazos.cz/inzerat/221643385/prodej-pozemku-o-vymere-4-459-m2-v-obci-traplice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.422156,
+          49.488374
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa, 9634 m², Hrazany: 235 000",
+        "price": 235000,
+        "price_label": "235 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/221644210/prodej-lesa-9634-m-hrazany.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.422156&y=49.488374&z=17&source=coor&id=14.422156,49.488374",
+        "link": "https://reality.bazos.cz/inzerat/221644210/prodej-lesa-9634-m-hrazany.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -60272,241 +60777,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.03636,
-          49.326607
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Janová: 209 000",
-        "price": 209000,
-        "price_label": "209 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110298/prodej-lesniho-pozemku-ku-janova.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.03636&y=49.326607&z=17&source=coor&id=18.03636,49.326607",
-        "link": "https://reality.bazos.cz/inzerat/222110298/prodej-lesniho-pozemku-ku-janova.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.938946,
-          50.121219
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Poříčany: 272 000",
-        "price": 272000,
-        "price_label": "272 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110096/prodej-lesnich-pozemku-ku-poricany.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.938946&y=50.121219&z=17&source=coor&id=14.938946,50.121219",
-        "link": "https://reality.bazos.cz/inzerat/222110096/prodej-lesnich-pozemku-ku-poricany.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.553597,
-          50.505575
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Vrchovina: 55 000",
-        "price": 55000,
-        "price_label": "55 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110084/prodej-lesniho-pozemku-ku-vrchovina.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.553597&y=50.505575&z=17&source=coor&id=15.553597,50.505575",
-        "link": "https://reality.bazos.cz/inzerat/222110084/prodej-lesniho-pozemku-ku-vrchovina.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.577632,
-          49.750577
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Mistřovice: 40 000",
-        "price": 40000,
-        "price_label": "40 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110083/prodej-pozemku-ku-mistrovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.577632&y=49.750577&z=17&source=coor&id=18.577632,49.750577",
-        "link": "https://reality.bazos.cz/inzerat/222110083/prodej-pozemku-ku-mistrovice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "ZPF_SOIL",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.939587,
-          49.066425
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků v k.ú. Dolní Kožlí: 90 000",
-        "price": 90000,
-        "price_label": "90 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110073/prodej-lesnich-pozemku-v-ku-dolni-kozli.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.939587&y=49.066425&z=17&source=coor&id=13.939587,49.066425",
-        "link": "https://reality.bazos.cz/inzerat/222110073/prodej-lesnich-pozemku-v-ku-dolni-kozli.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.362099,
-          50.20231
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku v k.ú. Liberk: 185 000",
-        "price": 185000,
-        "price_label": "185 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110069/prodej-lesniho-pozemku-v-ku-liberk.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.362099&y=50.20231&z=17&source=coor&id=16.362099,50.20231",
-        "link": "https://reality.bazos.cz/inzerat/222110069/prodej-lesniho-pozemku-v-ku-liberk.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.669925,
-          50.360774
-        ]
-      },
-      "properties": {
-        "title": "Prodám lesní pozemky v katastrálním území Radouň: 114 000",
-        "price": 114000,
-        "price_label": "114 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222109875/prodam-lesni-pozemky-v-katastralnim-uzemi-radoun.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.669925&y=50.360774&z=17&source=coor&id=14.669925,50.360774",
-        "link": "https://reality.bazos.cz/inzerat/222109875/prodam-lesni-pozemky-v-katastralnim-uzemi-radoun.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.585356,
-          48.91851
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Zborov: 99 000",
-        "price": 99000,
-        "price_label": "99 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110972/prodej-lesniho-pozemku-ku-zborov.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.585356&y=48.91851&z=17&source=coor&id=14.585356,48.91851",
-        "link": "https://reality.bazos.cz/inzerat/222110972/prodej-lesniho-pozemku-ku-zborov.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.502025,
           50.322469
         ]
@@ -60529,35 +60799,6 @@
           "FLOOD_HAZARD",
           "ZPF_SOIL",
           "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.554185,
-          49.062853
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Mistřice I (2): 88 000",
-        "price": 88000,
-        "price_label": "88 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222112114/prodej-pozemku-ku-mistrice-i-2.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.554185&y=49.062853&z=17&source=coor&id=17.554185,49.062853",
-        "link": "https://reality.bazos.cz/inzerat/222112114/prodej-pozemku-ku-mistrice-i-2.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "NARROW_PLOT",
-          "POOR_ACCESS",
-          "SMALL_PLOT"
         ],
         "druh_pozemku": "trvalý travní porost"
       }
@@ -60768,36 +61009,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.073041,
-          49.858368
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Nová Hradečná: 38 000",
-        "price": 38000,
-        "price_label": "38 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222113741/prodej-lesnich-pozemku-ku-nova-hradecna.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.073041&y=49.858368&z=17&source=coor&id=17.073041,49.858368",
-        "link": "https://reality.bazos.cz/inzerat/222113741/prodej-lesnich-pozemku-ku-nova-hradecna.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.136355,
           49.575851
         ]
@@ -60851,37 +61062,6 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.077095,
-          49.890508
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Řepníky: 147 000",
-        "price": 147000,
-        "price_label": "147 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222114639/prodej-lesniho-pozemku-ku-repniky.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.077095&y=49.890508&z=17&source=coor&id=16.077095,49.890508",
-        "link": "https://reality.bazos.cz/inzerat/222114639/prodej-lesniho-pozemku-ku-repniky.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -81623,6 +81803,34 @@
           "POOR_ACCESS",
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.97797,
+          50.090904
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 75 m², pozemek 50 m² — Holice – Podlesí, Pardubice, Pardubický kraj",
+        "price": 460000,
+        "price_label": "460 000 Kč",
+        "source": "chata",
+        "guid": "chata:116113484",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.97797&y=50.090904&z=17&source=coor&id=15.97797,50.090904",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/holice-podlesi-/116113484",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "SMALL_PLOT"
         ],
         "druh_pozemku": "lesní pozemek"
       }

@@ -86,6 +86,15 @@
       </fieldset>
 
       <fieldset>
+        <legend>Druh pozemku</legend>
+        <div class="btns">
+          <button type="button" id="d-all">vše</button>
+          <button type="button" id="d-none">nic</button>
+        </div>
+        <div id="f-druh"></div>
+      </fieldset>
+
+      <fieldset>
         <legend>Typ / příznaky</legend>
         <label><input type="checkbox" id="f-struct"> jen stavby (dům/chata)</label>
         <div id="f-flags"></div>
@@ -150,6 +159,33 @@
                      : state.excludeFlags.delete(el.dataset.xflag);
           apply();
         }));
+    }
+
+    // Checked = VISIBLE. State stores the HIDDEN set, so a druh that appears in
+    // the data later (or is not vetted yet) is shown without anyone ticking it —
+    // the fail-open rule from mapfilter.js.
+    function buildDruhCheckboxes() {
+      const all = new Set();
+      for (const f of features) {
+        const d = f.properties.druh_pozemku;
+        if (d) all.add(d);
+      }
+      const box = document.getElementById("f-druh");
+      box.innerHTML = [...all].sort((a, b) => a.localeCompare(b, "cs")).map((d) =>
+        `<label><input type="checkbox" data-druh="${esc(d)}"
+          ${state.hiddenDruhs.has(d) ? "" : "checked"}> ${esc(d)}</label>`).join("");
+      box.querySelectorAll("[data-druh]").forEach((el) =>
+        el.addEventListener("change", () => {
+          el.checked ? state.hiddenDruhs.delete(el.dataset.druh)
+                     : state.hiddenDruhs.add(el.dataset.druh);
+          apply();
+        }));
+      document.getElementById("d-all").onclick = () => {
+        state.hiddenDruhs.clear(); buildDruhCheckboxes(); apply();
+      };
+      document.getElementById("d-none").onclick = () => {
+        state.hiddenDruhs = new Set(all); buildDruhCheckboxes(); apply();
+      };
     }
 
     function render() {
@@ -229,6 +265,7 @@
         features = (fc.features || []).filter(
           (f) => f.geometry && f.geometry.type === "Point");
         buildFlagCheckboxes();
+        buildDruhCheckboxes();
         apply();
         if (state.focusGuid) focusGuid(state.focusGuid);
       })

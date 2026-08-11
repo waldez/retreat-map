@@ -22395,33 +22395,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.772322,
-          49.604516
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 3421 m² — Šebířov – Vyšetice, Tábor, Jihočeský kraj",
-        "price": 167629,
-        "price_label": "167 629 Kč",
-        "source": "sreality",
-        "guid": "sreality:1409646668",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.772322&y=49.604516&z=17&source=coor&id=14.772322,49.604516",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/sebirov-vysetice-/1409646668",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.353337,
           49.560941
         ]
@@ -22906,33 +22879,6 @@
           "LOW_CONFIDENCE_LOCATION",
           "LIKELY_NONBUILDABLE",
           "SMALL_PLOT"
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.350849,
-          49.062545
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2636 m² — Boršice, Uherské Hradiště, Zlínský kraj",
-        "price": 129140,
-        "price_label": "129 140 Kč",
-        "source": "sreality",
-        "guid": "sreality:4094001228",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.350849&y=49.062545&z=17&source=coor&id=17.350849,49.062545",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/borsice-borsice-/4094001228",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
         ]
       }
     },
@@ -76602,6 +76548,91 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.349348,
+          49.802335
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6954 m² — Nové Dvory - Nové Dvory u Dobříše, Středočeský kraj",
+        "price": 365000,
+        "price_label": "365 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1013633",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.349348&y=49.802335&z=17&source=coor&id=14.349348,49.802335",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1013633-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.813292,
+          49.847375
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 11254 m² — Ostředek - Bělčice u Ostředka, Středočeský kraj",
+        "price": 389000,
+        "price_label": "389 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1003146",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.813292&y=49.847375&z=17&source=coor&id=14.813292,49.847375",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1003146-nabidka-prodej-pozemku-ostredek",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "RADON_HIGH",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.631019,
+          49.266643
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 102 m², pozemek 281 m² — Žichovice, Klatovy, Plzeňský kraj",
+        "price": 1499000,
+        "price_label": "1 499 000 Kč",
+        "source": "house",
+        "guid": "house:682750028",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.631019&y=49.266643&z=17&source=coor&id=13.631019,49.266643",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/zichovice-zichovice-/682750028",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
           "SMALL_PLOT"
         ]
       }

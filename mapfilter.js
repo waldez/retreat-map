@@ -29,9 +29,20 @@ export function defaultState() {
     includeUnpriced: true,
     structuresOnly: false,
     excludeFlags: new Set(),
+    // Parcel types (ČÚZK druh pozemku) to HIDE. Exclude-semantics on purpose,
+    // mirroring excludeFlags rather than tiers: druh values are open-ended, and
+    // a value missing from an include-list would be invisible — exactly how
+    // `primary_conditional` hid 42% of the map (see the TIERS note above).
+    // Fail open: unknown, new, and not-yet-vetted parcels stay shown.
+    hiddenDruhs: new Set(),
     focusGuid: null,
   };
 }
+
+export function druhOf(props) {
+  return props.druh_pozemku || "";
+}
+
 
 export function tierOf(props) {
   return props.suitability_tier || props.verdict || "unknown";
@@ -52,6 +63,11 @@ export function passesFilters(props, state) {
   if (state.excludeFlags.size && Array.isArray(props.flags)) {
     for (const f of props.flags) if (state.excludeFlags.has(f)) return false;
   }
+
+  // An absent druh (not vetted yet) is never hidden — those are the freshest
+  // listings and dropping them would hide exactly what is worth looking at.
+  const druh = druhOf(props);
+  if (druh && state.hiddenDruhs.has(druh)) return false;
   return true;
 }
 
@@ -62,6 +78,10 @@ export function serializeHash(state) {
   if (!state.includeUnpriced) p.set("unpriced", "0");
   if (state.structuresOnly) p.set("struct", "1");
   if (state.excludeFlags.size) p.set("xflag", [...state.excludeFlags].join(","));
+  // Repeated params, not a joined list: a druh may legitimately contain a comma
+  // ("ostatní plocha, jiná plocha") and joining would split it into two bogus
+  // filters that match nothing.
+  for (const d of state.hiddenDruhs) p.append("xdruh", d);
   if (state.focusGuid) p.set("guid", state.focusGuid);
   return p.toString();
 }
@@ -71,6 +91,7 @@ export function parseHash(hash, base = defaultState()) {
     ...base,
     tiers: new Set(base.tiers),
     excludeFlags: new Set(base.excludeFlags),
+    hiddenDruhs: new Set(base.hiddenDruhs),
   };
   const p = new URLSearchParams((hash || "").replace(/^#/, ""));
   if (p.has("tier")) s.tiers = new Set(p.get("tier").split(",").filter(Boolean));
@@ -81,6 +102,7 @@ export function parseHash(hash, base = defaultState()) {
   if (p.has("unpriced")) s.includeUnpriced = p.get("unpriced") !== "0";
   if (p.has("struct")) s.structuresOnly = p.get("struct") === "1";
   if (p.has("xflag")) s.excludeFlags = new Set(p.get("xflag").split(",").filter(Boolean));
+  if (p.has("xdruh")) s.hiddenDruhs = new Set(p.getAll("xdruh").filter(Boolean));
   if (p.has("guid")) s.focusGuid = p.get("guid");
   return s;
 }

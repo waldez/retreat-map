@@ -19130,35 +19130,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.297455,
-          50.121197
-        ]
-      },
-      "properties": {
-        "title": "Zahrada 3 528 m², Podíl 50 % o výměře 1 764 m²: 68 267",
-        "price": 68267,
-        "price_label": "68 267 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221038084/zahrada-3-528-m-podil-50-o-vymere-1-764-m.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.297455&y=50.121197&z=17&source=coor&id=16.297455,50.121197",
-        "link": "https://reality.bazos.cz/inzerat/221038084/zahrada-3-528-m-podil-50-o-vymere-1-764-m.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.659362,
           49.097337
         ]
@@ -86879,6 +86850,111 @@
           "ENCUMBRANCE"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.633901,
+          49.743298
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 514 m² — Moravská Třebová – Boršov, Svitavy, Pardubický kraj",
+        "price": 218622,
+        "price_label": "218 622 Kč",
+        "source": "sreality",
+        "guid": "sreality:1633456204",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.633901&y=49.743298&z=17&source=coor&id=16.633901,49.743298",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/moravska-trebova-borsov-/1633456204"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.843201,
+          49.986906
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 6452 m² — Bušín, Šumperk, Olomoucký kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1343864908",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.843201&y=49.986906&z=17&source=coor&id=16.843201,49.986906",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/busin-busin-/1343864908",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PARCEL_NOT_FOUND",
+          "SECONDARY_ONLY",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.843201,
+          49.986906
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6452 m² — Bušín - Bušín, Olomoucký kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1055733",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.843201&y=49.986906&z=17&source=coor&id=16.843201,49.986906",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1055733-nabidka-prodej-pozemku-busin",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PARCEL_NOT_FOUND",
+          "SECONDARY_ONLY",
+          "PLACEHOLDER_PIN"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.262382,
+          50.323478
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 100 m², pozemek 1300 m² — Velké Kunětice, Jeseník, Olomoucký kraj",
+        "price": 1450000,
+        "price_label": "1 450 000 Kč",
+        "source": "house",
+        "guid": "house:1172445276",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.262382&y=50.323478&z=17&source=coor&id=17.262382,50.323478",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/velke-kunetice-velke-kunetice-/1172445276",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PARCEL_NOT_FOUND"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

@@ -22315,35 +22315,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.376634,
-          50.374601
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2291 m² — Cítov - Cítov, Středočeský kraj",
-        "price": 85000,
-        "price_label": "85 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1033028",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.376634&y=50.374601&z=17&source=coor&id=14.376634,50.374601",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1033028-nabidka-prodej-pozemku-citov",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.884036,
           49.642252
         ]
@@ -22926,35 +22897,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.86431,
-          49.56447
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 1008 m² — Vilice, Tábor, Jihočeský kraj",
-        "price": 99000,
-        "price_label": "99 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:4058701900",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.86431&y=49.56447&z=17&source=coor&id=14.86431,49.56447",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vilice-vilice-/4058701900",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -68190,35 +68132,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.801161,
-          48.795167
-        ]
-      },
-      "properties": {
-        "title": "Prodej rybníku (vodní plochy) 4246 m² — Nové Hrady – Štiptoň, České Budějovice, Jihočeský kraj",
-        "price": 390000,
-        "price_label": "390 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:3198668876",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.801161&y=48.795167&z=17&source=coor&id=14.801161,48.795167",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/rybnik/nove-hrady-stipton-/3198668876",
-        "verdict": "avoid",
-        "suitability_tier": "avoid",
-        "pin_color": "#c62828",
-        "marker-color": "#c62828",
-        "flags": [
-          "POOR_ACCESS",
-          "AVOID",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "vodní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.771072,
           49.203036
         ]
@@ -86544,6 +86457,111 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.965357,
+          49.066563
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4406 m² — Chlumany, Prachatice, Jihočeský kraj",
+        "price": 126000,
+        "price_label": "126 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1094238284",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.965357&y=49.066563&z=17&source=coor&id=13.965357,49.066563",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/chlumany-chlumany-/1094238284",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "DRUH_CONTRADICTS_TITLE"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.833194,
+          48.960291
+        ]
+      },
+      "properties": {
+        "title": "Soubor pozemků v KÚ BOLERADICE: 40",
+        "price": 40,
+        "price_label": "40 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222582769/soubor-pozemku-v-ku-boleradice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.833194&y=48.960291&z=17&source=coor&id=16.833194,48.960291",
+        "link": "https://reality.bazos.cz/inzerat/222582769/soubor-pozemku-v-ku-boleradice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "PRICE_PER_M2",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.949363,
+          49.051954
+        ]
+      },
+      "properties": {
+        "title": "Lesní pozemek Chlumany: 126 000",
+        "price": 126000,
+        "price_label": "126 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222582372/lesni-pozemek-chlumany.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.949363&y=49.051954&z=17&source=coor&id=13.949363,49.051954",
+        "link": "https://reality.bazos.cz/inzerat/222582372/lesni-pozemek-chlumany.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.714284,
+          48.943863
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2014 m² — Bítov, Znojmo, Jihomoravský kraj",
+        "price": 385000,
+        "price_label": "385 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1111015500",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.714284&y=48.943863&z=17&source=coor&id=15.714284,48.943863",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bitov-bitov-/1111015500"
       }
     }
   ]

@@ -78919,36 +78919,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.553596,
-          50.505574
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Vrchovina: 55 000",
-        "price": 55000,
-        "price_label": "55 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222390324/prodej-lesniho-pozemku-ku-vrchovina.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.553596&y=50.505574&z=17&source=coor&id=15.553596,50.505574",
-        "link": "https://reality.bazos.cz/inzerat/222390324/prodej-lesniho-pozemku-ku-vrchovina.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.577632,
           49.750576
         ]
@@ -86704,6 +86674,83 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.249813,
+          49.155785
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 816 m² — Číčenice, Strakonice, Jihočeský kraj",
+        "price": 399840,
+        "price_label": "399 840 Kč",
+        "source": "sreality",
+        "guid": "sreality:2974892876",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.249813&y=49.155785&z=17&source=coor&id=14.249813,49.155785",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/cicenice-cicenice-/2974892876",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.928487,
+          49.940804
+        ]
+      },
+      "properties": {
+        "title": "Prodej sadu, vinice 11057 m² — Bludov, Šumperk, Olomoucký kraj",
+        "price": 398000,
+        "price_label": "398 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3172896844",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.928487&y=49.940804&z=17&source=coor&id=16.928487,49.940804",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/bludov-bludov-/3172896844"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.918543,
+          50.379598
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 11566 m² — Heřmanice, Náchod, Královéhradecký kraj",
+        "price": 382000,
+        "price_label": "382 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:727880524",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.918543&y=50.379598&z=17&source=coor&id=15.918543,50.379598",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/hermanice-hermanice-/727880524",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

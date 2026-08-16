@@ -29993,35 +29993,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.973867,
-          48.8622
-        ]
-      },
-      "properties": {
-        "title": "Zemědělská půda, prodej, Mutěnice, Hodonín: 251 076",
-        "price": 251076,
-        "price_label": "251 076 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221296969/zemedelska-puda-prodej-mutenice-hodonin.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.973867&y=48.8622&z=17&source=coor&id=16.973867,48.8622",
-        "link": "https://reality.bazos.cz/inzerat/221296969/zemedelska-puda-prodej-mutenice-hodonin.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "NARROW_PLOT",
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.787053,
           49.702019
         ]
@@ -30342,34 +30313,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "druh_pozemku": "zahrada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.470763,
-          49.115017
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 7073 m² — Prštice, Brno-venkov, Jihomoravský kraj",
-        "price": 346577,
-        "price_label": "346 577 Kč",
-        "source": "sreality",
-        "guid": "sreality:3638747212",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.470763&y=49.115017&z=17&source=coor&id=16.470763,49.115017",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/prstice-prstice-/3638747212",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -80260,93 +80203,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.0091,
-          49.593414
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 7999 m² — Nový Jičín, Moravskoslezský kraj",
-        "price": 350000,
-        "price_label": "350 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:205242444",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.0091&y=49.593414&z=17&source=coor&id=18.0091,49.593414",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/novy-jicin-novy-jicin-/205242444",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PLACEHOLDER_PIN",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.720382,
-          49.636576
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 5894 m² — Bystřice, Frýdek-Místek, Moravskoslezský kraj",
-        "price": 250000,
-        "price_label": "250 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1832632396",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.720382&y=49.636576&z=17&source=coor&id=18.720382,49.636576",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/bystrice-bystrice-/1832632396",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "DRUH_CONTRADICTS_TITLE"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.225852,
-          49.288626
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 6157 m² — Velká Bíteš, Žďár nad Sázavou, Kraj Vysočina",
-        "price": 314007,
-        "price_label": "314 007 Kč",
-        "source": "sreality",
-        "guid": "sreality:2839265356",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.225852&y=49.288626&z=17&source=coor&id=16.225852,49.288626",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/velka-bites-velka-bites-/2839265356",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.357223,
           50.609984
         ]
@@ -85372,6 +85228,206 @@
           "RADON_HIGH"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.703871,
+          49.402562
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 9197 m² — Chvalčov - Chvalčov, Zlínský kraj",
+        "price": 419000,
+        "price_label": "419 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1036490",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.703871&y=49.402562&z=17&source=coor&id=17.703871,49.402562",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1036490-nabidka-prodej-pozemku-chvalcov",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.601839,
+          50.050448
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2055 m² — Zátor - Zátor, Moravskoslezský kraj",
+        "price": 399000,
+        "price_label": "399 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1015417",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.601839&y=50.050448&z=17&source=coor&id=17.601839,50.050448",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1015417-nabidka-prodej-pozemku-zator",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.464289,
+          49.336041
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5157 m² — Hulín - Hulín, Zlínský kraj",
+        "price": 360000,
+        "price_label": "360 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:993952",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.464289&y=49.336041&z=17&source=coor&id=17.464289,49.336041",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/993952-nabidka-prodej-pozemku-hulin",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.652604,
+          49.391505
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2060 m² — Bystřice pod Hostýnem - Bystřice pod Hostýnem, Zlínský kraj",
+        "price": 100000,
+        "price_label": "100 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:951084",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.652604&y=49.391505&z=17&source=coor&id=17.652604,49.391505",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/951084-nabidka-prodej-pozemku-bystrice-pod-hostynem",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.118543,
+          49.022339
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1459 m² — Nová Bystřice - Nová Bystřice, Jihočeský kraj",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:951072",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.118543&y=49.022339&z=17&source=coor&id=15.118543,49.022339",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/951072-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.586632,
+          49.889212
+        ]
+      },
+      "properties": {
+        "title": "Stavební pozemek 1454 m2, Holičky - Morašice, okres Chrudim: Dohodou",
+        "price": null,
+        "price_label": null,
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222599473/stavebni-pozemek-1454-m2-holicky-morasice-okres-chrudim.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.586632&y=49.889212&z=17&source=coor&id=15.586632,49.889212",
+        "link": "https://reality.bazos.cz/inzerat/222599473/stavebni-pozemek-1454-m2-holicky-morasice-okres-chrudim.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.734861,
+          49.207195
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Horákov, Mokrá-Horákov, Brno-venkov: 396 891",
+        "price": 396891,
+        "price_label": "396 891 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222599513/zemedelska-puda-prodej-horakov-mokra-horakov-brno-venkov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.734861&y=49.207195&z=17&source=coor&id=16.734861,49.207195",
+        "link": "https://reality.bazos.cz/inzerat/222599513/zemedelska-puda-prodej-horakov-mokra-horakov-brno-venkov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
       }
     }
   ]

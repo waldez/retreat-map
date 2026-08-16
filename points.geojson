@@ -80409,36 +80409,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.291499,
-          49.075047
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Buchlovice: 42 000",
-        "price": 42000,
-        "price_label": "42 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222472370/prodej-lesniho-pozemku-ku-buchlovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.291499&y=49.075047&z=17&source=coor&id=17.291499,49.075047",
-        "link": "https://reality.bazos.cz/inzerat/222472370/prodej-lesniho-pozemku-ku-buchlovice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "ZPF_SOIL",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.184979,
           50.486698
         ]
@@ -85336,6 +85306,34 @@
           "PIN_HIT_COMMON_LAND"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.675532,
+          49.46703
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 1655 m² — Horní Nětčice, Přerov, Olomoucký kraj",
+        "price": 300000,
+        "price_label": "300 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3752378444",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.675532&y=49.46703&z=17&source=coor&id=17.675532,49.46703",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/horni-netcice-horni-netcice-/3752378444",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "zahrada"
       }
     }
   ]

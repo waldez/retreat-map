@@ -13593,29 +13593,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.02431,
-          50.209228
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 3730 m² — Ledce - Ledce u Kladna, Středočeský kraj",
-        "price": 205000,
-        "price_label": "205 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1030356",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.02431&y=50.209228&z=17&source=coor&id=14.02431,50.209228",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1030356-nabidka-prodej-pozemku-ledce",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.215957,
           49.205288
         ]
@@ -48518,34 +48495,6 @@
         "price": 82400,
         "price_label": "82 400 Kč",
         "source": "bezrealitky",
-        "guid": "bezrealitky:1038866",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.220037&y=50.275084&z=17&source=coor&id=14.220037,50.275084",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1038866-nabidka-prodej-pozemku-velvary",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.220037,
-          50.275084
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1631 m² — Velvary - Velvary, Středočeský kraj",
-        "price": 82400,
-        "price_label": "82 400 Kč",
-        "source": "bezrealitky",
         "guid": "bezrealitky:1038865",
         "mapy_url": "https://mapy.cz/zakladni?x=14.220037&y=50.275084&z=17&source=coor&id=14.220037,50.275084",
         "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1038865-nabidka-prodej-pozemku-velvary",
@@ -48931,35 +48880,6 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.842239,
-          49.561577
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků s těžebním povolením–Hranické Loučky: 180 000",
-        "price": 180000,
-        "price_label": "180 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221733432/prodej-lesnich-pozemku-s-tezebnim-povolenimhranicke-loucky.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.842239&y=49.561577&z=17&source=coor&id=17.842239,49.561577",
-        "link": "https://reality.bazos.cz/inzerat/221733432/prodej-lesnich-pozemku-s-tezebnim-povolenimhranicke-loucky.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -87046,6 +86966,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.688234,
+          49.359303
+        ]
+      },
+      "properties": {
+        "title": "Les, prodej, Velký Bor, Klatovy: 371 197",
+        "price": 371197,
+        "price_label": "371 197 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222673942/les-prodej-velky-bor-klatovy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.688234&y=49.359303&z=17&source=coor&id=13.688234,49.359303",
+        "link": "https://reality.bazos.cz/inzerat/222673942/les-prodej-velky-bor-klatovy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.545468,
           49.406933
         ]
@@ -87267,6 +87217,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.839326,
+          49.58985
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Kamberk, Benešov: 394 542",
+        "price": 394542,
+        "price_label": "394 542 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222674559/zemedelska-puda-prodej-kamberk-benesov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.839326&y=49.58985&z=17&source=coor&id=14.839326,49.58985",
+        "link": "https://reality.bazos.cz/inzerat/222674559/zemedelska-puda-prodej-kamberk-benesov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.546491,
           49.411068
         ]
@@ -87339,6 +87317,34 @@
         "pin_color": "#1565c0",
         "marker-color": "#1565c0",
         "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.510441,
+          49.84546
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Lešany, Benešov: 419 630",
+        "price": 419630,
+        "price_label": "419 630 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222674289/zemedelska-puda-prodej-lesany-benesov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.510441&y=49.84546&z=17&source=coor&id=14.510441,49.84546",
+        "link": "https://reality.bazos.cz/inzerat/222674289/zemedelska-puda-prodej-lesany-benesov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "RADON_HIGH",
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
@@ -87681,6 +87687,65 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.768856,
+          50.367586
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Velké Všelisy: 287 000",
+        "price": 287000,
+        "price_label": "287 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222683651/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.768856&y=50.367586&z=17&source=coor&id=14.768856,50.367586",
+        "link": "https://reality.bazos.cz/inzerat/222683651/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.161524,
+          48.950243
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 60 m², pozemek 222 m² — Horní Dunajovice, Znojmo, Jihomoravský kraj",
+        "price": 1290000,
+        "price_label": "1 290 000 Kč",
+        "source": "house",
+        "guid": "house:379568204",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.161524&y=48.950243&z=17&source=coor&id=16.161524,48.950243",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/horni-dunajovice-horni-dunajovice-/379568204",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

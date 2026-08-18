@@ -80788,33 +80788,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.654175,
-          49.041172
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 549 m² — Uherský Brod, Uherské Hradiště, Zlínský kraj",
-        "price": 240000,
-        "price_label": "240 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1308278860",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.654175&y=49.041172&z=17&source=coor&id=17.654175,49.041172",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/uhersky-brod-uhersky-brod-/1308278860",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           12.885662,
           49.402317
         ]
@@ -81049,34 +81022,6 @@
         "guid": "sreality:1221247052",
         "mapy_url": "https://mapy.cz/zakladni?x=16.859516&y=48.995012&z=17&source=coor&id=16.859516,48.995012",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/klobouky-u-brna-klobouky-u-brna-/1221247052"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.874109,
-          49.573397
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 300 m², pozemek 1362 m² — Konice, Prostějov, Olomoucký kraj",
-        "price": 1490000,
-        "price_label": "1 490 000 Kč",
-        "source": "house",
-        "guid": "house:3064455244",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.874109&y=49.573397&z=17&source=coor&id=16.874109,49.573397",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/konice-konice-/3064455244",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "zahrada"
       }
     },
     {
@@ -81490,34 +81435,6 @@
         "guid": "sreality:2631581772",
         "mapy_url": "https://mapy.cz/zakladni?x=17.164565&y=49.536453&z=17&source=coor&id=17.164565,49.536453",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/olsany-u-prostejova-olsany-u-prostejova-/2631581772"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.399908,
-          49.784569
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2856 m² — Šenov, Ostrava-město, Moravskoslezský kraj",
-        "price": 285600,
-        "price_label": "285 600 Kč",
-        "source": "sreality",
-        "guid": "sreality:3973759052",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.399908&y=49.784569&z=17&source=coor&id=18.399908,49.784569",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/senov-senov-/3973759052",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -87746,6 +87663,116 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.409639,
+          50.49703
+        ]
+      },
+      "properties": {
+        "title": "Les 18 975 m², Podíl 25 % o výměře 4 744 m²: 38 676",
+        "price": 38676,
+        "price_label": "38 676 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222686052/les-18-975-m-podil-25-o-vymere-4-744-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.409639&y=50.49703&z=17&source=coor&id=15.409639,50.49703",
+        "link": "https://reality.bazos.cz/inzerat/222686052/les-18-975-m-podil-25-o-vymere-4-744-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.346048,
+          49.071676
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 2 573 m², Podíl 25 % o výměř: 24 444",
+        "price": 24444,
+        "price_label": "24 444 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222686049/spekulacni-komercni-a-ostatni-2-573-m-podil-25-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.346048&y=49.071676&z=17&source=coor&id=14.346048,49.071676",
+        "link": "https://reality.bazos.cz/inzerat/222686049/spekulacni-komercni-a-ostatni-2-573-m-podil-25-o-vymer.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.660794,
+          49.223753
+        ]
+      },
+      "properties": {
+        "title": "Zahrada 553 m², Podíl 31 % o výměře 173 m²: 58 324",
+        "price": 58324,
+        "price_label": "58 324 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222686898/zahrada-553-m-podil-31-o-vymere-173-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.660794&y=49.223753&z=17&source=coor&id=16.660794,49.223753",
+        "link": "https://reality.bazos.cz/inzerat/222686898/zahrada-553-m-podil-31-o-vymere-173-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5738,
+          49.5401
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 38 m² — Lipník nad Bečvou, Přerov, Olomoucký kraj",
+        "price": 22800,
+        "price_label": "22 800 Kč",
+        "source": "sreality",
+        "guid": "sreality:1450098764",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.5738&y=49.5401&z=17&source=coor&id=17.5738,49.5401",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/lipnik-nad-becvou-lipnik-nad-becvou-/1450098764"
       }
     }
   ]

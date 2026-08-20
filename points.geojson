@@ -91988,6 +91988,64 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.863496,
+          48.969498
+        ]
+      },
+      "properties": {
+        "title": "Stavební - bydlení 4 839 m², Podíl 17 % o výměře 807 m²: 214 924",
+        "price": 214924,
+        "price_label": "214 924 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222752245/stavebni-bydleni-4-839-m-podil-17-o-vymere-807-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.863496&y=48.969498&z=17&source=coor&id=16.863496,48.969498",
+        "link": "https://reality.bazos.cz/inzerat/222752245/stavebni-bydleni-4-839-m-podil-17-o-vymere-807-m.php",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "NARROW_PLOT",
+          "AVOID",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "vodní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.718546,
+          48.966299
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 119 m², Podíl 50 % o výměře: 18 362",
+        "price": 18362,
+        "price_label": "18 362 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222752191/spekulacni-komercni-a-ostatni-119-m-podil-50-o-vymere.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.718546&y=48.966299&z=17&source=coor&id=17.718546,48.966299",
+        "link": "https://reality.bazos.cz/inzerat/222752191/spekulacni-komercni-a-ostatni-119-m-podil-50-o-vymere.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "CO_OWNERSHIP",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.469559,
           50.507361
         ]
@@ -95465,6 +95523,93 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.014943,
+          50.724371
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5191 m² — Velké Chvojno - Žďár u Velkého Chvojna, Ústecký kraj",
+        "price": 380000,
+        "price_label": "380 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1027086",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.014943&y=50.724371&z=17&source=coor&id=14.014943,50.724371",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1027086-nabidka-prodej-pozemku-velke-chvojno",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.640644,
+          49.533084
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 10742 m² — Čížkov - Zahrádka u Čížkova, Plzeňský kraj",
+        "price": 410000,
+        "price_label": "410 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:961444",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.640644&y=49.533084&z=17&source=coor&id=13.640644,49.533084",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/961444-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "GROUP_HAS_ZPF",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.963244,
+          48.860136
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Nový Poddvorov, Hodonín: 284 265",
+        "price": 284265,
+        "price_label": "284 265 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222776268/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.963244&y=48.860136&z=17&source=coor&id=16.963244,48.860136",
+        "link": "https://reality.bazos.cz/inzerat/222776268/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
       }
     }
   ]

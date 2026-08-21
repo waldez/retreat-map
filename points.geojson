@@ -24565,8 +24565,8 @@
       },
       "properties": {
         "title": "Prodej rodinného domu 100 m², pozemek 1068 m² — Stálky, Znojmo, Jihomoravský kraj",
-        "price": 990000,
-        "price_label": "990 000 Kč",
+        "price": 790000,
+        "price_label": "790 000 Kč",
         "source": "house",
         "guid": "house:1268228172",
         "mapy_url": "https://mapy.cz/zakladni?x=15.684628&y=48.86892&z=17&source=coor&id=15.684628,48.86892",
@@ -75280,35 +75280,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.768856,
-          50.367586
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Velké Všelisy: 287 000",
-        "price": 287000,
-        "price_label": "287 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222402207/prodej-lesnich-pozemku-ku-velke-vselisy.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.768856&y=50.367586&z=17&source=coor&id=14.768856,50.367586",
-        "link": "https://reality.bazos.cz/inzerat/222402207/prodej-lesnich-pozemku-ku-velke-vselisy.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.589785,
           49.203839
         ]
@@ -94152,6 +94123,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.552614,
+          50.149499
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - stát 3 401 m², Podíl 50 % o výměře 1 701 m²: 272 726",
+        "price": 272726,
+        "price_label": "272 726 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222764775/spekulacni-stat-3-401-m-podil-50-o-vymere-1-701-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.552614&y=50.149499&z=17&source=coor&id=15.552614,50.149499",
+        "link": "https://reality.bazos.cz/inzerat/222764775/spekulacni-stat-3-401-m-podil-50-o-vymere-1-701-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.747977,
           50.139187
         ]
@@ -97802,6 +97801,189 @@
         "guid": "sreality:2162016332",
         "mapy_url": "https://mapy.cz/zakladni?x=14.358705&y=49.361214&z=17&source=coor&id=14.358705,49.361214",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/bernartice-bojenice-/2162016332"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.242066,
+          50.624606
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 25 m², pozemek 339 m² — Meziměstí, Náchod, Královéhradecký kraj",
+        "price": 840000,
+        "price_label": "840 000 Kč",
+        "source": "chata",
+        "guid": "chata:4060255052",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.242066&y=50.624606&z=17&source=coor&id=16.242066,50.624606",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/mezimesti-mezimesti-/4060255052",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "FLOOD_HAZARD",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.298697,
+          50.353171
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 13 m², pozemek 14 m² — Rokle, Chomutov, Ústecký kraj",
+        "price": 279000,
+        "price_label": "279 000 Kč",
+        "source": "chata",
+        "guid": "chata:3644047436",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.298697&y=50.353171&z=17&source=coor&id=13.298697,50.353171",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/rokle-rokle-/3644047436",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.604334,
+          50.381016
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Živonín: 157 000",
+        "price": 157000,
+        "price_label": "157 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222836111/prodej-lesniho-pozemku-ku-zivonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.604334&y=50.381016&z=17&source=coor&id=14.604334,50.381016",
+        "link": "https://reality.bazos.cz/inzerat/222836111/prodej-lesniho-pozemku-ku-zivonin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.585587,
+          50.020693
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 5988 m² — Břežany, Rakovník, Středočeský kraj",
+        "price": 185000,
+        "price_label": "185 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3222519884",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.585587&y=50.020693&z=17&source=coor&id=13.585587,50.020693",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/brezany-brezany-/3222519884",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.901414,
+          49.417011
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 985 m² — Mikulůvka, Vsetín, Zlínský kraj",
+        "price": 310000,
+        "price_label": "310 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2903155532",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.901414&y=49.417011&z=17&source=coor&id=17.901414,49.417011",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/mikuluvka-mikuluvka-/2903155532"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.264544,
+          49.604823
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6794 m² — Dnešice, Plzeň-jih, Plzeňský kraj",
+        "price": 237790,
+        "price_label": "237 790 Kč",
+        "source": "sreality",
+        "guid": "sreality:2920529996",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.264544&y=49.604823&z=17&source=coor&id=13.264544,49.604823",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dnesice-dnesice-/2920529996"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.239019,
+          50.798035
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 238 m², pozemek 425 m² — Děčín – Děčín XIII-Loubí, Ústecký kraj",
+        "price": 1321000,
+        "price_label": "1 321 000 Kč",
+        "source": "house",
+        "guid": "house:3205742668",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.239019&y=50.798035&z=17&source=coor&id=14.239019,50.798035",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/decin-decin-xiii-loubi-loubska/3205742668",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

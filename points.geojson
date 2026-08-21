@@ -24203,35 +24203,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.914992,
-          49.367694
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 139 m², pozemek 365 m² — Ratiboř, Vsetín, Zlínský kraj",
-        "price": 1100000,
-        "price_label": "1 100 000 Kč",
-        "source": "house",
-        "guid": "house:4142297932",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.914992&y=49.367694&z=17&source=coor&id=17.914992,49.367694",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ratibor-ratibor-/4142297932",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.802315,
           49.559245
         ]
@@ -24338,34 +24309,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.546464,
-          49.330734
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 112 m², pozemek 220 m² — Nalžovské Hory – Stříbrné Hory, Klatovy, Plzeňský kraj",
-        "price": 790000,
-        "price_label": "790 000 Kč",
-        "source": "house",
-        "guid": "house:714101580",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.546464&y=49.330734&z=17&source=coor&id=13.546464,49.330734",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/nalzovske-hory-stribrne-hory-/714101580",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "CO_OWNERSHIP",
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
@@ -65139,36 +65082,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.763909,
-          49.362245
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 10763 m² — Horažďovice – Komušín, Klatovy, Plzeňský kraj",
-        "price": 355179,
-        "price_label": "355 179 Kč",
-        "source": "sreality",
-        "guid": "sreality:1400168524",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.763909&y=49.362245&z=17&source=coor&id=13.763909,49.362245",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/horazdovice-komusin-/1400168524",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "RADON_HIGH",
-          "PLACEHOLDER_PIN",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.764283,
           49.197976
         ]
@@ -98186,6 +98099,35 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.538495,
+          49.366904
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 947 m² — Roštění, Kroměříž, Zlínský kraj",
+        "price": 201407,
+        "price_label": "201 407 Kč",
+        "source": "sreality",
+        "guid": "sreality:581156940",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.538495&y=49.366904&z=17&source=coor&id=17.538495,49.366904",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/rosteni-rosteni-/581156940",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "DRUH_CONTRADICTS_TITLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

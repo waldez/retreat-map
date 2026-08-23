@@ -42188,36 +42188,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.642788,
-          48.98928
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole v k.ú. Přísnotice, ev.č. 2026-02-20-093637: 155 000",
-        "price": 155000,
-        "price_label": "155 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221633183/prodej-pole-v-ku-prisnotice-evc-2026-02-20-093637.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.642788&y=48.98928&z=17&source=coor&id=16.642788,48.98928",
-        "link": "https://reality.bazos.cz/inzerat/221633183/prodej-pole-v-ku-prisnotice-evc-2026-02-20-093637.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "NARROW_PLOT",
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.043913,
           48.990085
         ]
@@ -42469,33 +42439,6 @@
           "LOW_CONFIDENCE_LOCATION"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.254057,
-          50.413581
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 3026 m² — Roudnice nad Labem - Roudnice nad Labem, Ústecký kraj",
-        "price": 103000,
-        "price_label": "103 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1038101",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.254057&y=50.413581&z=17&source=coor&id=14.254057,50.413581",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1038101-nabidka-prodej-pozemku-roudnice-nad-labem",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -68958,6 +68901,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.050545,
+          49.990724
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1374 m² — Hýskov, Beroun, Středočeský kraj",
+        "price": 412200,
+        "price_label": "412 200 Kč",
+        "source": "sreality",
+        "guid": "sreality:2649923660",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.050545&y=49.990724&z=17&source=coor&id=14.050545,49.990724",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/hyskov-hyskov-/2649923660",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.530723,
           49.629972
         ]
@@ -81011,33 +80983,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.531994,
-          49.931304
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 1103 m² — Razová, Bruntál, Moravskoslezský kraj",
-        "price": 56000,
-        "price_label": "56 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2771370060",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.531994&y=49.931304&z=17&source=coor&id=17.531994,49.931304",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/razova-razova-/2771370060",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.421417,
           49.321236
         ]
@@ -81060,25 +81005,6 @@
           "DRUH_CONTRADICTS_TITLE"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.143305,
-          49.751663
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 3456 m² — Obořiště, Příbram, Středočeský kraj",
-        "price": 293760,
-        "price_label": "293 760 Kč",
-        "source": "sreality",
-        "guid": "sreality:1027588172",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.143305&y=49.751663&z=17&source=coor&id=14.143305,49.751663",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/oboriste-oboriste-/1027588172"
       }
     },
     {
@@ -96816,6 +96742,82 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.263451,
+          49.32659
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4791 m² — Křižínkov, Brno-venkov, Jihomoravský kraj",
+        "price": 199000,
+        "price_label": "199 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3877814348",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.263451&y=49.32659&z=17&source=coor&id=16.263451,49.32659",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/krizinkov-krizinkov-/3877814348"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.482498,
+          50.956037
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 8176 m² — Staré Křečany - Staré Křečany, Ústecký kraj",
+        "price": 1090,
+        "price_label": "1 090 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1058536",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.482498&y=50.956037&z=17&source=coor&id=14.482498,50.956037",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1058536-nabidka-prodej-pozemku-stare-krecany",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.785603,
+          49.367302
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 76 m², pozemek 85 m² — Kamenice, Jihlava, Kraj Vysočina",
+        "price": 934700,
+        "price_label": "934 700 Kč",
+        "source": "house",
+        "guid": "house:2938290252",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.785603&y=49.367302&z=17&source=coor&id=15.785603,49.367302",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kamenice-kamenice-/2938290252",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

@@ -59011,25 +59011,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.210999,
-          48.975229
-        ]
-      },
-      "properties": {
-        "title": "Prodej sadu, vinice 912 m² — Vracov, Hodonín, Jihomoravský kraj",
-        "price": 49996,
-        "price_label": "49 996 Kč",
-        "source": "sreality",
-        "guid": "sreality:1927401548",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.210999&y=48.975229&z=17&source=coor&id=17.210999,48.975229",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/vracov-vracov-/1927401548"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.3448,
           49.547
         ]
@@ -76160,36 +76141,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.058241,
-          49.513981
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 5224 m² — Kostelec na Hané, Prostějov, Olomoucký kraj",
-        "price": 1000,
-        "price_label": "1 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2015019084",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.058241&y=49.513981&z=17&source=coor&id=17.058241,49.513981",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/kostelec-na-hane-kostelec-na-hane-/2015019084",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "PLACEHOLDER_PIN",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "ostatní plocha"
       }
@@ -96741,6 +96692,130 @@
         "guid": "sreality:3057893452",
         "mapy_url": "https://mapy.cz/zakladni?x=14.717273&y=49.084681&z=17&source=coor&id=14.717273,49.084681",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/lomnice-nad-luznici-lomnice-nad-luznici-/3057893452"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.758735,
+          49.093448
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Újezd u Brna, Brno-venkov: 103 180",
+        "price": 103180,
+        "price_label": "103 180 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222912934/zemedelska-puda-prodej-ujezd-u-brna-brno-venkov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.758735&y=49.093448&z=17&source=coor&id=16.758735,49.093448",
+        "link": "https://reality.bazos.cz/inzerat/222912934/zemedelska-puda-prodej-ujezd-u-brna-brno-venkov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.731252,
+          48.999686
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Křepice, Břeclav: 293 186",
+        "price": 293186,
+        "price_label": "293 186 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222912770/zemedelska-puda-prodej-krepice-breclav.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.731252&y=48.999686&z=17&source=coor&id=16.731252,48.999686",
+        "link": "https://reality.bazos.cz/inzerat/222912770/zemedelska-puda-prodej-krepice-breclav.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.757371,
+          49.104348
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1876 m² — Újezd u Brna, Brno-venkov, Jihomoravský kraj",
+        "price": 103180,
+        "price_label": "103 180 Kč",
+        "source": "sreality",
+        "guid": "sreality:457359436",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.757371&y=49.104348&z=17&source=coor&id=16.757371,49.104348",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/ujezd-u-brna-ujezd-u-brna-/457359436"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.71989,
+          48.999861
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6238 m² — Křepice, Břeclav, Jihomoravský kraj",
+        "price": 293186,
+        "price_label": "293 186 Kč",
+        "source": "sreality",
+        "guid": "sreality:3141713996",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.71989&y=48.999861&z=17&source=coor&id=16.71989,48.999861",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/krepice-krepice-/3141713996"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.381454,
+          50.602764
+        ]
+      },
+      "properties": {
+        "title": "Prodáme lesní pozemky v k.ú. Blíževedly: 80 000",
+        "price": 80000,
+        "price_label": "80 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222917158/prodame-lesni-pozemky-v-ku-blizevedly.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.381454&y=50.602764&z=17&source=coor&id=14.381454,50.602764",
+        "link": "https://reality.bazos.cz/inzerat/222917158/prodame-lesni-pozemky-v-ku-blizevedly.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     }
   ]

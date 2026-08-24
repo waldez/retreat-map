@@ -99252,6 +99252,63 @@
         ],
         "druh_pozemku": "lesní pozemek"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.768856,
+          50.367586
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Velké Všelisy: 287 000",
+        "price": 287000,
+        "price_label": "287 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222971487/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.768856&y=50.367586&z=17&source=coor&id=14.768856,50.367586",
+        "link": "https://reality.bazos.cz/inzerat/222971487/prodej-lesnich-pozemku-ku-velke-vselisy.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.271391,
+          49.888675
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 341 m², pozemek 341 m² — Úmonín, Kutná Hora, Středočeský kraj",
+        "price": 1490000,
+        "price_label": "1 490 000 Kč",
+        "source": "house",
+        "guid": "house:22134860",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.271391&y=49.888675&z=17&source=coor&id=15.271391,49.888675",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/umonin-umonin-/22134860",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
     }
   ]
 }

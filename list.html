@@ -1,0 +1,140 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>retreat — listings</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 15px/1.45 system-ui, sans-serif; margin: 0; padding: 1rem; }
+  header { display: flex; flex-wrap: wrap; gap: .75rem; align-items: baseline; }
+  h1 { font-size: 1.1rem; margin: 0 1rem 0 0; }
+  /* The liveness signal that replaced the Slack firehose. Never hide it. */
+  #meta { opacity: .7; font-size: .85rem; }
+  #controls { display: flex; flex-wrap: wrap; gap: .75rem; margin: .75rem 0; }
+  table { border-collapse: collapse; width: 100%; }
+  th, td { text-align: left; padding: .35rem .5rem; border-bottom: 1px solid #8884; }
+  td.num { text-align: right; font-variant-numeric: tabular-nums; }
+  .noise { opacity: .55; }
+  .tag { font-size: .75rem; border: 1px solid #8886; border-radius: .5rem; padding: 0 .35rem; }
+  @media (max-width: 700px) { th.opt, td.opt { display: none; } }
+</style>
+
+<header>
+  <h1>retreat — listings</h1>
+  <span id="meta">loading…</span>
+  <a href="index.html">Map view →</a>
+</header>
+
+<div id="controls">
+  <label>Sort
+    <select id="sort">
+      <option value="newest">newest</option>
+      <option value="price">price</option>
+      <option value="area">area</option>
+      <option value="per_m2">Kč / m²</option>
+    </select>
+  </label>
+  <label>Max price <input id="maxPrice" type="number" step="50000" placeholder="any"></label>
+  <label>Source <select id="source"><option value="">all</option></select></label>
+  <label><input id="showNoise" type="checkbox"> <span id="noiseLabel">show suppressed</span></label>
+</div>
+
+<table>
+  <thead><tr>
+    <th>Title</th><th class="num">Price</th><th class="num opt">m²</th>
+    <th class="num opt">Kč/m²</th><th class="opt">Source</th><th class="opt">First seen</th><th></th>
+  </tr></thead>
+  <tbody id="rows"></tbody>
+</table>
+
+<script type="module">
+import { applyFilters, sortListings } from './listfilter.js';
+
+const $ = (id) => document.getElementById(id);
+// Listing text is seller-controlled. Build every cell with textContent and set
+// hrefs only after a scheme check — index.html applies the same rule.
+const safeHref = (u) => (/^https?:\/\//i.test(u || '') ? u : null);
+const num = (v) => (typeof v === 'number' ? v.toLocaleString('cs-CZ') : '—');
+
+let feed = { listings: [], sources: {}, generated_at: '', count: 0, noise_count: 0 };
+
+function render() {
+  const opts = {
+    showNoise: $('showNoise').checked,
+    maxPrice: $('maxPrice').value ? Number($('maxPrice').value) : null,
+    sources: $('source').value ? [$('source').value] : null,
+  };
+  const { listings, hiddenNoise } = applyFilters(feed, opts);
+  const rows = sortListings(listings, $('sort').value);
+
+  // The hidden count is ALWAYS stated, so suppression is never silent.
+  $('noiseLabel').textContent = hiddenNoise
+    ? `show ${hiddenNoise} suppressed`
+    : 'show suppressed';
+
+  const tbody = $('rows');
+  tbody.textContent = '';
+  for (const l of rows) {
+    const tr = tbody.insertRow();
+    if ((l.noise_reasons || []).length) tr.className = 'noise';
+
+    const title = tr.insertCell();
+    const href = safeHref(l.link);
+    if (href) {
+      const a = document.createElement('a');
+      a.href = href; a.rel = 'noopener noreferrer'; a.target = '_blank';
+      a.textContent = l.title || '(untitled)';
+      title.append(a);
+    } else {
+      title.textContent = l.title || '(untitled)';
+    }
+    if (l.locality) {
+      const sub = document.createElement('span');
+      sub.className = 'tag'; sub.textContent = l.locality;
+      title.append(' ', sub);
+    }
+    for (const r of l.noise_reasons || []) {
+      const tag = document.createElement('span');
+      tag.className = 'tag'; tag.textContent = r;
+      title.append(' ', tag);
+    }
+
+    const price = tr.insertCell(); price.className = 'num';
+    price.textContent = typeof l.price_czk === 'number' ? num(l.price_czk) : 'unpriced';
+    const area = tr.insertCell(); area.className = 'num opt'; area.textContent = num(l.area_m2);
+    const per = tr.insertCell(); per.className = 'num opt'; per.textContent = num(l.price_per_m2);
+    const src = tr.insertCell(); src.className = 'opt'; src.textContent = l.source || '';
+    const seen = tr.insertCell(); seen.className = 'opt';
+    seen.textContent = (l.first_seen || '').slice(0, 10);
+
+    const map = tr.insertCell();
+    // gps is {lat, lon} or null — see market_watch.emit.gps_to_latlon, and the
+    // map's own reader at results_map/geojson.py:153. NOT a [lat, lon] pair.
+    if (l.gps && typeof l.gps.lat === 'number' && typeof l.gps.lon === 'number') {
+      const a = document.createElement('a');
+      a.href = `index.html#guid=${encodeURIComponent(l.guid)}`;
+      a.textContent = 'map';
+      map.append(a);
+    }
+  }
+  $('meta').textContent =
+    `${rows.length} shown of ${feed.count} · generated ${feed.generated_at || '?'}`;
+}
+
+fetch('listings.json')
+  .then((r) => r.json())
+  .then((data) => {
+    feed = data;
+    const sel = $('source');
+    for (const name of Object.keys(feed.sources || {})) {
+      const opt = document.createElement('option');
+      opt.value = name; opt.textContent = `${name} (${feed.sources[name]})`;
+      sel.append(opt);
+    }
+    render();
+  })
+  .catch((err) => { $('meta').textContent = `could not load listings.json: ${err}`; });
+
+for (const id of ['sort', 'maxPrice', 'source', 'showNoise']) {
+  $(id).addEventListener('input', render);
+}
+</script>

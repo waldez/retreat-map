@@ -69058,8 +69058,8 @@
       },
       "properties": {
         "title": "Prodej pole 2769 m² — Uherský Brod, Uherské Hradiště, Zlínský kraj",
-        "price": 170000,
-        "price_label": "170 000 Kč",
+        "price": 150000,
+        "price_label": "150 000 Kč",
         "source": "sreality",
         "guid": "sreality:2995999564",
         "mapy_url": "https://mapy.cz/zakladni?x=17.683507&y=48.994589&z=17&source=coor&id=17.683507,48.994589",
@@ -89599,36 +89599,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.66959,
-          50.471249
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Nosálov (3): 291 000",
-        "price": 291000,
-        "price_label": "291 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222766346/prodej-lesniho-pozemku-ku-nosalov-3.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.66959&y=50.471249&z=17&source=coor&id=14.66959,50.471249",
-        "link": "https://reality.bazos.cz/inzerat/222766346/prodej-lesniho-pozemku-ku-nosalov-3.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "PROTECTED_AREA",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.398505,
           50.543951
         ]
@@ -103279,8 +103249,8 @@
       },
       "properties": {
         "title": "Spekulační - komerční a ostatní 1 018 m², Podíl 39 % o výměř: 35 705",
-        "price": 35705,
-        "price_label": "35 705 Kč",
+        "price": 35627,
+        "price_label": "35 627 Kč",
         "source": "bazos",
         "guid": "bazos:https://reality.bazos.cz/inzerat/223055724/spekulacni-komercni-a-ostatni-1-018-m-podil-39-o-vymer.php",
         "mapy_url": "https://mapy.cz/zakladni?x=16.474326&y=49.910371&z=17&source=coor&id=16.474326,49.910371",
@@ -103295,6 +103265,128 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.501823,
+          49.469528
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3001 m² — Neurazy - Vojovice, Plzeňský kraj",
+        "price": 89000,
+        "price_label": "89 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:949358",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.501823&y=49.469528&z=17&source=coor&id=13.501823,49.469528",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/949358-nabidka-prodej-pozemku-neurazy",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.068876,
+          50.638725
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 7590 m² — Ústí nad Labem - Nová Ves, Ústecký kraj",
+        "price": 350200,
+        "price_label": "350 200 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1040153",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.068876&y=50.638725&z=17&source=coor&id=14.068876,50.638725",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040153-nabidka-prodej-pozemku-usti-nad-labem",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.961412,
+          48.842736
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 9108 m² — Prušánky - Prušánky, Jihomoravský kraj",
+        "price": 429000,
+        "price_label": "429 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:998264",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.961412&y=48.842736&z=17&source=coor&id=16.961412,48.842736",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/998264-nabidka-prodej-pozemku",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.264101,
+          49.518974
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 8 m², pozemek 209 m² — Bystřice nad Pernštejnem, Žďár nad Sázavou, Kraj Vysočina",
+        "price": 820000,
+        "price_label": "820 000 Kč",
+        "source": "chata",
+        "guid": "chata:2613559372",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.264101&y=49.518974&z=17&source=coor&id=16.264101,49.518974",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/bystrice-nad-pernstejnem-bystrice-nad-pernstejnem-pod-horou/2613559372",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

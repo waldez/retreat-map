@@ -77487,8 +77487,8 @@
       },
       "properties": {
         "title": "Prodej zahrady 400 m² — Ostrava – Hrabová, Ostrava-město, Moravskoslezský kraj",
-        "price": 190000,
-        "price_label": "190 000 Kč",
+        "price": 150000,
+        "price_label": "150 000 Kč",
         "source": "sreality",
         "guid": "sreality:2522398796",
         "mapy_url": "https://mapy.cz/zakladni?x=18.275925&y=49.764927&z=17&source=coor&id=18.275925,49.764927",
@@ -90062,34 +90062,6 @@
           "ENCUMBRANCE"
         ],
         "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.963244,
-          48.860136
-        ]
-      },
-      "properties": {
-        "title": "Zemědělská půda, prodej, Nový Poddvorov, Hodonín: 284 265",
-        "price": 284265,
-        "price_label": "284 265 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222776268/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.963244&y=48.860136&z=17&source=coor&id=16.963244,48.860136",
-        "link": "https://reality.bazos.cz/inzerat/222776268/zemedelska-puda-prodej-novy-poddvorov-hodonin.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -103384,6 +103356,177 @@
           "LOW_CONFIDENCE_LOCATION",
           "PIN_HIT_COMMON_LAND",
           "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.939899,
+          49.244494
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/4 lesa 3 427 m², Trnava: 72 000",
+        "price": 72000,
+        "price_label": "72 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223069042/prodej-podilu-14-lesa-3-427-m-trnava.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.939899&y=49.244494&z=17&source=coor&id=15.939899,49.244494",
+        "link": "https://reality.bazos.cz/inzerat/223069042/prodej-podilu-14-lesa-3-427-m-trnava.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.954649,
+          48.746293
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 2446 m² — Kostice, Břeclav, Jihomoravský kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2027405388",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.954649&y=48.746293&z=17&source=coor&id=16.954649,48.746293",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kostice-kostice-/2027405388"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.392185,
+          49.593087
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1138 m² — Trpín - Trpín, Pardubický kraj",
+        "price": 19000,
+        "price_label": "19 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1060163",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.392185&y=49.593087&z=17&source=coor&id=16.392185,49.593087",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1060163-nabidka-prodej-pozemku-trpin",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.954649,
+          48.746293
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2446 m² — Kostice - Kostice, Jihomoravský kraj",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1060162",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.954649&y=48.746293&z=17&source=coor&id=16.954649,48.746293",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1060162-nabidka-prodej-pozemku-kostice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.939889,
+          49.244479
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3427 m² — Trnava - Trnava u Třebíče, Kraj Vysočina",
+        "price": 72000,
+        "price_label": "72 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1060161",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.939889&y=49.244479&z=17&source=coor&id=15.939889,49.244479",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1060161-nabidka-prodej-pozemku-trnava",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.965695,
+          49.521783
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 12 m², pozemek 452 m² — Lešná – Jasenice, Vsetín, Zlínský kraj",
+        "price": 600000,
+        "price_label": "600 000 Kč",
+        "source": "chata",
+        "guid": "chata:3151478860",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.965695&y=49.521783&z=17&source=coor&id=17.965695,49.521783",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/lesna-jasenice-/3151478860",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"

@@ -51841,35 +51841,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.302807,
-          49.418578
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku k bydlení, 2994 m², Dlažov: 3 500 000",
-        "price": 3500000,
-        "price_label": "3 500 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221904424/prodej-pozemku-k-bydleni-2994-m-dlazov.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.302807&y=49.418578&z=17&source=coor&id=13.302807,49.418578",
-        "link": "https://reality.bazos.cz/inzerat/221904424/prodej-pozemku-k-bydleni-2994-m-dlazov.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "NARROW_PLOT",
-          "RADON_HIGH",
-          "ZPF_SOIL"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.700088,
           49.945899
         ]
@@ -77110,36 +77081,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.49358,
-          49.793199
-        ]
-      },
-      "properties": {
-        "title": "Prodej stavebního pozemku 232 m² — Chrást, Plzeň-město, Plzeňský kraj",
-        "price": 280720,
-        "price_label": "280 720 Kč",
-        "source": "sreality",
-        "guid": "sreality:1689894988",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.49358&y=49.793199&z=17&source=coor&id=13.49358,49.793199",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/chrast-chrast-/1689894988",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "NARROW_PLOT",
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zahrada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.036353,
           49.914052
         ]
@@ -91161,34 +91102,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.981311,
-          50.348837
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Rychnovek: 78 000",
-        "price": 78000,
-        "price_label": "78 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222806230/prodej-lesniho-pozemku-ku-rychnovek.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.981311&y=50.348837&z=17&source=coor&id=15.981311,50.348837",
-        "link": "https://reality.bazos.cz/inzerat/222806230/prodej-lesniho-pozemku-ku-rychnovek.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.979474,
           49.858065
         ]
@@ -104748,6 +104661,154 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.98333,
+          49.107323
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Mouřínov: 99 000",
+        "price": 99000,
+        "price_label": "99 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223084183/prodej-lesnich-pozemku-ku-mourinov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.98333&y=49.107323&z=17&source=coor&id=16.98333,49.107323",
+        "link": "https://reality.bazos.cz/inzerat/223084183/prodej-lesnich-pozemku-ku-mourinov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.194193,
+          49.454978
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 100 m², pozemek 303 m² — Dolní Bečva, Vsetín, Zlínský kraj",
+        "price": 970000,
+        "price_label": "970 000 Kč",
+        "source": "house",
+        "guid": "house:908509260",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.194193&y=49.454978&z=17&source=coor&id=18.194193,49.454978",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/dolni-becva-dolni-becva-/908509260",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.008626,
+          49.888098
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Málkov u Suchomast: 181 000",
+        "price": 181000,
+        "price_label": "181 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223085211/prodej-lesnich-pozemku-ku-malkov-u-suchomast.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.008626&y=49.888098&z=17&source=coor&id=14.008626,49.888098",
+        "link": "https://reality.bazos.cz/inzerat/223085211/prodej-lesnich-pozemku-ku-malkov-u-suchomast.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.650441,
+          49.565337
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 90 m², pozemek 219 m² — Vanovice – Drválovice, Blansko, Jihomoravský kraj",
+        "price": 1090000,
+        "price_label": "1 090 000 Kč",
+        "source": "house",
+        "guid": "house:1009172556",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.650441&y=49.565337&z=17&source=coor&id=16.650441,49.565337",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/vanovice-drvalovice-/1009172556",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.020569,
+          50.179298
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Petrovice nad Orlicí (2): 88 000",
+        "price": 88000,
+        "price_label": "88 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223087261/prodej-lesniho-pozemku-ku-petrovice-nad-orlici-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.020569&y=50.179298&z=17&source=coor&id=16.020569,50.179298",
+        "link": "https://reality.bazos.cz/inzerat/223087261/prodej-lesniho-pozemku-ku-petrovice-nad-orlici-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     }
   ]

@@ -1,19 +1,136 @@
 {
-  "generated_at": "2026-08-27T19:05:40.103024+00:00",
+  "generated_at": "2026-08-27T22:04:47.272889+00:00",
   "count": 9061,
-  "noise_count": 4440,
+  "noise_count": 4446,
   "sources": {
-    "bazos": 5073,
+    "bazos": 5075,
     "bezrealitky": 792,
     "cevd": 2,
-    "chata": 155,
-    "house": 842,
+    "chata": 154,
+    "house": 841,
     "portaldrazeb": 11,
     "spu": 1247,
     "sreality": 919,
     "uzsvm": 20
   },
   "listings": [
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223094286/prodej-rodinneho-domu-liberec-ul-alsova.php",
+      "source": "house",
+      "title": "Prodej rodinného domu, Liberec, ul. Alšova: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223094286/prodej-rodinneho-domu-liberec-ul-alsova.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-08-27T19:20:23.451374+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223093986/podil-na-stavebnim-pozemku.php",
+      "source": "bazos",
+      "title": "Podíl na stavebním pozemku: 500",
+      "link": "https://reality.bazos.cz/inzerat/223093986/podil-na-stavebnim-pozemku.php",
+      "locality": null,
+      "price_czk": 450,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "k.ú. Lovčice u Nového Bydžova, p.č. 556/66",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:21.530807+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223094092/prodej-louky-3101-m-skutec.php",
+      "source": "bazos",
+      "title": "Prodej louky, 3101 m², Skuteč: 124 515",
+      "link": "https://reality.bazos.cz/inzerat/223094092/prodej-louky-3101-m-skutec.php",
+      "locality": null,
+      "price_czk": 124515,
+      "price_per_m2": null,
+      "area_m2": 3101,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:21.473838+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223094135/orna-puda-bzenec.php",
+      "source": "bazos",
+      "title": "Orná půda Bzenec: 35",
+      "link": "https://reality.bazos.cz/inzerat/223094135/orna-puda-bzenec.php",
+      "locality": null,
+      "price_czk": 35,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:21.456379+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223094206/orna-puda-josefov.php",
+      "source": "bazos",
+      "title": "Orná půda Josefov: 43",
+      "link": "https://reality.bazos.cz/inzerat/223094206/orna-puda-josefov.php",
+      "locality": null,
+      "price_czk": 43,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:21.220444+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223094287/orna-puda-terezin.php",
+      "source": "bazos",
+      "title": "Orná půda Terezín: 60",
+      "link": "https://reality.bazos.cz/inzerat/223094287/orna-puda-terezin.php",
+      "locality": null,
+      "price_czk": 60,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:21.133421+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223094336/orna-puda-lipenec.php",
+      "source": "bazos",
+      "title": "Orná půda Lipenec: 45",
+      "link": "https://reality.bazos.cz/inzerat/223094336/orna-puda-lipenec.php",
+      "locality": null,
+      "price_czk": 45,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-08-27T19:20:20.995168+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
     {
       "guid": "house:https://reality.bazos.cz/inzerat/223093667/kamenny-dum-s-olivovym-sadem.php",
       "source": "house",
@@ -18349,21 +18466,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "house:https://reality.bazos.cz/inzerat/222813452/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "source": "house",
-      "title": "Prodej Developerského Projektu pro výstavbu bytových domů s : Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/222813452/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-08-20T23:40:18.437947+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222813335/les-1-413-m-podil-17-o-vymere-223-m.php",
       "source": "bazos",
       "title": "Les 1 413 m², Podíl 17 % o výměře 223 m²: 45 219",
@@ -18414,21 +18516,6 @@
       "noise_reasons": [
         "co_ownership"
       ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222813455/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "source": "bazos",
-      "title": "Prodej Developerského Projektu pro výstavbu bytových domů s : Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/222813455/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-20T23:40:16.686294+00:00",
-      "noise_reasons": []
     },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222813488/pole-12-111-m-podil-7-o-vymere-807-m.php",
@@ -59430,51 +59517,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222559581/prodej-lesnich-pozemku-ku-velke-hamry.php",
-      "source": "bazos",
-      "title": "Prodej lesních pozemků k.ú. Velké Hamry: 46 000",
-      "link": "https://reality.bazos.cz/inzerat/222559581/prodej-lesnich-pozemku-ku-velke-hamry.php",
-      "locality": null,
-      "price_czk": 46000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Velké Hamry, p.č. 1222",
-      "is_structure": false,
-      "first_seen": "2026-08-14T18:40:13.755928+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222559415/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-      "source": "bazos",
-      "title": "Prodej pozemků k.ú. Chotiněves a k.ú. Oparno: 116 000",
-      "link": "https://reality.bazos.cz/inzerat/222559415/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-      "locality": null,
-      "price_czk": 116000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Chotiněves, p.č. 381/1",
-      "is_structure": false,
-      "first_seen": "2026-08-14T18:20:14.661833+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222558023/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
-      "source": "bazos",
-      "title": "Prodej lesních pozemků k.ú. Popovice u Uherského Hradiště: 21 000",
-      "link": "https://reality.bazos.cz/inzerat/222558023/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
-      "locality": null,
-      "price_czk": 21000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Popovice u Uherského Hradiště, p.č. 3533",
-      "is_structure": false,
-      "first_seen": "2026-08-14T17:20:11.034289+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222558218/prodani-cast-pozemku.php",
       "source": "bazos",
       "title": "Prodání část pozemku: Dohodou",
@@ -87496,24 +87538,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "chata:2705838156",
-      "source": "chata",
-      "title": "Prodej chaty 32 m², pozemek 20 m² — Praha – Smíchov, Praha 5, Hlavní město Praha",
-      "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-smichov-/2705838156",
-      "locality": null,
-      "price_czk": 590000,
-      "price_per_m2": 18438,
-      "area_m2": 32,
-      "gps": {
-        "lat": 50.075309,
-        "lon": 14.405655
-      },
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-08-06T10:00:16.731686+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222225870/prodej-pozemku-637-m-otovice.php",
       "source": "bazos",
       "title": "Prodej pozemku 637 m² – Otovice: 55 000",
@@ -98251,21 +98275,6 @@
       "parcel_ref": "",
       "is_structure": true,
       "first_seen": "2026-07-30T08:20:11.370173+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "house:https://reality.bazos.cz/inzerat/221939887/prodej-rodinneho-domu-120-m-louny-ul-chelcickeho.php",
-      "source": "house",
-      "title": "Prodej rodinného domu, 120 m², Louny, ul. Chelčického: Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/221939887/prodej-rodinneho-domu-120-m-louny-ul-chelcickeho.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": 120,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-07-30T08:20:11.361996+00:00",
       "noise_reasons": []
     },
     {

@@ -61344,36 +61344,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.405655,
-          50.075309
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 32 m², pozemek 20 m² — Praha – Smíchov, Praha 5, Hlavní město Praha",
-        "price": 590000,
-        "price_label": "590 000 Kč",
-        "source": "chata",
-        "guid": "chata:2705838156",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.405655&y=50.075309&z=17&source=coor&id=14.405655,50.075309",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-smichov-/2705838156",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "FLOOD_HAZARD",
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.471714,
           48.966597
         ]
@@ -77217,35 +77187,6 @@
         "guid": "sreality:286634060",
         "mapy_url": "https://mapy.cz/zakladni?x=12.965916&y=49.530966&z=17&source=coor&id=12.965916,49.530966",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/horsovsky-tyn-mesto-namesti-republiky/286634060"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.273502,
-          50.544836
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Chotiněves a k.ú. Oparno: 116 000",
-        "price": 116000,
-        "price_label": "116 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222559415/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.273502&y=50.544836&z=17&source=coor&id=14.273502,50.544836",
-        "link": "https://reality.bazos.cz/inzerat/222559415/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -104950,6 +104891,34 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.389222,
+          50.162295
+        ]
+      },
+      "properties": {
+        "title": "Podíl na stavebním pozemku: 500",
+        "price": 450,
+        "price_label": "450 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223093986/podil-na-stavebnim-pozemku.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.389222&y=50.162295&z=17&source=coor&id=15.389222,50.162295",
+        "link": "https://reality.bazos.cz/inzerat/223093986/podil-na-stavebnim-pozemku.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "PRICE_PER_M2"
+        ],
+        "druh_pozemku": "orná půda"
       }
     }
   ]

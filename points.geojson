@@ -89438,34 +89438,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.752133,
-          49.320426
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesního pozemku k.ú. Vlčková: 110 000",
-        "price": 110000,
-        "price_label": "110 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222765997/prodej-lesniho-pozemku-ku-vlckova.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.752133&y=49.320426&z=17&source=coor&id=17.752133,49.320426",
-        "link": "https://reality.bazos.cz/inzerat/222765997/prodej-lesniho-pozemku-ku-vlckova.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.994648,
           50.246793
         ]
@@ -103264,6 +103236,65 @@
           "PIN_HIT_COMMON_LAND"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.647288,
+          49.022577
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 942 m², Podíl 4 % o výměře 3: 22 753",
+        "price": 22753,
+        "price_label": "22 753 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223055736/spekulacni-komercni-a-ostatni-942-m-podil-4-o-vymere-3.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.647288&y=49.022577&z=17&source=coor&id=17.647288,49.022577",
+        "link": "https://reality.bazos.cz/inzerat/223055736/spekulacni-komercni-a-ostatni-942-m-podil-4-o-vymere-3.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.474326,
+          49.910371
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 1 018 m², Podíl 39 % o výměř: 35 705",
+        "price": 35705,
+        "price_label": "35 705 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223055724/spekulacni-komercni-a-ostatni-1-018-m-podil-39-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.474326&y=49.910371&z=17&source=coor&id=16.474326,49.910371",
+        "link": "https://reality.bazos.cz/inzerat/223055724/spekulacni-komercni-a-ostatni-1-018-m-podil-39-o-vymer.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "zahrada"
       }
     }
   ]

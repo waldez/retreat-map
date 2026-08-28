@@ -54586,60 +54586,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.705326,
-          49.120436
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2 963 m², Sokolnice, ev.č. 2025-07-10-13: 249 000",
-        "price": 249000,
-        "price_label": "249 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221990804/prodej-pole-2-963-m-sokolnice-evc-2025-07-10-13.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.705326&y=49.120436&z=17&source=coor&id=16.705326,49.120436",
-        "link": "https://reality.bazos.cz/inzerat/221990804/prodej-pole-2-963-m-sokolnice-evc-2025-07-10-13.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.535476,
-          49.545971
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 6430 m² — Dolní Újezd, Přerov, Olomoucký kraj",
-        "price": 315086,
-        "price_label": "315 086 Kč",
-        "source": "sreality",
-        "guid": "sreality:332189772",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.535476&y=49.545971&z=17&source=coor&id=17.535476,49.545971",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dolni-ujezd-dolni-ujezd-/332189772",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.183486,
           50.372104
         ]
@@ -104695,6 +104641,125 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.692973,
+          50.217528
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2889 m² — Slezské Rudoltice - Koberno, Moravskoslezský kraj",
+        "price": 109000,
+        "price_label": "109 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1060524",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.692973&y=50.217528&z=17&source=coor&id=17.692973,50.217528",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1060524-nabidka-prodej-pozemku-slezske-rudoltice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.565503,
+          49.869618
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 112 m², pozemek 77 m² — Bílčice, Bruntál, Moravskoslezský kraj",
+        "price": 590000,
+        "price_label": "590 000 Kč",
+        "source": "house",
+        "guid": "house:3371614284",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.565503&y=49.869618&z=17&source=coor&id=17.565503,49.869618",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/bilcice-bilcice-/3371614284",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.184183,
+          50.674574
+        ]
+      },
+      "properties": {
+        "title": "Prodám lesní pozemek a ostatní plochu v k.ú. Mukařov u Jablo: 225 000",
+        "price": 225000,
+        "price_label": "225 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223103235/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.184183&y=50.674574&z=17&source=coor&id=15.184183,50.674574",
+        "link": "https://reality.bazos.cz/inzerat/223103235/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.694237,
+          49.082395
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2197 m² — Měnín - Měnín, Jihomoravský kraj",
+        "price": 97000,
+        "price_label": "97 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1060527",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.694237&y=49.082395&z=17&source=coor&id=16.694237,49.082395",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1060527-nabidka-prodej-pozemku-menin",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

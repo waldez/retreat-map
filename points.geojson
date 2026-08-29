@@ -30457,36 +30457,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.918958,
-          50.452952
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 4184 m² — Děčany – Solany, Litoměřice, Ústecký kraj",
-        "price": 167360,
-        "price_label": "167 360 Kč",
-        "source": "sreality",
-        "guid": "sreality:2905792588",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.918958&y=50.452952&z=17&source=coor&id=13.918958,50.452952",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/decany-solany-/2905792588",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.376486,
           48.953633
         ]
@@ -30537,34 +30507,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.633652,
-          49.79528
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 15 m², pozemek 425 m² — Tachov, Plzeňský kraj",
-        "price": 599000,
-        "price_label": "599 000 Kč",
-        "source": "chata",
-        "guid": "chata:2748003148",
-        "mapy_url": "https://mapy.cz/zakladni?x=12.633652&y=49.79528&z=17&source=coor&id=12.633652,49.79528",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/tachov-tachov-/2748003148",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -42792,8 +42734,8 @@
       },
       "properties": {
         "title": "Prodej lesa 12933 m² — Strmilov, Jindřichův Hradec, Jihočeský kraj",
-        "price": 310392,
-        "price_label": "310 392 Kč",
+        "price": 297459,
+        "price_label": "297 459 Kč",
         "source": "sreality",
         "guid": "sreality:64671820",
         "mapy_url": "https://mapy.cz/zakladni?x=15.199337&y=49.158464&z=17&source=coor&id=15.199337,49.158464",
@@ -54178,6 +54120,34 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.539875,
+          50.264639
+        ]
+      },
+      "properties": {
+        "title": "STAVEBNÍ POZEMEK pro bydlení venkovské Měcholupy (Žatec): 130 000",
+        "price": 130000,
+        "price_label": "130 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/222032203/budouci-stavebpozemek-pro-rekreacni-chatu-mecholupy-zatec.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.539875&y=50.264639&z=17&source=coor&id=13.539875,50.264639",
+        "link": "https://reality.bazos.cz/inzerat/222032203/budouci-stavebpozemek-pro-rekreacni-chatu-mecholupy-zatec.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -72278,35 +72248,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.632775,
-          50.437985
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 410 m² — Mšeno, Mělník, Středočeský kraj",
-        "price": 325000,
-        "price_label": "325 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:3197423692",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.632775&y=50.437985&z=17&source=coor&id=14.632775,50.437985",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/mseno-mseno-/3197423692",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.93707,
           49.094214
         ]
@@ -76145,62 +76086,6 @@
           "PIN_HIT_COMMON_LAND",
           "LIKELY_NONBUILDABLE",
           "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          18.389352,
-          49.888699
-        ]
-      },
-      "properties": {
-        "title": "Pozemek 6013 m², kousek od Karviné: 210 455",
-        "price": 210455,
-        "price_label": "210 455 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222613569/pozemek-6013-m-kousek-od-karvine.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.389352&y=49.888699&z=17&source=coor&id=18.389352,49.888699",
-        "link": "https://reality.bazos.cz/inzerat/222613569/pozemek-6013-m-kousek-od-karvine.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "ZPF_SOIL",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.302831,
-          50.496386
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1 360 m², Vrutice - Svařenice: 47 600",
-        "price": 47600,
-        "price_label": "47 600 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222613694/prodej-pozemku-1-360-m-vrutice-svarenice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.302831&y=50.496386&z=17&source=coor&id=14.302831,50.496386",
-        "link": "https://reality.bazos.cz/inzerat/222613694/prodej-pozemku-1-360-m-vrutice-svarenice.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "ostatní plocha"
       }
@@ -91750,35 +91635,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.36731,
-          49.313262
-        ]
-      },
-      "properties": {
-        "title": "Lesní pozemek Nemějice (Slabčice): 21 000",
-        "price": 21000,
-        "price_label": "21 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222878656/lesni-pozemek-nemejice-slabcice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.36731&y=49.313262&z=17&source=coor&id=14.36731,49.313262",
-        "link": "https://reality.bazos.cz/inzerat/222878656/lesni-pozemek-nemejice-slabcice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.949384,
           50.618328
         ]
@@ -105162,6 +105018,122 @@
           "LOW_CONFIDENCE_LOCATION"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.369055,
+          49.313256
+        ]
+      },
+      "properties": {
+        "title": "Lesní pozemek Nemějice (Slabčice): 27 000",
+        "price": 27000,
+        "price_label": "27 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223152259/lesni-pozemek-nemejice-slabcice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.369055&y=49.313256&z=17&source=coor&id=14.369055,49.313256",
+        "link": "https://reality.bazos.cz/inzerat/223152259/lesni-pozemek-nemejice-slabcice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.36712,
+          49.959331
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 16 m², pozemek 16 m² — Praha – Lipence, Praha 5, Hlavní město Praha",
+        "price": 429000,
+        "price_label": "429 000 Kč",
+        "source": "chata",
+        "guid": "chata:3407200332",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.36712&y=49.959331&z=17&source=coor&id=14.36712,49.959331",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/praha-lipence-/3407200332",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.010782,
+          49.329248
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 14 m², pozemek 417 m² — Vsetín, Zlínský kraj",
+        "price": 499000,
+        "price_label": "499 000 Kč",
+        "source": "chata",
+        "guid": "chata:1709555788",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.010782&y=49.329248&z=17&source=coor&id=18.010782,49.329248",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/vsetin-vsetin-hluboke/1709555788",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.537849,
+          49.176566
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 35 m², pozemek 400 m² — Pohořelice, Zlín, Zlínský kraj",
+        "price": 829500,
+        "price_label": "829 500 Kč",
+        "source": "chata",
+        "guid": "chata:2566770764",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.537849&y=49.176566&z=17&source=coor&id=17.537849,49.176566",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/pohorelice-pohorelice-/2566770764",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

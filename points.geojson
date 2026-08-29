@@ -67418,35 +67418,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.960199,
-          49.012177
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 7360 m² — Násedlovice, Hodonín, Jihomoravský kraj",
-        "price": 397422,
-        "price_label": "397 422 Kč",
-        "source": "sreality",
-        "guid": "sreality:187822156",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.960199&y=49.012177&z=17&source=coor&id=16.960199,49.012177",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/nasedlovice-nasedlovice-/187822156",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.745364,
           49.093592
         ]
@@ -91659,36 +91630,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.277698,
-          49.765231
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 19 m², pozemek 400 m² — Ostrava – Hrabová, Ostrava-město, Moravskoslezský kraj",
-        "price": 150000,
-        "price_label": "150 000 Kč",
-        "source": "chata",
-        "guid": "chata:3965894732",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.277698&y=49.765231&z=17&source=coor&id=18.277698,49.765231",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/ostrava-hrabova-ve-stromovi/3965894732",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "NARROW_PLOT",
-          "FLOOD_HAZARD",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.931477,
           49.437744
         ]
@@ -105134,6 +105075,52 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.452923,
+          50.730099
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 10965 m² — Volfartice, Česká Lípa, Liberecký kraj",
+        "price": 317985,
+        "price_label": "317 985 Kč",
+        "source": "sreality",
+        "guid": "sreality:387772492",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.452923&y=50.730099&z=17&source=coor&id=14.452923,50.730099",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/volfartice-volfartice-/387772492"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.456544,
+          49.877791
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 2703 m² — Dětmarovice, Karviná, Moravskoslezský kraj",
+        "price": 175695,
+        "price_label": "175 695 Kč",
+        "source": "sreality",
+        "guid": "sreality:3639406668",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.456544&y=49.877791&z=17&source=coor&id=18.456544,49.877791",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/detmarovice-detmarovice-/3639406668",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     }
   ]

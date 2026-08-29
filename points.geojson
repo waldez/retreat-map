@@ -24140,34 +24140,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.582527,
-          49.406307
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1983 m² — Prusinovice - Prusinovice, Zlínský kraj",
-        "price": 90000,
-        "price_label": "90 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1012893",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.582527&y=49.406307&z=17&source=coor&id=17.582527,49.406307",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1012893-nabidka-prodej-pozemku",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.176368,
           49.741671
         ]
@@ -45867,6 +45839,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.996678,
+          49.26215
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 2906 m² — Valašská Polanka, Vsetín, Zlínský kraj",
+        "price": 45000,
+        "price_label": "45 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2013504844",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.996678&y=49.26215&z=17&source=coor&id=17.996678,49.26215",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/valasska-polanka-valasska-polanka-/2013504844",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "DRUH_CONTRADICTS_TITLE"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.67183,
           50.056029
         ]
@@ -47330,6 +47331,35 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.996678,
+          49.26215
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 9692 m² — Valašská Polanka, Vsetín, Zlínský kraj",
+        "price": 283000,
+        "price_label": "283 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1449677388",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.996678&y=49.26215&z=17&source=coor&id=17.996678,49.26215",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/valasska-polanka-valasska-polanka-/1449677388",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "DRUH_CONTRADICTS_TITLE"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     },
     {
@@ -67089,90 +67119,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.530723,
-          49.629972
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 769 m² — Žákava, Plzeň-jih, Plzeňský kraj",
-        "price": 390000,
-        "price_label": "390 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:3795108684",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.530723&y=49.629972&z=17&source=coor&id=13.530723,49.629972",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/zakava-zakava-/3795108684",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "PLACEHOLDER_PIN",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.7218,
-          49.3922
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 10721 m² — Vavřinec – Suchdol, Blansko, Jihomoravský kraj",
-        "price": 396677,
-        "price_label": "396 677 Kč",
-        "source": "sreality",
-        "guid": "sreality:162193484",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.7218&y=49.3922&z=17&source=coor&id=16.7218,49.3922",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vavrinec-suchdol-/162193484",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PROTECTED_AREA",
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          12.351786,
-          50.127342
-        ]
-      },
-      "properties": {
-        "title": "Prodám Stavební pozemky u Františkových Lázní: V textu",
-        "price": null,
-        "price_label": null,
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222263273/prodam-stavebni-pozemky-u-frantiskovych-lazni.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=12.351786&y=50.127342&z=17&source=coor&id=12.351786,50.127342",
-        "link": "https://reality.bazos.cz/inzerat/222263273/prodam-stavebni-pozemky-u-frantiskovych-lazni.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.876716,
           50.464156
         ]
@@ -67311,34 +67257,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "PROTECTED_AREA",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.22829,
-          49.357906
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 160 m², pozemek 188 m² — Hruška, Prostějov, Olomoucký kraj",
-        "price": 490000,
-        "price_label": "490 000 Kč",
-        "source": "house",
-        "guid": "house:1533464652",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.22829&y=49.357906&z=17&source=coor&id=17.22829,49.357906",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/hruska-hruska-/1533464652",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
@@ -72460,33 +72378,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.094532,
-          49.99861
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 40 m², pozemek 21 m² — Týnišťko, Ústí nad Orlicí, Pardubický kraj",
-        "price": 499000,
-        "price_label": "499 000 Kč",
-        "source": "chata",
-        "guid": "chata:161796172",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.094532&y=49.99861&z=17&source=coor&id=16.094532,49.99861",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/tynistko-tynistko-/161796172",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     },
     {
@@ -105553,6 +105444,63 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.730524,
+          49.218371
+        ]
+      },
+      "properties": {
+        "title": "Stavební - bydlení 125 m², Podíl 50 % o výměře 63 m²: 43 750",
+        "price": 43750,
+        "price_label": "43 750 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223129537/stavebni-bydleni-125-m-podil-50-o-vymere-63-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.730524&y=49.218371&z=17&source=coor&id=17.730524,49.218371",
+        "link": "https://reality.bazos.cz/inzerat/223129537/stavebni-bydleni-125-m-podil-50-o-vymere-63-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "CO_OWNERSHIP",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.670111,
+          49.582169
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - stát 6 837 m², Podíl 4 % o výměře 285 m²: 47 344",
+        "price": 47344,
+        "price_label": "47 344 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223129536/spekulacni-stat-6-837-m-podil-4-o-vymere-285-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.670111&y=49.582169&z=17&source=coor&id=16.670111,49.582169",
+        "link": "https://reality.bazos.cz/inzerat/223129536/spekulacni-stat-6-837-m-podil-4-o-vymere-285-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

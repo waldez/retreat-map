@@ -1,19 +1,2122 @@
 {
-  "generated_at": "2026-09-01T04:05:37.792326+00:00",
-  "count": 9788,
-  "noise_count": 5016,
+  "generated_at": "2026-09-01T07:06:13.302462+00:00",
+  "count": 9908,
+  "noise_count": 5111,
   "sources": {
-    "bazos": 5715,
-    "bezrealitky": 794,
+    "bazos": 5820,
+    "bezrealitky": 798,
     "cevd": 2,
     "chata": 149,
-    "house": 888,
-    "portaldrazeb": 4,
+    "house": 896,
+    "portaldrazeb": 3,
     "spu": 1247,
-    "sreality": 964,
+    "sreality": 968,
     "uzsvm": 25
   },
   "listings": [
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223263313/prodej-3-pozemku-v-k-u-buchlovice.php",
+      "source": "bazos",
+      "title": "Prodej 3 pozemků v k. ú. Buchlovice: 96",
+      "link": "https://reality.bazos.cz/inzerat/223263313/prodej-3-pozemku-v-k-u-buchlovice.php",
+      "locality": null,
+      "price_czk": 96,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "p.č. 3201/20",
+      "is_structure": false,
+      "first_seen": "2026-09-01T07:00:20.393593+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223263319/prodej-stavebniho-pozemku-1010-m2-jesenik.php",
+      "source": "bazos",
+      "title": "Prodej stavebního pozemku 1010 m2, Jeseník: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223263319/prodej-stavebniho-pozemku-1010-m2-jesenik.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 1010,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T07:00:20.346036+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223261863/prodej-rd-347-m2-61-pozemek-1900-m2-lovcicky-okr-vysko.php",
+      "source": "house",
+      "title": "Prodej RD 347 m2, 6+1, pozemek 1900 m2, Lovčičky, okr. Vyško: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223261863/prodej-rd-347-m2-61-pozemek-1900-m2-lovcicky-okr-vysko.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 347,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T06:40:18.869647+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223262003/prodej-rodinneho-domu-150-m-otrocin-mechov-evc-01835.php",
+      "source": "house",
+      "title": "Prodej rodinného domu 150 m², Otročín - Měchov, ev.č. 01835: 850 000",
+      "link": "https://reality.bazos.cz/inzerat/223262003/prodej-rodinneho-domu-150-m-otrocin-mechov-evc-01835.php",
+      "locality": null,
+      "price_czk": 850000,
+      "price_per_m2": null,
+      "area_m2": 150,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T06:40:18.856493+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:2297114700",
+      "source": "house",
+      "title": "Prodej rodinného domu 150 m², pozemek 643 m² — Otročín – Měchov, Karlovy Vary, Karlovarský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/otrocin-mechov-/2297114700",
+      "locality": null,
+      "price_czk": 850000,
+      "price_per_m2": 5667,
+      "area_m2": 150,
+      "gps": {
+        "lat": 50.053423,
+        "lon": 12.878662
+      },
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T06:40:18.568112+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bezrealitky:1061801",
+      "source": "bezrealitky",
+      "title": "Prodej pozemku 736 m² — Stará Paka - Ústí u Staré Paky, Královéhradecký kraj",
+      "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1061801-nabidka-prodej-pozemku-stara-paka",
+      "locality": null,
+      "price_czk": 36050,
+      "price_per_m2": null,
+      "area_m2": 736,
+      "gps": {
+        "lat": 50.517236,
+        "lon": 15.446088
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.912450+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bezrealitky:1061802",
+      "source": "bezrealitky",
+      "title": "Prodej pozemku 2531 m² — Stará Paka - Ústí u Staré Paky, Královéhradecký kraj",
+      "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1061802-nabidka-prodej-pozemku-stara-paka",
+      "locality": null,
+      "price_czk": 77250,
+      "price_per_m2": null,
+      "area_m2": 2531,
+      "gps": {
+        "lat": 50.514127,
+        "lon": 15.445375
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.885858+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bezrealitky:1061803",
+      "source": "bezrealitky",
+      "title": "Prodej pozemku 1721 m² — Stará Paka - Ústí u Staré Paky, Královéhradecký kraj",
+      "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1061803-nabidka-prodej-pozemku-stara-paka",
+      "locality": null,
+      "price_czk": 52530,
+      "price_per_m2": null,
+      "area_m2": 1721,
+      "gps": {
+        "lat": 50.511437,
+        "lon": 15.442963
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.844375+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:1005269068",
+      "source": "sreality",
+      "title": "Prodej pole 10264 m² — Tatenice, Ústí nad Orlicí, Pardubický kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/tatenice-tatenice-/1005269068",
+      "locality": null,
+      "price_czk": 250799,
+      "price_per_m2": 24,
+      "area_m2": 10264,
+      "gps": {
+        "lat": 49.8676,
+        "lon": 16.7509
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.568337+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "sreality:2599104588",
+      "source": "sreality",
+      "title": "Prodej pole 5611 m² — Votice, Benešov, Středočeský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/votice-votice-/2599104588",
+      "locality": null,
+      "price_czk": 212072,
+      "price_per_m2": 38,
+      "area_m2": 5611,
+      "gps": {
+        "lat": 49.6464,
+        "lon": 14.6446
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.547382+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "sreality:720056396",
+      "source": "sreality",
+      "title": "Prodej pozemku 1431 m² — Stráž nad Nežárkou, Jindřichův Hradec, Jihočeský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/straz-nad-nezarkou-straz-nad-nezarkou-/720056396",
+      "locality": null,
+      "price_czk": 143100,
+      "price_per_m2": 100,
+      "area_m2": 1431,
+      "gps": {
+        "lat": 49.055931,
+        "lon": 14.889778
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:17.528224+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223262061/prodej-podilu-12-louky-736-m-stara-paka.php",
+      "source": "bazos",
+      "title": "Prodej podílu 1/2 louky 736 m², Stará Paka: 36 050",
+      "link": "https://reality.bazos.cz/inzerat/223262061/prodej-podilu-12-louky-736-m-stara-paka.php",
+      "locality": null,
+      "price_czk": 36050,
+      "price_per_m2": null,
+      "area_m2": 736,
+      "gps": null,
+      "parcel_ref": "k.ú. Ústí u Staré Paky, p.č. 380/7",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:16.700865+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223262095/prodej-podilu-120-pole-2-531-m-stara-paka.php",
+      "source": "bazos",
+      "title": "Prodej podílu 1/20 pole 2 531 m², Stará Paka: 77 250",
+      "link": "https://reality.bazos.cz/inzerat/223262095/prodej-podilu-120-pole-2-531-m-stara-paka.php",
+      "locality": null,
+      "price_czk": 77250,
+      "price_per_m2": null,
+      "area_m2": 2531,
+      "gps": null,
+      "parcel_ref": "k.ú. Ústí u Staré Paky, p.č. 488/1",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:16.647332+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223262145/prodej-podilu-120-louky-1-721-m-stara-paka.php",
+      "source": "bazos",
+      "title": "Prodej podílu 1/20 louky 1 721 m², Stará Paka: 52 530",
+      "link": "https://reality.bazos.cz/inzerat/223262145/prodej-podilu-120-louky-1-721-m-stara-paka.php",
+      "locality": null,
+      "price_czk": 52530,
+      "price_per_m2": null,
+      "area_m2": 1721,
+      "gps": null,
+      "parcel_ref": "k.ú. Ústí u Staré Paky, p.č. 511",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:40:16.422495+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223260413/prodej-rodinneho-domu-ledec-nad-sazavou-habrek.php",
+      "source": "house",
+      "title": "Prodej rodinného domu, Ledeč nad Sázavou - Habrek: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223260413/prodej-rodinneho-domu-ledec-nad-sazavou-habrek.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T06:20:19.432194+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223261089/prodej-vicegeneracniho-domu-162-m-pozemek-815-m.php",
+      "source": "house",
+      "title": "Prodej dvougeneračního domu 162 m², pozemek 815 m²: V textu",
+      "link": "https://reality.bazos.cz/inzerat/223261089/prodej-vicegeneracniho-domu-162-m-pozemek-815-m.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 162,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T06:20:19.418455+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223261019/stavebni-pozemek-1611-m2-a-lesa-hostalkova.php",
+      "source": "bazos",
+      "title": "Stavební pozemek 1611 m² a les 673 m², Hošťálková: V textu",
+      "link": "https://reality.bazos.cz/inzerat/223261019/stavebni-pozemek-1611-m2-a-lesa-hostalkova.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 1611,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:20:18.181562+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223261178/pozemek-zdirec-u-blovic-u-reky-uslavy.php",
+      "source": "bazos",
+      "title": "Pozemek Ždírec u Blovic u reky uslavy: 360 000",
+      "link": "https://reality.bazos.cz/inzerat/223261178/pozemek-zdirec-u-blovic-u-reky-uslavy.php",
+      "locality": null,
+      "price_czk": 360000,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:20:18.162699+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223259973/prodej-pozemku-v-trutnove-na-vysoke-strani.php",
+      "source": "bazos",
+      "title": "Prodej pozemku v Trutnově na Vysoké stráni: 1 490",
+      "link": "https://reality.bazos.cz/inzerat/223259973/prodej-pozemku-v-trutnove-na-vysoke-strani.php",
+      "locality": null,
+      "price_czk": 1490,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T06:00:18.640800+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223259356/nove-vilky-v-oblasti-alicante.php",
+      "source": "house",
+      "title": "Nové vilky v oblasti Alicante: V textu",
+      "link": "https://reality.bazos.cz/inzerat/223259356/nove-vilky-v-oblasti-alicante.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T05:40:18.172728+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:2817208396",
+      "source": "sreality",
+      "title": "Prodej pozemku 12 m² — Židlochovice, Brno-venkov, Jihomoravský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/zidlochovice-zidlochovice-masarykova/2817208396",
+      "locality": null,
+      "price_czk": 349000,
+      "price_per_m2": 29083,
+      "area_m2": 12,
+      "gps": {
+        "lat": 49.041947,
+        "lon": 16.616564
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:40:16.588433+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223259259/stavebni-pozemek-1-027-m-v-chotebuzi-podobore-k-136014.php",
+      "source": "bazos",
+      "title": "Stavební pozemek 1 027 m² v Chotěbuzi – Podoboře | K, 136014: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223259259/stavebni-pozemek-1-027-m-v-chotebuzi-podobore-k-136014.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 1027,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:40:15.831125+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223257467/prodej-domu-k-demolici-s-krasnym-pozemkem-o-vymere-2095-m2-v.php",
+      "source": "house",
+      "title": "Prodej domu k demolici s krásným pozemkem o výměře 2095 m2 v: 1 400 000",
+      "link": "https://reality.bazos.cz/inzerat/223257467/prodej-domu-k-demolici-s-krasnym-pozemkem-o-vymere-2095-m2-v.php",
+      "locality": null,
+      "price_czk": 1400000,
+      "price_per_m2": null,
+      "area_m2": 2095,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T05:20:17.212017+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bezrealitky:1061798",
+      "source": "bezrealitky",
+      "title": "Prodej pozemku 3070 m² — Řečany nad Labem - Řečany nad Labem, Pardubický kraj",
+      "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1061798-nabidka-prodej-pozemku-recany-nad-labem",
+      "locality": null,
+      "price_czk": 123600,
+      "price_per_m2": null,
+      "area_m2": 3070,
+      "gps": {
+        "lat": 50.042844,
+        "lon": 15.485495
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:20:16.124062+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223258284/prodej-podilu-13-pole-3-070-m-recany-nad-labem.php",
+      "source": "bazos",
+      "title": "Prodej podílu 1/3 pole 3 070 m², Řečany nad Labem: 123 600",
+      "link": "https://reality.bazos.cz/inzerat/223258284/prodej-podilu-13-pole-3-070-m-recany-nad-labem.php",
+      "locality": null,
+      "price_czk": 123600,
+      "price_per_m2": null,
+      "area_m2": 3070,
+      "gps": null,
+      "parcel_ref": "k.ú. Řečany nad Labem, p.č. 769",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:20:15.481872+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223258419/trvaly-travni-porost.php",
+      "source": "bazos",
+      "title": "Pozemky Dolní Jelení: Nabídněte",
+      "link": "https://reality.bazos.cz/inzerat/223258419/trvaly-travni-porost.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:20:15.464986+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223258420/prodej-lesa-8844m2-lazne-tousen.php",
+      "source": "bazos",
+      "title": "Prodej lesa 8844m2 Lázně Toušeň: Nabídněte",
+      "link": "https://reality.bazos.cz/inzerat/223258420/prodej-lesa-8844m2-lazne-tousen.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 8844,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:20:15.441451+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223257283/exklusivni-prodej-rodinny-dum-zlutava.php",
+      "source": "house",
+      "title": "Exklusivní prodej  - rodinný dům Žlutava: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223257283/exklusivni-prodej-rodinny-dum-zlutava.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-01T05:00:31.106074+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256614/pole-10-846-m-podil-20-o-vymere-2-169-m.php",
+      "source": "bazos",
+      "title": "Pole 10 846 m², Podíl 20 % o výměře 2 169 m²: 51 463",
+      "link": "https://reality.bazos.cz/inzerat/223256614/pole-10-846-m-podil-20-o-vymere-2-169-m.php",
+      "locality": null,
+      "price_czk": 51463,
+      "price_per_m2": null,
+      "area_m2": 10846,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.655163+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256615/spekulacni-komercni-a-ostatni-2-147-240-m-podil-035-o.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 2 147 240 m², Podíl 0,35 % o: 197 218",
+      "link": "https://reality.bazos.cz/inzerat/223256615/spekulacni-komercni-a-ostatni-2-147-240-m-podil-035-o.php",
+      "locality": null,
+      "price_czk": 197218,
+      "price_per_m2": null,
+      "area_m2": 2147240,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.550928+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256617/pole-8-607-m-podil-10-o-vymere-897-m.php",
+      "source": "bazos",
+      "title": "Pole 8 607 m², Podíl 10 % o výměře 897 m²: 21 121",
+      "link": "https://reality.bazos.cz/inzerat/223256617/pole-8-607-m-podil-10-o-vymere-897-m.php",
+      "locality": null,
+      "price_czk": 21121,
+      "price_per_m2": null,
+      "area_m2": 8607,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.488586+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256687/pole-1-443-m-podil-56-o-vymere-812-m.php",
+      "source": "bazos",
+      "title": "Pole 1 443 m², Podíl 56 % o výměře 812 m²: 23 661",
+      "link": "https://reality.bazos.cz/inzerat/223256687/pole-1-443-m-podil-56-o-vymere-812-m.php",
+      "locality": null,
+      "price_czk": 23661,
+      "price_per_m2": null,
+      "area_m2": 1443,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.465355+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256690/pole-3-500-m-podil-50-o-vymere-1-750-m.php",
+      "source": "bazos",
+      "title": "Pole 3 500 m², Podíl 50 % o výměře 1 750 m²: 59 713",
+      "link": "https://reality.bazos.cz/inzerat/223256690/pole-3-500-m-podil-50-o-vymere-1-750-m.php",
+      "locality": null,
+      "price_czk": 59713,
+      "price_per_m2": null,
+      "area_m2": 3500,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.451274+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256692/pole-5-287-m.php",
+      "source": "bazos",
+      "title": "Pole 5 287 m²: 185 838",
+      "link": "https://reality.bazos.cz/inzerat/223256692/pole-5-287-m.php",
+      "locality": null,
+      "price_czk": 185838,
+      "price_per_m2": null,
+      "area_m2": 5287,
+      "gps": null,
+      "parcel_ref": "k.ú. Borkovice, p.č. 1280/24",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.427598+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256695/pole-19-312-m-podil-13-o-vymere-2-233-m.php",
+      "source": "bazos",
+      "title": "Pole 19 312 m², Podíl 13 % o výměře 2 233 m²: 71 765",
+      "link": "https://reality.bazos.cz/inzerat/223256695/pole-19-312-m-podil-13-o-vymere-2-233-m.php",
+      "locality": null,
+      "price_czk": 71765,
+      "price_per_m2": null,
+      "area_m2": 19312,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.410381+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256774/pole-48-080-m-podil-5-o-vymere-2-501-m.php",
+      "source": "bazos",
+      "title": "Pole 48 080 m², Podíl 5 % o výměře 2 501 m²: 208 922",
+      "link": "https://reality.bazos.cz/inzerat/223256774/pole-48-080-m-podil-5-o-vymere-2-501-m.php",
+      "locality": null,
+      "price_czk": 208922,
+      "price_per_m2": null,
+      "area_m2": 48080,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.383574+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256779/pole-5-317-m-podil-10-o-vymere-532-m.php",
+      "source": "bazos",
+      "title": "Pole 5 317 m², Podíl 10 % o výměře 532 m²: 14 905",
+      "link": "https://reality.bazos.cz/inzerat/223256779/pole-5-317-m-podil-10-o-vymere-532-m.php",
+      "locality": null,
+      "price_czk": 14905,
+      "price_per_m2": null,
+      "area_m2": 5317,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.364229+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256869/stavebni-bydleni-1-931-m-podil-25-o-vymere-483-m.php",
+      "source": "bazos",
+      "title": "Stavební - bydlení 1 931 m², Podíl 25 % o výměře 483 m²: 81 998",
+      "link": "https://reality.bazos.cz/inzerat/223256869/stavebni-bydleni-1-931-m-podil-25-o-vymere-483-m.php",
+      "locality": null,
+      "price_czk": 81998,
+      "price_per_m2": null,
+      "area_m2": 1931,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.334735+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256871/prodej-stavebnich-pozemku-novosedlice.php",
+      "source": "bazos",
+      "title": "Prodej stavebních pozemků - Novosedlice: 4 200",
+      "link": "https://reality.bazos.cz/inzerat/223256871/prodej-stavebnich-pozemku-novosedlice.php",
+      "locality": null,
+      "price_czk": 4200,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.305751+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256873/pole-8-103-m-podil-11-o-vymere-900-m.php",
+      "source": "bazos",
+      "title": "Pole 8 103 m², Podíl 11 % o výměře 900 m²: 17 131",
+      "link": "https://reality.bazos.cz/inzerat/223256873/pole-8-103-m-podil-11-o-vymere-900-m.php",
+      "locality": null,
+      "price_czk": 17131,
+      "price_per_m2": null,
+      "area_m2": 8103,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.291893+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256876/les-5-175-m-podil-8-o-vymere-431-m.php",
+      "source": "bazos",
+      "title": "Les 5 175 m², Podíl 8 % o výměře 431 m²: 55 004",
+      "link": "https://reality.bazos.cz/inzerat/223256876/les-5-175-m-podil-8-o-vymere-431-m.php",
+      "locality": null,
+      "price_czk": 55004,
+      "price_per_m2": null,
+      "area_m2": 5175,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.278157+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256878/spekulacni-komercni-a-ostatni-361-m.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 361 m²: 96 057",
+      "link": "https://reality.bazos.cz/inzerat/223256878/spekulacni-komercni-a-ostatni-361-m.php",
+      "locality": null,
+      "price_czk": 96057,
+      "price_per_m2": null,
+      "area_m2": 361,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.257332+00:00",
+      "noise_reasons": [
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256879/spekulacni-stat-1-272-m.php",
+      "source": "bazos",
+      "title": "Spekulační - stát 1 272 m²: 66 144",
+      "link": "https://reality.bazos.cz/inzerat/223256879/spekulacni-stat-1-272-m.php",
+      "locality": null,
+      "price_czk": 66144,
+      "price_per_m2": null,
+      "area_m2": 1272,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.215076+00:00",
+      "noise_reasons": [
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256891/rozsahly-stavebni-pozemek-loucna-nad-desnou-filipova.php",
+      "source": "bazos",
+      "title": "Rozsáhlý stavební pozemek, Loučná nad Desnou - Filipová: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223256891/rozsahly-stavebni-pozemek-loucna-nad-desnou-filipova.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.194686+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256972/pole-3-858-m-podil-25-o-vymere-965-m.php",
+      "source": "bazos",
+      "title": "Pole 3 858 m², Podíl 25 % o výměře 965 m²: 22 810",
+      "link": "https://reality.bazos.cz/inzerat/223256972/pole-3-858-m-podil-25-o-vymere-965-m.php",
+      "locality": null,
+      "price_czk": 22810,
+      "price_per_m2": null,
+      "area_m2": 3858,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.177530+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256975/pole-7-115-m-podil-30-o-vymere-2-019-m.php",
+      "source": "bazos",
+      "title": "Pole 7 115 m², Podíl 30 % o výměře 2 019 m²: 171 545",
+      "link": "https://reality.bazos.cz/inzerat/223256975/pole-7-115-m-podil-30-o-vymere-2-019-m.php",
+      "locality": null,
+      "price_czk": 171545,
+      "price_per_m2": null,
+      "area_m2": 7115,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.161040+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256976/les-7-841-m-podil-17-o-vymere-1-307-m.php",
+      "source": "bazos",
+      "title": "Les 7 841 m², Podíl 17 % o výměře 1 307 m²: 24 121",
+      "link": "https://reality.bazos.cz/inzerat/223256976/les-7-841-m-podil-17-o-vymere-1-307-m.php",
+      "locality": null,
+      "price_czk": 24121,
+      "price_per_m2": null,
+      "area_m2": 7841,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.143144+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256979/pole-6-762-m-podil-17-o-vymere-1-127-m.php",
+      "source": "bazos",
+      "title": "Pole 6 762 m², Podíl 17 % o výměře 1 127 m²: 28 876",
+      "link": "https://reality.bazos.cz/inzerat/223256979/pole-6-762-m-podil-17-o-vymere-1-127-m.php",
+      "locality": null,
+      "price_czk": 28876,
+      "price_per_m2": null,
+      "area_m2": 6762,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.119609+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223257074/pole-4-958-m-podil-33-o-vymere-1-653-m.php",
+      "source": "bazos",
+      "title": "Pole 4 958 m², Podíl 33 % o výměře 1 653 m²: 49 216",
+      "link": "https://reality.bazos.cz/inzerat/223257074/pole-4-958-m-podil-33-o-vymere-1-653-m.php",
+      "locality": null,
+      "price_czk": 49216,
+      "price_per_m2": null,
+      "area_m2": 4958,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.103923+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223257077/spekulacni-komercni-a-ostatni-4-884-m.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 4 884 m²: 126 593",
+      "link": "https://reality.bazos.cz/inzerat/223257077/spekulacni-komercni-a-ostatni-4-884-m.php",
+      "locality": null,
+      "price_czk": 126593,
+      "price_per_m2": null,
+      "area_m2": 4884,
+      "gps": {
+        "lat": 49.231576302,
+        "lon": 15.158863167
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.091234+00:00",
+      "noise_reasons": [
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223257078/pole-21-587-m-podil-8-o-vymere-1-799-m.php",
+      "source": "bazos",
+      "title": "Pole 21 587 m², Podíl 8 % o výměře 1 799 m²: 35 023",
+      "link": "https://reality.bazos.cz/inzerat/223257078/pole-21-587-m-podil-8-o-vymere-1-799-m.php",
+      "locality": null,
+      "price_czk": 35023,
+      "price_per_m2": null,
+      "area_m2": 21587,
+      "gps": null,
+      "parcel_ref": "k.ú. Soběslav, p.č. 2",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:29.060055+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223257082/pole-1-759-m-podil-50-o-vymere-880-m.php",
+      "source": "bazos",
+      "title": "Pole 1 759 m², Podíl 50 % o výměře 880 m²: 32 058",
+      "link": "https://reality.bazos.cz/inzerat/223257082/pole-1-759-m-podil-50-o-vymere-880-m.php",
+      "locality": null,
+      "price_czk": 32058,
+      "price_per_m2": null,
+      "area_m2": 1759,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:28.998244+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223257392/prodej-orne-pudy-v-obecnici-okres-pribram.php",
+      "source": "bazos",
+      "title": "Prodej orné půdy v Obecnici okres Příbram: 40",
+      "link": "https://reality.bazos.cz/inzerat/223257392/prodej-orne-pudy-v-obecnici-okres-pribram.php",
+      "locality": null,
+      "price_czk": 40,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T05:00:28.918063+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255745/pole-1-990-m.php",
+      "source": "bazos",
+      "title": "Pole 1 990 m²: 82 207",
+      "link": "https://reality.bazos.cz/inzerat/223255745/pole-1-990-m.php",
+      "locality": null,
+      "price_czk": 82207,
+      "price_per_m2": null,
+      "area_m2": 1990,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:24.062721+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255746/pole-4-144-m-podil-50-o-vymere-2-072-m.php",
+      "source": "bazos",
+      "title": "Pole 4 144 m², Podíl 50 % o výměře 2 072 m²: 335 664",
+      "link": "https://reality.bazos.cz/inzerat/223255746/pole-4-144-m-podil-50-o-vymere-2-072-m.php",
+      "locality": null,
+      "price_czk": 335664,
+      "price_per_m2": null,
+      "area_m2": 4144,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:24.048831+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255747/stavebni-bydleni-840-m.php",
+      "source": "bazos",
+      "title": "Stavební - bydlení 840 m²: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223255747/stavebni-bydleni-840-m.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 840,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:24.031754+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255807/pole-4-039-m-podil-22-o-vymere-898-m.php",
+      "source": "bazos",
+      "title": "Pole 4 039 m², Podíl 22 % o výměře 898 m²: 18 655",
+      "link": "https://reality.bazos.cz/inzerat/223255807/pole-4-039-m-podil-22-o-vymere-898-m.php",
+      "locality": null,
+      "price_czk": 18655,
+      "price_per_m2": null,
+      "area_m2": 4039,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.996092+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255811/pole-8-492-m-podil-17-o-vymere-1-415-m.php",
+      "source": "bazos",
+      "title": "Pole 8 492 m², Podíl 17 % o výměře 1 415 m²: 36 859",
+      "link": "https://reality.bazos.cz/inzerat/223255811/pole-8-492-m-podil-17-o-vymere-1-415-m.php",
+      "locality": null,
+      "price_czk": 36859,
+      "price_per_m2": null,
+      "area_m2": 8492,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.961714+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255813/pole-4-233-m-podil-22-o-vymere-941-m.php",
+      "source": "bazos",
+      "title": "Pole 4 233 m², Podíl 22 % o výměře 941 m²: 19 349",
+      "link": "https://reality.bazos.cz/inzerat/223255813/pole-4-233-m-podil-22-o-vymere-941-m.php",
+      "locality": null,
+      "price_czk": 19349,
+      "price_per_m2": null,
+      "area_m2": 4233,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.921415+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255817/spekulacni-rezidencni-2-990-m-podil-25-o-vymere-748-m.php",
+      "source": "bazos",
+      "title": "Spekulační - rezidenční 2 990 m², Podíl 25 % o výměře 748 m²: 242 190",
+      "link": "https://reality.bazos.cz/inzerat/223255817/spekulacni-rezidencni-2-990-m-podil-25-o-vymere-748-m.php",
+      "locality": null,
+      "price_czk": 242190,
+      "price_per_m2": null,
+      "area_m2": 2990,
+      "gps": null,
+      "parcel_ref": "k.ú. Blažovice, p.č. 652/13",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.876305+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255891/zahrada-5-115-m-podil-17-o-vymere-695-m.php",
+      "source": "bazos",
+      "title": "Zahrada 5 115 m², Podíl 17 % o výměře 695 m²: 80 944",
+      "link": "https://reality.bazos.cz/inzerat/223255891/zahrada-5-115-m-podil-17-o-vymere-695-m.php",
+      "locality": null,
+      "price_czk": 80944,
+      "price_per_m2": null,
+      "area_m2": 5115,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.842610+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255894/pole-18-749-m-podil-17-o-vymere-3-328-m.php",
+      "source": "bazos",
+      "title": "Pole 18 749 m², Podíl 17 % o výměře 3 328 m²: 109 566",
+      "link": "https://reality.bazos.cz/inzerat/223255894/pole-18-749-m-podil-17-o-vymere-3-328-m.php",
+      "locality": null,
+      "price_czk": 109566,
+      "price_per_m2": null,
+      "area_m2": 18749,
+      "gps": null,
+      "parcel_ref": "k.ú. Mnich u Kardašovy Řečice, p.č. 72/6",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.811594+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255896/les-10-350-m-podil-17-o-vymere-1-725-m.php",
+      "source": "bazos",
+      "title": "Les 10 350 m², Podíl 17 % o výměře 1 725 m²: 24 150",
+      "link": "https://reality.bazos.cz/inzerat/223255896/les-10-350-m-podil-17-o-vymere-1-725-m.php",
+      "locality": null,
+      "price_czk": 24150,
+      "price_per_m2": null,
+      "area_m2": 10350,
+      "gps": null,
+      "parcel_ref": "k.ú. Mnich u Kardašovy Řečice, p.č. 77/3",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.795101+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255897/pole-7-524-m-podil-17-o-vymere-858-m.php",
+      "source": "bazos",
+      "title": "Pole 7 524 m², Podíl 17 % o výměře 858 m²: 26 362",
+      "link": "https://reality.bazos.cz/inzerat/223255897/pole-7-524-m-podil-17-o-vymere-858-m.php",
+      "locality": null,
+      "price_czk": 26362,
+      "price_per_m2": null,
+      "area_m2": 7524,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.783049+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255899/spekulacni-rezidencni-436-m-podil-50-o-vymere-218-m.php",
+      "source": "bazos",
+      "title": "Spekulační - rezidenční 436 m², Podíl 50 % o výměře 218 m²: 14 303",
+      "link": "https://reality.bazos.cz/inzerat/223255899/spekulacni-rezidencni-436-m-podil-50-o-vymere-218-m.php",
+      "locality": null,
+      "price_czk": 14303,
+      "price_per_m2": null,
+      "area_m2": 436,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.764816+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255984/pole-21-484-m-podil-22-o-vymere-4-774-m.php",
+      "source": "bazos",
+      "title": "Pole 21 484 m², Podíl 22 % o výměře 4 774 m²: 98 925",
+      "link": "https://reality.bazos.cz/inzerat/223255984/pole-21-484-m-podil-22-o-vymere-4-774-m.php",
+      "locality": null,
+      "price_czk": 98925,
+      "price_per_m2": null,
+      "area_m2": 21484,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.744437+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255986/pole-1-653-m.php",
+      "source": "bazos",
+      "title": "Pole 1 653 m²: 61 284",
+      "link": "https://reality.bazos.cz/inzerat/223255986/pole-1-653-m.php",
+      "locality": null,
+      "price_czk": 61284,
+      "price_per_m2": null,
+      "area_m2": 1653,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.728956+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255987/pole-3-497-m-podil-19-o-vymere-680-m.php",
+      "source": "bazos",
+      "title": "Pole 3 497 m², Podíl 19 % o výměře 680 m²: 15 830",
+      "link": "https://reality.bazos.cz/inzerat/223255987/pole-3-497-m-podil-19-o-vymere-680-m.php",
+      "locality": null,
+      "price_czk": 15830,
+      "price_per_m2": null,
+      "area_m2": 3497,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.702311+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255988/spekulacni-komercni-a-ostatni-2-330-m.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 2 330 m²: 382 178",
+      "link": "https://reality.bazos.cz/inzerat/223255988/spekulacni-komercni-a-ostatni-2-330-m.php",
+      "locality": null,
+      "price_czk": 382178,
+      "price_per_m2": null,
+      "area_m2": 2330,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.681770+00:00",
+      "noise_reasons": [
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255989/pole-9-034-m-podil-47-o-vymere-4-266-m.php",
+      "source": "bazos",
+      "title": "Pole 9 034 m², Podíl 47 % o výměře 4 266 m²: 139 666",
+      "link": "https://reality.bazos.cz/inzerat/223255989/pole-9-034-m-podil-47-o-vymere-4-266-m.php",
+      "locality": null,
+      "price_czk": 139666,
+      "price_per_m2": null,
+      "area_m2": 9034,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.662306+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256060/les-9-601-m-podil-80-o-vymere-7-047-m.php",
+      "source": "bazos",
+      "title": "Les 9 601 m², Podíl 80 % o výměře 7 047 m²: 132 616",
+      "link": "https://reality.bazos.cz/inzerat/223256060/les-9-601-m-podil-80-o-vymere-7-047-m.php",
+      "locality": null,
+      "price_czk": 132616,
+      "price_per_m2": null,
+      "area_m2": 9601,
+      "gps": null,
+      "parcel_ref": "k.ú. Lukovany, p.č. 4214",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.640583+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256061/zahrada-4-686-m-podil-25-o-vymere-1-172-m.php",
+      "source": "bazos",
+      "title": "Zahrada 4 686 m², Podíl 25 % o výměře 1 172 m²: 34 257",
+      "link": "https://reality.bazos.cz/inzerat/223256061/zahrada-4-686-m-podil-25-o-vymere-1-172-m.php",
+      "locality": null,
+      "price_czk": 34257,
+      "price_per_m2": null,
+      "area_m2": 4686,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.626221+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256062/pole-40-412-m-podil-25-o-vymere-11-528-m.php",
+      "source": "bazos",
+      "title": "Pole 40 412 m², Podíl 25 % o výměře 11 528 m²: 185 132",
+      "link": "https://reality.bazos.cz/inzerat/223256062/pole-40-412-m-podil-25-o-vymere-11-528-m.php",
+      "locality": null,
+      "price_czk": 185132,
+      "price_per_m2": null,
+      "area_m2": 40412,
+      "gps": null,
+      "parcel_ref": "p.č. 80/2",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.585443+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256063/pole-8-532-m-podil-17-o-vymere-1-422-m.php",
+      "source": "bazos",
+      "title": "Pole 8 532 m², Podíl 17 % o výměře 1 422 m²: 52 984",
+      "link": "https://reality.bazos.cz/inzerat/223256063/pole-8-532-m-podil-17-o-vymere-1-422-m.php",
+      "locality": null,
+      "price_czk": 52984,
+      "price_per_m2": null,
+      "area_m2": 8532,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.554071+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256116/spekulacni-rezidencni-638-m.php",
+      "source": "bazos",
+      "title": "Spekulační - rezidenční 638 m²: 310 068",
+      "link": "https://reality.bazos.cz/inzerat/223256116/spekulacni-rezidencni-638-m.php",
+      "locality": null,
+      "price_czk": 310068,
+      "price_per_m2": null,
+      "area_m2": 638,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.526114+00:00",
+      "noise_reasons": [
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256117/pole-3-823-m-podil-17-o-vymere-637-m.php",
+      "source": "bazos",
+      "title": "Pole 3 823 m², Podíl 17 % o výměře 637 m²: 28 450",
+      "link": "https://reality.bazos.cz/inzerat/223256117/pole-3-823-m-podil-17-o-vymere-637-m.php",
+      "locality": null,
+      "price_czk": 28450,
+      "price_per_m2": null,
+      "area_m2": 3823,
+      "gps": null,
+      "parcel_ref": "k.ú. Kunkovice u Litenčic, p.č. 653",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.488708+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256121/pole-16-839-m-podil-4-o-vymere-601-m.php",
+      "source": "bazos",
+      "title": "Pole 16 839 m², Podíl 4 % o výměře 601 m²: 15 360",
+      "link": "https://reality.bazos.cz/inzerat/223256121/pole-16-839-m-podil-4-o-vymere-601-m.php",
+      "locality": null,
+      "price_czk": 15360,
+      "price_per_m2": null,
+      "area_m2": 16839,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.470810+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256124/pole-1-694-m-podil-48-o-vymere-813-m.php",
+      "source": "bazos",
+      "title": "Pole 1 694 m², Podíl 48 % o výměře 813 m²: 39 184",
+      "link": "https://reality.bazos.cz/inzerat/223256124/pole-1-694-m-podil-48-o-vymere-813-m.php",
+      "locality": null,
+      "price_czk": 39184,
+      "price_per_m2": null,
+      "area_m2": 1694,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.457068+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256210/pole-3-060-m-podil-14-o-vymere-437-m.php",
+      "source": "bazos",
+      "title": "Pole 3 060 m², Podíl 14 % o výměře 437 m²: 15 707",
+      "link": "https://reality.bazos.cz/inzerat/223256210/pole-3-060-m-podil-14-o-vymere-437-m.php",
+      "locality": null,
+      "price_czk": 15707,
+      "price_per_m2": null,
+      "area_m2": 3060,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.439296+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256212/pole-6-684-m-podil-7-o-vymere-484-m.php",
+      "source": "bazos",
+      "title": "Pole 6 684 m², Podíl 7 % o výměře 484 m²: 14 830",
+      "link": "https://reality.bazos.cz/inzerat/223256212/pole-6-684-m-podil-7-o-vymere-484-m.php",
+      "locality": null,
+      "price_czk": 14830,
+      "price_per_m2": null,
+      "area_m2": 6684,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.422539+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256214/pole-4-997-m-podil-50-o-vymere-2-499-m.php",
+      "source": "bazos",
+      "title": "Pole 4 997 m², Podíl 50 % o výměře 2 499 m²: 95 967",
+      "link": "https://reality.bazos.cz/inzerat/223256214/pole-4-997-m-podil-50-o-vymere-2-499-m.php",
+      "locality": null,
+      "price_czk": 95967,
+      "price_per_m2": null,
+      "area_m2": 4997,
+      "gps": null,
+      "parcel_ref": "k.ú. Strabenice, p.č. 397/2",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.405311+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256216/pole-2-320-m-podil-40-o-vymere-928-m.php",
+      "source": "bazos",
+      "title": "Pole 2 320 m², Podíl 40 % o výměře 928 m²: 18 681",
+      "link": "https://reality.bazos.cz/inzerat/223256216/pole-2-320-m-podil-40-o-vymere-928-m.php",
+      "locality": null,
+      "price_czk": 18681,
+      "price_per_m2": null,
+      "area_m2": 2320,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.367490+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256217/spekulacni-komercni-a-ostatni-607-m-podil-50-o-vymere.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 607 m², Podíl 50 % o výměře: 151 750",
+      "link": "https://reality.bazos.cz/inzerat/223256217/spekulacni-komercni-a-ostatni-607-m-podil-50-o-vymere.php",
+      "locality": null,
+      "price_czk": 151750,
+      "price_per_m2": null,
+      "area_m2": 607,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.305211+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256296/pole-5-373-m-podil-47-o-vymere-2-537-m.php",
+      "source": "bazos",
+      "title": "Pole 5 373 m², Podíl 47 % o výměře 2 537 m²: 69 917",
+      "link": "https://reality.bazos.cz/inzerat/223256296/pole-5-373-m-podil-47-o-vymere-2-537-m.php",
+      "locality": null,
+      "price_czk": 69917,
+      "price_per_m2": null,
+      "area_m2": 5373,
+      "gps": null,
+      "parcel_ref": "k.ú. Cetechovice, p.č. 893",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.255486+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256303/pole-2-119-m-podil-33-o-vymere-706-m.php",
+      "source": "bazos",
+      "title": "Pole 2 119 m², Podíl 33 % o výměře 706 m²: 14 409",
+      "link": "https://reality.bazos.cz/inzerat/223256303/pole-2-119-m-podil-33-o-vymere-706-m.php",
+      "locality": null,
+      "price_czk": 14409,
+      "price_per_m2": null,
+      "area_m2": 2119,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.227749+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256377/pole-2-374-m-podil-50-o-vymere-1-187-m.php",
+      "source": "bazos",
+      "title": "Pole 2 374 m², Podíl 50 % o výměře 1 187 m²: 92 669",
+      "link": "https://reality.bazos.cz/inzerat/223256377/pole-2-374-m-podil-50-o-vymere-1-187-m.php",
+      "locality": null,
+      "price_czk": 92669,
+      "price_per_m2": null,
+      "area_m2": 2374,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.208741+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256379/spekulacni-komercni-a-ostatni-230-m-podil-6-o-vymere-1.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 230 m², Podíl 6 % o výměře 1: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223256379/spekulacni-komercni-a-ostatni-230-m-podil-6-o-vymere-1.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 230,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.190393+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256381/pole-5-741-m-podil-50-o-vymere-2-871-m.php",
+      "source": "bazos",
+      "title": "Pole 5 741 m², Podíl 50 % o výměře 2 871 m²: 109 079",
+      "link": "https://reality.bazos.cz/inzerat/223256381/pole-5-741-m-podil-50-o-vymere-2-871-m.php",
+      "locality": null,
+      "price_czk": 109079,
+      "price_per_m2": null,
+      "area_m2": 5741,
+      "gps": null,
+      "parcel_ref": "k.ú. Litenčice, p.č. 2841",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.135178+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256382/pole-5-218-m-podil-58-o-vymere-3-044-m.php",
+      "source": "bazos",
+      "title": "Pole 5 218 m², Podíl 58 % o výměře 3 044 m²: 125 028",
+      "link": "https://reality.bazos.cz/inzerat/223256382/pole-5-218-m-podil-58-o-vymere-3-044-m.php",
+      "locality": null,
+      "price_czk": 125028,
+      "price_per_m2": null,
+      "area_m2": 5218,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.106737+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256383/pole-4-962-m-podil-73-o-vymere-3-597-m.php",
+      "source": "bazos",
+      "title": "Pole 4 962 m², Podíl 73 % o výměře 3 597 m²: 89 612",
+      "link": "https://reality.bazos.cz/inzerat/223256383/pole-4-962-m-podil-73-o-vymere-3-597-m.php",
+      "locality": null,
+      "price_czk": 89612,
+      "price_per_m2": null,
+      "area_m2": 4962,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.044283+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256441/pole-1-547-m.php",
+      "source": "bazos",
+      "title": "Pole 1 547 m²: 101 710",
+      "link": "https://reality.bazos.cz/inzerat/223256441/pole-1-547-m.php",
+      "locality": null,
+      "price_czk": 101710,
+      "price_per_m2": null,
+      "area_m2": 1547,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:23.027539+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256442/pole-8-318-m-podil-50-o-vymere-4-159-m.php",
+      "source": "bazos",
+      "title": "Pole 8 318 m², Podíl 50 % o výměře 4 159 m²: 324 693",
+      "link": "https://reality.bazos.cz/inzerat/223256442/pole-8-318-m-podil-50-o-vymere-4-159-m.php",
+      "locality": null,
+      "price_czk": 324693,
+      "price_per_m2": null,
+      "area_m2": 8318,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.985106+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256446/pole-3-256-m-podil-50-o-vymere-1-628-m.php",
+      "source": "bazos",
+      "title": "Pole 3 256 m², Podíl 50 % o výměře 1 628 m²: 120 729",
+      "link": "https://reality.bazos.cz/inzerat/223256446/pole-3-256-m-podil-50-o-vymere-1-628-m.php",
+      "locality": null,
+      "price_czk": 120729,
+      "price_per_m2": null,
+      "area_m2": 3256,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.966789+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256447/pole-2-071-m-podil-47-o-vymere-978-m.php",
+      "source": "bazos",
+      "title": "Pole 2 071 m², Podíl 47 % o výměře 978 m²: 23 868",
+      "link": "https://reality.bazos.cz/inzerat/223256447/pole-2-071-m-podil-47-o-vymere-978-m.php",
+      "locality": null,
+      "price_czk": 23868,
+      "price_per_m2": null,
+      "area_m2": 2071,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.939284+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256448/pole-2-592-m.php",
+      "source": "bazos",
+      "title": "Pole 2 592 m²: 64 800",
+      "link": "https://reality.bazos.cz/inzerat/223256448/pole-2-592-m.php",
+      "locality": null,
+      "price_czk": 64800,
+      "price_per_m2": null,
+      "area_m2": 2592,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.912132+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256525/pole-6-031-m-podil-25-o-vymere-1-508-m.php",
+      "source": "bazos",
+      "title": "Pole 6 031 m², Podíl 25 % o výměře 1 508 m²: 64 457",
+      "link": "https://reality.bazos.cz/inzerat/223256525/pole-6-031-m-podil-25-o-vymere-1-508-m.php",
+      "locality": null,
+      "price_czk": 64457,
+      "price_per_m2": null,
+      "area_m2": 6031,
+      "gps": null,
+      "parcel_ref": "k.ú. Nítkovice, p.č. 878",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.884138+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256530/pole-5-718-m-podil-20-o-vymere-1-144-m.php",
+      "source": "bazos",
+      "title": "Pole 5 718 m², Podíl 20 % o výměře 1 144 m²: 49 975",
+      "link": "https://reality.bazos.cz/inzerat/223256530/pole-5-718-m-podil-20-o-vymere-1-144-m.php",
+      "locality": null,
+      "price_czk": 49975,
+      "price_per_m2": null,
+      "area_m2": 5718,
+      "gps": null,
+      "parcel_ref": "k.ú. Nítkovice, p.č. 604/4",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.864144+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223256533/pole-8-223-m-podil-10-o-vymere-822-m.php",
+      "source": "bazos",
+      "title": "Pole 8 223 m², Podíl 10 % o výměře 822 m²: 22 788",
+      "link": "https://reality.bazos.cz/inzerat/223256533/pole-8-223-m-podil-10-o-vymere-822-m.php",
+      "locality": null,
+      "price_czk": 22788,
+      "price_per_m2": null,
+      "area_m2": 8223,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:40:22.745121+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255270/pole-39-744-m-podil-13-o-vymere-4-968-m.php",
+      "source": "bazos",
+      "title": "Pole 39 744 m², Podíl 13 % o výměře 4 968 m²: 162 438",
+      "link": "https://reality.bazos.cz/inzerat/223255270/pole-39-744-m-podil-13-o-vymere-4-968-m.php",
+      "locality": null,
+      "price_czk": 162438,
+      "price_per_m2": null,
+      "area_m2": 39744,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.731924+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255274/les-2-306-m-podil-75-o-vymere-1-730-m.php",
+      "source": "bazos",
+      "title": "Les 2 306 m², Podíl 75 % o výměře 1 730 m²: 32 930",
+      "link": "https://reality.bazos.cz/inzerat/223255274/les-2-306-m-podil-75-o-vymere-1-730-m.php",
+      "locality": null,
+      "price_czk": 32930,
+      "price_per_m2": null,
+      "area_m2": 2306,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.678322+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255275/pole-2-543-m-podil-33-o-vymere-848-m.php",
+      "source": "bazos",
+      "title": "Pole 2 543 m², Podíl 33 % o výměře 848 m²: 27 846",
+      "link": "https://reality.bazos.cz/inzerat/223255275/pole-2-543-m-podil-33-o-vymere-848-m.php",
+      "locality": null,
+      "price_czk": 27846,
+      "price_per_m2": null,
+      "area_m2": 2543,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.660362+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255277/spekulacni-komercni-a-ostatni-8-166-m-podil-17-o-vymer.php",
+      "source": "bazos",
+      "title": "Spekulační - komerční a ostatní 8 166 m², Podíl 17 % o výměř: 38 123",
+      "link": "https://reality.bazos.cz/inzerat/223255277/spekulacni-komercni-a-ostatni-8-166-m-podil-17-o-vymer.php",
+      "locality": null,
+      "price_czk": 38123,
+      "price_per_m2": null,
+      "area_m2": 8166,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.642413+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255343/pole-2-664-m.php",
+      "source": "bazos",
+      "title": "Pole 2 664 m²: 81 252",
+      "link": "https://reality.bazos.cz/inzerat/223255343/pole-2-664-m.php",
+      "locality": null,
+      "price_czk": 81252,
+      "price_per_m2": null,
+      "area_m2": 2664,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.625288+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255344/stavebni-komercni-1-223-m-podil-8-o-vymere-102-m.php",
+      "source": "bazos",
+      "title": "Stavební - komerční 1 223 m², Podíl 8 % o výměře 102 m²: 23 769",
+      "link": "https://reality.bazos.cz/inzerat/223255344/stavebni-komercni-1-223-m-podil-8-o-vymere-102-m.php",
+      "locality": null,
+      "price_czk": 23769,
+      "price_per_m2": null,
+      "area_m2": 1223,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.587427+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255347/pole-4-144-m-podil-33-o-vymere-1-381-m.php",
+      "source": "bazos",
+      "title": "Pole 4 144 m², Podíl 33 % o výměře 1 381 m²: 44 695",
+      "link": "https://reality.bazos.cz/inzerat/223255347/pole-4-144-m-podil-33-o-vymere-1-381-m.php",
+      "locality": null,
+      "price_czk": 44695,
+      "price_per_m2": null,
+      "area_m2": 4144,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.522564+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255348/pole-6-362-m-podil-17-o-vymere-1-060-m.php",
+      "source": "bazos",
+      "title": "Pole 6 362 m², Podíl 17 % o výměře 1 060 m²: 22 457",
+      "link": "https://reality.bazos.cz/inzerat/223255348/pole-6-362-m-podil-17-o-vymere-1-060-m.php",
+      "locality": null,
+      "price_czk": 22457,
+      "price_per_m2": null,
+      "area_m2": 6362,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.505727+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255349/les-14-528-m-podil-14-o-vymere-2-075-m.php",
+      "source": "bazos",
+      "title": "Les 14 528 m², Podíl 14 % o výměře 2 075 m²: 28 408",
+      "link": "https://reality.bazos.cz/inzerat/223255349/les-14-528-m-podil-14-o-vymere-2-075-m.php",
+      "locality": null,
+      "price_czk": 28408,
+      "price_per_m2": null,
+      "area_m2": 14528,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.354092+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255434/pole-40-148-m-podil-6-o-vymere-2-509-m.php",
+      "source": "bazos",
+      "title": "Pole 40 148 m², Podíl 6 % o výměře 2 509 m²: 88 029",
+      "link": "https://reality.bazos.cz/inzerat/223255434/pole-40-148-m-podil-6-o-vymere-2-509-m.php",
+      "locality": null,
+      "price_czk": 88029,
+      "price_per_m2": null,
+      "area_m2": 40148,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.333812+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255435/krasny-pozemek-louka-u-lesa-dojet-lze-autem.php",
+      "source": "bazos",
+      "title": "Krásný pozemek v luxusní přírodě. Neváhejte: Les, louka....: 95 000",
+      "link": "https://reality.bazos.cz/inzerat/223255435/krasny-pozemek-louka-u-lesa-dojet-lze-autem.php",
+      "locality": null,
+      "price_czk": 95000,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.321595+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255436/pole-14-785-m-podil-17-o-vymere-2-464-m.php",
+      "source": "bazos",
+      "title": "Pole 14 785 m², Podíl 17 % o výměře 2 464 m²: 52 216",
+      "link": "https://reality.bazos.cz/inzerat/223255436/pole-14-785-m-podil-17-o-vymere-2-464-m.php",
+      "locality": null,
+      "price_czk": 52216,
+      "price_per_m2": null,
+      "area_m2": 14785,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.303762+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255437/les-5-082-m-podil-22-o-vymere-1-129-m.php",
+      "source": "bazos",
+      "title": "Les 5 082 m², Podíl 22 % o výměře 1 129 m²: 19 197",
+      "link": "https://reality.bazos.cz/inzerat/223255437/les-5-082-m-podil-22-o-vymere-1-129-m.php",
+      "locality": null,
+      "price_czk": 19197,
+      "price_per_m2": null,
+      "area_m2": 5082,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.283523+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255438/pole-14-735-m-podil-14-o-vymere-2-105-m.php",
+      "source": "bazos",
+      "title": "Pole 14 735 m², Podíl 14 % o výměře 2 105 m²: 53 761",
+      "link": "https://reality.bazos.cz/inzerat/223255438/pole-14-735-m-podil-14-o-vymere-2-105-m.php",
+      "locality": null,
+      "price_czk": 53761,
+      "price_per_m2": null,
+      "area_m2": 14735,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.262292+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255440/pole-11-588-m-podil-22-o-vymere-2-575-m.php",
+      "source": "bazos",
+      "title": "Pole 11 588 m², Podíl 22 % o výměře 2 575 m²: 53 386",
+      "link": "https://reality.bazos.cz/inzerat/223255440/pole-11-588-m-podil-22-o-vymere-2-575-m.php",
+      "locality": null,
+      "price_czk": 53386,
+      "price_per_m2": null,
+      "area_m2": 11588,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.245026+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255499/spekulacni-rezidencni-5-228-m-podil-17-o-vymere-871-m.php",
+      "source": "bazos",
+      "title": "Spekulační - rezidenční 5 228 m², Podíl 17 % o výměře 871 m²: 98 496",
+      "link": "https://reality.bazos.cz/inzerat/223255499/spekulacni-rezidencni-5-228-m-podil-17-o-vymere-871-m.php",
+      "locality": null,
+      "price_czk": 98496,
+      "price_per_m2": null,
+      "area_m2": 5228,
+      "gps": null,
+      "parcel_ref": "p.č. 1149/65",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.229148+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "speculative"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255501/pole-1-196-m.php",
+      "source": "bazos",
+      "title": "Pole 1 196 m²: 44 687",
+      "link": "https://reality.bazos.cz/inzerat/223255501/pole-1-196-m.php",
+      "locality": null,
+      "price_czk": 44687,
+      "price_per_m2": null,
+      "area_m2": 1196,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.201400+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255504/pole-10-114-m-podil-22-o-vymere-2-248-m.php",
+      "source": "bazos",
+      "title": "Pole 10 114 m², Podíl 22 % o výměře 2 248 m²: 46 870",
+      "link": "https://reality.bazos.cz/inzerat/223255504/pole-10-114-m-podil-22-o-vymere-2-248-m.php",
+      "locality": null,
+      "price_czk": 46870,
+      "price_per_m2": null,
+      "area_m2": 10114,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.102305+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255573/pole-5-605-m-podil-17-o-vymere-934-m.php",
+      "source": "bazos",
+      "title": "Pole 5 605 m², Podíl 17 % o výměře 934 m²: 16 441",
+      "link": "https://reality.bazos.cz/inzerat/223255573/pole-5-605-m-podil-17-o-vymere-934-m.php",
+      "locality": null,
+      "price_czk": 16441,
+      "price_per_m2": null,
+      "area_m2": 5605,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.043482+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255575/les-6-163-m-podil-67-o-vymere-4-109-m.php",
+      "source": "bazos",
+      "title": "Les 6 163 m², Podíl 67 % o výměře 4 109 m²: 39 286",
+      "link": "https://reality.bazos.cz/inzerat/223255575/les-6-163-m-podil-67-o-vymere-4-109-m.php",
+      "locality": null,
+      "price_czk": 39286,
+      "price_per_m2": null,
+      "area_m2": 6163,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:19.007795+00:00",
+      "noise_reasons": [
+        "co_ownership"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255577/pole-3-501-m-podil-17-o-vymere-584-m.php",
+      "source": "bazos",
+      "title": "Pole 3 501 m², Podíl 17 % o výměře 584 m²: 14 263",
+      "link": "https://reality.bazos.cz/inzerat/223255577/pole-3-501-m-podil-17-o-vymere-584-m.php",
+      "locality": null,
+      "price_czk": 14263,
+      "price_per_m2": null,
+      "area_m2": 3501,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:18.989028+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255580/pole-6-959-m-podil-50-o-vymere-3-480-m.php",
+      "source": "bazos",
+      "title": "Pole 6 959 m², Podíl 50 % o výměře 3 480 m²: 100 448",
+      "link": "https://reality.bazos.cz/inzerat/223255580/pole-6-959-m-podil-50-o-vymere-3-480-m.php",
+      "locality": null,
+      "price_czk": 100448,
+      "price_per_m2": null,
+      "area_m2": 6959,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:18.952549+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223255583/pole-4-880-m-podil-17-o-vymere-813-m.php",
+      "source": "bazos",
+      "title": "Pole 4 880 m², Podíl 17 % o výměře 813 m²: 21 746",
+      "link": "https://reality.bazos.cz/inzerat/223255583/pole-4-880-m-podil-17-o-vymere-813-m.php",
+      "locality": null,
+      "price_czk": 21746,
+      "price_per_m2": null,
+      "area_m2": 4880,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-01T04:20:18.923395+00:00",
+      "noise_reasons": [
+        "co_ownership",
+        "zpf"
+      ]
+    },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223254721/pole-3-141-m-podil-25-o-vymere-785-m.php",
       "source": "bazos",
@@ -3823,7 +5926,7 @@
       "price_per_m2": null,
       "area_m2": 717,
       "gps": null,
-      "parcel_ref": "",
+      "parcel_ref": "k.ú. Moravský Písek, p.č. 4268",
       "is_structure": false,
       "first_seen": "2026-09-01T02:40:17.806850+00:00",
       "noise_reasons": []
@@ -17168,24 +19271,6 @@
       "parcel_ref": "",
       "is_structure": false,
       "first_seen": "2026-08-28T10:02:23.637484+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "portaldrazeb:121ex2795-17-134-jkwdw",
-      "source": "portaldrazeb",
-      "title": "Dražba: pozemek pod garáží v k.ú. Moravská Ostrava — vyvolávací 16267 Kč (odhad 24400 Kč), koná se 2026-09-01",
-      "link": "https://www.portaldrazeb.cz/drazba/121ex2795-17-134-jkwdw",
-      "locality": null,
-      "price_czk": 16267,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": {
-        "lat": 49.844691,
-        "lon": 18.267441
-      },
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-28T10:02:23.610475+00:00",
       "noise_reasons": []
     },
     {

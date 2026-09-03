@@ -73229,6 +73229,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          18.275925,
+          49.764927
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 400 m² — Ostrava – Hrabová, Ostrava-město, Moravskoslezský kraj",
+        "price": 150000,
+        "price_label": "150 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2522398796",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.275925&y=49.764927&z=17&source=coor&id=18.275925,49.764927",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/ostrava-hrabova-ve-stromovi/2522398796",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.928487,
           49.940804
         ]
@@ -79587,36 +79616,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.591811,
-          49.156573
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Šarovy: 73 000",
-        "price": 73000,
-        "price_label": "73 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222753000/prodej-lesnich-pozemku-ku-sarovy.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.591811&y=49.156573&z=17&source=coor&id=17.591811,49.156573",
-        "link": "https://reality.bazos.cz/inzerat/222753000/prodej-lesnich-pozemku-ku-sarovy.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.698309,
           49.078165
         ]
@@ -79769,35 +79768,6 @@
         "marker-color": "#f9a825",
         "flags": [
           "PROTECTED_AREA",
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.497113,
-          50.398371
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Strážnice u Mělníka: 180 000",
-        "price": 180000,
-        "price_label": "180 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222754685/prodej-lesnich-pozemku-ku-straznice-u-melnika.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.497113&y=50.398371&z=17&source=coor&id=14.497113,50.398371",
-        "link": "https://reality.bazos.cz/inzerat/222754685/prodej-lesnich-pozemku-ku-straznice-u-melnika.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
           "POOR_ACCESS",
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
@@ -92024,36 +91994,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.499016,
-          49.838264
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Nynice: 199 000",
-        "price": 199000,
-        "price_label": "199 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223027831/prodej-lesnich-pozemku-ku-nynice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.499016&y=49.838264&z=17&source=coor&id=13.499016,49.838264",
-        "link": "https://reality.bazos.cz/inzerat/223027831/prodej-lesnich-pozemku-ku-nynice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.802118,
           49.932488
         ]
@@ -92103,34 +92043,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.338888,
-          50.493894
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Kněžnice (1): 144 000",
-        "price": 144000,
-        "price_label": "144 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223029690/prodej-pozemku-ku-kneznice-1.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.338888&y=50.493894&z=17&source=coor&id=15.338888,50.493894",
-        "link": "https://reality.bazos.cz/inzerat/223029690/prodej-pozemku-ku-kneznice-1.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -92303,34 +92215,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.87642,
-          49.631138
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Ponikev: 317 000",
-        "price": 317000,
-        "price_label": "317 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223031661/prodej-lesnich-pozemku-ku-ponikev.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.87642&y=49.631138&z=17&source=coor&id=16.87642,49.631138",
-        "link": "https://reality.bazos.cz/inzerat/223031661/prodej-lesnich-pozemku-ku-ponikev.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "PROTECTED_AREA",
-          "SECONDARY_ONLY"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.707377,
           49.538346
         ]
@@ -92354,33 +92238,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.310446,
-          50.494159
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Kněžnice (2): 240 000",
-        "price": 240000,
-        "price_label": "240 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223032830/prodej-pozemku-ku-kneznice-2.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.310446&y=50.494159&z=17&source=coor&id=15.310446,50.494159",
-        "link": "https://reality.bazos.cz/inzerat/223032830/prodej-pozemku-ku-kneznice-2.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "zahrada"
       }
     },
     {
@@ -106250,65 +106107,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.267456,
-          49.845132
-        ]
-      },
-      "properties": {
-        "title": "Dražba: pozemek pod garáží v k.ú. Moravská Ostrava — vyvolávací 10267 Kč (odhad 15400 Kč), koná se 2026-09-03",
-        "price": 10267,
-        "price_label": "10 267 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:121ex2795-17-143-5pwbq",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.267456&y=49.845132&z=17&source=coor&id=18.267456,49.845132",
-        "link": "https://www.portaldrazeb.cz/drazba/121ex2795-17-143-5pwbq",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.87245,
-          49.0928
-        ]
-      },
-      "properties": {
-        "title": "Dražba: ideální podíl 1905/72655 pozemku - ostatní plocha v k.ú. Slavičín, okres Zlín, opakovaná dražba — vyvolávací 7500 Kč (odhad 15000 Kč), koná se 2026-09-03",
-        "price": 7500,
-        "price_label": "7 500 Kč",
-        "source": "portaldrazeb",
-        "guid": "portaldrazeb:193dd298-25-ii-ldrbp",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.87245&y=49.0928&z=17&source=coor&id=17.87245,49.0928",
-        "link": "https://www.portaldrazeb.cz/drazba/193dd298-25-ii-ldrbp",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PROTECTED_AREA",
-          "CO_OWNERSHIP",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.73282,
           49.9612
         ]
@@ -107565,6 +107363,177 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.974044,
+          48.792724
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1300 m² — Hrušky - Hrušky, Jihomoravský kraj",
+        "price": 76150,
+        "price_label": "76 150 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1062676",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.974044&y=48.792724&z=17&source=coor&id=16.974044,48.792724",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1062676-nabidka-prodej-pozemku-so-pou-breclav",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.267526,
+          49.845052
+        ]
+      },
+      "properties": {
+        "title": "Dražba: pozemek pod garáží v k.ú. Moravská Ostrava — vyvolávací 6800 Kč (odhad 10200 Kč), koná se 2026-09-03",
+        "price": 6800,
+        "price_label": "6 800 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:121ex2795-17-149-d5wl8",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.267526&y=49.845052&z=17&source=coor&id=18.267526,49.845052",
+        "link": "https://www.portaldrazeb.cz/drazba/121ex2795-17-149-d5wl8",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.770013,
+          49.850693
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Pozemek (zahrada) v obci Planá, k.ú. Týnec u Plané, okr. Tachov — vyvolávací 47000 Kč (odhad 70500 Kč), koná se 2026-09-03",
+        "price": 47000,
+        "price_label": "47 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:206ex500-24-135-ab2qn",
+        "mapy_url": "https://mapy.cz/zakladni?x=12.770013&y=49.850693&z=17&source=coor&id=12.770013,49.850693",
+        "link": "https://www.portaldrazeb.cz/drazba/206ex500-24-135-ab2qn",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.783086,
+          50.665259
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Podíl 17/168 na pozemcích v obci Dubí, k.ú. Mstišov, okr. Teplice — vyvolávací 106000 Kč (odhad 212000 Kč), koná se 2026-09-03",
+        "price": 106000,
+        "price_label": "106 000 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:206ex404-25-363-xyq2o",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.783086&y=50.665259&z=17&source=coor&id=13.783086,50.665259",
+        "link": "https://www.portaldrazeb.cz/drazba/206ex404-25-363-xyq2o",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.911404,
+          50.678274
+        ]
+      },
+      "properties": {
+        "title": "Bobr, pozemky p. p. č. 734/2, č. 734/4, č. 734/6, č. 734/8 — Aukce vyhlášena (23.09.2026 13:00 - 24.09.2026 13:00) · přihlášky do 22.09.2026 23:59",
+        "price": 70000,
+        "price_label": "70 000 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:61828",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.911404&y=50.678274&z=17&source=coor&id=15.911404,50.678274",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/61828",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.064977,
+          50.156662
+        ]
+      },
+      "properties": {
+        "title": "Týniště nad Orlicí  - pozemek p. č. 2228/3 — Aukce vyhlášena (01.10.2026 11:00 - 02.10.2026 11:00) · přihlášky do 30.09.2026 23:59",
+        "price": 140800,
+        "price_label": "140 800 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:102478",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.064977&y=50.156662&z=17&source=coor&id=16.064977,50.156662",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/102478",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

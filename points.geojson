@@ -103922,6 +103922,91 @@
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.389718,
+          49.91099
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 8 m², pozemek 360 m² — Čáslav, Kutná Hora, Středočeský kraj",
+        "price": 475000,
+        "price_label": "475 000 Kč",
+        "source": "chata",
+        "guid": "chata:3227115596",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.389718&y=49.91099&z=17&source=coor&id=15.389718,49.91099",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/caslav-caslav-/3227115596",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.412463,
+          48.874063
+        ]
+      },
+      "properties": {
+        "title": "Prodej luk a lesa – 6 886 m2 – Kněždub: 163 104",
+        "price": 163104,
+        "price_label": "163 104 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223489482/prodej-luk-a-lesa-6-886-m2-knezdub.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.412463&y=48.874063&z=17&source=coor&id=17.412463,48.874063",
+        "link": "https://reality.bazos.cz/inzerat/223489482/prodej-luk-a-lesa-6-886-m2-knezdub.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "PROTECTED_AREA",
+          "SECONDARY_ONLY"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.390863,
+          49.072893
+        ]
+      },
+      "properties": {
+        "title": "Zlechov: V textu",
+        "price": null,
+        "price_label": null,
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223490242/zlechov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.390863&y=49.072893&z=17&source=coor&id=17.390863,49.072893",
+        "link": "https://reality.bazos.cz/inzerat/223490242/zlechov.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
+      }
     }
   ]
 }

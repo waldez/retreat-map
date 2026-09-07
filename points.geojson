@@ -14984,8 +14984,8 @@
       },
       "properties": {
         "title": "Prodej lesa 1640 m² — Plaveč, Znojmo, Jihomoravský kraj",
-        "price": 66000,
-        "price_label": "66 000 Kč",
+        "price": 58000,
+        "price_label": "58 000 Kč",
         "source": "sreality",
         "guid": "sreality:3855958860",
         "mapy_url": "https://mapy.cz/zakladni?x=16.080004&y=48.928762&z=17&source=coor&id=16.080004,48.928762",
@@ -31755,34 +31755,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.534532,
-          49.074364
-        ]
-      },
-      "properties": {
-        "title": "Zemědělská půda, prodej, Syrovice, Brno-venkov: 238 336",
-        "price": 238336,
-        "price_label": "238 336 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221412584/zemedelska-puda-prodej-syrovice-brno-venkov.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.534532&y=49.074364&z=17&source=coor&id=16.534532,49.074364",
-        "link": "https://reality.bazos.cz/inzerat/221412584/zemedelska-puda-prodej-syrovice-brno-venkov.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.896356,
           48.960902
         ]
@@ -31795,34 +31767,6 @@
         "guid": "sreality:3346018892",
         "mapy_url": "https://mapy.cz/zakladni?x=16.896356&y=48.960902&z=17&source=coor&id=16.896356,48.960902",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/brumovice-brumovice-/3346018892"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.546463,
-          49.079812
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 3724 m² — Syrovice, Brno-venkov, Jihomoravský kraj",
-        "price": 238336,
-        "price_label": "238 336 Kč",
-        "source": "sreality",
-        "guid": "sreality:358080588",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.546463&y=49.079812&z=17&source=coor&id=16.546463,49.079812",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/syrovice-syrovice-/358080588",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     },
     {
@@ -32090,25 +32034,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.282934,
-          48.976356
-        ]
-      },
-      "properties": {
-        "title": "Prodej sadu, vinice 2460 m² — Bzenec, Hodonín, Jihomoravský kraj",
-        "price": 320000,
-        "price_label": "320 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2344083532",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.282934&y=48.976356&z=17&source=coor&id=17.282934,48.976356",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/bzenec-bzenec-/2344083532"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.097538,
           49.518219
         ]
@@ -32270,36 +32195,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.684097,
-          49.114796
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2248 m² — Zdíkov - Hodonín u Zdíkovce, Jihočeský kraj",
-        "price": 72000,
-        "price_label": "72 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1025885",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.684097&y=49.114796&z=17&source=coor&id=13.684097,49.114796",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1025885-nabidka-prodej-pozemku-zdikov",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -103997,6 +103892,35 @@
           "PLACEHOLDER_PIN"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.34838,
+          49.685369
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 63 m², pozemek 84 m² — Frýdek-Místek – Frýdek, Moravskoslezský kraj",
+        "price": 1500000,
+        "price_label": "1 500 000 Kč",
+        "source": "house",
+        "guid": "house:3529933644",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.34838&y=49.685369&z=17&source=coor&id=18.34838,49.685369",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/frydek-mistek-frydek-/3529933644",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "PLACEHOLDER_PIN",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

@@ -112255,6 +112255,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.725886,
+          49.250537
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků v k.ú. Volenice: 111 000",
+        "price": 111000,
+        "price_label": "111 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223564793/prodej-lesnich-pozemku-v-ku-volenice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.725886&y=49.250537&z=17&source=coor&id=13.725886,49.250537",
+        "link": "https://reality.bazos.cz/inzerat/223564793/prodej-lesnich-pozemku-v-ku-volenice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.327647,
           49.384885
         ]
@@ -112304,7 +112333,19 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064643",
         "mapy_url": "https://mapy.cz/zakladni?x=17.114063&y=49.058284&z=17&source=coor&id=17.114063,49.058284",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064643-nabidka-prodej-pozemku-kyjov"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064643-nabidka-prodej-pozemku-kyjov",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -112323,7 +112364,19 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064642",
         "mapy_url": "https://mapy.cz/zakladni?x=17.129877&y=49.058631&z=17&source=coor&id=17.129877,49.058631",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064642-nabidka-prodej-pozemku-kyjov"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064642-nabidka-prodej-pozemku-kyjov",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -112342,7 +112395,106 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064641",
         "mapy_url": "https://mapy.cz/zakladni?x=15.327647&y=49.384885&z=17&source=coor&id=15.327647,49.384885",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064641-nabidka-prodej-pozemku-novy-rychnov"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064641-nabidka-prodej-pozemku-novy-rychnov",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "POOR_ACCESS",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.088113,
+          49.8763
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků v k.ú. Velká Polom: 57 000",
+        "price": 57000,
+        "price_label": "57 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223565611/prodej-lesnich-pozemku-v-ku-velka-polom.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.088113&y=49.8763&z=17&source=coor&id=18.088113,49.8763",
+        "link": "https://reality.bazos.cz/inzerat/223565611/prodej-lesnich-pozemku-v-ku-velka-polom.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.209287,
+          49.843418
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 366 m²: 19 451",
+        "price": 19451,
+        "price_label": "19 451 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223565490/spekulacni-komercni-a-ostatni-366-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.209287&y=49.843418&z=17&source=coor&id=15.209287,49.843418",
+        "link": "https://reality.bazos.cz/inzerat/223565490/spekulacni-komercni-a-ostatni-366-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.728104,
+          50.252143
+        ]
+      },
+      "properties": {
+        "title": "Les 12 505 m², Podíl 42 % o výměře 5 210 m²: 187 575",
+        "price": 187575,
+        "price_label": "187 575 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223565401/les-12-505-m-podil-42-o-vymere-5-210-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.728104&y=50.252143&z=17&source=coor&id=13.728104,50.252143",
+        "link": "https://reality.bazos.cz/inzerat/223565401/les-12-505-m-podil-42-o-vymere-5-210-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -112399,7 +112551,18 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064654",
         "mapy_url": "https://mapy.cz/zakladni?x=17.974406&y=49.795408&z=17&source=coor&id=17.974406,49.795408",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064654-nabidka-prodej-pozemku-slatina"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064654-nabidka-prodej-pozemku-slatina",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -112418,7 +112581,18 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064653",
         "mapy_url": "https://mapy.cz/zakladni?x=17.987971&y=49.796961&z=17&source=coor&id=17.987971,49.796961",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064653-nabidka-prodej-pozemku-slatina"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064653-nabidka-prodej-pozemku-slatina",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -112437,7 +112611,49 @@
         "source": "bezrealitky",
         "guid": "bezrealitky:1064644",
         "mapy_url": "https://mapy.cz/zakladni?x=13.594486&y=49.403385&z=17&source=coor&id=13.594486,49.403385",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064644-nabidka-prodej-pozemku-mysliv"
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1064644-nabidka-prodej-pozemku-mysliv",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.652918,
+          50.272838
+        ]
+      },
+      "properties": {
+        "title": "Les 3 681 m², Podíl 93 % o výměře 3 418 m²: 44 648",
+        "price": 44648,
+        "price_label": "44 648 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223565913/les-3-681-m-podil-93-o-vymere-3-418-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.652918&y=50.272838&z=17&source=coor&id=17.652918,50.272838",
+        "link": "https://reality.bazos.cz/inzerat/223565913/les-3-681-m-podil-93-o-vymere-3-418-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -112475,7 +112691,48 @@
         "source": "bazos",
         "guid": "bazos:https://reality.bazos.cz/inzerat/223566799/zahrada-2-956-m-podil-50-o-vymere-1-478-m.php",
         "mapy_url": "https://mapy.cz/zakladni?x=14.228727&y=49.618286&z=17&source=coor&id=14.228727,49.618286",
-        "link": "https://reality.bazos.cz/inzerat/223566799/zahrada-2-956-m-podil-50-o-vymere-1-478-m.php"
+        "link": "https://reality.bazos.cz/inzerat/223566799/zahrada-2-956-m-podil-50-o-vymere-1-478-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "RADON_HIGH",
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.355687,
+          49.785988
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku v k.ú. Bartovice: 102 000",
+        "price": 102000,
+        "price_label": "102 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223566645/prodej-lesniho-pozemku-v-ku-bartovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.355687&y=49.785988&z=17&source=coor&id=18.355687,49.785988",
+        "link": "https://reality.bazos.cz/inzerat/223566645/prodej-lesniho-pozemku-v-ku-bartovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -112510,6 +112767,119 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.419418,
+          49.886101
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 1 911 m², Podíl 75 % o výměř: 16 253",
+        "price": 16253,
+        "price_label": "16 253 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567514/spekulacni-komercni-a-ostatni-1-911-m-podil-75-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.419418&y=49.886101&z=17&source=coor&id=16.419418,49.886101",
+        "link": "https://reality.bazos.cz/inzerat/223567514/spekulacni-komercni-a-ostatni-1-911-m-podil-75-o-vymer.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.459287,
+          49.867813
+        ]
+      },
+      "properties": {
+        "title": "Les 19 518 m², Podíl 6 % o výměře 1 220 m²: 48 400",
+        "price": 48400,
+        "price_label": "48 400 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567383/les-19-518-m-podil-6-o-vymere-1-220-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.459287&y=49.867813&z=17&source=coor&id=18.459287,49.867813",
+        "link": "https://reality.bazos.cz/inzerat/223567383/les-19-518-m-podil-6-o-vymere-1-220-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.13483,
+          49.849351
+        ]
+      },
+      "properties": {
+        "title": "Les 3 866 m²: 31 466",
+        "price": 31466,
+        "price_label": "31 466 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567171/les-3-866-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.13483&y=49.849351&z=17&source=coor&id=16.13483,49.849351",
+        "link": "https://reality.bazos.cz/inzerat/223567171/les-3-866-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.024128,
+          49.912129
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Hrabišín: 110 000",
+        "price": 110000,
+        "price_label": "110 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567003/prodej-lesniho-pozemku-ku-hrabisin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.024128&y=49.912129&z=17&source=coor&id=17.024128,49.912129",
+        "link": "https://reality.bazos.cz/inzerat/223567003/prodej-lesniho-pozemku-ku-hrabisin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.588962,
           49.833718
         ]
@@ -112521,7 +112891,15 @@
         "source": "bazos",
         "guid": "bazos:https://reality.bazos.cz/inzerat/223566960/les-3-632-m.php",
         "mapy_url": "https://mapy.cz/zakladni?x=13.588962&y=49.833718&z=17&source=coor&id=13.588962,49.833718",
-        "link": "https://reality.bazos.cz/inzerat/223566960/les-3-632-m.php"
+        "link": "https://reality.bazos.cz/inzerat/223566960/les-3-632-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -112540,7 +112918,246 @@
         "source": "sreality",
         "guid": "sreality:597897292",
         "mapy_url": "https://mapy.cz/zakladni?x=15.262545&y=50.50653&z=17&source=coor&id=15.262545,50.50653",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/ujezd-pod-troskami-ujezd-pod-troskami-/597897292"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/ujezd-pod-troskami-ujezd-pod-troskami-/597897292",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.913329,
+          49.322123
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Rychtářov: 54 000",
+        "price": 54000,
+        "price_label": "54 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223568316/prodej-lesnich-pozemku-ku-rychtarov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.913329&y=49.322123&z=17&source=coor&id=16.913329,49.322123",
+        "link": "https://reality.bazos.cz/inzerat/223568316/prodej-lesnich-pozemku-ku-rychtarov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.681091,
+          49.955367
+        ]
+      },
+      "properties": {
+        "title": "Zahrada 8 915 m², Podíl 75 % o výměře 3 138 m²: 315 813",
+        "price": 315813,
+        "price_label": "315 813 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223568141/zahrada-8-915-m-podil-75-o-vymere-3-138-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.681091&y=49.955367&z=17&source=coor&id=13.681091,49.955367",
+        "link": "https://reality.bazos.cz/inzerat/223568141/zahrada-8-915-m-podil-75-o-vymere-3-138-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.357522,
+          49.899771
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 2 072 m²: 36 922",
+        "price": 36922,
+        "price_label": "36 922 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567770/spekulacni-komercni-a-ostatni-2-072-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.357522&y=49.899771&z=17&source=coor&id=17.357522,49.899771",
+        "link": "https://reality.bazos.cz/inzerat/223567770/spekulacni-komercni-a-ostatni-2-072-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.568836,
+          49.898913
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - stát 3 454 m², Podíl 50 % o výměře 1 727 m²: 54 556",
+        "price": 54556,
+        "price_label": "54 556 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223567703/spekulacni-stat-3-454-m-podil-50-o-vymere-1-727-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.568836&y=49.898913&z=17&source=coor&id=16.568836,49.898913",
+        "link": "https://reality.bazos.cz/inzerat/223567703/spekulacni-stat-3-454-m-podil-50-o-vymere-1-727-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.620145,
+          50.047678
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 5 916 m², Podíl 8 % o výměře: 98 600",
+        "price": 98600,
+        "price_label": "98 600 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569103/spekulacni-komercni-a-ostatni-5-916-m-podil-8-o-vymere.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.620145&y=50.047678&z=17&source=coor&id=14.620145,50.047678",
+        "link": "https://reality.bazos.cz/inzerat/223569103/spekulacni-komercni-a-ostatni-5-916-m-podil-8-o-vymere.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.219647,
+          48.981785
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Skalice u Znojma: 46 000",
+        "price": 46000,
+        "price_label": "46 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223568708/prodej-lesnich-pozemku-ku-skalice-u-znojma.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.219647&y=48.981785&z=17&source=coor&id=16.219647,48.981785",
+        "link": "https://reality.bazos.cz/inzerat/223568708/prodej-lesnich-pozemku-ku-skalice-u-znojma.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.664578,
+          49.992919
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - stát 456 m², Podíl 50 % o výměře 228 m²: 26 409",
+        "price": 26409,
+        "price_label": "26 409 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223568589/spekulacni-stat-456-m-podil-50-o-vymere-228-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.664578&y=49.992919&z=17&source=coor&id=14.664578,49.992919",
+        "link": "https://reality.bazos.cz/inzerat/223568589/spekulacni-stat-456-m-podil-50-o-vymere-228-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.138579,
+          49.986297
+        ]
+      },
+      "properties": {
+        "title": "Les 1 536 m², Podíl 50 % o výměře 768 m²: 21 761",
+        "price": 21761,
+        "price_label": "21 761 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223568584/les-1-536-m-podil-50-o-vymere-768-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.138579&y=49.986297&z=17&source=coor&id=14.138579,49.986297",
+        "link": "https://reality.bazos.cz/inzerat/223568584/les-1-536-m-podil-50-o-vymere-768-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     },
     {
@@ -112559,7 +113176,17 @@
         "source": "bazos",
         "guid": "bazos:https://reality.bazos.cz/inzerat/223568509/stavebni-bydleni-1-166-m-podil-17-o-vymere-194-m.php",
         "mapy_url": "https://mapy.cz/zakladni?x=15.021399073&y=49.983597115&z=17&source=coor&id=15.021399073,49.983597115",
-        "link": "https://reality.bazos.cz/inzerat/223568509/stavebni-bydleni-1-166-m-podil-17-o-vymere-194-m.php"
+        "link": "https://reality.bazos.cz/inzerat/223568509/stavebni-bydleni-1-166-m-podil-17-o-vymere-194-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "zahrada"
       }
     },
     {
@@ -112597,7 +113224,102 @@
         "source": "sreality",
         "guid": "sreality:3936563276",
         "mapy_url": "https://mapy.cz/zakladni?x=13.116598&y=49.531594&z=17&source=coor&id=13.116598,49.531594",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/cermna-cermna-/3936563276"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/cermna-cermna-/3936563276",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.114849,
+          50.130329
+        ]
+      },
+      "properties": {
+        "title": "Les 34 319 m², Podíl 6 % o výměře 2 145 m²: 60 285",
+        "price": 60285,
+        "price_label": "60 285 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569664/les-34-319-m-podil-6-o-vymere-2-145-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.114849&y=50.130329&z=17&source=coor&id=15.114849,50.130329",
+        "link": "https://reality.bazos.cz/inzerat/223569664/les-34-319-m-podil-6-o-vymere-2-145-m.php",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "FLOOD_HAZARD",
+          "AVOID",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "vodní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.127523,
+          50.127302
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 3 991 m², Podíl 33 % o výměř: 27 537",
+        "price": 27537,
+        "price_label": "27 537 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569663/spekulacni-komercni-a-ostatni-3-991-m-podil-33-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.127523&y=50.127302&z=17&source=coor&id=16.127523,50.127302",
+        "link": "https://reality.bazos.cz/inzerat/223569663/spekulacni-komercni-a-ostatni-3-991-m-podil-33-o-vymer.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.623794,
+          50.062379
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 3 489 m², Podíl 24 % o výměř: 57 375",
+        "price": 57375,
+        "price_label": "57 375 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569286/spekulacni-komercni-a-ostatni-3-489-m-podil-24-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.623794&y=50.062379&z=17&source=coor&id=16.623794,50.062379",
+        "link": "https://reality.bazos.cz/inzerat/223569286/spekulacni-komercni-a-ostatni-3-489-m-podil-24-o-vymer.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -112624,6 +113346,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          15.736006,
+          50.055948
+        ]
+      },
+      "properties": {
+        "title": "Stavební - komerční 1 740 m², Podíl 25 % o výměře 435 m²: 69 413",
+        "price": 69413,
+        "price_label": "69 413 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569169/stavebni-komercni-1-740-m-podil-25-o-vymere-435-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.736006&y=50.055948&z=17&source=coor&id=15.736006,50.055948",
+        "link": "https://reality.bazos.cz/inzerat/223569169/stavebni-komercni-1-740-m-podil-25-o-vymere-435-m.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "FLOOD_HAZARD",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.596512,
           50.05276
         ]
@@ -112643,6 +113394,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.930943,
+          50.150532
+        ]
+      },
+      "properties": {
+        "title": "Les 10 061 m², Podíl 75 % o výměře 7 546 m²: 158 461",
+        "price": 158461,
+        "price_label": "158 461 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223569774/les-10-061-m-podil-75-o-vymere-7-546-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.930943&y=50.150532&z=17&source=coor&id=13.930943,50.150532",
+        "link": "https://reality.bazos.cz/inzerat/223569774/les-10-061-m-podil-75-o-vymere-7-546-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.686965,
           49.781624
         ]
@@ -112654,7 +113434,79 @@
         "source": "sreality",
         "guid": "sreality:4071829580",
         "mapy_url": "https://mapy.cz/zakladni?x=14.686965&y=49.781624&z=17&source=coor&id=14.686965,49.781624",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/benesov-benesov-/4071829580"
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/benesov-benesov-/4071829580",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2191,
+          50.450812
+        ]
+      },
+      "properties": {
+        "title": "Les 13 451 m², Podíl 17 % o výměře 2 242 m²: 26 585",
+        "price": 26585,
+        "price_label": "26 585 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223571720/les-13-451-m-podil-17-o-vymere-2-242-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.2191&y=50.450812&z=17&source=coor&id=15.2191,50.450812",
+        "link": "https://reality.bazos.cz/inzerat/223571720/les-13-451-m-podil-17-o-vymere-2-242-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.259706,
+          50.374025
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - stát 635 m²: 46 292",
+        "price": 46292,
+        "price_label": "46 292 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223571253/spekulacni-stat-635-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.259706&y=50.374025&z=17&source=coor&id=15.259706,50.374025",
+        "link": "https://reality.bazos.cz/inzerat/223571253/spekulacni-stat-635-m.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     },
     {

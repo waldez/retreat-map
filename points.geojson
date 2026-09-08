@@ -23372,8 +23372,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 2126 m² — Přešťovice - Brusy, Jihočeský kraj",
-        "price": 260000,
-        "price_label": "260 000 Kč",
+        "price": 225000,
+        "price_label": "225 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:1013278",
         "mapy_url": "https://mapy.cz/zakladni?x=14.010764&y=49.317363&z=17&source=coor&id=14.010764,49.317363",
@@ -36648,34 +36648,6 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.718064,
-          48.997546
-        ]
-      },
-      "properties": {
-        "title": "Spekulační - komerční a ostatní 36 434 m², Podíl 4 % o výměř: 76 580",
-        "price": 76580,
-        "price_label": "76 580 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221614665/spekulacni-komercni-a-ostatni-36-434-m-podil-4-o-vymer.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.718064&y=48.997546&z=17&source=coor&id=17.718064,48.997546",
-        "link": "https://reality.bazos.cz/inzerat/221614665/spekulacni-komercni-a-ostatni-36-434-m-podil-4-o-vymer.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -67764,25 +67736,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.87416,
-          49.28776
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 13325 m² — Všemina, Zlín, Zlínský kraj",
-        "price": 399750,
-        "price_label": "399 750 Kč",
-        "source": "sreality",
-        "guid": "sreality:790282316",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.87416&y=49.28776&z=17&source=coor&id=17.87416,49.28776",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vsemina-vsemina-/790282316"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.023245,
           49.561222
         ]
@@ -91543,36 +91496,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.786005,
-          50.192536
-        ]
-      },
-      "properties": {
-        "title": "Prodej id. 1/2 pozemku (917 m²) nedaleko Rakovníka: 11 452",
-        "price": 11452,
-        "price_label": "11 452 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223189247/prodej-id-12-pozemku-917-m-nedaleko-rakovnika.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.786005&y=50.192536&z=17&source=coor&id=13.786005,50.192536",
-        "link": "https://reality.bazos.cz/inzerat/223189247/prodej-id-12-pozemku-917-m-nedaleko-rakovnika.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.744254,
           48.993338
         ]
@@ -105813,6 +105736,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.109607,
+          48.988036
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Svatobořice, Svatobořice-Mistřín, H: 300 563",
+        "price": 300563,
+        "price_label": "300 563 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223514494/zemedelska-puda-prodej-svatoborice-svatoborice-mistrin-h.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.109607&y=48.988036&z=17&source=coor&id=17.109607,48.988036",
+        "link": "https://reality.bazos.cz/inzerat/223514494/zemedelska-puda-prodej-svatoborice-svatoborice-mistrin-h.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.95127,
           49.922259
         ]
@@ -105908,6 +105860,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          13.770281,
+          49.365514
+        ]
+      },
+      "properties": {
+        "title": "Les, prodej, Komušín, Horažďovice, Klatovy: 322 890",
+        "price": 322890,
+        "price_label": "322 890 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223515812/les-prodej-komusin-horazdovice-klatovy.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.770281&y=49.365514&z=17&source=coor&id=13.770281,49.365514",
+        "link": "https://reality.bazos.cz/inzerat/223515812/les-prodej-komusin-horazdovice-klatovy.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.875932,
           50.003196
         ]
@@ -105929,6 +105909,63 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.335535,
+          48.974531
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Moravský Písek, Hodonín: 158 711",
+        "price": 158711,
+        "price_label": "158 711 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223515735/zemedelska-puda-prodej-moravsky-pisek-hodonin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.335535&y=48.974531&z=17&source=coor&id=17.335535,48.974531",
+        "link": "https://reality.bazos.cz/inzerat/223515735/zemedelska-puda-prodej-moravsky-pisek-hodonin.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "FLOOD_HAZARD",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.041092,
+          50.532565
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Lhotka nad Labem, Litoměřice: 272 426",
+        "price": 272426,
+        "price_label": "272 426 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223515648/zemedelska-puda-prodej-lhotka-nad-labem-litomerice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.041092&y=50.532565&z=17&source=coor&id=14.041092,50.532565",
+        "link": "https://reality.bazos.cz/inzerat/223515648/zemedelska-puda-prodej-lhotka-nad-labem-litomerice.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "PROTECTED_AREA",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -108057,6 +108094,34 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2618,
+          49.035563
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5579 m² — Újezdec - Újezdec u Osvětiman, Zlínský kraj",
+        "price": 420000,
+        "price_label": "420 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1023708",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.2618&y=49.035563&z=17&source=coor&id=17.2618,49.035563",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1023708-nabidka-prodej-pozemku-ujezdec",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION"
+        ],
+        "druh_pozemku": "orná půda"
       }
     }
   ]

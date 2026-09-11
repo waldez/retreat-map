@@ -41693,33 +41693,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.527017,
-          49.245418
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 3142 m² — Rozdrojovice - Rozdrojovice, Jihomoravský kraj",
-        "price": 300000,
-        "price_label": "300 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1007882",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.527017&y=49.245418&z=17&source=coor&id=16.527017,49.245418",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1007882-nabidka-prodej-pozemku-rozdrojovice",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.956975,
           50.490865
         ]
@@ -41913,34 +41886,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "zahrada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.01165,
-          50.049739
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1252 m² — Ostřetín - Ostřetín, Pardubický kraj",
-        "price": 45000,
-        "price_label": "45 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:962872",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.01165&y=50.049739&z=17&source=coor&id=16.01165,50.049739",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/962872-nabidka-prodej-pozemku-ostretin",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -62422,35 +62367,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.294148,
-          49.221553
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 9329 m² — Zbraslav, Brno-venkov, Jihomoravský kraj",
-        "price": 401147,
-        "price_label": "401 147 Kč",
-        "source": "sreality",
-        "guid": "sreality:490070092",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.294148&y=49.221553&z=17&source=coor&id=16.294148,49.221553",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zbraslav-zbraslav-/490070092",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "CO_OWNERSHIP",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -114761,6 +114677,34 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.577434,
+          49.769855
+        ]
+      },
+      "properties": {
+        "title": "Pozemky v obci Budišov nad Budišovkou, okres Opava: 138 690",
+        "price": 138690,
+        "price_label": "138 690 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223669453/pozemky-v-obci-budisov-nad-budisovkou-okres-opava.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.577434&y=49.769855&z=17&source=coor&id=17.577434,49.769855",
+        "link": "https://reality.bazos.cz/inzerat/223669453/pozemky-v-obci-budisov-nad-budisovkou-okres-opava.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ENCUMBRANCE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           14.766011,
           50.23241
         ]
@@ -115917,6 +115861,97 @@
           "SECONDARY_ONLY",
           "CO_OWNERSHIP",
           "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.550794,
+          49.06343
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Popovice u Uherského Hradiště: 21 000",
+        "price": 21000,
+        "price_label": "21 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223692057/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.550794&y=49.06343&z=17&source=coor&id=17.550794,49.06343",
+        "link": "https://reality.bazos.cz/inzerat/223692057/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.273502,
+          50.544836
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Chotiněves a k.ú. Oparno: 116 000",
+        "price": 116000,
+        "price_label": "116 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223693566/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.273502&y=50.544836&z=17&source=coor&id=14.273502,50.544836",
+        "link": "https://reality.bazos.cz/inzerat/223693566/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.303662,
+          50.728498
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Velké Hamry: 46 000",
+        "price": 46000,
+        "price_label": "46 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223693801/prodej-lesnich-pozemku-ku-velke-hamry.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.303662&y=50.728498&z=17&source=coor&id=15.303662,50.728498",
+        "link": "https://reality.bazos.cz/inzerat/223693801/prodej-lesnich-pozemku-ku-velke-hamry.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
         ],
         "druh_pozemku": "lesní pozemek"
       }

@@ -84184,33 +84184,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.707717,
-          49.500849
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 80 m², pozemek 381 m² — Paršovice, Přerov, Olomoucký kraj",
-        "price": 1450000,
-        "price_label": "1 450 000 Kč",
-        "source": "house",
-        "guid": "house:278970444",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.707717&y=49.500849&z=17&source=coor&id=17.707717,49.500849",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/parsovice-parsovice-/278970444",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.322439,
           50.493186
         ]
@@ -84232,35 +84205,6 @@
           "DRUH_CONTRADICTS_TITLE"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.245849,
-          49.341571
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 30 m², pozemek 1632 m² — Měrovice nad Hanou, Přerov, Olomoucký kraj",
-        "price": 640000,
-        "price_label": "640 000 Kč",
-        "source": "chata",
-        "guid": "chata:1660715084",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.245849&y=49.341571&z=17&source=coor&id=17.245849,49.341571",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/merovice-nad-hanou-merovice-nad-hanou-/1660715084",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -114564,6 +114508,56 @@
           "ZPF_SOIL",
           "LIKELY_NONBUILDABLE",
           "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.493113,
+          49.856928
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6124 m² — Kamenný Přívoz, Praha-západ, Středočeský kraj",
+        "price": 399000,
+        "price_label": "399 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:164048972",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.493113&y=49.856928&z=17&source=coor&id=14.493113,49.856928",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kamenny-privoz-kamenny-privoz-/164048972"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.493113,
+          49.856928
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 6124 m² — Kamenný Přívoz - Hostěradice, Středočeský kraj",
+        "price": 399000,
+        "price_label": "399 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1066294",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.493113&y=49.856928&z=17&source=coor&id=14.493113,49.856928",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1066294-nabidka-prodej-pozemku-kamenny-privoz",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "RADON_HIGH",
+          "ZPF_SOIL",
+          "PLACEHOLDER_PIN",
+          "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
       }

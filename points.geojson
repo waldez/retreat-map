@@ -114050,6 +114050,35 @@
         ],
         "druh_pozemku": "lesní pozemek"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.334788,
+          49.329805
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 2662 m² — Bezměrov, Kroměříž, Zlínský kraj",
+        "price": 2200,
+        "price_label": "2 200 Kč",
+        "source": "sreality",
+        "guid": "sreality:3719770188",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.334788&y=49.329805&z=17&source=coor&id=17.334788,49.329805",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bezmerov-bezmerov-/3719770188",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
     }
   ]
 }

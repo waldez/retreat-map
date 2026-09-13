@@ -76967,33 +76967,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.007519,
-          50.340004
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 60 m², pozemek 227 m² — Šestajovice, Náchod, Královéhradecký kraj",
-        "price": 500100,
-        "price_label": "500 100 Kč",
-        "source": "house",
-        "guid": "house:3430727756",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.007519&y=50.340004&z=17&source=coor&id=16.007519,50.340004",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/sestajovice-sestajovice-/3430727756",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.302365,
           49.26281
         ]
@@ -78937,8 +78910,8 @@
       },
       "properties": {
         "title": "Prodej chaty 25 m², pozemek 339 m² — Meziměstí, Náchod, Královéhradecký kraj",
-        "price": 840000,
-        "price_label": "840 000 Kč",
+        "price": 740000,
+        "price_label": "740 000 Kč",
         "source": "chata",
         "guid": "chata:4060255052",
         "mapy_url": "https://mapy.cz/zakladni?x=16.242066&y=50.624606&z=17&source=coor&id=16.242066,50.624606",
@@ -114075,6 +114048,34 @@
         "marker-color": "#f9a825",
         "flags": [
           "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.981311,
+          50.348837
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Rychnovek: 78 000",
+        "price": 78000,
+        "price_label": "78 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223772266/prodej-lesniho-pozemku-ku-rychnovek.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.981311&y=50.348837&z=17&source=coor&id=15.981311,50.348837",
+        "link": "https://reality.bazos.cz/inzerat/223772266/prodej-lesniho-pozemku-ku-rychnovek.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
         ],

@@ -76784,34 +76784,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.092693,
-          50.481233
-        ]
-      },
-      "properties": {
-        "title": "Spekulační - rezidenční 1 859 m²: 93 359",
-        "price": 93359,
-        "price_label": "93 359 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222766952/spekulacni-rezidencni-1-859-m.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.092693&y=50.481233&z=17&source=coor&id=16.092693,50.481233",
-        "link": "https://reality.bazos.cz/inzerat/222766952/spekulacni-rezidencni-1-859-m.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.321363,
           50.713892
         ]
@@ -114078,6 +114050,35 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.389352,
+          49.888699
+        ]
+      },
+      "properties": {
+        "title": "Pozemek 6013 m², kousek od Karviné: 210 455",
+        "price": 210455,
+        "price_label": "210 455 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223759679/pozemek-6013-m-kousek-od-karvine.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.389352&y=49.888699&z=17&source=coor&id=18.389352,49.888699",
+        "link": "https://reality.bazos.cz/inzerat/223759679/pozemek-6013-m-kousek-od-karvine.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "ZPF_SOIL",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     }
   ]

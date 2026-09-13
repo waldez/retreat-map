@@ -1,19 +1,127 @@
 {
-  "generated_at": "2026-09-13T10:03:49.047034+00:00",
-  "count": 11650,
-  "noise_count": 6123,
+  "generated_at": "2026-09-13T13:04:20.670218+00:00",
+  "count": 11654,
+  "noise_count": 6122,
   "sources": {
-    "bazos": 7102,
+    "bazos": 7104,
     "bezrealitky": 812,
     "cevd": 3,
     "chata": 150,
-    "house": 1169,
+    "house": 1170,
     "portaldrazeb": 3,
     "spu": 1247,
-    "sreality": 1143,
+    "sreality": 1144,
     "uzsvm": 21
   },
   "listings": [
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223757468/lesni-pozemek.php",
+      "source": "bazos",
+      "title": "Lesní pozemek: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223757468/lesni-pozemek.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-13T12:40:28.683347+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223754264/dum-nebo-chalupa-2kk-se-zahradou-u-slezske-harty-moznost.php",
+      "source": "house",
+      "title": "Dům nebo chalupa 2+kk se zahradou u Slezské Harty – možnost : Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223754264/dum-nebo-chalupa-2kk-se-zahradou-u-slezske-harty-moznost.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-13T11:40:20.397904+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223753713/stavebni-pozemek-s-projektem-4-934-m-stare-buky.php",
+      "source": "bazos",
+      "title": "Stavební pozemek s projektem 4 934 m², Staré Buky: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223753713/stavebni-pozemek-s-projektem-4-934-m-stare-buky.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 4934,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-13T11:20:24.880519+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223751225/prodej-domu-borsice.php",
+      "source": "house",
+      "title": "Prodej domu Boršice: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223751225/prodej-domu-borsice.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-13T10:20:23.487638+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:3719770188",
+      "source": "sreality",
+      "title": "Prodej stavebního pozemku 2662 m² — Bezměrov, Kroměříž, Zlínský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/bezmerov-bezmerov-/3719770188",
+      "locality": null,
+      "price_czk": 2200,
+      "price_per_m2": 1,
+      "area_m2": 2662,
+      "gps": {
+        "lat": 49.329805,
+        "lon": 17.334788
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-13T10:20:21.955269+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223751279/vinice-8-ha.php",
+      "source": "bazos",
+      "title": "Vinice 8 ha: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223751279/vinice-8-ha.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-13T10:20:21.520543+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223751511/prodej-pozemku-637-m-otovice.php",
+      "source": "bazos",
+      "title": "Prodej pozemku 637 m² – Otovice: 55 000",
+      "link": "https://reality.bazos.cz/inzerat/223751511/prodej-pozemku-637-m-otovice.php",
+      "locality": null,
+      "price_czk": 55000,
+      "price_per_m2": null,
+      "area_m2": 637,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-13T10:20:21.365005+00:00",
+      "noise_reasons": []
+    },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223749790/prodej-pozemku.php",
       "source": "bazos",
@@ -42230,36 +42338,6 @@
       "noise_reasons": [
         "zpf"
       ]
-    },
-    {
-      "guid": "house:https://reality.bazos.cz/inzerat/223372418/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "source": "house",
-      "title": "Prodej Developerského Projektu pro výstavbu bytových domů s : Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/223372418/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-09-03T23:40:26.791031+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223372421/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "source": "bazos",
-      "title": "Prodej Developerského Projektu pro výstavbu bytových domů s : Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/223372421/prodej-developerskeho-projektu-pro-vystavbu-bytovych-domu-s.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-03T23:40:25.473162+00:00",
-      "noise_reasons": []
     },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223372221/prodej-pozemku-k-bydleni-6434-m-bilcice.php",
@@ -85248,24 +85326,6 @@
       "first_seen": "2026-08-19T16:40:26.971573+00:00",
       "noise_reasons": [
         "co_ownership"
-      ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222764780/pole-7-916-m-podil-25-o-vymere-1-979-m.php",
-      "source": "bazos",
-      "title": "Pole 7 916 m², Podíl 25 % o výměře 1 979 m²: 84 602",
-      "link": "https://reality.bazos.cz/inzerat/222764780/pole-7-916-m-podil-25-o-vymere-1-979-m.php",
-      "locality": null,
-      "price_czk": 84602,
-      "price_per_m2": null,
-      "area_m2": 7916,
-      "gps": null,
-      "parcel_ref": "k.ú. Přerov nad Labem, p.č. 2571",
-      "is_structure": false,
-      "first_seen": "2026-08-19T16:40:26.960451+00:00",
-      "noise_reasons": [
-        "co_ownership",
-        "zpf"
       ]
     },
     {

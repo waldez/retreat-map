@@ -45894,34 +45894,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.620139,
-          49.122928
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 7367 m² — Zlámanec - Zlámanec, Zlínský kraj",
-        "price": 215270,
-        "price_label": "215 270 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1040462",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.620139&y=49.122928&z=17&source=coor&id=17.620139,49.122928",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1040462-nabidka-prodej-pozemku-zlamanec",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE",
-          "ENCUMBRANCE"
-        ],
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.639004,
           49.122813
         ]
@@ -46233,35 +46205,6 @@
           "POOR_ACCESS"
         ],
         "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.706716,
-          48.902157
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 5846 m² — Strání, Uherské Hradiště, Zlínský kraj",
-        "price": 193000,
-        "price_label": "193 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:4283289676",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.706716&y=48.902157&z=17&source=coor&id=17.706716,48.902157",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/strani-strani-/4283289676",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PROTECTED_AREA",
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -63563,8 +63506,8 @@
       },
       "properties": {
         "title": "Prodej chaty 17 m², pozemek 295 m² — Klášterec nad Ohří – Mikulovice, Chomutov, Ústecký kraj",
-        "price": 700000,
-        "price_label": "700 000 Kč",
+        "price": 620000,
+        "price_label": "620 000 Kč",
         "source": "chata",
         "guid": "chata:569692236",
         "mapy_url": "https://mapy.cz/zakladni?x=13.253089&y=50.387549&z=17&source=coor&id=13.253089,50.387549",
@@ -73424,8 +73367,8 @@
       },
       "properties": {
         "title": "Prodej zahrady 464 m² — Brandýsek, Kladno, Středočeský kraj",
-        "price": 170000,
-        "price_label": "170 000 Kč",
+        "price": 120000,
+        "price_label": "120 000 Kč",
         "source": "sreality",
         "guid": "sreality:2731393100",
         "mapy_url": "https://mapy.cz/zakladni?x=14.161988&y=50.189225&z=17&source=coor&id=14.161988,50.189225",
@@ -113229,6 +113172,35 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.769238,
+          49.501408
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 980 m2 - Malhotice: 33 000",
+        "price": 33000,
+        "price_label": "33 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223789889/prodej-lesa-980-m2-malhotice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.769238&y=49.501408&z=17&source=coor&id=17.769238,49.501408",
+        "link": "https://reality.bazos.cz/inzerat/223789889/prodej-lesa-980-m2-malhotice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           17.053973,
           50.041508
         ]
@@ -113250,6 +113222,727 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.377312,
+          50.038509
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Kojice: 139 000",
+        "price": 139000,
+        "price_label": "139 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223794947/prodej-lesniho-pozemku-ku-kojice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.377312&y=50.038509&z=17&source=coor&id=15.377312,50.038509",
+        "link": "https://reality.bazos.cz/inzerat/223794947/prodej-lesniho-pozemku-ku-kojice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.092091,
+          49.043158
+        ]
+      },
+      "properties": {
+        "title": "STAVEBNÍ POZEMEK 64 m2 - 10 minut od Jindřichova Hradce: 160 000",
+        "price": 160000,
+        "price_label": "160 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223794705/stavebni-pozemek-64-m2-10-minut-od-jindrichova-hradce.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.092091&y=49.043158&z=17&source=coor&id=15.092091,49.043158",
+        "link": "https://reality.bazos.cz/inzerat/223794705/stavebni-pozemek-64-m2-10-minut-od-jindrichova-hradce.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.862216,
+          48.966128
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6586 m² — Morkůvky, Břeclav, Jihomoravský kraj",
+        "price": 289784,
+        "price_label": "289 784 Kč",
+        "source": "sreality",
+        "guid": "sreality:502673484",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.862216&y=48.966128&z=17&source=coor&id=16.862216,48.966128",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/morkuvky-morkuvky-/502673484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.047803,
+          50.830433
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1263 m² — Mníšek, Liberec, Liberecký kraj",
+        "price": 63000,
+        "price_label": "63 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1106653260",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.047803&y=50.830433&z=17&source=coor&id=15.047803,50.830433",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/mnisek-mnisek-/1106653260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.848211,
+          48.963257
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Morkůvky, Břeclav: 289 784",
+        "price": 289784,
+        "price_label": "289 784 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223795780/zemedelska-puda-prodej-morkuvky-breclav.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.848211&y=48.963257&z=17&source=coor&id=16.848211,48.963257",
+        "link": "https://reality.bazos.cz/inzerat/223795780/zemedelska-puda-prodej-morkuvky-breclav.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.33765,
+          50.689902
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 6018 m² — Zlatá Olešnice – Lhotka, Jablonec nad Nisou, Liberecký kraj",
+        "price": 264792,
+        "price_label": "264 792 Kč",
+        "source": "sreality",
+        "guid": "sreality:1992699980",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.33765&y=50.689902&z=17&source=coor&id=15.33765,50.689902",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/zlata-olesnice-lhotka-/1992699980"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.085111,
+          49.52817
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4519 m² — Čelechovice na Hané - Čelechovice na Hané, Olomoucký kraj",
+        "price": 305000,
+        "price_label": "305 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1066808",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.085111&y=49.52817&z=17&source=coor&id=17.085111,49.52817",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1066808-nabidka-prodej-pozemku-celechovice-na-hane",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.085183,
+          49.52825
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku v k.ú. Čelechovice na Hané: 305 000",
+        "price": 305000,
+        "price_label": "305 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223796631/prodej-pozemku-v-ku-celechovice-na-hane.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.085183&y=49.52825&z=17&source=coor&id=17.085183,49.52825",
+        "link": "https://reality.bazos.cz/inzerat/223796631/prodej-pozemku-v-ku-celechovice-na-hane.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.443614,
+          49.76754
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6253 m² — Chrtníč, Havlíčkův Brod, Kraj Vysočina",
+        "price": 287638,
+        "price_label": "287 638 Kč",
+        "source": "sreality",
+        "guid": "sreality:2881892428",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.443614&y=49.76754&z=17&source=coor&id=15.443614,49.76754",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/chrtnic-chrtnic-/2881892428"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.085111,
+          49.52817
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 4519 m² — Čelechovice na Hané, Prostějov, Olomoucký kraj",
+        "price": 305000,
+        "price_label": "305 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:818294860",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.085111&y=49.52817&z=17&source=coor&id=17.085111,49.52817",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/celechovice-na-hane-celechovice-na-hane-/818294860",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.300005,
+          49.227428
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Zdounky, Kroměříž: 358 515",
+        "price": 358515,
+        "price_label": "358 515 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223798336/zemedelska-puda-prodej-zdounky-kromeriz.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.300005&y=49.227428&z=17&source=coor&id=17.300005,49.227428",
+        "link": "https://reality.bazos.cz/inzerat/223798336/zemedelska-puda-prodej-zdounky-kromeriz.php",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "AVOID",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "vodní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.429178,
+          49.759688
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Chrtníč, Havlíčkův Brod: 287 638",
+        "price": 287638,
+        "price_label": "287 638 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223798092/zemedelska-puda-prodej-chrtnic-havlickuv-brod.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.429178&y=49.759688&z=17&source=coor&id=15.429178,49.759688",
+        "link": "https://reality.bazos.cz/inzerat/223798092/zemedelska-puda-prodej-chrtnic-havlickuv-brod.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.858947,
+          49.542014
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku k.ú. Labutice (3): 173 000",
+        "price": 173000,
+        "price_label": "173 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223797583/prodej-pozemku-ku-labutice-3.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.858947&y=49.542014&z=17&source=coor&id=16.858947,49.542014",
+        "link": "https://reality.bazos.cz/inzerat/223797583/prodej-pozemku-ku-labutice-3.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "POOR_ACCESS",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.859241,
+          49.546187
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku k.ú. Labutice (2): 33 000",
+        "price": 33000,
+        "price_label": "33 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223797578/prodej-pozemku-ku-labutice-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.859241&y=49.546187&z=17&source=coor&id=16.859241,49.546187",
+        "link": "https://reality.bazos.cz/inzerat/223797578/prodej-pozemku-ku-labutice-2.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.06215,
+          49.218353
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 89 m² — Studenec, Třebíč, Kraj Vysočina",
+        "price": 4900,
+        "price_label": "4 900 Kč",
+        "source": "sreality",
+        "guid": "sreality:3554029644",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.06215&y=49.218353&z=17&source=coor&id=16.06215,49.218353",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/studenec-studenec-/3554029644"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.116203,
+          49.805894
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 5877 m² — Proseč, Chrudim, Pardubický kraj",
+        "price": 235080,
+        "price_label": "235 080 Kč",
+        "source": "sreality",
+        "guid": "sreality:383135820",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.116203&y=49.805894&z=17&source=coor&id=16.116203,49.805894",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/prosec-prosec-/383135820"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7218,
+          49.3922
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 10721 m² — Vavřinec – Suchdol, Blansko, Jihomoravský kraj",
+        "price": 375235,
+        "price_label": "375 235 Kč",
+        "source": "sreality",
+        "guid": "sreality:1205219404",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.7218&y=49.3922&z=17&source=coor&id=16.7218,49.3922",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vavrinec-suchdol-/1205219404"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.318991,
+          49.227711
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 7967 m² — Zdounky, Kroměříž, Zlínský kraj",
+        "price": 358515,
+        "price_label": "358 515 Kč",
+        "source": "sreality",
+        "guid": "sreality:886452300",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.318991&y=49.227711&z=17&source=coor&id=17.318991,49.227711",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zdounky-zdounky-/886452300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.847893,
+          50.231334
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 10 m², pozemek 402 m² — Hradec Králové – Pouchov, Královéhradecký kraj",
+        "price": 650000,
+        "price_label": "650 000 Kč",
+        "source": "chata",
+        "guid": "chata:852897868",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.847893&y=50.231334&z=17&source=coor&id=15.847893,50.231334",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/hradec-kralove-pouchov-/852897868",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.929855,
+          49.268475
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa v k.ú. Jasenná na Moravě: 12 000",
+        "price": 12000,
+        "price_label": "12 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223798605/prodej-lesa-v-ku-jasenna-na-morave.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.929855&y=49.268475&z=17&source=coor&id=17.929855,49.268475",
+        "link": "https://reality.bazos.cz/inzerat/223798605/prodej-lesa-v-ku-jasenna-na-morave.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.748905,
+          50.628595
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 527 m² — Jeníkov, Teplice, Ústecký kraj",
+        "price": 310000,
+        "price_label": "310 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:1272328268",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.748905&y=50.628595&z=17&source=coor&id=13.748905,50.628595",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/jenikov-jenikov-/1272328268",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.004808,
+          49.043589
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 7532 m² — Archlebov, Hodonín, Jihomoravský kraj",
+        "price": 361536,
+        "price_label": "361 536 Kč",
+        "source": "sreality",
+        "guid": "sreality:3369480268",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.004808&y=49.043589&z=17&source=coor&id=17.004808,49.043589",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/archlebov-archlebov-/3369480268"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.870778,
+          50.003607
+        ]
+      },
+      "properties": {
+        "title": "Louka, prodej, Hostice, Ruda nad Moravou, Šumperk: 365 522",
+        "price": 365522,
+        "price_label": "365 522 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223800601/louka-prodej-hostice-ruda-nad-moravou-sumperk.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.870778&y=50.003607&z=17&source=coor&id=16.870778,50.003607",
+        "link": "https://reality.bazos.cz/inzerat/223800601/louka-prodej-hostice-ruda-nad-moravou-sumperk.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.886048,
+          49.984164
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Hostice, Ruda nad Moravou, Šumperk: 255 411",
+        "price": 255411,
+        "price_label": "255 411 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223800461/zemedelska-puda-prodej-hostice-ruda-nad-moravou-sumperk.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.886048&y=49.984164&z=17&source=coor&id=16.886048,49.984164",
+        "link": "https://reality.bazos.cz/inzerat/223800461/zemedelska-puda-prodej-hostice-ruda-nad-moravou-sumperk.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.980684,
+          48.828399
+        ]
+      },
+      "properties": {
+        "title": "Prodej sadu, vinice 4613 m² — Prušánky, Hodonín, Jihomoravský kraj",
+        "price": 230650,
+        "price_label": "230 650 Kč",
+        "source": "sreality",
+        "guid": "sreality:681979980",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.980684&y=48.828399&z=17&source=coor&id=16.980684,48.828399",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/sady-vinice/prusanky-prusanky-/681979980"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.002732,
+          49.429464
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 8911 m² — Prostějovičky, Prostějov, Olomoucký kraj",
+        "price": 436639,
+        "price_label": "436 639 Kč",
+        "source": "sreality",
+        "guid": "sreality:3383111756",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.002732&y=49.429464&z=17&source=coor&id=17.002732,49.429464",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/prostejovicky-prostejovicky-/3383111756"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.162699,
+          49.683731
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 5611 m² — Loket – Bezděkov, Benešov, Středočeský kraj",
+        "price": 347882,
+        "price_label": "347 882 Kč",
+        "source": "sreality",
+        "guid": "sreality:3198562380",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.162699&y=49.683731&z=17&source=coor&id=15.162699,49.683731",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/loket-bezdekov-/3198562380"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.881777,
+          49.994985
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 9619 m² — Ruda nad Moravou – Hostice, Šumperk, Olomoucký kraj",
+        "price": 365522,
+        "price_label": "365 522 Kč",
+        "source": "sreality",
+        "guid": "sreality:3718656076",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.881777&y=49.994985&z=17&source=coor&id=16.881777,49.994985",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/ruda-nad-moravou-hostice-/3718656076"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.881777,
+          49.994985
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 6549 m² — Ruda nad Moravou – Hostice, Šumperk, Olomoucký kraj",
+        "price": 255411,
+        "price_label": "255 411 Kč",
+        "source": "sreality",
+        "guid": "sreality:581316684",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.881777&y=49.994985&z=17&source=coor&id=16.881777,49.994985",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/ruda-nad-moravou-hostice-/581316684"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.852937,
+          49.217549
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 552 m² — Vizovice, Zlín, Zlínský kraj",
+        "price": 180000,
+        "price_label": "180 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:983969868",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.852937&y=49.217549&z=17&source=coor&id=17.852937,49.217549",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/vizovice-vizovice-/983969868",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
       }
     }
   ]

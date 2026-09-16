@@ -16425,8 +16425,8 @@
       },
       "properties": {
         "title": "Prodej chaty 45 m², pozemek 30 m² — Železný Brod, Jablonec nad Nisou, Liberecký kraj",
-        "price": 560500,
-        "price_label": "560 500 Kč",
+        "price": 460500,
+        "price_label": "460 500 Kč",
         "source": "chata",
         "guid": "chata:3678253132",
         "mapy_url": "https://mapy.cz/zakladni?x=15.25859&y=50.64607&z=17&source=coor&id=15.25859,50.64607",
@@ -27756,34 +27756,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.796518,
-          49.202719
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1030 m² — Pozořice - Pozořice, Jihomoravský kraj",
-        "price": 300000,
-        "price_label": "300 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:960210",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.796518&y=49.202719&z=17&source=coor&id=16.796518,49.202719",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/960210-nabidka-prodej-pozemku",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -74408,34 +74380,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.137223,
-          48.921852
-        ]
-      },
-      "properties": {
-        "title": "Zemědělská půda, prodej, Ratíškovice, Hodonín: 194 688",
-        "price": 194688,
-        "price_label": "194 688 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222890870/zemedelska-puda-prodej-ratiskovice-hodonin.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.137223&y=48.921852&z=17&source=coor&id=17.137223,48.921852",
-        "link": "https://reality.bazos.cz/inzerat/222890870/zemedelska-puda-prodej-ratiskovice-hodonin.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "NARROW_PLOT",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.5982,
           49.207491
         ]
@@ -90113,35 +90057,6 @@
         "flags": [
           "ZPF_SOIL",
           "PLACEHOLDER_PIN",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.389718,
-          49.91099
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 8 m², pozemek 360 m² — Čáslav, Kutná Hora, Středočeský kraj",
-        "price": 475000,
-        "price_label": "475 000 Kč",
-        "source": "chata",
-        "guid": "chata:3227115596",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.389718&y=49.91099&z=17&source=coor&id=15.389718,49.91099",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/caslav-caslav-/3227115596",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
@@ -116129,6 +116044,81 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.600986,
+          48.845554
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 1336 m² — Trhové Sviny – Březí, České Budějovice, Jihočeský kraj",
+        "price": 265864,
+        "price_label": "265 864 Kč",
+        "source": "sreality",
+        "guid": "sreality:4251590732",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.600986&y=48.845554&z=17&source=coor&id=14.600986,48.845554",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/trhove-sviny-brezi-/4251590732"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.090692,
+          49.498511
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 135 m², pozemek 570 m² — Hořepník – Březina, Pelhřimov, Kraj Vysočina",
+        "price": 800000,
+        "price_label": "800 000 Kč",
+        "source": "house",
+        "guid": "house:694820940",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.090692&y=49.498511&z=17&source=coor&id=15.090692,49.498511",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/horepnik-brezina-/694820940",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.185563,
+          50.664074
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 26667 m2, Mukařov u Jablonce nad Nisou: 30",
+        "price": 30,
+        "price_label": "30 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223911545/prodej-lesa-26667-m2-mukarov-u-jablonce-nad-nisou.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.185563&y=50.664074&z=17&source=coor&id=15.185563,50.664074",
+        "link": "https://reality.bazos.cz/inzerat/223911545/prodej-lesa-26667-m2-mukarov-u-jablonce-nad-nisou.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "PRICE_PER_M2",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     }
   ]

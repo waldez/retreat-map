@@ -1,19 +1,219 @@
 {
-  "generated_at": "2026-09-16T22:05:30.960343+00:00",
-  "count": 11613,
-  "noise_count": 5973,
+  "generated_at": "2026-09-17T01:05:32.580406+00:00",
+  "count": 11619,
+  "noise_count": 5970,
   "sources": {
     "bazos": 6933,
     "bezrealitky": 816,
-    "cevd": 3,
+    "cevd": 6,
     "chata": 153,
-    "house": 1220,
+    "house": 1222,
     "portaldrazeb": 6,
     "spu": 1247,
-    "sreality": 1218,
+    "sreality": 1219,
     "uzsvm": 17
   },
   "listings": [
+    {
+      "guid": "cevd:33527",
+      "source": "cevd",
+      "title": "Dražba: Pozemek parc. č. 47, ostatní plocha,    144 m², Lovečkovice — vyvolávací 109550 Kč (odhad 109550 Kč)",
+      "link": "https://cevd.gov.cz/seznam-drazeb/detail/33527",
+      "locality": null,
+      "price_czk": 109550,
+      "price_per_m2": null,
+      "area_m2": 144,
+      "gps": null,
+      "parcel_ref": "k.ú. Lovečkovice, p.č. 47",
+      "is_structure": false,
+      "first_seen": "2026-09-17T01:02:25.802831+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "cevd:33513",
+      "source": "cevd",
+      "title": "Dražba: Pozemek parc. č. 122, ostatní plocha,   1 470 m², Libochovice — vyvolávací 133770 Kč (odhad 133770 Kč)",
+      "link": "https://cevd.gov.cz/seznam-drazeb/detail/33513",
+      "locality": null,
+      "price_czk": 133770,
+      "price_per_m2": null,
+      "area_m2": 1470,
+      "gps": null,
+      "parcel_ref": "k.ú. Libochovice, p.č. 122",
+      "is_structure": false,
+      "first_seen": "2026-09-17T01:02:25.771428+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "cevd:33508",
+      "source": "cevd",
+      "title": "Dražba: Pozemek parc. č. St. 93, zastavěná plocha a nádvoří,    50 m², Liběšice — vyvolávací 63520 Kč (odhad 63520 Kč)",
+      "link": "https://cevd.gov.cz/seznam-drazeb/detail/33508",
+      "locality": null,
+      "price_czk": 63520,
+      "price_per_m2": null,
+      "area_m2": 50,
+      "gps": null,
+      "parcel_ref": "k.ú. Liběšice, p.č. st. 93",
+      "is_structure": false,
+      "first_seen": "2026-09-17T01:02:25.740442+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:3299336268",
+      "source": "sreality",
+      "title": "Prodej lesa 4244 m² — Čížkov, Plzeň-jih, Plzeňský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/les/cizkov-cizkov-/3299336268",
+      "locality": null,
+      "price_czk": 212000,
+      "price_per_m2": 50,
+      "area_m2": 4244,
+      "gps": {
+        "lat": 49.540372,
+        "lon": 13.683389
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-17T00:00:29.025368+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223912211/prodej-rodinneho-domu-v-potstejne-ul-lazenska.php",
+      "source": "house",
+      "title": "Prodej rodinného domu v Potštejně, ul. Lázeňská: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223912211/prodej-rodinneho-domu-v-potstejne-ul-lazenska.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-16T23:20:13.246041+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912214/prodej-pozemku-k-bydleni-v-provodove-sonove.php",
+      "source": "bazos",
+      "title": "Prodej pozemku k bydlení v Provodově-Šonově: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/223912214/prodej-pozemku-k-bydleni-v-provodove-sonove.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.983073+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912249/prodej-lesa-5438-m-luzna.php",
+      "source": "bazos",
+      "title": "Prodej lesa, 5438 m², Lužná: 85 256",
+      "link": "https://reality.bazos.cz/inzerat/223912249/prodej-lesa-5438-m-luzna.php",
+      "locality": null,
+      "price_czk": 85256,
+      "price_per_m2": null,
+      "area_m2": 5438,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.965671+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912250/prodej-lesa-6203-m-lipno.php",
+      "source": "bazos",
+      "title": "Prodej lesa, 6203 m², Lipno: 135 654",
+      "link": "https://reality.bazos.cz/inzerat/223912250/prodej-lesa-6203-m-lipno.php",
+      "locality": null,
+      "price_czk": 135654,
+      "price_per_m2": null,
+      "area_m2": 6203,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.945287+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912251/prodej-lesa-10323-m-hlohovcice.php",
+      "source": "bazos",
+      "title": "Prodej lesa, 10323 m², Hlohovčice: 123 500",
+      "link": "https://reality.bazos.cz/inzerat/223912251/prodej-lesa-10323-m-hlohovcice.php",
+      "locality": null,
+      "price_czk": 123500,
+      "price_per_m2": null,
+      "area_m2": 10323,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.921859+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912252/prodej-lesa-8828-m-olsany.php",
+      "source": "bazos",
+      "title": "Prodej lesa, 8828 m², Olšany: 229 560",
+      "link": "https://reality.bazos.cz/inzerat/223912252/prodej-lesa-8828-m-olsany.php",
+      "locality": null,
+      "price_czk": 229560,
+      "price_per_m2": null,
+      "area_m2": 8828,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.905303+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223912273/prodej-pole-36-m-moravska-nova-ves.php",
+      "source": "bazos",
+      "title": "Prodej pole, 36 m², Moravská Nová Ves: 50 000",
+      "link": "https://reality.bazos.cz/inzerat/223912273/prodej-pole-36-m-moravska-nova-ves.php",
+      "locality": null,
+      "price_czk": 50000,
+      "price_per_m2": null,
+      "area_m2": 36,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T23:20:11.880618+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/223911858/prodej-rodinneho-domu-150m2-pozemek-843m2-zadoli.php",
+      "source": "house",
+      "title": "Prodej rodinného domu, 150m2, pozemek 843m2, Zádolí: 990 000",
+      "link": "https://reality.bazos.cz/inzerat/223911858/prodej-rodinneho-domu-150m2-pozemek-843m2-zadoli.php",
+      "locality": null,
+      "price_czk": 990000,
+      "price_per_m2": null,
+      "area_m2": 150,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-16T22:40:15.308951+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/223911737/prodej-pozemku-a-moznost-vystaby-rodinneho-domu.php",
+      "source": "bazos",
+      "title": "Prodej pozemku a možnost výstaby rodinného domu: 3 790",
+      "link": "https://reality.bazos.cz/inzerat/223911737/prodej-pozemku-a-moznost-vystaby-rodinneho-domu.php",
+      "locality": null,
+      "price_czk": 3790,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-16T22:20:10.844691+00:00",
+      "noise_reasons": []
+    },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223911689/prodej-pozemku-louky.php",
       "source": "bazos",
@@ -49014,24 +49214,6 @@
       ]
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223499110/spekulacni-stat-95-m-podil-33-o-vymere-32-m.php",
-      "source": "bazos",
-      "title": "Spekulační - stát 95 m², Podíl 33 % o výměře 32 m²: 12 874",
-      "link": "https://reality.bazos.cz/inzerat/223499110/spekulacni-stat-95-m-podil-33-o-vymere-32-m.php",
-      "locality": null,
-      "price_czk": 12874,
-      "price_per_m2": null,
-      "area_m2": 95,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-07T06:40:27.879158+00:00",
-      "noise_reasons": [
-        "co_ownership",
-        "speculative"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223499361/spekulacni-komercni-a-ostatni-1-586-m-podil-50-o-vymer.php",
       "source": "bazos",
       "title": "Spekulační - komerční a ostatní 1 586 m², Podíl 50 % o výměř: Dohodou",
@@ -49132,23 +49314,6 @@
       "noise_reasons": [
         "co_ownership",
         "zpf"
-      ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223496680/investicni-pozemek-795-m-podil-50-o-vymere-398-m.php",
-      "source": "bazos",
-      "title": "Investiční pozemek 795 m², Podíl 50 % o výměře 398 m²: 30 514",
-      "link": "https://reality.bazos.cz/inzerat/223496680/investicni-pozemek-795-m-podil-50-o-vymere-398-m.php",
-      "locality": null,
-      "price_czk": 30514,
-      "price_per_m2": null,
-      "area_m2": 795,
-      "gps": null,
-      "parcel_ref": "k.ú. Vrbka u Roudníčku, p.č. 377",
-      "is_structure": false,
-      "first_seen": "2026-09-07T06:20:15.216887+00:00",
-      "noise_reasons": [
-        "co_ownership"
       ]
     },
     {
@@ -49522,21 +49687,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223492176/prodej-stavebnich-pozemku-novosedlice.php",
-      "source": "bazos",
-      "title": "Prodej stavebních pozemků - Novosedlice: 4 200",
-      "link": "https://reality.bazos.cz/inzerat/223492176/prodej-stavebnich-pozemku-novosedlice.php",
-      "locality": null,
-      "price_czk": 4200,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-07T05:00:19.990226+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223490979/prodej-pozemek-pole-4101.php",
       "source": "bazos",
       "title": "Prodej pozemek Pole, 4101㎡: 3 000",
@@ -49549,21 +49699,6 @@
       "parcel_ref": "p.č. 375/9",
       "is_structure": false,
       "first_seen": "2026-09-07T04:40:26.265418+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223490552/stavebni-pozemky-jesenik.php",
-      "source": "bazos",
-      "title": "stavební pozemky jeseník: 2 000",
-      "link": "https://reality.bazos.cz/inzerat/223490552/stavebni-pozemky-jesenik.php",
-      "locality": null,
-      "price_czk": 2000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-07T04:03:06.705458+00:00",
       "noise_reasons": []
     },
     {
@@ -118589,7 +118724,7 @@
       "title": "Zahrada 736 m², Podíl 17 % o výměře 123 m²: 29 376",
       "link": "https://reality.bazos.cz/inzerat/222688056/zahrada-736-m-podil-17-o-vymere-123-m.php",
       "locality": null,
-      "price_czk": 29376,
+      "price_czk": 44712,
       "price_per_m2": null,
       "area_m2": 736,
       "gps": null,
@@ -118847,7 +118982,7 @@
       "title": "Stavební - bydlení 1 791 m², Podíl 6 % o výměře 100 m²: 12 359",
       "link": "https://reality.bazos.cz/inzerat/222687685/stavebni-bydleni-1-791-m-podil-6-o-vymere-100-m.php",
       "locality": null,
-      "price_czk": 12359,
+      "price_czk": 11123,
       "price_per_m2": null,
       "area_m2": 1791,
       "gps": null,
@@ -132630,24 +132765,6 @@
       "noise_reasons": [
         "co_ownership",
         "zpf"
-      ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222469628/spekulacni-komercni-a-ostatni-14-196-m-podil-8-o-vymer.php",
-      "source": "bazos",
-      "title": "Spekulační - komerční a ostatní 14 196 m², Podíl 8 % o výměř: 25 872",
-      "link": "https://reality.bazos.cz/inzerat/222469628/spekulacni-komercni-a-ostatni-14-196-m-podil-8-o-vymer.php",
-      "locality": null,
-      "price_czk": 25872,
-      "price_per_m2": null,
-      "area_m2": 14196,
-      "gps": null,
-      "parcel_ref": "k.ú. Soběslav, p.č. 2320",
-      "is_structure": false,
-      "first_seen": "2026-08-12T10:40:20.399642+00:00",
-      "noise_reasons": [
-        "co_ownership",
-        "speculative"
       ]
     },
     {
@@ -172952,23 +173069,6 @@
       ]
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/221542173/pole-1-395-m.php",
-      "source": "bazos",
-      "title": "Pole 1 395 m²: 39 618",
-      "link": "https://reality.bazos.cz/inzerat/221542173/pole-1-395-m.php",
-      "locality": null,
-      "price_czk": 39618,
-      "price_per_m2": null,
-      "area_m2": 1395,
-      "gps": null,
-      "parcel_ref": "k.ú. Tučapy, p.č. 1560",
-      "is_structure": false,
-      "first_seen": "2026-07-20T12:40:17.874294+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/221537159/lesni-pozemky-drzovice.php",
       "source": "bazos",
       "title": "Lesní pozemky Držovice: 199 000",
@@ -173682,21 +173782,6 @@
       "parcel_ref": "",
       "is_structure": false,
       "first_seen": "2026-07-19T07:00:23.164283+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/221473185/lesni-pozemek.php",
-      "source": "bazos",
-      "title": "Lesní pozemek: 25",
-      "link": "https://reality.bazos.cz/inzerat/221473185/lesni-pozemek.php",
-      "locality": null,
-      "price_czk": 25,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-07-19T05:20:13.987711+00:00",
       "noise_reasons": []
     },
     {

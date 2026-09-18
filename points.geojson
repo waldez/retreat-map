@@ -31068,34 +31068,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.213064,
-          50.168977
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2809 m² — Okřínek - Srbce u Okřínka, Středočeský kraj",
-        "price": 140000,
-        "price_label": "140 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1037723",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.213064&y=50.168977&z=17&source=coor&id=15.213064,50.168977",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1037723-nabidka-prodej-pozemku-okrinek",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "LOW_CONFIDENCE_LOCATION",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.431942,
           50.119211
         ]
@@ -31283,33 +31255,6 @@
         "marker-color": "#1565c0",
         "flags": [
           "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.483005,
-          50.396682
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 5120 m² — Mělník - Vehlovice, Středočeský kraj",
-        "price": 175000,
-        "price_label": "175 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:995461",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.483005&y=50.396682&z=17&source=coor&id=14.483005,50.396682",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/995461-nabidka-prodej-pozemku-melnik",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
@@ -65766,8 +65711,8 @@
       },
       "properties": {
         "title": "Spekulační - stát 907 m², Podíl 67 % o výměře 605 m²: 79 348",
-        "price": 79348,
-        "price_label": "79 348 Kč",
+        "price": 64272,
+        "price_label": "64 272 Kč",
         "source": "bazos",
         "guid": "bazos:https://reality.bazos.cz/inzerat/222693684/spekulacni-stat-907-m-podil-67-o-vymere-605-m.php",
         "mapy_url": "https://mapy.cz/zakladni?x=14.73247654&y=50.161416364&z=17&source=coor&id=14.73247654,50.161416364",
@@ -116163,6 +116108,102 @@
           "ENCUMBRANCE"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.63635,
+          49.115981
+        ]
+      },
+      "properties": {
+        "title": "Les 4 861 m²: 98 773",
+        "price": 98773,
+        "price_label": "98 773 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/223951386/les-4-861-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.63635&y=49.115981&z=17&source=coor&id=17.63635,49.115981",
+        "link": "https://reality.bazos.cz/inzerat/223951386/les-4-861-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "NARROW_PLOT",
+          "POOR_ACCESS",
+          "SECONDARY_ONLY"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.639,
+          49.0969
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 5312 m² — Částkov, Uherské Hradiště, Zlínský kraj",
+        "price": 151976,
+        "price_label": "151 976 Kč",
+        "source": "sreality",
+        "guid": "sreality:221847628",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.639&y=49.0969&z=17&source=coor&id=17.639,49.0969",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/castkov-castkov-/221847628"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6447,
+          49.1028
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 4861 m² — Kelníky, Zlín, Zlínský kraj",
+        "price": 98773,
+        "price_label": "98 773 Kč",
+        "source": "sreality",
+        "guid": "sreality:2906202188",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.6447&y=49.1028&z=17&source=coor&id=17.6447,49.1028",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/kelniky-kelniky-/2906202188",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "POOR_ACCESS",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8435,
+          49.464
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 13774 m² — Kelč, Vsetín, Zlínský kraj",
+        "price": 351912,
+        "price_label": "351 912 Kč",
+        "source": "sreality",
+        "guid": "sreality:305733708",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.8435&y=49.464&z=17&source=coor&id=17.8435,49.464",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kelc-kelc-/305733708"
       }
     }
   ]

@@ -98283,34 +98283,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.681837,
-          49.428003
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 196 m², pozemek 1050 m² — Mrlínek, Kroměříž, Zlínský kraj",
-        "price": 1190000,
-        "price_label": "1 190 000 Kč",
-        "source": "house",
-        "guid": "house:1226911820",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.681837&y=49.428003&z=17&source=coor&id=17.681837,49.428003",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/mrlinek-mrlinek-/1226911820",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.086919,
           49.486399
         ]
@@ -115817,6 +115789,33 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.374287,
+          49.230531
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 4297 m2, Všemyslice: 1 200",
+        "price": 1200,
+        "price_label": "1 200 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224035736/prodej-stavebniho-pozemku-4297-m2-vsemyslice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.374287&y=49.230531&z=17&source=coor&id=14.374287,49.230531",
+        "link": "https://reality.bazos.cz/inzerat/224035736/prodej-stavebniho-pozemku-4297-m2-vsemyslice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PRICE_PER_M2"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     }
   ]

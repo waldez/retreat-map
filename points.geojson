@@ -83048,36 +83048,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.634528,
-          49.10173
-        ]
-      },
-      "properties": {
-        "title": "Les 23 882 m², Podíl 50 % o výměře 13 191 m²: 65 957",
-        "price": 65957,
-        "price_label": "65 957 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223254586/les-23-882-m-podil-50-o-vymere-13-191-m.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.634528&y=49.10173&z=17&source=coor&id=15.634528,49.10173",
-        "link": "https://reality.bazos.cz/inzerat/223254586/les-23-882-m-podil-50-o-vymere-13-191-m.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.313993,
           49.087846
         ]
@@ -99311,35 +99281,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.739099,
-          48.992639
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Nikolčice: 126 000",
-        "price": 126000,
-        "price_label": "126 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223655269/prodej-lesnich-pozemku-ku-nikolcice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.739099&y=48.992639&z=17&source=coor&id=16.739099,48.992639",
-        "link": "https://reality.bazos.cz/inzerat/223655269/prodej-lesnich-pozemku-ku-nikolcice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.670679,
           49.109472
         ]
@@ -115107,6 +115048,36 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.78023,
+          50.27703
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 101 m², pozemek 247 m² — Kochánky, Mladá Boleslav, Středočeský kraj",
+        "price": 950000,
+        "price_label": "950 000 Kč",
+        "source": "house",
+        "guid": "house:1281302604",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.78023&y=50.27703&z=17&source=coor&id=14.78023,50.27703",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/kochanky-kochanky-/1281302604",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

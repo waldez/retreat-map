@@ -81923,25 +81923,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.393196,
-          50.131919
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2613 m² — Žiželice, Kolín, Středočeský kraj",
-        "price": 108000,
-        "price_label": "108 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:844836940",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.393196&y=50.131919&z=17&source=coor&id=15.393196,50.131919",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zizelice-zizelice-/844836940"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.447963,
           50.140281
         ]
@@ -115809,6 +115790,33 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.853165,
+          50.015337
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Janoušov, Šumperk: 334 856",
+        "price": 334856,
+        "price_label": "334 856 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224029060/zemedelska-puda-prodej-janousov-sumperk.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.853165&y=50.015337&z=17&source=coor&id=16.853165,50.015337",
+        "link": "https://reality.bazos.cz/inzerat/224029060/zemedelska-puda-prodej-janousov-sumperk.php",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
       }
     }
   ]

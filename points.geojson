@@ -35321,8 +35321,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 7994 m² — Stínava - Stínava, Olomoucký kraj",
-        "price": 270000,
-        "price_label": "270 000 Kč",
+        "price": 260000,
+        "price_label": "260 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:1017968",
         "mapy_url": "https://mapy.cz/zakladni?x=16.919309&y=49.498879&z=17&source=coor&id=16.919309,49.498879",
@@ -83843,25 +83843,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.4929,
-          48.9937
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 2302 m² — Ostrožská Nová Ves, Uherské Hradiště, Zlínský kraj",
-        "price": 108562,
-        "price_label": "108 562 Kč",
-        "source": "sreality",
-        "guid": "sreality:2514169932",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.4929&y=48.9937&z=17&source=coor&id=17.4929,48.9937",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/ostrozska-nova-ves-ostrozska-nova-ves-/2514169932"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.5607,
           48.9198
         ]
@@ -83950,25 +83931,6 @@
         "guid": "sreality:1808478284",
         "mapy_url": "https://mapy.cz/zakladni?x=16.2905&y=49.1418&z=17&source=coor&id=16.2905,49.1418",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/cucice-cucice-/1808478284"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.5001,
-          49.1921
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 3687 m² — Napajedla, Zlín, Zlínský kraj",
-        "price": 140106,
-        "price_label": "140 106 Kč",
-        "source": "sreality",
-        "guid": "sreality:3687526476",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.5001&y=49.1921&z=17&source=coor&id=17.5001,49.1921",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/napajedla-napajedla-/3687526476"
       }
     },
     {
@@ -84505,37 +84467,6 @@
         "marker-color": "#2e7d32",
         "flags": [
           "LOW_CONFIDENCE_LOCATION"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.855508,
-          49.947176
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 15 m², pozemek 521 m² — Kočí, Chrudim, Pardubický kraj",
-        "price": 650000,
-        "price_label": "650 000 Kč",
-        "source": "chata",
-        "guid": "chata:1586180172",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.855508&y=49.947176&z=17&source=coor&id=15.855508,49.947176",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/koci-koci-/1586180172",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
       }
@@ -114993,6 +114924,123 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.223844,
+          49.621298
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - rezidenční 2 722 m², Podíl 50 % o výměře 1 361: 100 944",
+        "price": 100944,
+        "price_label": "100 944 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224072292/spekulacni-rezidencni-2-722-m-podil-50-o-vymere-1-361.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.223844&y=49.621298&z=17&source=coor&id=14.223844,49.621298",
+        "link": "https://reality.bazos.cz/inzerat/224072292/spekulacni-rezidencni-2-722-m-podil-50-o-vymere-1-361.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "RADON_HIGH",
+          "CO_OWNERSHIP",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.426988,
+          49.442327
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - komerční a ostatní 5 978 m², Podíl 17 % o výměř: 348 717",
+        "price": 348717,
+        "price_label": "348 717 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224072291/spekulacni-komercni-a-ostatni-5-978-m-podil-17-o-vymer.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.426988&y=49.442327&z=17&source=coor&id=17.426988,49.442327",
+        "link": "https://reality.bazos.cz/inzerat/224072291/spekulacni-komercni-a-ostatni-5-978-m-podil-17-o-vymer.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "GROUP_HAS_ZPF",
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.863737,
+          49.225505
+        ]
+      },
+      "properties": {
+        "title": "Spekulační - rezidenční 2 271 m², Podíl 50 % o výměře 1 136: 133 373",
+        "price": 133373,
+        "price_label": "133 373 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224072290/spekulacni-rezidencni-2-271-m-podil-50-o-vymere-1-136.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.863737&y=49.225505&z=17&source=coor&id=17.863737,49.225505",
+        "link": "https://reality.bazos.cz/inzerat/224072290/spekulacni-rezidencni-2-271-m-podil-50-o-vymere-1-136.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.48315,
+          48.938604
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Vlasatice, Brno-venkov: 122 240",
+        "price": 122240,
+        "price_label": "122 240 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224073456/zemedelska-puda-prodej-vlasatice-brno-venkov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.48315&y=48.938604&z=17&source=coor&id=16.48315,48.938604",
+        "link": "https://reality.bazos.cz/inzerat/224073456/zemedelska-puda-prodej-vlasatice-brno-venkov.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
       }
     }
   ]

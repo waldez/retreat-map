@@ -1,19 +1,155 @@
 {
-  "generated_at": "2026-09-21T19:05:22.621524+00:00",
-  "count": 11899,
-  "noise_count": 6057,
+  "generated_at": "2026-09-21T22:04:40.247340+00:00",
+  "count": 11896,
+  "noise_count": 6056,
   "sources": {
-    "bazos": 7104,
+    "bazos": 7100,
     "bezrealitky": 819,
     "cevd": 11,
-    "chata": 160,
-    "house": 1271,
+    "chata": 161,
+    "house": 1269,
     "portaldrazeb": 1,
     "spu": 1247,
-    "sreality": 1268,
+    "sreality": 1270,
     "uzsvm": 18
   },
   "listings": [
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224120510/stavebni-pozemek.php",
+      "source": "bazos",
+      "title": "Stavební pozemek: Nabídněte",
+      "link": "https://reality.bazos.cz/inzerat/224120510/stavebni-pozemek.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T21:00:18.967135+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "chata:838737996",
+      "source": "chata",
+      "title": "Prodej chaty 20 m², pozemek 257 m² — Studnice, Chrudim, Pardubický kraj",
+      "link": "https://www.sreality.cz/detail/prodej/dum/chata/studnice-studnice-/838737996",
+      "locality": null,
+      "price_czk": 690000,
+      "price_per_m2": 34500,
+      "area_m2": 20,
+      "gps": {
+        "lat": 49.726078,
+        "lon": 15.915956
+      },
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-21T20:40:19.384024+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:1073619020",
+      "source": "sreality",
+      "title": "Prodej zahrady 211 m² — Vrchlabí, Trutnov, Královéhradecký kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/vrchlabi-vrchlabi-/1073619020",
+      "locality": null,
+      "price_czk": 350000,
+      "price_per_m2": 1659,
+      "area_m2": 211,
+      "gps": {
+        "lat": 50.626966,
+        "lon": 15.609374
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T20:40:18.758006+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:150872140",
+      "source": "sreality",
+      "title": "Prodej zahrady 550 m² — Janovice, Frýdek-Místek, Moravskoslezský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/janovice-janovice-/150872140",
+      "locality": null,
+      "price_czk": 197359,
+      "price_per_m2": 359,
+      "area_m2": 550,
+      "gps": {
+        "lat": 49.607057,
+        "lon": 18.419049
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T20:40:18.738582+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224119572/hledam-stavebni-pozemek.php",
+      "source": "bazos",
+      "title": "Hledám stavební pozemek: Nabídněte",
+      "link": "https://reality.bazos.cz/inzerat/224119572/hledam-stavebni-pozemek.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T20:20:12.547407+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "sreality:553525324",
+      "source": "sreality",
+      "title": "Prodej pole 5351 m² — Suchov, Hodonín, Jihomoravský kraj",
+      "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/suchov-suchov-/553525324",
+      "locality": null,
+      "price_czk": 219000,
+      "price_per_m2": 41,
+      "area_m2": 5351,
+      "gps": {
+        "lat": 48.907422,
+        "lon": 17.563456
+      },
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T19:40:18.376700+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224118301/prodej-pozemku-ku-novy-malin.php",
+      "source": "bazos",
+      "title": "Prodej pozemků k.ú. Nový Malín: 307 000",
+      "link": "https://reality.bazos.cz/inzerat/224118301/prodej-pozemku-ku-novy-malin.php",
+      "locality": null,
+      "price_czk": 307000,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "k.ú. Nový Malín, p.č. 2490",
+      "is_structure": false,
+      "first_seen": "2026-09-21T19:40:17.961710+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224118934/prodej-louky-10-524-m-bosen-evc-10157.php",
+      "source": "bazos",
+      "title": "Prodej louky 10 524 m², Boseň, ev.č. 10157: 395 000",
+      "link": "https://reality.bazos.cz/inzerat/224118934/prodej-louky-10-524-m-bosen-evc-10157.php",
+      "locality": null,
+      "price_czk": 395000,
+      "price_per_m2": null,
+      "area_m2": 10524,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-21T19:40:17.879510+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
     {
       "guid": "house:1069537",
       "source": "house",
@@ -26162,21 +26298,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223693801/prodej-lesnich-pozemku-ku-velke-hamry.php",
-      "source": "bazos",
-      "title": "Prodej lesních pozemků k.ú. Velké Hamry: 46 000",
-      "link": "https://reality.bazos.cz/inzerat/223693801/prodej-lesnich-pozemku-ku-velke-hamry.php",
-      "locality": null,
-      "price_czk": 46000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Velké Hamry, p.č. 1222",
-      "is_structure": false,
-      "first_seen": "2026-09-11T19:00:25.274461+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223693287/prodej-pozemku-pro-bydleni-2-539-m-se-stavajicim-rd-hvozdn.php",
       "source": "bazos",
       "title": "Prodej pozemku pro bydlení 2 539 m² se stávajícím RD, Hvozdn: V textu",
@@ -26204,36 +26325,6 @@
       "parcel_ref": "",
       "is_structure": false,
       "first_seen": "2026-09-11T18:40:18.333417+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223693566/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-      "source": "bazos",
-      "title": "Prodej pozemků k.ú. Chotiněves a k.ú. Oparno: 116 000",
-      "link": "https://reality.bazos.cz/inzerat/223693566/prodej-pozemku-ku-chotineves-a-ku-oparno.php",
-      "locality": null,
-      "price_czk": 116000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Chotiněves, p.č. 381/1",
-      "is_structure": false,
-      "first_seen": "2026-09-11T18:40:18.174798+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223692057/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
-      "source": "bazos",
-      "title": "Prodej lesních pozemků k.ú. Popovice u Uherského Hradiště: 21 000",
-      "link": "https://reality.bazos.cz/inzerat/223692057/prodej-lesnich-pozemku-ku-popovice-u-uherskeho-hradiste.php",
-      "locality": null,
-      "price_czk": 21000,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Popovice u Uherského Hradiště, p.č. 3533",
-      "is_structure": false,
-      "first_seen": "2026-09-11T17:40:16.899669+00:00",
       "noise_reasons": []
     },
     {
@@ -65329,23 +65420,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223296201/zemedelska-puda-prodej-jalubi-uherske-hradiste.php",
-      "source": "bazos",
-      "title": "Zemědělská půda, prodej, Jalubí, Uherské Hradiště: 318 888",
-      "link": "https://reality.bazos.cz/inzerat/223296201/zemedelska-puda-prodej-jalubi-uherske-hradiste.php",
-      "locality": null,
-      "price_czk": 318888,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Jalubí, p.č. 286/143",
-      "is_structure": false,
-      "first_seen": "2026-09-02T04:00:14.972407+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
-    },
-    {
       "guid": "house:https://reality.bazos.cz/inzerat/223295914/k-prodeji-rodinny-dum-vitkov-lucni-760.php",
       "source": "house",
       "title": "K prodeji rodinný dům, Vítkov, Luční 760.: 890 000",
@@ -65553,21 +65627,6 @@
       "parcel_ref": "",
       "is_structure": false,
       "first_seen": "2026-09-02T03:00:15.229009+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223294468/prodej-pozemku-o-celkove-vymere-1237-m2-v-desne-v-jizerskyc.php",
-      "source": "bazos",
-      "title": "Prodej pozemku o celkové výměře 1.237 m2 v Desné v Jizerskýc: 395 000",
-      "link": "https://reality.bazos.cz/inzerat/223294468/prodej-pozemku-o-celkove-vymere-1237-m2-v-desne-v-jizerskyc.php",
-      "locality": null,
-      "price_czk": 395000,
-      "price_per_m2": null,
-      "area_m2": 237,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-02T01:02:08.845430+00:00",
       "noise_reasons": []
     },
     {
@@ -90308,24 +90367,6 @@
       ]
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222985650/pole-1-307-m-podil-75-o-vymere-980-m.php",
-      "source": "bazos",
-      "title": "Pole 1 307 m², Podíl 75 % o výměře 980 m²: 41 546",
-      "link": "https://reality.bazos.cz/inzerat/222985650/pole-1-307-m-podil-75-o-vymere-980-m.php",
-      "locality": null,
-      "price_czk": 41546,
-      "price_per_m2": null,
-      "area_m2": 1307,
-      "gps": null,
-      "parcel_ref": "p.č. 1949",
-      "is_structure": false,
-      "first_seen": "2026-08-25T07:20:19.813942+00:00",
-      "noise_reasons": [
-        "co_ownership",
-        "zpf"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222985914/prodej-podilu-46-specifickeho-pozemku-7-725-m-olsany.php",
       "source": "bazos",
       "title": "Prodej podílu 4/6 specifického pozemku 7 725 m², Olšany: 315 000",
@@ -101453,7 +101494,7 @@
       "title": "Spekulační - rezidenční 9 070 m², Podíl 13 % o výměře 1 134: 31 381",
       "link": "https://reality.bazos.cz/inzerat/222765623/spekulacni-rezidencni-9-070-m-podil-13-o-vymere-1-134.php",
       "locality": null,
-      "price_czk": 31381,
+      "price_czk": 28722,
       "price_per_m2": null,
       "area_m2": 9070,
       "gps": null,
@@ -102059,7 +102100,7 @@
       "title": "Komunikace 1 967 m², Podíl 50 % o výměře 984 m²: 123 921",
       "link": "https://reality.bazos.cz/inzerat/222764699/komunikace-1-967-m-podil-50-o-vymere-984-m.php",
       "locality": null,
-      "price_czk": 123921,
+      "price_czk": 111529,
       "price_per_m2": null,
       "area_m2": 1967,
       "gps": null,
@@ -102183,7 +102224,7 @@
       "title": "Stavební - bydlení 3 004 m², Podíl 25 % o výměře 751 m²: 405 540",
       "link": "https://reality.bazos.cz/inzerat/222764777/stavebni-bydleni-3-004-m-podil-25-o-vymere-751-m.php",
       "locality": null,
-      "price_czk": 938750,
+      "price_czk": 364986,
       "price_per_m2": null,
       "area_m2": 3004,
       "gps": null,
@@ -102743,7 +102784,7 @@
       "title": "Les 2 555 m²: 64 156",
       "link": "https://reality.bazos.cz/inzerat/222763948/les-2-555-m.php",
       "locality": null,
-      "price_czk": 64156,
+      "price_czk": 57740,
       "price_per_m2": null,
       "area_m2": 2555,
       "gps": null,
@@ -116926,21 +116967,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "house:https://reality.bazos.cz/inzerat/222723588/rodinny-dum-v-jemnici.php",
-      "source": "house",
-      "title": "RODINNÝ DŮM V JEMNICI: Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/222723588/rodinny-dum-v-jemnici.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-08-18T17:40:18.355204+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "house:https://reality.bazos.cz/inzerat/222722303/prodej-radoveho-rodinneho-domu-v-prostejove-vrahovicich.php",
       "source": "house",
       "title": "Prodej řadového rodinného domu v Prostějově - Vrahovicích: Dohodou",
@@ -116953,21 +116979,6 @@
       "parcel_ref": "",
       "is_structure": true,
       "first_seen": "2026-08-18T17:20:20.961378+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222722467/pozemek-chata.php",
-      "source": "bazos",
-      "title": "Pozemek chata: Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/222722467/pozemek-chata.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-18T17:20:19.936356+00:00",
       "noise_reasons": []
     },
     {
@@ -144347,24 +144358,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "house:1076031564",
-      "source": "house",
-      "title": "Prodej rodinného domu 120 m², pozemek 444 m² — Krouna, Chrudim, Pardubický kraj",
-      "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/krouna-krouna-/1076031564",
-      "locality": null,
-      "price_czk": 900000,
-      "price_per_m2": 7500,
-      "area_m2": 120,
-      "gps": {
-        "lat": 49.772609,
-        "lon": 16.027031
-      },
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-08-09T07:40:13.957253+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "sreality:90435660",
       "source": "sreality",
       "title": "Prodej pozemku 20 m² — Jindřichův Hradec – Jindřichův Hradec III, Jihočeský kraj",
@@ -171368,21 +171361,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/221762094/prodej-stavebniho-pozemku-v-obci-cesky-jiretin.php",
-      "source": "bazos",
-      "title": "Prodej stavebního pozemku v obci Český Jiřetín: 850",
-      "link": "https://reality.bazos.cz/inzerat/221762094/prodej-stavebniho-pozemku-v-obci-cesky-jiretin.php",
-      "locality": null,
-      "price_czk": 1200,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-07-26T05:00:11.086876+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/221760979/prodej-pozemek-les-o-cp-2504-m2-obec-hradcovice.php",
       "source": "bazos",
       "title": "Prodej pozemek, les o CP 2504 m2, obec Hradčovice: 30 000",
@@ -187897,26 +187875,6 @@
       "is_structure": false,
       "first_seen": "2026-07-04T05:00:45.609358+00:00",
       "noise_reasons": []
-    },
-    {
-      "guid": "sreality:2856968268",
-      "source": "sreality",
-      "title": "Prodej pole 4410 m² — Šumice, Brno-venkov, Jihomoravský kraj",
-      "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/sumice-sumice-/2856968268",
-      "locality": null,
-      "price_czk": 317000,
-      "price_per_m2": null,
-      "area_m2": 4410,
-      "gps": {
-        "lat": 48.9921,
-        "lon": 16.437366
-      },
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-07-04T05:00:39.897234+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
     },
     {
       "guid": "sreality:204558924",

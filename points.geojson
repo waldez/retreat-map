@@ -55116,8 +55116,8 @@
       },
       "properties": {
         "title": "Prodej chaty 24 m², pozemek 384 m² — Ústí nad Labem – Klíše, Ústecký kraj",
-        "price": 790000,
-        "price_label": "790 000 Kč",
+        "price": 620000,
+        "price_label": "620 000 Kč",
         "source": "chata",
         "guid": "chata:2763837516",
         "mapy_url": "https://mapy.cz/zakladni?x=14.014781&y=50.660145&z=17&source=coor&id=14.014781,50.660145",
@@ -115041,6 +115041,29 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.590951,
+          49.241833
+        ]
+      },
+      "properties": {
+        "title": "Dražba: podíly na zemědělské a lesní půdě, Slovensko, obec Kotešová — vyvolávací 108128 Kč (odhad 108128 Kč), koná se 2026-09-22",
+        "price": 108128,
+        "price_label": "108 128 Kč",
+        "source": "portaldrazeb",
+        "guid": "portaldrazeb:233dd82-02-2-d5gd5",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.590951&y=49.241833&z=17&source=coor&id=18.590951,49.241833",
+        "link": "https://www.portaldrazeb.cz/drazba/233dd82-02-2-d5gd5",
+        "flags": [
+          "PARCEL_NOT_FOUND",
+          "CO_OWNERSHIP"
+        ]
       }
     }
   ]

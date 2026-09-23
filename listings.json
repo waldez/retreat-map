@@ -1,19 +1,218 @@
 {
-  "generated_at": "2026-09-22T22:03:42.733695+00:00",
-  "count": 12005,
-  "noise_count": 6060,
+  "generated_at": "2026-09-23T01:04:16.613506+00:00",
+  "count": 12008,
+  "noise_count": 6056,
   "sources": {
-    "bazos": 7171,
+    "bazos": 7167,
     "bezrealitky": 829,
-    "cevd": 14,
+    "cevd": 16,
     "chata": 164,
-    "house": 1275,
+    "house": 1281,
     "portaldrazeb": 2,
     "spu": 1247,
-    "sreality": 1286,
+    "sreality": 1285,
     "uzsvm": 17
   },
   "listings": [
+    {
+      "guid": "cevd:33638",
+      "source": "cevd",
+      "title": "Dražba: Pozemek parc. č. 233/1, ostatní plocha,    948 m², Třebenice — vyvolávací 26449 Kč (odhad 26449 Kč)",
+      "link": "https://cevd.gov.cz/seznam-drazeb/detail/33638",
+      "locality": null,
+      "price_czk": 26449,
+      "price_per_m2": null,
+      "area_m2": 948,
+      "gps": null,
+      "parcel_ref": "k.ú. Třebenice, p.č. 233/1",
+      "is_structure": false,
+      "first_seen": "2026-09-23T01:02:40.570891+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "cevd:33636",
+      "source": "cevd",
+      "title": "Dražba: Pozemek parc. č. 1570/3, ostatní plocha,    181 m², Štětí — vyvolávací 4999 Kč (odhad 4999 Kč)",
+      "link": "https://cevd.gov.cz/seznam-drazeb/detail/33636",
+      "locality": null,
+      "price_czk": 4999,
+      "price_per_m2": null,
+      "area_m2": 181,
+      "gps": null,
+      "parcel_ref": "k.ú. Štětí, p.č. 1570/3",
+      "is_structure": false,
+      "first_seen": "2026-09-23T01:02:40.557572+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175549/prodej-rd-4kkt-174-m-pozemek-477-m-roudnice-nad-labem.php",
+      "source": "house",
+      "title": "Prodej RD 4+kk/T 174 m², pozemek 477 m², Roudnice nad Labem,: V textu",
+      "link": "https://reality.bazos.cz/inzerat/224175549/prodej-rd-4kkt-174-m-pozemek-477-m-roudnice-nad-labem.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 174,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-23T01:00:29.020982+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175577/prodej-rd-51-s-garazi-na-pozemku-m2-v-obci-tocnik-u-klatov.php",
+      "source": "house",
+      "title": "Prodej RD 5+1 s garáží na pozemku m2 v obci Točník u Klatov: V textu",
+      "link": "https://reality.bazos.cz/inzerat/224175577/prodej-rd-51-s-garazi-na-pozemku-m2-v-obci-tocnik-u-klatov.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-23T01:00:29.002700+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175545/prodej-rd-jablunkov.php",
+      "source": "house",
+      "title": "Prodej, RD Jablunkov: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/224175545/prodej-rd-jablunkov.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-23T00:40:17.460658+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175546/prodej-rd-pionyrska-rychvald.php",
+      "source": "house",
+      "title": "Prodej, RD Pionýrská, Rychvald: V textu",
+      "link": "https://reality.bazos.cz/inzerat/224175546/prodej-rd-pionyrska-rychvald.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-23T00:40:17.434728+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175490/prodej-rd-pionyrska-rychvald.php",
+      "source": "house",
+      "title": "Prodej, RD Pionýrská, Rychvald: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/224175490/prodej-rd-pionyrska-rychvald.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-23T00:20:16.569346+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175339/rodinny-dum-dolejsi-kuncice-136768.php",
+      "source": "house",
+      "title": "Rodinný dům Dolejší Kunčice, 136768: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/224175339/rodinny-dum-dolejsi-kuncice-136768.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-22T23:40:19.598163+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175037/novostavba-moderniho-bungalovu-san-pedro-del-pinatar.php",
+      "source": "house",
+      "title": "Novostavba moderního bungalovu -  San Pedro del Pinatar: V textu",
+      "link": "https://reality.bazos.cz/inzerat/224175037/novostavba-moderniho-bungalovu-san-pedro-del-pinatar.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": null,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-22T23:00:29.558014+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "house:https://reality.bazos.cz/inzerat/224175088/prodej-rodinneho-domu-231-m-borsov-moravska-trebova.php",
+      "source": "house",
+      "title": "Prodej rodinného domu, 231 m², Boršov, Moravská Třebová: Dohodou",
+      "link": "https://reality.bazos.cz/inzerat/224175088/prodej-rodinneho-domu-231-m-borsov-moravska-trebova.php",
+      "locality": null,
+      "price_czk": null,
+      "price_per_m2": null,
+      "area_m2": 231,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": true,
+      "first_seen": "2026-09-22T23:00:29.546706+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224175079/prodej-louky-1899-m-starkov.php",
+      "source": "bazos",
+      "title": "Prodej louky, 1899 m², Stárkov: 265 000",
+      "link": "https://reality.bazos.cz/inzerat/224175079/prodej-louky-1899-m-starkov.php",
+      "locality": null,
+      "price_czk": 265000,
+      "price_per_m2": null,
+      "area_m2": 1899,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-22T23:00:27.568442+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224175080/prodej-ostatni-72-m-moravsky-zizkov.php",
+      "source": "bazos",
+      "title": "Prodej ostatní, 72 m², Moravský Žižkov: 159 000",
+      "link": "https://reality.bazos.cz/inzerat/224175080/prodej-ostatni-72-m-moravsky-zizkov.php",
+      "locality": null,
+      "price_czk": 159000,
+      "price_per_m2": null,
+      "area_m2": 72,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-22T23:00:27.544174+00:00",
+      "noise_reasons": []
+    },
+    {
+      "guid": "bazos:https://reality.bazos.cz/inzerat/224175099/prodej-louky-1683-m-veselice.php",
+      "source": "bazos",
+      "title": "Prodej louky, 1683 m², Veselice: 99 297",
+      "link": "https://reality.bazos.cz/inzerat/224175099/prodej-louky-1683-m-veselice.php",
+      "locality": null,
+      "price_czk": 99297,
+      "price_per_m2": null,
+      "area_m2": 1683,
+      "gps": null,
+      "parcel_ref": "",
+      "is_structure": false,
+      "first_seen": "2026-09-22T23:00:27.504029+00:00",
+      "noise_reasons": [
+        "zpf"
+      ]
+    },
     {
       "guid": "bazos:https://reality.bazos.cz/inzerat/224173431/prodej-stavebni-pozemky-4-920-m2-plzen-bozkov.php",
       "source": "bazos",
@@ -65557,21 +65756,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "house:https://reality.bazos.cz/inzerat/223351442/investice-dum-se-2-byty-4kk-mestecko-trnavka.php",
-      "source": "house",
-      "title": "Investice - dům se 2 byty 4+kk, Městečko Trnávka: V textu",
-      "link": "https://reality.bazos.cz/inzerat/223351442/investice-dum-se-2-byty-4kk-mestecko-trnavka.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-09-03T09:40:19.805050+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "sreality:2132291660",
       "source": "sreality",
       "title": "Prodej lesa 767 m² — Borotice – Cholín, Příbram, Středočeský kraj",
@@ -65588,23 +65772,6 @@
       "is_structure": false,
       "first_seen": "2026-09-03T09:40:18.455096+00:00",
       "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223351809/prodej-louky-1522-m-bor.php",
-      "source": "bazos",
-      "title": "Prodej louky, 1522 m², Bor: 180 000",
-      "link": "https://reality.bazos.cz/inzerat/223351809/prodej-louky-1522-m-bor.php",
-      "locality": null,
-      "price_czk": 180000,
-      "price_per_m2": null,
-      "area_m2": 1522,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-03T09:40:18.130303+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
     },
     {
       "guid": "house:https://reality.bazos.cz/inzerat/223350897/prodej-rodinneho-domu-218-m-mlady-smolivec.php",
@@ -65637,21 +65804,6 @@
       "parcel_ref": "",
       "is_structure": false,
       "first_seen": "2026-09-03T09:20:20.157786+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "house:https://reality.bazos.cz/inzerat/223350248/prodame-prizemni-rodinny-domek-v-prezleticich.php",
-      "source": "house",
-      "title": "Prodáme, přízemní rodinný domek v Přezleticích.: Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/223350248/prodame-prizemni-rodinny-domek-v-prezleticich.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": true,
-      "first_seen": "2026-09-03T09:00:29.111237+00:00",
       "noise_reasons": []
     },
     {
@@ -65812,21 +65964,6 @@
       "parcel_ref": "",
       "is_structure": true,
       "first_seen": "2026-09-03T07:40:17.155037+00:00",
-      "noise_reasons": []
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223346567/prodej-pozemku-v-ku-kremenec-konice-okr-prostejov-cp.php",
-      "source": "bazos",
-      "title": "Prodej pozemků v  k.ú. Křemenec, Konice, okr. Prostějov, CP: 33",
-      "link": "https://reality.bazos.cz/inzerat/223346567/prodej-pozemku-v-ku-kremenec-konice-okr-prostejov-cp.php",
-      "locality": null,
-      "price_czk": 33,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-09-03T07:40:15.975296+00:00",
       "noise_reasons": []
     },
     {
@@ -90345,21 +90482,6 @@
       "noise_reasons": []
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/223030526/polevsko-stavebni-parcela-elektrina-vodaoploceno.php",
-      "source": "bazos",
-      "title": "Polevsko stavební parcela ,elektřina ,voda,oploceno.: Dohodou",
-      "link": "https://reality.bazos.cz/inzerat/223030526/polevsko-stavebni-parcela-elektrina-vodaoploceno.php",
-      "locality": null,
-      "price_czk": null,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-26T08:40:23.607704+00:00",
-      "noise_reasons": []
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/223030532/prodej-stavebniho-pozemku-ruzdka-dusna.php",
       "source": "bazos",
       "title": "Prodej stavebního pozemku Růžďka - Dušná: Dohodou",
@@ -114030,24 +114152,6 @@
       ]
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222755781/pole-5-881-m-podil-25-o-vymere-1-470-m.php",
-      "source": "bazos",
-      "title": "Pole 5 881 m², Podíl 25 % o výměře 1 470 m²: 36 624",
-      "link": "https://reality.bazos.cz/inzerat/222755781/pole-5-881-m-podil-25-o-vymere-1-470-m.php",
-      "locality": null,
-      "price_czk": 36624,
-      "price_per_m2": null,
-      "area_m2": 5881,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-19T12:20:11.946075+00:00",
-      "noise_reasons": [
-        "co_ownership",
-        "zpf"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222755784/pole-30-025-m-podil-4-o-vymere-1-251-m.php",
       "source": "bazos",
       "title": "Pole 30 025 m², Podíl 4 % o výměře 1 251 m²: 40 336",
@@ -114325,23 +114429,6 @@
       ]
     },
     {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222754544/zemedelska-puda-prodej-trimany-kladruby-rokycany.php",
-      "source": "bazos",
-      "title": "Zemědělská půda, prodej, Třímany, Kladruby, Rokycany: 332 279",
-      "link": "https://reality.bazos.cz/inzerat/222754544/zemedelska-puda-prodej-trimany-kladruby-rokycany.php",
-      "locality": null,
-      "price_czk": 332279,
-      "price_per_m2": null,
-      "area_m2": null,
-      "gps": null,
-      "parcel_ref": "k.ú. Třímany, p.č. 1015",
-      "is_structure": false,
-      "first_seen": "2026-08-19T12:00:31.020822+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222754586/prodej-21-407-m-vodochody-u-prahy-bez-rk.php",
       "source": "bazos",
       "title": "Prodej- 21 407 m² – Vodochody u Prahy-Bez RK-: 84",
@@ -114580,24 +114667,6 @@
       "is_structure": false,
       "first_seen": "2026-08-19T12:00:30.786405+00:00",
       "noise_reasons": [
-        "zpf"
-      ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222754887/pole-8-972-m-podil-53-o-vymere-4-785-m.php",
-      "source": "bazos",
-      "title": "Pole 8 972 m², Podíl 53 % o výměře 4 785 m²: 120 919",
-      "link": "https://reality.bazos.cz/inzerat/222754887/pole-8-972-m-podil-53-o-vymere-4-785-m.php",
-      "locality": null,
-      "price_czk": 120919,
-      "price_per_m2": null,
-      "area_m2": 8972,
-      "gps": null,
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-19T12:00:30.774971+00:00",
-      "noise_reasons": [
-        "co_ownership",
         "zpf"
       ]
     },
@@ -114903,26 +114972,6 @@
       ]
     },
     {
-      "guid": "sreality:1644019788",
-      "source": "sreality",
-      "title": "Prodej pole 6646 m² — Kladruby – Třímany, Rokycany, Plzeňský kraj",
-      "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kladruby-trimany-/1644019788",
-      "locality": null,
-      "price_czk": 332279,
-      "price_per_m2": 50,
-      "area_m2": 6646,
-      "gps": {
-        "lat": 49.940451,
-        "lon": 13.607334
-      },
-      "parcel_ref": "",
-      "is_structure": false,
-      "first_seen": "2026-08-19T11:40:15.616355+00:00",
-      "noise_reasons": [
-        "zpf"
-      ]
-    },
-    {
       "guid": "bazos:https://reality.bazos.cz/inzerat/222753780/pole-7-355-m-podil-33-o-vymere-2-452-m.php",
       "source": "bazos",
       "title": "Pole 7 355 m², Podíl 33 % o výměře 2 452 m²: 74 644",
@@ -115061,23 +115110,6 @@
       "first_seen": "2026-08-19T11:40:15.386642+00:00",
       "noise_reasons": [
         "co_ownership"
-      ]
-    },
-    {
-      "guid": "bazos:https://reality.bazos.cz/inzerat/222753868/pole-953-m.php",
-      "source": "bazos",
-      "title": "Pole 953 m²: 23 760",
-      "link": "https://reality.bazos.cz/inzerat/222753868/pole-953-m.php",
-      "locality": null,
-      "price_czk": 23760,
-      "price_per_m2": null,
-      "area_m2": 953,
-      "gps": null,
-      "parcel_ref": "k.ú. Javorovec, p.č. 441/2",
-      "is_structure": false,
-      "first_seen": "2026-08-19T11:40:15.371307+00:00",
-      "noise_reasons": [
-        "zpf"
       ]
     },
     {

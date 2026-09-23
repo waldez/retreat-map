@@ -121447,6 +121447,142 @@
         ],
         "druh_pozemku": "lesní pozemek"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.220844,
+          49.632554
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 117 m², pozemek 273 m² — Jimramov, Žďár nad Sázavou, Kraj Vysočina",
+        "price": 999000,
+        "price_label": "999 000 Kč",
+        "source": "house",
+        "guid": "house:2777423948",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.220844&y=49.632554&z=17&source=coor&id=16.220844,49.632554",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/jimramov-jimramov-pavlovicka/2777423948",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.538488,
+          49.366906
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 947 m² — Roštění, Kroměříž, Zlínský kraj",
+        "price": 199000,
+        "price_label": "199 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2441879628",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.538488&y=49.366906&z=17&source=coor&id=17.538488,49.366906",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/rosteni-rosteni-/2441879628",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "DRUH_CONTRADICTS_TITLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.825258,
+          49.710645
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 502 m² — Vranová Lhota, Svitavy, Pardubický kraj",
+        "price": 199000,
+        "price_label": "199 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2794201164",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.825258&y=49.710645&z=17&source=coor&id=16.825258,49.710645",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vranova-lhota-vranova-lhota-/2794201164"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.351258,
+          49.428146
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5820 m² — Doubravník, Brno-venkov, Jihomoravský kraj",
+        "price": 343000,
+        "price_label": "343 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:395059276",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.351258&y=49.428146&z=17&source=coor&id=16.351258,49.428146",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/doubravnik-doubravnik-/395059276",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25634,
+          49.51514
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 25 m², pozemek 0 m² — Sedlice, Pelhřimov, Kraj Vysočina",
+        "price": 440000,
+        "price_label": "440 000 Kč",
+        "source": "chata",
+        "guid": "chata:3137503308",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.25634&y=49.51514&z=17&source=coor&id=15.25634,49.51514",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/sedlice-sedlice-/3137503308",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
     }
   ]
 }

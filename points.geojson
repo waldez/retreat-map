@@ -59065,8 +59065,8 @@
       },
       "properties": {
         "title": "Prodej chalupy 140 m², pozemek 279 m² — Bělčice – Újezdec, Strakonice, Jihočeský kraj",
-        "price": 870000,
-        "price_label": "870 000 Kč",
+        "price": 790000,
+        "price_label": "790 000 Kč",
         "source": "chata",
         "guid": "chata:1148736332",
         "mapy_url": "https://mapy.cz/zakladni?x=13.832868&y=49.500514&z=17&source=coor&id=13.832868,49.500514",
@@ -98295,35 +98295,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          18.389352,
-          49.888699
-        ]
-      },
-      "properties": {
-        "title": "Pozemek 6013 m², kousek od Karviné: 210 455",
-        "price": 210455,
-        "price_label": "210 455 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223759679/pozemek-6013-m-kousek-od-karvine.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=18.389352&y=49.888699&z=17&source=coor&id=18.389352,49.888699",
-        "link": "https://reality.bazos.cz/inzerat/223759679/pozemek-6013-m-kousek-od-karvine.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "ZPF_SOIL",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.981311,
           50.348837
         ]
@@ -121580,6 +121551,64 @@
           "ZPF_SOIL",
           "PIN_HIT_COMMON_LAND",
           "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.846373,
+          50.344872
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa 5828 m² — Hrušov, Mladá Boleslav, Středočeský kraj",
+        "price": 204000,
+        "price_label": "204 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3266945100",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.846373&y=50.344872&z=17&source=coor&id=14.846373,50.344872",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/hrusov-hrusov-/3266945100",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "DRUH_CONTRADICTS_TITLE"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.326391,
+          50.580176
+        ]
+      },
+      "properties": {
+        "title": "Dražba: Pozemek parc. č. 849, zahrada,    94 m², Úštěk — vyvolávací 9644 Kč (odhad 9644 Kč)",
+        "price": 9644,
+        "price_label": "9 644 Kč",
+        "source": "cevd",
+        "guid": "cevd:33786",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.326391&y=50.580176&z=17&source=coor&id=14.326391,50.580176",
+        "link": "https://cevd.gov.cz/seznam-drazeb/detail/33786",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
       }

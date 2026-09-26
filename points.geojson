@@ -22338,6 +22338,36 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          16.381221,
+          49.945793
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 38 m², pozemek 218 m² — Řetová, Ústí nad Orlicí, Pardubický kraj",
+        "price": 599000,
+        "price_label": "599 000 Kč",
+        "source": "chata",
+        "guid": "chata:2617992012",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.381221&y=49.945793&z=17&source=coor&id=16.381221,49.945793",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/retova-retova-/2617992012",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           15.213479,
           49.421967
         ]
@@ -33064,8 +33094,8 @@
       },
       "properties": {
         "title": "Prodej lesa 4460 m² — Strmilov, Jindřichův Hradec, Jihočeský kraj",
-        "price": 62440,
-        "price_label": "62 440 Kč",
+        "price": 64728,
+        "price_label": "64 728 Kč",
         "source": "sreality",
         "guid": "sreality:3839545420",
         "mapy_url": "https://mapy.cz/zakladni?x=15.199337&y=49.158464&z=17&source=coor&id=15.199337,49.158464",
@@ -41865,36 +41895,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.299489,
-          49.193308
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa, 986 m², Strmilov: 69 000",
-        "price": 69000,
-        "price_label": "69 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222110145/prodej-lesa-986-m-strmilov.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.299489&y=49.193308&z=17&source=coor&id=15.299489,49.193308",
-        "link": "https://reality.bazos.cz/inzerat/222110145/prodej-lesa-986-m-strmilov.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "RADON_HIGH",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           14.502025,
           50.322469
         ]
@@ -41971,35 +41971,6 @@
         "pin_color": "#2e7d32",
         "marker-color": "#2e7d32",
         "flags": [
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.945627,
-          49.092426
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 5033 m² — Vydří, Jindřichův Hradec, Jihočeský kraj",
-        "price": 211386,
-        "price_label": "211 386 Kč",
-        "source": "sreality",
-        "guid": "sreality:2265108556",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.945627&y=49.092426&z=17&source=coor&id=14.945627,49.092426",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/vydri-vydri-/2265108556",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PARCEL_NOT_FOUND",
           "PIN_HIT_COMMON_LAND",
           "LIKELY_NONBUILDABLE"
         ],
@@ -100134,63 +100105,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.288175,
-          49.579143
-        ]
-      },
-      "properties": {
-        "title": "Rozsáhlý průmyslový areál v Olomouci - komerční pozemek: V textu",
-        "price": null,
-        "price_label": null,
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223872545/rozsahly-prumyslovy-areal-v-olomouci-komercni-pozemek.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.288175&y=49.579143&z=17&source=coor&id=17.288175,49.579143",
-        "link": "https://reality.bazos.cz/inzerat/223872545/rozsahly-prumyslovy-areal-v-olomouci-komercni-pozemek.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "NARROW_PLOT",
-          "ZPF_SOIL",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.329288,
-          49.016539
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků k.ú. Moravský Krumlov: 101 000",
-        "price": 101000,
-        "price_label": "101 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223877447/prodej-pozemku-ku-moravsky-krumlov.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.329288&y=49.016539&z=17&source=coor&id=16.329288,49.016539",
-        "link": "https://reality.bazos.cz/inzerat/223877447/prodej-pozemku-ku-moravsky-krumlov.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.017397,
           49.670531
         ]
@@ -100214,33 +100128,6 @@
           "ENCUMBRANCE"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.658139,
-          49.549973
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků s historickými pozůstatky hradu k.ú. Přešín: 212 000",
-        "price": 212000,
-        "price_label": "212 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223879091/prodej-pozemku-s-historickymi-pozustatky-hradu-ku-presin.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.658139&y=49.549973&z=17&source=coor&id=13.658139,49.549973",
-        "link": "https://reality.bazos.cz/inzerat/223879091/prodej-pozemku-s-historickymi-pozustatky-hradu-ku-presin.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -100534,36 +100421,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          13.499016,
-          49.838264
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Nynice: 199 000",
-        "price": 199000,
-        "price_label": "199 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223884889/prodej-lesnich-pozemku-ku-nynice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=13.499016&y=49.838264&z=17&source=coor&id=13.499016,49.838264",
-        "link": "https://reality.bazos.cz/inzerat/223884889/prodej-lesnich-pozemku-ku-nynice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "POOR_ACCESS",
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {

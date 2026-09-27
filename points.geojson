@@ -27833,30 +27833,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.998685,
-          49.142933
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemků Valašské Klobouky 1647m2: 332 700",
-        "price": 332700,
-        "price_label": "332 700 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221511192/prodej-pozemku-valasske-klobouky-1647m2.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.998685&y=49.142933&z=17&source=coor&id=17.998685,49.142933",
-        "link": "https://reality.bazos.cz/inzerat/221511192/prodej-pozemku-valasske-klobouky-1647m2.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.541598,
           49.79386
         ]
@@ -119939,6 +119915,35 @@
           "DRUH_CONTRADICTS_TITLE"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.722451,
+          49.69198
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 8467 m² — Městečko Trnávka - Lázy, Pardubický kraj",
+        "price": 399000,
+        "price_label": "399 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:955366",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.722451&y=49.69198&z=17&source=coor&id=16.722451,49.69198",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/955366-nabidka-prodej-pozemku-mestecko-trnavka",
+        "verdict": "unknown",
+        "suitability_tier": "unknown",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "ovocný sad"
       }
     }
   ]

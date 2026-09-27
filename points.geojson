@@ -41818,34 +41818,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.88831,
-          48.938389
-        ]
-      },
-      "properties": {
-        "title": "Lesní pozemek v okrese Břeclav, ev.č. VŠ-8151: 109 000",
-        "price": 109000,
-        "price_label": "109 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/222134893/lesni-pozemek-v-okrese-breclav-evc-vs-8151.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.88831&y=48.938389&z=17&source=coor&id=16.88831,48.938389",
-        "link": "https://reality.bazos.cz/inzerat/222134893/lesni-pozemek-v-okrese-breclav-evc-vs-8151.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.403381,
           50.465215
         ]
@@ -119944,6 +119916,120 @@
           "ENCUMBRANCE"
         ],
         "druh_pozemku": "ovocný sad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.295267,
+          50.670861
+        ]
+      },
+      "properties": {
+        "title": "Prodej stavebního pozemku 513 m² — Jílové u Držkova, Jablonec nad Nisou, Liberecký kraj",
+        "price": 409682,
+        "price_label": "409 682 Kč",
+        "source": "sreality",
+        "guid": "sreality:1425219660",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.295267&y=50.670861&z=17&source=coor&id=15.295267,50.670861",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/bydleni/jilove-u-drzkova-jilove-u-drzkova-/1425219660",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "PLACEHOLDER_PIN",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.184183,
+          50.674574
+        ]
+      },
+      "properties": {
+        "title": "Prodám lesní pozemek a ostatní plochu v k.ú. Mukařov u Jablo: 225 000",
+        "price": 225000,
+        "price_label": "225 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224334856/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.184183&y=50.674574&z=17&source=coor&id=15.184183,50.674574",
+        "link": "https://reality.bazos.cz/inzerat/224334856/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.829674,
+          49.334951
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesa Doubravice- Nahošín 3 910 m²: 152 000",
+        "price": 152000,
+        "price_label": "152 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224335687/prodej-lesa-doubravice-nahosin-3-910-m.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.829674&y=49.334951&z=17&source=coor&id=13.829674,49.334951",
+        "link": "https://reality.bazos.cz/inzerat/224335687/prodej-lesa-doubravice-nahosin-3-910-m.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.525132,
+          50.633385
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 47 m², pozemek 152 m² — Zahrádky, Česká Lípa, Liberecký kraj",
+        "price": 1250000,
+        "price_label": "1 250 000 Kč",
+        "source": "house",
+        "guid": "house:1174478924",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.525132&y=50.633385&z=17&source=coor&id=14.525132,50.633385",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/zahradky-zahradky-/1174478924",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

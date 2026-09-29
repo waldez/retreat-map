@@ -33270,34 +33270,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          16.729264,
-          49.204545
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 1658 m² — Podolí - Podolí u Brna, Jihomoravský kraj",
-        "price": 149000,
-        "price_label": "149 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:971110",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.729264&y=49.204545&z=17&source=coor&id=16.729264,49.204545",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/971110-nabidka-prodej-pozemku",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.561407,
           48.97831
         ]
@@ -33348,35 +33320,6 @@
           "ZPF_SOIL",
           "LIKELY_NONBUILDABLE",
           "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.670973,
-          50.071609
-        ]
-      },
-      "properties": {
-        "title": "PRODÁM POZEMEKY  NAPAJEDLA+HALENKOVICE: 1",
-        "price": 1,
-        "price_label": "1 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/221735081/prodam-pozemeky-napajedlahalenkovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.670973&y=50.071609&z=17&source=coor&id=17.670973,50.071609",
-        "link": "https://reality.bazos.cz/inzerat/221735081/prodam-pozemeky-napajedlahalenkovice.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "POOR_ACCESS",
-          "PRICE_PER_M2",
-          "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
       }
@@ -33459,36 +33402,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.834814,
-          48.99976
-        ]
-      },
-      "properties": {
-        "title": "Prodej zahrady 77 m² — Blížkovice, Znojmo, Jihomoravský kraj",
-        "price": 280000,
-        "price_label": "280 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2258669644",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.834814&y=48.99976&z=17&source=coor&id=15.834814,48.99976",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/blizkovice-blizkovice-/2258669644",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "POOR_ACCESS",
-          "ZPF_SOIL",
-          "CO_OWNERSHIP",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     },
     {
@@ -50820,36 +50733,6 @@
           "ZPF_SOIL"
         ],
         "druh_pozemku": "zahrada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.058241,
-          49.513981
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 6118 m² — Kostelec na Hané, Prostějov, Olomoucký kraj",
-        "price": 403788,
-        "price_label": "403 788 Kč",
-        "source": "sreality",
-        "guid": "sreality:3198734412",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.058241&y=49.513981&z=17&source=coor&id=17.058241,49.513981",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/kostelec-na-hane-kostelec-na-hane-/3198734412",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -118658,6 +118541,154 @@
         "pin_color": "#f9a825",
         "marker-color": "#f9a825",
         "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.913329,
+          49.322123
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Rychtářov: 54 000",
+        "price": 54000,
+        "price_label": "54 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224448166/prodej-lesnich-pozemku-ku-rychtarov.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.913329&y=49.322123&z=17&source=coor&id=16.913329,49.322123",
+        "link": "https://reality.bazos.cz/inzerat/224448166/prodej-lesnich-pozemku-ku-rychtarov.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "POOR_ACCESS",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.219647,
+          48.981785
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesních pozemků k.ú. Skalice u Znojma: 46 000",
+        "price": 46000,
+        "price_label": "46 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224448528/prodej-lesnich-pozemku-ku-skalice-u-znojma.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.219647&y=48.981785&z=17&source=coor&id=16.219647,48.981785",
+        "link": "https://reality.bazos.cz/inzerat/224448528/prodej-lesnich-pozemku-ku-skalice-u-znojma.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.900384,
+          49.943654
+        ]
+      },
+      "properties": {
+        "title": "Prodej zahrady 150 m² — Opava, Moravskoslezský kraj",
+        "price": 250000,
+        "price_label": "250 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:20389964",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.900384&y=49.943654&z=17&source=coor&id=17.900384,49.943654",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/zahrada/opava-opava-/20389964",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "PIN_HIT_COMMON_LAND",
+          "LIKELY_NONBUILDABLE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.386456,
+          49.822813
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemků k.ú. Petřvald u Karviné (2): 179 000",
+        "price": 179000,
+        "price_label": "179 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224453406/prodej-pozemku-ku-petrvald-u-karvine-2.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.386456&y=49.822813&z=17&source=coor&id=18.386456,49.822813",
+        "link": "https://reality.bazos.cz/inzerat/224453406/prodej-pozemku-ku-petrvald-u-karvine-2.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.383656,
+          49.828711
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Petřvald u Karviné (1): 419 000",
+        "price": 419000,
+        "price_label": "419 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224452816/prodej-lesniho-pozemku-ku-petrvald-u-karvine-1.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=18.383656&y=49.828711&z=17&source=coor&id=18.383656,49.828711",
+        "link": "https://reality.bazos.cz/inzerat/224452816/prodej-lesniho-pozemku-ku-petrvald-u-karvine-1.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "ZPF_SOIL",
           "SECONDARY_ONLY",
           "LIKELY_NONBUILDABLE"
         ],

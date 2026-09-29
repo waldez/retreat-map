@@ -14691,8 +14691,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 14101 m² — Nové Hrady - Byňov, Jihočeský kraj",
-        "price": 320000,
-        "price_label": "320 000 Kč",
+        "price": 250000,
+        "price_label": "250 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:1010195",
         "mapy_url": "https://mapy.cz/zakladni?x=14.796187&y=48.816095&z=17&source=coor&id=14.796187,48.816095",
@@ -14747,8 +14747,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 1352 m² — Částkov - Částkov, Zlínský kraj",
-        "price": 35000,
-        "price_label": "35 000 Kč",
+        "price": 29000,
+        "price_label": "29 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:999709",
         "mapy_url": "https://mapy.cz/zakladni?x=17.60956&y=49.108843&z=17&source=coor&id=17.60956,49.108843",
@@ -14775,8 +14775,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 1787 m² — Částkov - Částkov, Zlínský kraj",
-        "price": 55000,
-        "price_label": "55 000 Kč",
+        "price": 45000,
+        "price_label": "45 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:999703",
         "mapy_url": "https://mapy.cz/zakladni?x=17.619771&y=49.109251&z=17&source=coor&id=17.619771,49.109251",
@@ -75337,8 +75337,8 @@
       },
       "properties": {
         "title": "Prodej pozemku 1581 m² — Mochov - Mochov, Středočeský kraj",
-        "price": 84000,
-        "price_label": "84 000 Kč",
+        "price": 79000,
+        "price_label": "79 000 Kč",
         "source": "bezrealitky",
         "guid": "bezrealitky:1061425",
         "mapy_url": "https://mapy.cz/zakladni?x=14.806627&y=50.131647&z=17&source=coor&id=14.806627,50.131647",
@@ -118219,6 +118219,61 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.331523,
+          49.62145
+        ]
+      },
+      "properties": {
+        "title": "Zemědělská půda, prodej, Droždín, Olomouc: 398 438",
+        "price": 398438,
+        "price_label": "398 438 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224412630/zemedelska-puda-prodej-drozdin-olomouc.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.331523&y=49.62145&z=17&source=coor&id=17.331523,49.62145",
+        "link": "https://reality.bazos.cz/inzerat/224412630/zemedelska-puda-prodej-drozdin-olomouc.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.839022,
+          49.33766
+        ]
+      },
+      "properties": {
+        "title": "Louka, prodej, Nahošín, Doubravice, Strakonice: 198 198",
+        "price": 198198,
+        "price_label": "198 198 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224412616/louka-prodej-nahosin-doubravice-strakonice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.839022&y=49.33766&z=17&source=coor&id=13.839022,49.33766",
+        "link": "https://reality.bazos.cz/inzerat/224412616/louka-prodej-nahosin-doubravice-strakonice.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "RADON_HIGH",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
       }
     }
   ]

@@ -91081,25 +91081,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.835978,
-          50.444969
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 1000 m² — Dvůr Králové nad Labem, Trutnov, Královéhradecký kraj",
-        "price": 320000,
-        "price_label": "320 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:931278924",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.835978&y=50.444969&z=17&source=coor&id=15.835978,50.444969",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/dvur-kralove-nad-labem-dvur-kralove-nad-labem-krkonosska/931278924"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.8525,
           48.9311
         ]
@@ -100683,63 +100664,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.327525,
-          50.297907
-        ]
-      },
-      "properties": {
-        "title": "Pozemek na břehu Vltavy, kousek od Prahy: 60 000",
-        "price": 60000,
-        "price_label": "60 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/224054587/pozemek-na-brehu-vltavy-kousek-od-prahy.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.327525&y=50.297907&z=17&source=coor&id=14.327525,50.297907",
-        "link": "https://reality.bazos.cz/inzerat/224054587/pozemek-na-brehu-vltavy-kousek-od-prahy.php",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "FLOOD_HAZARD",
-          "LIKELY_NONBUILDABLE",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.513273,
-          48.863936
-        ]
-      },
-      "properties": {
-        "title": "Prodám pozemky v k. ú. Brod nad Dyjí: 142 000",
-        "price": 142000,
-        "price_label": "142 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/224055871/prodam-pozemky-v-k-u-brod-nad-dyji.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.513273&y=48.863936&z=17&source=coor&id=16.513273,48.863936",
-        "link": "https://reality.bazos.cz/inzerat/224055871/prodam-pozemky-v-k-u-brod-nad-dyji.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
       }
     },
     {
@@ -120037,6 +119961,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          14.892251,
+          50.479694
+        ]
+      },
+      "properties": {
+        "title": "Prodej zasíťovaných pozemků určených pro výstavbu: V textu",
+        "price": null,
+        "price_label": null,
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/224492683/prodej-zasitovanych-pozemku-urcenych-pro-vystavbu.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.892251&y=50.479694&z=17&source=coor&id=14.892251,50.479694",
+        "link": "https://reality.bazos.cz/inzerat/224492683/prodej-zasitovanych-pozemku-urcenych-pro-vystavbu.php",
+        "verdict": "unknown",
+        "suitability_tier": "unknown",
+        "pin_color": "#757575",
+        "marker-color": "#757575",
+        "flags": [
+          "ZPF_SOIL"
+        ],
+        "druh_pozemku": "ovocný sad"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           13.390709,
           49.934162
         ]
@@ -120202,6 +120153,63 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.507561,
+          49.937251
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 80 m², pozemek 673 m² — Starkoč, Kutná Hora, Středočeský kraj",
+        "price": 1170000,
+        "price_label": "1 170 000 Kč",
+        "source": "house",
+        "guid": "house:1145446476",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.507561&y=49.937251&z=17&source=coor&id=15.507561,49.937251",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/starkoc-starkoc-/1145446476",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.244573,
+          50.479546
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 40 m², pozemek 291 m² — Chodouny – Lounky, Litoměřice, Ústecký kraj",
+        "price": 1499000,
+        "price_label": "1 499 000 Kč",
+        "source": "house",
+        "guid": "house:1291198540",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.244573&y=50.479546&z=17&source=coor&id=14.244573,50.479546",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/chodouny-lounky-/1291198540",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "NARROW_PLOT",
+          "FLOOD_HAZARD",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     }
   ]

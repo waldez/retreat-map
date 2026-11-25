@@ -5,13 +5,19 @@
 // Noise (co-ownership shares, ZPF farmland, speculative lots) is HIDDEN by
 // default but never dropped from the feed: `hiddenNoise` is rendered next to
 // the toggle so suppression is always visible and always one click reversible.
+import { carriesAny, isConfirmedDead, isNopeHidden } from './tags.js';
+
 export function applyFilters(feed, opts = {}) {
   const showNoise = opts.showNoise === true;
   const maxPrice = typeof opts.maxPrice === 'number' ? opts.maxPrice : null;
   const sources = Array.isArray(opts.sources) && opts.sources.length ? opts.sources : null;
+  const showNope = opts.showNope === true;
+  const tagsDoc = opts.tagsDoc || null; // null = fail open
+  const onlyTags = opts.onlyTags || null;
   const all = (feed && feed.listings) || [];
 
   let hiddenNoise = 0;
+  let hiddenNope = 0;
   const listings = all.filter((l) => {
     if (sources && !sources.includes(l.source)) return false;
     // An unpriced listing is KEPT under a ceiling: "price on request" is common
@@ -19,16 +25,22 @@ export function applyFilters(feed, opts = {}) {
     if (maxPrice !== null && typeof l.price_czk === 'number' && l.price_czk > maxPrice) {
       return false;
     }
+    if (tagsDoc) {
+      if (isConfirmedDead(tagsDoc, l.guid)) return false; // no toggle reveals it
+      if (!carriesAny(tagsDoc, l.guid, onlyTags)) return false;
+    }
     // Noise is checked LAST, and the order is the point: `hiddenNoise` must
     // count only what toggling would actually REVEAL. Counting rows the source
     // or price filter already excluded makes the button offer something it
     // cannot deliver — a true number about the feed, a false one about itself.
     const isNoise = (l.noise_reasons || []).length > 0;
     if (isNoise && !showNoise) { hiddenNoise += 1; return false; }
+    // Nope after noise, for the same reason: count only what the toggle reveals.
+    if (tagsDoc && !showNope && isNopeHidden(tagsDoc, l.guid)) { hiddenNope += 1; return false; }
     return true;
   });
 
-  return { listings, hiddenNoise, total: all.length };
+  return { listings, hiddenNoise, hiddenNope, total: all.length };
 }
 
 // Unknown values sort LAST under every key. An unpriced plot is not the

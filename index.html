@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- substituted to "owner/repo@branch" by publish.py; left as-is = tags read-only -->
+  <meta name="tags-repo" content="waldez/retreat-map@main">
   <title>retreat — mapa nálezů</title>
   <link rel="stylesheet" href="vendor/leaflet.css" />
   <style>
@@ -46,6 +48,22 @@
     .chips { margin: 6px 0; }
     .chip { display: inline-block; background: #eee; border-radius: 8px; padding: 1px 6px;
             margin: 1px 2px; font-size: 11px; }
+    /* --- tags (thumb-sized: >= 44px tap targets) --- */
+    .tag-row { margin: 6px 0; font-size: 18px; }
+    .tag-btn { min-width: 44px; min-height: 44px; margin: 0 4px 4px 0; font-size: 20px;
+               border: 1px solid #bbb; border-radius: 8px; background: #fff; opacity: .45; }
+    .tag-btn.on { opacity: 1; background: #fff3c4; border-color: #e0a800; }
+    .tag-dispute { font-size: 12px; color: #6a1b9a; margin: 2px 0 6px; }
+    ul.notes { margin: 4px 0; padding-left: 16px; font-size: 12px; }
+    .note-meta { color: #888; font-size: 11px; }
+    .note-del { min-width: 44px; min-height: 44px; border: none; background: none; font-size: 16px; }
+    .note-add textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 16px; }
+    .note-add button, #tag-settings button { min-height: 44px; padding: 0 12px; margin-top: 4px; }
+    #tag-settings input { width: 100%; box-sizing: border-box; font-size: 16px; min-height: 44px; }
+    .tag-msg { font-size: 12px; color: #555; margin: 4px 0; }
+    .tag-err { color: #c62828; }
+    .pin-badge { font-size: 14px; line-height: 1; white-space: nowrap; pointer-events: none;
+                 text-shadow: 0 0 2px #fff; }
     .btns a { display: inline-block; margin: 4px 6px 0 0; padding: 4px 9px; border-radius: 5px;
               background: #1565c0; color: #fff; text-decoration: none; font-size: 12px; }
   </style>
@@ -101,6 +119,23 @@
         <label><input type="checkbox" id="f-struct"> jen stavby (dům/chata)</label>
         <div id="f-flags"></div>
       </fieldset>
+
+      <fieldset id="f-tags">
+        <legend>Štítky</legend>
+        <label><input type="checkbox" data-only="fav"> jen ⭐</label>
+        <label><input type="checkbox" data-only="visit"> jen 🚗</label>
+        <label><input type="checkbox" data-only="dead"> jen 💀</label>
+        <label><input type="checkbox" id="f-nope"> ukázat 👎</label>
+        <div id="tag-msg" class="tag-msg"></div>
+        <details id="tag-settings">
+          <summary>⚙ token</summary>
+          <div id="tag-token-state" class="tag-msg"></div>
+          <input type="password" id="tag-token" autocomplete="off" spellcheck="false"
+                 placeholder="github_pat_…" aria-label="GitHub token">
+          <button type="button" id="tag-token-save">uložit</button>
+          <button type="button" id="tag-token-clear">smazat</button>
+        </details>
+      </fieldset>
     </aside>
     <div id="map"></div>
   </div>
@@ -110,6 +145,11 @@
     import {
       tierOf, passesFilters, serializeHash, parseHash, TIER_COLOR,
     } from "./mapfilter.js";
+    import {
+      TOKEN_KEY, parseRepoMeta, loadTags, commitOps, TagSession, toggleOps, newNoteId,
+      nowIso, tagButtonsHtml, notesHtml, badgesHtml, esc, writeTagHash,
+      clearCommittedDrafts, noteDeleteOps,
+    } from "./tags.js";
 
     const map = L.map("map").setView([49.75, 15.5], 7); // ~centre of Czechia
     L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -123,8 +163,7 @@
     // source, link, mapy_url, suitability_tier (read via mapfilter.tierOf(), falls
     // back to verdict), pin_color, flags
 
-    const esc = (s) => String(s ?? "").replace(/[&<>"]/g,
-      (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+    // esc() comes from tags.js (also escapes ' — attributes stay double-quoted).
 
     // only http(s) URLs are safe as hrefs; anything else (javascript:, data:) → neutralized
     const safeHref = (u) => /^https?:\/\//i.test(u || "") ? esc(u) : "#";
@@ -145,7 +184,134 @@
         <div style="color:#666;font-size:12px">${esc(p.source || "")}</div>
         ${flags}
         <div class="btns">${btns.join("")}</div>
+        <div class="tag-ui">${tagUiHtml(p.guid)}</div>
       </div>`;
+    }
+
+    // ---- tags ----
+    const repoCfg = parseRepoMeta(
+      document.querySelector('meta[name="tags-repo"]')?.getAttribute("content"));
+    const getToken = () => (repoCfg && localStorage.getItem(TOKEN_KEY)) || "";
+    let tagsLoaded = false;
+    let tokenRejected = false;
+    // Half-typed notes, per guid. Every re-render (each commit landing or failing)
+    // restores them; only a successful add_note of that exact text clears one.
+    const drafts = new Map();
+    const session = new TagSession({
+      commit: (ops) => commitOps(ops, { token: getToken(), ...repoCfg }),
+      onCommitted: (ops) => clearCommittedDrafts(drafts, ops),
+      onChange: () => refreshTags(),
+      onError: (e) => { lastErr = `zápis selhal, vráceno: ${e.message}`; tagMsg(lastErr, true); },
+    });
+    // The sidebar is a closed drawer on phones, so the error is ALSO shown in the
+    // popup (until the next write).
+    let lastErr = "";
+    const tagsDoc = () => session.doc;      // null = not loaded → filters fail open
+    const editable = () => !!(getToken() && tagsLoaded && !tokenRejected);
+
+    function tagUiHtml(guid) {
+      const doc = tagsDoc();
+      if (!doc) return "";
+      const err = lastErr ? `<div class="tag-msg tag-err">${esc(lastErr)}</div>` : "";
+      return err + tagButtonsHtml(guid, doc, editable()) + notesHtml(guid, doc, editable(), drafts.get(guid) || "");
+    }
+
+    function tagMsg(text, isErr = false) {
+      const el = document.getElementById("tag-msg");
+      el.textContent = text;
+      el.classList.toggle("tag-err", isErr);
+    }
+
+    // A tag change refreshes the open popup + badges in place; the filter is
+    // re-applied when the popup closes, so a just-noped pin does not vanish
+    // under the thumb (and can be un-noped).
+    let tagsDirty = false;
+    function refreshTags() {
+      // remember a focused note box so the rebuilt one gets focus back
+      const fa = document.activeElement;
+      const focus = fa && fa.matches("textarea[data-guid]")
+        ? { guid: fa.dataset.guid, at: fa.selectionStart } : null;
+      markers.forEach(({ marker, badge, props }) => {
+        if (marker.isPopupOpen()) marker.setPopupContent(popupHtml(props));
+        else marker.getPopup()?.setContent(popupHtml(props));
+        if (badge) badge.setIcon(badgeIcon(props.guid));
+      });
+      if (focus) {
+        const ta = [...map.getPane("popupPane").querySelectorAll("textarea[data-guid]")]
+          .find((t) => t.dataset.guid === focus.guid);
+        if (ta) { ta.focus(); ta.setSelectionRange(focus.at, focus.at); }
+      }
+      const popupOpen = [...markers.values()].some(({ marker }) => marker.isPopupOpen());
+      if (popupOpen) tagsDirty = true; else render();
+    }
+
+    function badgeIcon(guid) {
+      return L.divIcon({ className: "pin-badge", html: esc(badgesHtml(guid, tagsDoc())),
+                         iconSize: null, iconAnchor: [-6, 16] });
+    }
+
+    function onTagClick(e) {
+      const el = e.target.closest("[data-act]");
+      if (!el || !editable()) return;
+      // Handled here: stop it before the map sees it. The submit re-renders the
+      // popup synchronously, detaching e.target; Leaflet's map click handler then
+      // walks a parentless node, misses the popup, and closes it.
+      e.stopPropagation();
+      const guid = el.dataset.guid;
+      const props = markers.get(guid)?.props;
+      lastErr = "";
+      if (el.dataset.act === "tag") {
+        session.submit(toggleOps(tagsDoc(), guid, el.dataset.tag,
+          { at: nowIso(), price: props ? props.price : null }));
+      } else if (el.dataset.act === "note-add") {
+        const ta = el.closest(".tag-ui").querySelector("textarea");
+        drafts.set(guid, ta.value);
+        const text = ta.value.trim();
+        if (!text) return;
+        session.submit([{ op: "add_note", guid, id: newNoteId(), at: nowIso(), via: "map", text }]);
+      } else if (el.dataset.act === "note-del") {
+        const ops = noteDeleteOps(guid, el.dataset.id, (q) => window.confirm(q));
+        if (ops.length) session.submit(ops);
+      }
+    }
+
+    async function reloadTags() {
+      const token = getToken();
+      try {
+        const r = await loadTags({ token, ...(repoCfg || {}) });
+        tagsLoaded = true;
+        tokenRejected = !!r.tokenRejected;
+        session.setServer(r.doc);
+        tagMsg(tokenRejected ? "token odmítnut — nahraď ho v ⚙"
+          : token ? "" : (repoCfg ? "jen čtení — vlož token v ⚙" : "jen čtení (stránka není publikovaná)"),
+          tokenRejected);
+      } catch (e) {
+        // fail open: no tags, nothing hidden by tags
+        tagsLoaded = false;
+        session.setServer(null);
+        tagMsg(`štítky nedostupné: ${e.message}`, true);
+      }
+    }
+
+    function wireTokenPanel() {
+      const stateEl = document.getElementById("tag-token-state");
+      const input = document.getElementById("tag-token");
+      const show = () => {
+        stateEl.textContent = !repoCfg ? "stránka není publikovaná — štítky jen pro čtení"
+          : localStorage.getItem(TOKEN_KEY) ? "token uložen" : "bez tokenu (jen čtení)";
+      };
+      document.getElementById("tag-token-save").onclick = () => {
+        const v = input.value.trim();
+        input.value = "";
+        if (v) localStorage.setItem(TOKEN_KEY, v);
+        show(); reloadTags();
+      };
+      document.getElementById("tag-token-clear").onclick = () => {
+        localStorage.removeItem(TOKEN_KEY);
+        input.value = "";
+        show(); reloadTags();
+      };
+      show();
     }
 
     function buildFlagCheckboxes() {
@@ -191,19 +357,23 @@
     }
 
     function render() {
-      markers.forEach(({ marker }) => marker.remove());
+      markers.forEach(({ marker, badge }) => { marker.remove(); badge?.remove(); });
       markers.clear();
       let shown = 0;
+      const doc = tagsDoc();
       for (const f of features) {
         const p = f.properties;
-        if (!passesFilters(p, state)) continue;
+        if (!passesFilters(p, state, doc)) continue;
         const [lon, lat] = f.geometry.coordinates;
         const rawColor = p.pin_color || TIER_COLOR[tierOf(p)] || TIER_COLOR.unknown;
         const color = /^#[0-9a-f]{3,8}$/i.test(rawColor) ? rawColor : TIER_COLOR.unknown;
         const m = L.circleMarker([lat, lon], {
           radius: 7, color: "#333", weight: 1, fillColor: color, fillOpacity: 0.9,
-        }).bindPopup(popupHtml(p)).addTo(map);
-        markers.set(p.guid, { marker: m, props: p });
+        }).bindPopup(popupHtml(p), { maxWidth: 280 }).addTo(map);
+        const badge = badgesHtml(p.guid, doc)
+          ? L.marker([lat, lon], { icon: badgeIcon(p.guid), interactive: false, keyboard: false }).addTo(map)
+          : null;
+        markers.set(p.guid, { marker: m, badge, props: p });
         shown++;
       }
       document.getElementById("count").textContent =
@@ -214,6 +384,9 @@
       render();
       const h = serializeHash(state);
       history.replaceState(null, "", h ? "#" + h : location.pathname);
+      // carry the shared tag keys (`tag`, `nope`) over to the list
+      const t = writeTagHash("", state);
+      document.querySelector("a.crosslink").href = "list.html" + (t ? "#" + t : "");
     }
 
     function focusGuid(guid) {
@@ -260,6 +433,29 @@
     const structEl = document.getElementById("f-struct");
     structEl.checked = state.structuresOnly;
     structEl.addEventListener("change", () => { state.structuresOnly = structEl.checked; apply(); });
+    document.querySelectorAll("[data-only]").forEach((el) => {
+      el.checked = state.onlyTags.has(el.dataset.only);
+      el.addEventListener("change", () => {
+        el.checked ? state.onlyTags.add(el.dataset.only) : state.onlyTags.delete(el.dataset.only);
+        apply();
+      });
+    });
+    const nopeEl = document.getElementById("f-nope");
+    nopeEl.checked = state.showNope;
+    nopeEl.addEventListener("change", () => { state.showNope = nopeEl.checked; apply(); });
+
+    // Popup clicks: Leaflet stops click propagation at the popup container, so
+    // listen in the CAPTURE phase on the pane above it. Keydown is stopped at the
+    // pane so typing +/-/arrows in a note does not zoom/pan the map (Leaflet's
+    // keyboard handler does not look at the event target).
+    const popupPane = map.getPane("popupPane");
+    popupPane.addEventListener("click", onTagClick, true);
+    popupPane.addEventListener("keydown", (e) => e.stopPropagation());
+    popupPane.addEventListener("input", (e) => {
+      if (e.target.matches("textarea[data-guid]")) drafts.set(e.target.dataset.guid, e.target.value);
+    });
+    map.on("popupclose", () => { if (tagsDirty) { tagsDirty = false; render(); } });
+    wireTokenPanel();
 
     fetch("points.geojson")
       .then((r) => r.json())
@@ -270,6 +466,7 @@
         buildDruhCheckboxes();
         apply();
         if (state.focusGuid) focusGuid(state.focusGuid);
+        reloadTags();
       })
       .catch((e) => {
         document.getElementById("count").textContent = "chyba načítání points.geojson: " + e;

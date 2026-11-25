@@ -1,6 +1,8 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- substituted to "owner/repo@branch" by publish.py; left as-is = tags read-only -->
+<meta name="tags-repo" content="waldez/retreat-map@main">
 <title>retreat — listings</title>
 <style>
   :root { color-scheme: light dark; }
@@ -15,13 +17,30 @@
   td.num { text-align: right; font-variant-numeric: tabular-nums; }
   .noise { opacity: .55; }
   .tag { font-size: .75rem; border: 1px solid #8886; border-radius: .5rem; padding: 0 .35rem; }
+  /* tags: thumb-sized (>= 44px) tap targets */
+  .tag-row { margin: .25rem 0; font-size: 1.1rem; }
+  .tag-btn { min-width: 44px; min-height: 44px; margin: 0 .3rem .3rem 0; font-size: 1.25rem;
+             border: 1px solid #8888; border-radius: .5rem; background: transparent; opacity: .45; }
+  .tag-btn.on { opacity: 1; background: #ffd54f55; border-color: #e0a800; }
+  .tag-open { min-width: 44px; min-height: 44px; border: 1px solid #8886; border-radius: .5rem;
+              background: transparent; font-size: 1rem; }
+  .tag-dispute { font-size: .8rem; color: #8e24aa; }
+  ul.notes { margin: .25rem 0; padding-left: 1.1rem; font-size: .9rem; }
+  .note-meta { opacity: .6; font-size: .75rem; }
+  .note-del { min-width: 44px; min-height: 44px; border: none; background: none; font-size: 1rem; }
+  .note-add textarea { width: 100%; box-sizing: border-box; font: inherit; font-size: 16px; }
+  .note-add button, #tag-settings button { min-height: 44px; padding: 0 .8rem; margin-top: .25rem; }
+  #tag-settings input { font-size: 16px; min-height: 44px; width: min(100%, 22rem); }
+  #tag-msg { font-size: .85rem; }
+  .tag-err { color: #e53935; }
+  tr.detail td { background: #8881; }
   @media (max-width: 700px) { th.opt, td.opt { display: none; } }
 </style>
 
 <header>
   <h1>retreat — listings</h1>
   <span id="meta">loading…</span>
-  <a href="index.html">Map view →</a>
+  <a id="to-map" href="index.html">Map view →</a>
 </header>
 
 <div id="controls">
@@ -36,7 +55,20 @@
   <label>Max price <input id="maxPrice" type="number" step="50000" placeholder="any"></label>
   <label>Source <select id="source"><option value="">all</option></select></label>
   <label><input id="showNoise" type="checkbox"> <span id="noiseLabel">show suppressed</span></label>
+  <label><input type="checkbox" data-only="fav"> only ⭐</label>
+  <label><input type="checkbox" data-only="visit"> only 🚗</label>
+  <label><input type="checkbox" data-only="dead"> only 💀</label>
+  <label><input id="showNope" type="checkbox"> <span id="nopeLabel">show 👎</span></label>
 </div>
+<div id="tag-msg"></div>
+<details id="tag-settings">
+  <summary>⚙ token</summary>
+  <span id="tag-token-state"></span><br>
+  <input type="password" id="tag-token" autocomplete="off" spellcheck="false"
+         placeholder="github_pat_…" aria-label="GitHub token">
+  <button type="button" id="tag-token-save">save</button>
+  <button type="button" id="tag-token-clear">clear</button>
+</details>
 
 <table>
   <thead><tr>
@@ -48,6 +80,11 @@
 
 <script type="module">
 import { applyFilters, sortListings } from './listfilter.js';
+import {
+  TOKEN_KEY, parseRepoMeta, loadTags, commitOps, TagSession, toggleOps, newNoteId, nowIso,
+  tagButtonsHtml, notesHtml, badgesHtml, parseTagHash, writeTagHash,
+  clearCommittedDrafts, noteDeleteOps,
+} from './tags.js';
 
 const $ = (id) => document.getElementById(id);
 // Listing text is seller-controlled. Build every cell with textContent and set
@@ -57,19 +94,58 @@ const num = (v) => (typeof v === 'number' ? v.toLocaleString('cs-CZ') : '—');
 
 let feed = { listings: [], sources: {}, generated_at: '', count: 0, noise_count: 0 };
 
+// ---- tags (shared hash keys `tag` / `nope` with the map) ----
+const tagState = parseTagHash(location.hash);
+const repoCfg = parseRepoMeta(
+  document.querySelector('meta[name="tags-repo"]')?.getAttribute('content'));
+const getToken = () => (repoCfg && localStorage.getItem(TOKEN_KEY)) || '';
+let tagsLoaded = false;
+let tokenRejected = false;
+// Half-typed notes, per guid. render() rebuilds every row (each commit landing or
+// failing); the box is refilled from here and only a successful add_note of that
+// exact text clears it.
+const drafts = new Map();
+const openGuids = new Set();          // rows whose tag/notes panel is expanded
+const session = new TagSession({
+  commit: (ops) => commitOps(ops, { token: getToken(), ...repoCfg }),
+  onCommitted: (ops) => clearCommittedDrafts(drafts, ops),
+  onChange: () => render(),
+  onError: (e) => { lastErr = `write failed, reverted: ${e.message}`; tagMsg(lastErr, true); },
+});
+let lastErr = '';                     // also shown in the open row: the top may be scrolled away
+const editable = () => !!(getToken() && tagsLoaded && !tokenRejected);
+function tagMsg(text, isErr = false) {
+  $('tag-msg').textContent = text;
+  $('tag-msg').className = isErr ? 'tag-err' : '';
+}
+function syncHash() {
+  const h = writeTagHash(location.hash, tagState);
+  history.replaceState(null, '', h ? '#' + h : location.pathname);
+  // carry the shared keys over to the map
+  const t = writeTagHash('', tagState);
+  $('to-map').href = 'index.html' + (t ? '#' + t : '');
+}
+
 function render() {
+  const fa = document.activeElement;
+  const focus = fa && fa.matches('textarea[data-guid]') ? { guid: fa.dataset.guid, at: fa.selectionStart } : null;
   const opts = {
     showNoise: $('showNoise').checked,
     maxPrice: $('maxPrice').value ? Number($('maxPrice').value) : null,
     sources: $('source').value ? [$('source').value] : null,
+    onlyTags: tagState.onlyTags,
+    showNope: tagState.showNope,
+    tagsDoc: session.doc,           // null (not loaded / failed) = fail open
   };
-  const { listings, hiddenNoise } = applyFilters(feed, opts);
+  const doc = session.doc;
+  const { listings, hiddenNoise, hiddenNope } = applyFilters(feed, opts);
   const rows = sortListings(listings, $('sort').value);
 
   // The hidden count is ALWAYS stated, so suppression is never silent.
   $('noiseLabel').textContent = hiddenNoise
     ? `show ${hiddenNoise} suppressed`
     : 'show suppressed';
+  $('nopeLabel').textContent = hiddenNope ? `show ${hiddenNope} 👎` : 'show 👎';
 
   const tbody = $('rows');
   tbody.textContent = '';
@@ -97,6 +173,19 @@ function render() {
       tag.className = 'tag'; tag.textContent = r;
       title.append(' ', tag);
     }
+    if (doc) {
+      const badges = badgesHtml(l.guid, doc);   // emoji only
+      if (badges) title.append(' ', badges);
+      const nNotes = (doc.items[l.guid]?.notes || []).length;
+      if (editable() || nNotes || tagButtonsHtml(l.guid, doc, false)) {
+        const b = document.createElement('button');
+        b.type = 'button'; b.className = 'tag-open';
+        b.dataset.act = 'open'; b.dataset.guid = l.guid;
+        b.setAttribute('aria-expanded', openGuids.has(l.guid) ? 'true' : 'false');
+        b.textContent = nNotes ? `🏷 ${nNotes}` : '🏷';
+        title.append(' ', b);
+      }
+    }
 
     const price = tr.insertCell(); price.className = 'num';
     price.textContent = typeof l.price_czk === 'number' ? num(l.price_czk) : 'unpriced';
@@ -115,10 +204,110 @@ function render() {
       a.textContent = 'map';
       map.append(a);
     }
+
+    if (doc && openGuids.has(l.guid)) {
+      const dr = tbody.insertRow();
+      dr.className = 'detail';
+      const td = dr.insertCell();
+      td.colSpan = 7;
+      td.dataset.guid = l.guid;
+      td.dataset.price = typeof l.price_czk === 'number' ? String(l.price_czk) : '';
+      // tagButtonsHtml / notesHtml escape every value they interpolate
+      td.innerHTML = tagButtonsHtml(l.guid, doc, editable())
+        + notesHtml(l.guid, doc, editable(), drafts.get(l.guid) || '');
+      const ta = td.querySelector('textarea');
+      if (ta && focus && focus.guid === l.guid) {
+        ta.focus(); ta.setSelectionRange(focus.at, focus.at);
+      }
+      if (lastErr) {
+        const err = document.createElement('div');
+        err.className = 'tag-err'; err.textContent = lastErr;
+        td.prepend(err);
+      }
+    }
   }
   $('meta').textContent =
     `${rows.length} shown of ${feed.count} · generated ${feed.generated_at || '?'}`;
 }
+
+$('rows').addEventListener('click', (e) => {
+  const el = e.target.closest('[data-act]');
+  if (!el) return;
+  const guid = el.dataset.guid;
+  if (el.dataset.act === 'open') {
+    openGuids.has(guid) ? openGuids.delete(guid) : openGuids.add(guid);
+    render();
+    return;
+  }
+  if (!editable()) return;
+  lastErr = '';
+  const cell = el.closest('td');
+  if (el.dataset.act === 'tag') {
+    const price = cell.dataset.price ? Number(cell.dataset.price) : null;
+    session.submit(toggleOps(session.doc, guid, el.dataset.tag, { at: nowIso(), price }));
+  } else if (el.dataset.act === 'note-add') {
+    const value = cell.querySelector('textarea').value;
+    drafts.set(guid, value);
+    const text = value.trim();
+    if (text) session.submit([{ op: 'add_note', guid, id: newNoteId(), at: nowIso(), via: 'map', text }]);
+  } else if (el.dataset.act === 'note-del') {
+    const ops = noteDeleteOps(guid, el.dataset.id, (q) => window.confirm(q));
+    if (ops.length) session.submit(ops);
+  }
+});
+$('rows').addEventListener('input', (e) => {
+  if (e.target.matches('textarea[data-guid]')) drafts.set(e.target.dataset.guid, e.target.value);
+});
+
+async function reloadTags() {
+  const token = getToken();
+  try {
+    const r = await loadTags({ token, ...(repoCfg || {}) });
+    tagsLoaded = true;
+    tokenRejected = !!r.tokenRejected;
+    session.setServer(r.doc);
+    tagMsg(tokenRejected ? 'token rejected — replace it in ⚙'
+      : token ? '' : (repoCfg ? 'tags read-only — paste a token in ⚙' : 'tags read-only (page not published)'),
+      tokenRejected);
+  } catch (e) {
+    tagsLoaded = false;              // fail open: no tags, nothing hidden by tags
+    session.setServer(null);
+    tagMsg(`tags unavailable: ${e.message}`, true);
+  }
+}
+
+function wireTokenPanel() {
+  const show = () => {
+    $('tag-token-state').textContent = !repoCfg ? 'page not published — tags read-only'
+      : localStorage.getItem(TOKEN_KEY) ? 'token saved' : 'no token (read-only)';
+  };
+  $('tag-token-save').onclick = () => {
+    const v = $('tag-token').value.trim();
+    $('tag-token').value = '';
+    if (v) localStorage.setItem(TOKEN_KEY, v);
+    show(); reloadTags();
+  };
+  $('tag-token-clear').onclick = () => {
+    localStorage.removeItem(TOKEN_KEY);
+    $('tag-token').value = '';
+    show(); reloadTags();
+  };
+  show();
+}
+
+document.querySelectorAll('[data-only]').forEach((el) => {
+  el.checked = tagState.onlyTags.has(el.dataset.only);
+  el.addEventListener('change', () => {
+    el.checked ? tagState.onlyTags.add(el.dataset.only) : tagState.onlyTags.delete(el.dataset.only);
+    syncHash(); render();
+  });
+});
+$('showNope').checked = tagState.showNope;
+$('showNope').addEventListener('change', () => {
+  tagState.showNope = $('showNope').checked; syncHash(); render();
+});
+wireTokenPanel();
+syncHash();
 
 fetch('listings.json')
   .then((r) => r.json())
@@ -131,6 +320,7 @@ fetch('listings.json')
       sel.append(opt);
     }
     render();
+    reloadTags();
   })
   .catch((err) => { $('meta').textContent = `could not load listings.json: ${err}`; });
 

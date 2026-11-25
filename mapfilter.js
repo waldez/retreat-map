@@ -19,6 +19,8 @@ export const TIER_COLOR = {
   unknown: "#757575",             // grey
 };
 
+import { carriesAny, isConfirmedDead, isNopeHidden } from "./tags.js";
+
 const STRUCTURE_SOURCES = new Set(["house", "chata"]);
 
 export function defaultState() {
@@ -36,6 +38,9 @@ export function defaultState() {
     // Fail open: unknown, new, and not-yet-vetted parcels stay shown.
     hiddenDruhs: new Set(),
     focusGuid: null,
+    // Tag filters: onlyTags empty = no constraint, else item must carry ANY.
+    onlyTags: new Set(),
+    showNope: false,
   };
 }
 
@@ -48,7 +53,7 @@ export function tierOf(props) {
   return props.suitability_tier || props.verdict || "unknown";
 }
 
-export function passesFilters(props, state) {
+export function passesFilters(props, state, tagsDoc = null) {
   if (!state.tiers.has(tierOf(props))) return false;
 
   const price = props.price;
@@ -68,6 +73,14 @@ export function passesFilters(props, state) {
   // listings and dropping them would hide exactly what is worth looking at.
   const druh = druhOf(props);
   if (druh && state.hiddenDruhs.has(druh)) return false;
+
+  // Tags fail open: a null doc constrains and hides nothing.
+  if (tagsDoc) {
+    const guid = props.guid;
+    if (isConfirmedDead(tagsDoc, guid)) return false;
+    if (!state.showNope && isNopeHidden(tagsDoc, guid)) return false;
+    if (state.onlyTags && state.onlyTags.size && !carriesAny(tagsDoc, guid, state.onlyTags)) return false;
+  }
   return true;
 }
 
@@ -82,6 +95,8 @@ export function serializeHash(state) {
   // ("ostatní plocha, jiná plocha") and joining would split it into two bogus
   // filters that match nothing.
   for (const d of state.hiddenDruhs) p.append("xdruh", d);
+  if (state.onlyTags && state.onlyTags.size) p.set("tag", [...state.onlyTags].join(","));
+  if (state.showNope) p.set("nope", "1");
   if (state.focusGuid) p.set("guid", state.focusGuid);
   return p.toString();
 }
@@ -92,6 +107,7 @@ export function parseHash(hash, base = defaultState()) {
     tiers: new Set(base.tiers),
     excludeFlags: new Set(base.excludeFlags),
     hiddenDruhs: new Set(base.hiddenDruhs),
+    onlyTags: new Set(base.onlyTags),
   };
   const p = new URLSearchParams((hash || "").replace(/^#/, ""));
   if (p.has("tier")) s.tiers = new Set(p.get("tier").split(",").filter(Boolean));
@@ -103,6 +119,8 @@ export function parseHash(hash, base = defaultState()) {
   if (p.has("struct")) s.structuresOnly = p.get("struct") === "1";
   if (p.has("xflag")) s.excludeFlags = new Set(p.get("xflag").split(",").filter(Boolean));
   if (p.has("xdruh")) s.hiddenDruhs = new Set(p.getAll("xdruh").filter(Boolean));
+  if (p.has("tag")) s.onlyTags = new Set(p.get("tag").split(",").filter(Boolean));
+  if (p.has("nope")) s.showNope = p.get("nope") === "1";
   if (p.has("guid")) s.focusGuid = p.get("guid");
   return s;
 }

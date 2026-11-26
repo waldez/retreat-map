@@ -83601,33 +83601,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.530373,
-          50.932301
-        ]
-      },
-      "properties": {
-        "title": "Rumburk - parcela č. 3497 — Aukce vyhlášena (26.11.2026 9:00 - 27.11.2026 9:00) · přihlášky do 25.11.2026 23:59",
-        "price": 187000,
-        "price_label": "187 000 Kč",
-        "source": "uzsvm",
-        "guid": "uzsvm:82097",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.530373&y=50.932301&z=17&source=coor&id=14.530373,50.932301",
-        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/82097",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "ostatní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.465164,
           49.160889
         ]
@@ -89134,34 +89107,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.950719,
-          49.409642
-        ]
-      },
-      "properties": {
-        "title": "Spekulační - stát 117 890 m², Podíl 6 % o výměře 7 478 m²: 225 416",
-        "price": 225416,
-        "price_label": "225 416 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/225834696/spekulacni-stat-117-890-m-podil-6-o-vymere-7-478-m.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.950719&y=49.409642&z=17&source=coor&id=17.950719,49.409642",
-        "link": "https://reality.bazos.cz/inzerat/225834696/spekulacni-stat-117-890-m-podil-6-o-vymere-7-478-m.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "CO_OWNERSHIP",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {
@@ -136995,6 +136940,421 @@
         "guid": "bazos:https://reality.bazos.cz/inzerat/226954493/pole-2-058-m-podil-63-o-vymere-1-286-m.php",
         "mapy_url": "https://mapy.cz/zakladni?x=17.663227&y=49.094619&z=17&source=coor&id=17.663227,49.094619",
         "link": "https://reality.bazos.cz/inzerat/226954493/pole-2-058-m-podil-63-o-vymere-1-286-m.php"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.006168,
+          49.920591
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1988 m² — Lozice - Lozice, Pardubický kraj",
+        "price": 73130,
+        "price_label": "73 130 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093645",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.006168&y=49.920591&z=17&source=coor&id=16.006168,49.920591",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093645-nabidka-prodej-pozemku-lozice",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.728433,
+          49.185118
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 572 m² — Podolí - Podolí u Brna, Jihomoravský kraj",
+        "price": 39140,
+        "price_label": "39 140 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093644",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.728433&y=49.185118&z=17&source=coor&id=16.728433,49.185118",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093644-nabidka-prodej-pozemku-podoli",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "NARROW_PLOT",
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.708363,
+          49.187213
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 1276 m² — Podolí - Podolí u Brna, Jihomoravský kraj",
+        "price": 109180,
+        "price_label": "109 180 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093643",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.708363&y=49.187213&z=17&source=coor&id=16.708363,49.187213",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093643-nabidka-prodej-pozemku-podoli",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.540435,
+          49.58922
+        ]
+      },
+      "properties": {
+        "title": "Prodej louky 9632 m² — Stvolová, Blansko, Jihomoravský kraj",
+        "price": 210000,
+        "price_label": "210 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:2612761420",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.540435&y=49.58922&z=17&source=coor&id=16.540435,49.58922",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/stvolova-stvolova-/2612761420"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.810108,
+          49.028164
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 3757 m² — Borkovany, Břeclav, Jihomoravský kraj",
+        "price": 199000,
+        "price_label": "199 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:142910284",
+        "mapy_url": "https://mapy.cz/zakladni?x=16.810108&y=49.028164&z=17&source=coor&id=16.810108,49.028164",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/borkovany-borkovany-/142910284"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.184183,
+          50.674574
+        ]
+      },
+      "properties": {
+        "title": "Prodám lesní pozemek a ostatní plochu v k.ú. Mukařov u Jablo: 225 000",
+        "price": 225000,
+        "price_label": "225 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/226961662/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.184183&y=50.674574&z=17&source=coor&id=15.184183,50.674574",
+        "link": "https://reality.bazos.cz/inzerat/226961662/prodam-lesni-pozemek-a-ostatni-plochu-v-ku-mukarov-u-jablo.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.25261,
+          50.671179
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/2 lesa 5 685 m², Pěnčín: 120 000",
+        "price": 120000,
+        "price_label": "120 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/226961461/prodej-podilu-12-lesa-5-685-m-pencin.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.25261&y=50.671179&z=17&source=coor&id=15.25261,50.671179",
+        "link": "https://reality.bazos.cz/inzerat/226961461/prodej-podilu-12-lesa-5-685-m-pencin.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.01951,
+          50.555939
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5048 m² — Prackovice nad Labem - Litochovice nad Labem, Ústecký kraj",
+        "price": 135000,
+        "price_label": "135 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093652",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.01951&y=50.555939&z=17&source=coor&id=14.01951,50.555939",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093652-nabidka-prodej-pozemku-prackovice-nad-labem",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "PROTECTED_AREA",
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.249278,
+          50.672576
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 5685 m² — Pěnčín - Bratříkov, Liberecký kraj",
+        "price": 120000,
+        "price_label": "120 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093649",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.249278&y=50.672576&z=17&source=coor&id=15.249278,50.672576",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093649-nabidka-prodej-pozemku-pencin",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.826804,
+          50.381031
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 26114 m² — Louny - Louny, Ústecký kraj",
+        "price": 399000,
+        "price_label": "399 000 Kč",
+        "source": "bezrealitky",
+        "guid": "bezrealitky:1093647",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.826804&y=50.381031&z=17&source=coor&id=13.826804,50.381031",
+        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1093647-nabidka-prodej-pozemku-louny",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "LOW_CONFIDENCE_LOCATION",
+          "LIKELY_NONBUILDABLE",
+          "CO_OWNERSHIP",
+          "ENCUMBRANCE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.562635,
+          49.400056
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu na pozemku v kú Loužná: 190 080",
+        "price": 190080,
+        "price_label": "190 080 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/226962517/prodej-podilu-na-pozemku-v-ku-louzna.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.562635&y=49.400056&z=17&source=coor&id=13.562635,49.400056",
+        "link": "https://reality.bazos.cz/inzerat/226962517/prodej-podilu-na-pozemku-v-ku-louzna.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "orná půda"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.505105,
+          50.193431
+        ]
+      },
+      "properties": {
+        "title": "Prodej podílu 1/2 komerčního pozemku 1 205 m², Mlékosrby: 249 000",
+        "price": 249000,
+        "price_label": "249 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/226961814/prodej-podilu-12-komercniho-pozemku-1-205-m-mlekosrby.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.505105&y=50.193431&z=17&source=coor&id=15.505105,50.193431",
+        "link": "https://reality.bazos.cz/inzerat/226961814/prodej-podilu-12-komercniho-pozemku-1-205-m-mlekosrby.php",
+        "verdict": "primary_conditional",
+        "suitability_tier": "primary_conditional",
+        "pin_color": "#1565c0",
+        "marker-color": "#1565c0",
+        "flags": [
+          "ZPF_SOIL",
+          "CO_OWNERSHIP",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "trvalý travní porost"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0523,
+          49.069275
+        ]
+      },
+      "properties": {
+        "title": "Prodej pozemku 3244 m² — Strunkovice nad Blanicí – Žíchovec, Prachatice, Jihočeský kraj",
+        "price": 127000,
+        "price_label": "127 000 Kč",
+        "source": "sreality",
+        "guid": "sreality:3782893644",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.0523&y=49.069275&z=17&source=coor&id=14.0523,49.069275",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/ostatni-pozemky/strunkovice-nad-blanici-zichovec-/3782893644",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "RADON_HIGH",
+          "FLOOD_HAZARD",
+          "ZPF_SOIL",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "ostatní plocha"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.318337,
+          49.553218
+        ]
+      },
+      "properties": {
+        "title": "Prodej pole 4716 m² — Jiřice, Pelhřimov, Kraj Vysočina",
+        "price": 344268,
+        "price_label": "344 268 Kč",
+        "source": "sreality",
+        "guid": "sreality:1115316300",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.318337&y=49.553218&z=17&source=coor&id=15.318337,49.553218",
+        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/jirice-jirice-/1115316300"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.221015,
+          50.653416
+        ]
+      },
+      "properties": {
+        "title": "Pozemek p.p.č. 963/2 o výměře 57 m2 k.ú. Bzí u Železného Brodu — Aukce vyhlášena (08.12.2026 10:00 - 09.12.2026 10:00) · přihlášky do 07.12.2026 23:59",
+        "price": 34375,
+        "price_label": "34 375 Kč",
+        "source": "uzsvm",
+        "guid": "uzsvm:100704",
+        "mapy_url": "https://mapy.cz/zakladni?x=15.221015&y=50.653416&z=17&source=coor&id=15.221015,50.653416",
+        "link": "https://nabidkamajetku.gov.cz/Home/AuctionDetail/100704",
+        "verdict": "avoid",
+        "suitability_tier": "avoid",
+        "pin_color": "#c62828",
+        "marker-color": "#c62828",
+        "flags": [
+          "NARROW_PLOT",
+          "AVOID",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "vodní plocha"
       }
     }
   ]

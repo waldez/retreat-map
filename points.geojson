@@ -54731,35 +54731,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.100598,
-          50.62627
-        ]
-      },
-      "properties": {
-        "title": "Prodej ostatního pozemku 2559 m2, Paceřice: 400",
-        "price": 400,
-        "price_label": "400 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/223926299/prodej-ostatniho-pozemku-2559-m2-pacerice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.100598&y=50.62627&z=17&source=coor&id=15.100598,50.62627",
-        "link": "https://reality.bazos.cz/inzerat/223926299/prodej-ostatniho-pozemku-2559-m2-pacerice.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "ZPF_SOIL",
-          "PRICE_PER_M2",
-          "CO_OWNERSHIP"
-        ],
-        "druh_pozemku": "trvalý travní porost"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           18.3462,
           49.7821
         ]
@@ -79692,44 +79663,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.318991,
-          49.227711
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 6910 m² — Zdounky, Kroměříž, Zlínský kraj",
-        "price": 320000,
-        "price_label": "320 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1599799372",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.318991&y=49.227711&z=17&source=coor&id=17.318991,49.227711",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/zdounky-zdounky-/1599799372"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.23338,
-          49.292891
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 13955 m² — Dřínov, Kroměříž, Zlínský kraj",
-        "price": 365000,
-        "price_label": "365 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:844824652",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.23338&y=49.292891&z=17&source=coor&id=17.23338,49.292891",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/drinov-drinov-/844824652"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           15.782238,
           48.887599
         ]
@@ -85474,8 +85407,8 @@
       },
       "properties": {
         "title": "Prodej lesa 11293 m² — Velký Ořechov, Zlín, Zlínský kraj",
-        "price": 419000,
-        "price_label": "419 000 Kč",
+        "price": 148000,
+        "price_label": "148 000 Kč",
         "source": "sreality",
         "guid": "sreality:3048013900",
         "mapy_url": "https://mapy.cz/zakladni?x=17.668439&y=49.109365&z=17&source=coor&id=17.668439,49.109365",
@@ -114415,64 +114348,6 @@
           "LOW_CONFIDENCE_LOCATION"
         ],
         "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.786657,
-          49.421331
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesních pozemků k.ú. Kloužovice: 115 000",
-        "price": 115000,
-        "price_label": "115 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/226391726/prodej-lesnich-pozemku-ku-klouzovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.786657&y=49.421331&z=17&source=coor&id=14.786657,49.421331",
-        "link": "https://reality.bazos.cz/inzerat/226391726/prodej-lesnich-pozemku-ku-klouzovice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.811215,
-          49.406769
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 3256 m² — Chýnov, Tábor, Jihočeský kraj",
-        "price": 115000,
-        "price_label": "115 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:1935437900",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.811215&y=49.406769&z=17&source=coor&id=14.811215,49.406769",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/chynov-chynov-/1935437900",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "LOW_CONFIDENCE_LOCATION",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {

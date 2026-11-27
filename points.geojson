@@ -32155,6 +32155,33 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          17.355594,
+          49.874302
+        ]
+      },
+      "properties": {
+        "title": "Prodej rodinného domu 175 m², pozemek 544 m² — Ryžoviště, Bruntál, Moravskoslezský kraj",
+        "price": 1250000,
+        "price_label": "1 250 000 Kč",
+        "source": "house",
+        "guid": "house:2145505356",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.355594&y=49.874302&z=17&source=coor&id=17.355594,49.874302",
+        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/ryzoviste-ryzoviste-tovarni/2145505356",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zastavěná plocha a nádvoří"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           16.945412,
           50.163425
         ]
@@ -133412,8 +133439,8 @@
       },
       "properties": {
         "title": "Prodej chaty 72 m², pozemek 36 m² — Rantířov, Jihlava, Kraj Vysočina",
-        "price": 560000,
-        "price_label": "560 000 Kč",
+        "price": 495000,
+        "price_label": "495 000 Kč",
         "source": "chata",
         "guid": "chata:24862796",
         "mapy_url": "https://mapy.cz/zakladni?x=15.50551&y=49.396801&z=17&source=coor&id=15.50551,49.396801",
@@ -138169,6 +138196,63 @@
         "guid": "sreality:1287217228",
         "mapy_url": "https://mapy.cz/zakladni?x=14.36712&y=49.959331&z=17&source=coor&id=14.36712,49.959331",
         "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/praha-lipence-/1287217228"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.725313,
+          49.890084
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Litultovice: 68 000",
+        "price": 68000,
+        "price_label": "68 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/227028203/prodej-lesniho-pozemku-ku-litultovice.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=17.725313&y=49.890084&z=17&source=coor&id=17.725313,49.890084",
+        "link": "https://reality.bazos.cz/inzerat/227028203/prodej-lesniho-pozemku-ku-litultovice.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.969696,
+          49.240948
+        ]
+      },
+      "properties": {
+        "title": "Prodej lesního pozemku k.ú. Najdek u Lodhéřova: 134 000",
+        "price": 134000,
+        "price_label": "134 000 Kč",
+        "source": "bazos",
+        "guid": "bazos:https://reality.bazos.cz/inzerat/227030627/prodej-lesniho-pozemku-ku-najdek-u-lodherova.php",
+        "mapy_url": "https://mapy.cz/zakladni?x=14.969696&y=49.240948&z=17&source=coor&id=14.969696,49.240948",
+        "link": "https://reality.bazos.cz/inzerat/227030627/prodej-lesniho-pozemku-ku-najdek-u-lodherova.php",
+        "verdict": "secondary",
+        "suitability_tier": "secondary",
+        "pin_color": "#f9a825",
+        "marker-color": "#f9a825",
+        "flags": [
+          "RADON_HIGH",
+          "SECONDARY_ONLY",
+          "LIKELY_NONBUILDABLE"
+        ],
+        "druh_pozemku": "lesní pozemek"
       }
     }
   ]

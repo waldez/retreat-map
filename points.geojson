@@ -12699,25 +12699,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.71869,
-          49.928593
-        ]
-      },
-      "properties": {
-        "title": "Prodej pozemku 2134 m² — Morašice - Skupice u Chrudimi, Pardubický kraj",
-        "price": 100000,
-        "price_label": "100 000 Kč",
-        "source": "bezrealitky",
-        "guid": "bezrealitky:1041025",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.71869&y=49.928593&z=17&source=coor&id=15.71869,49.928593",
-        "link": "https://www.bezrealitky.cz/nemovitosti-byty-domy/1041025-nabidka-prodej-pozemku-morasice"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           16.737177,
           49.121577
         ]
@@ -37698,35 +37679,6 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "zahrada"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          17.22829,
-          49.357906
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 160 m², pozemek 188 m² — Hruška, Prostějov, Olomoucký kraj",
-        "price": 490000,
-        "price_label": "490 000 Kč",
-        "source": "house",
-        "guid": "house:1533464652",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.22829&y=49.357906&z=17&source=coor&id=17.22829,49.357906",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/hruska-hruska-/1533464652",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "ZPF_SOIL",
-          "CO_OWNERSHIP",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
       }
     },
     {
@@ -114134,35 +114086,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          17.769238,
-          49.501408
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 980 m2 - Malhotice: 35 000",
-        "price": 35000,
-        "price_label": "35 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/226506908/prodej-lesa-980-m2-malhotice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=17.769238&y=49.501408&z=17&source=coor&id=17.769238,49.501408",
-        "link": "https://reality.bazos.cz/inzerat/226506908/prodej-lesa-980-m2-malhotice.php",
-        "verdict": "secondary",
-        "suitability_tier": "secondary",
-        "pin_color": "#f9a825",
-        "marker-color": "#f9a825",
-        "flags": [
-          "SECONDARY_ONLY",
-          "LIKELY_NONBUILDABLE",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.15343,
           48.981329
         ]
@@ -114512,66 +114435,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          14.360373,
-          49.446135
-        ]
-      },
-      "properties": {
-        "title": "Prodej rodinného domu 90 m², pozemek 652 m² — Milevsko, Písek, Jihočeský kraj",
-        "price": 1490000,
-        "price_label": "1 490 000 Kč",
-        "source": "house",
-        "guid": "house:4160974924",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.360373&y=49.446135&z=17&source=coor&id=14.360373,49.446135",
-        "link": "https://www.sreality.cz/detail/prodej/dum/rodinny/milevsko-milevsko-cs-legii/4160974924",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "RADON_HIGH",
-          "ZPF_SOIL",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "zastavěná plocha a nádvoří"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          15.815763,
-          50.187588
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 9 m², pozemek 500 m² — Hradec Králové – Pražské Předměstí, Královéhradecký kraj",
-        "price": 490000,
-        "price_label": "490 000 Kč",
-        "source": "chata",
-        "guid": "chata:3394203724",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.815763&y=50.187588&z=17&source=coor&id=15.815763,50.187588",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/hradec-kralove-prazske-predmesti-/3394203724",
-        "verdict": "avoid",
-        "suitability_tier": "avoid",
-        "pin_color": "#c62828",
-        "marker-color": "#c62828",
-        "flags": [
-          "FLOOD_HAZARD",
-          "ZPF_SOIL",
-          "AVOID",
-          "LOW_CONFIDENCE_LOCATION",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "vodní plocha"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.945289,
           49.552934
         ]
@@ -114622,35 +114485,6 @@
           "CO_OWNERSHIP"
         ],
         "druh_pozemku": "lesní pozemek"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.851265,
-          49.091248
-        ]
-      },
-      "properties": {
-        "title": "Prodám stavební pozemky na k.ú. Milešovice: 400 000",
-        "price": 400000,
-        "price_label": "400 000 Kč",
-        "source": "bazos",
-        "guid": "bazos:https://reality.bazos.cz/inzerat/226518729/prodam-stavebni-pozemky-na-ku-milesovice.php",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.851265&y=49.091248&z=17&source=coor&id=16.851265,49.091248",
-        "link": "https://reality.bazos.cz/inzerat/226518729/prodam-stavebni-pozemky-na-ku-milesovice.php",
-        "verdict": "primary_conditional",
-        "suitability_tier": "primary_conditional",
-        "pin_color": "#1565c0",
-        "marker-color": "#1565c0",
-        "flags": [
-          "NARROW_PLOT",
-          "ZPF_SOIL",
-          "SMALL_PLOT"
-        ],
-        "druh_pozemku": "orná půda"
       }
     },
     {

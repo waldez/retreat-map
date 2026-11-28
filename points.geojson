@@ -80970,44 +80970,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          15.011282,
-          50.175371
-        ]
-      },
-      "properties": {
-        "title": "Prodej chaty 11 m², pozemek 172 m² — Nymburk – Drahelice, Středočeský kraj",
-        "price": 530000,
-        "price_label": "530 000 Kč",
-        "source": "chata",
-        "guid": "chata:2439970892",
-        "mapy_url": "https://mapy.cz/zakladni?x=15.011282&y=50.175371&z=17&source=coor&id=15.011282,50.175371",
-        "link": "https://www.sreality.cz/detail/prodej/dum/chata/nymburk-drahelice-/2439970892"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          16.616487,
-          49.607698
-        ]
-      },
-      "properties": {
-        "title": "Prodej louky 11792 m² — Velké Opatovice – Bezděčí, Blansko, Jihomoravský kraj",
-        "price": 365552,
-        "price_label": "365 552 Kč",
-        "source": "sreality",
-        "guid": "sreality:510591052",
-        "mapy_url": "https://mapy.cz/zakladni?x=16.616487&y=49.607698&z=17&source=coor&id=16.616487,49.607698",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/louka/velke-opatovice-bezdeci-/510591052"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           13.414188,
           49.7285
         ]
@@ -98461,25 +98423,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          12.842491,
-          49.486488
-        ]
-      },
-      "properties": {
-        "title": "Prodej pole 4490 m² — Otov, Domažlice, Plzeňský kraj",
-        "price": 224500,
-        "price_label": "224 500 Kč",
-        "source": "sreality",
-        "guid": "sreality:1520828492",
-        "mapy_url": "https://mapy.cz/zakladni?x=12.842491&y=49.486488&z=17&source=coor&id=12.842491,49.486488",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/pole/otov-otov-/1520828492"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           17.2229,
           48.9731
         ]
@@ -98530,35 +98473,6 @@
           "LIKELY_NONBUILDABLE"
         ],
         "druh_pozemku": "orná půda"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          14.52751,
-          48.8242
-        ]
-      },
-      "properties": {
-        "title": "Prodej lesa 6033 m² — Ločenice, České Budějovice, Jihočeský kraj",
-        "price": 295000,
-        "price_label": "295 000 Kč",
-        "source": "sreality",
-        "guid": "sreality:2895511628",
-        "mapy_url": "https://mapy.cz/zakladni?x=14.52751&y=48.8242&z=17&source=coor&id=14.52751,48.8242",
-        "link": "https://www.sreality.cz/detail/prodej/pozemek/les/locenice-locenice-/2895511628",
-        "verdict": "primary_candidate",
-        "suitability_tier": "primary_candidate",
-        "pin_color": "#2e7d32",
-        "marker-color": "#2e7d32",
-        "flags": [
-          "PLACEHOLDER_PIN",
-          "PIN_HIT_COMMON_LAND",
-          "LIKELY_NONBUILDABLE"
-        ],
-        "druh_pozemku": "ostatní plocha"
       }
     },
     {
@@ -137285,6 +137199,34 @@
           "SMALL_PLOT"
         ],
         "druh_pozemku": "lesní pozemek"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.334718,
+          49.571062
+        ]
+      },
+      "properties": {
+        "title": "Prodej chaty 11 m², pozemek 208 m² — Přeštice, Plzeň-jih, Plzeňský kraj",
+        "price": 670000,
+        "price_label": "670 000 Kč",
+        "source": "chata",
+        "guid": "chata:2754109516",
+        "mapy_url": "https://mapy.cz/zakladni?x=13.334718&y=49.571062&z=17&source=coor&id=13.334718,49.571062",
+        "link": "https://www.sreality.cz/detail/prodej/dum/chata/prestice-prestice-/2754109516",
+        "verdict": "primary_candidate",
+        "suitability_tier": "primary_candidate",
+        "pin_color": "#2e7d32",
+        "marker-color": "#2e7d32",
+        "flags": [
+          "ZPF_SOIL",
+          "SMALL_PLOT"
+        ],
+        "druh_pozemku": "zahrada"
       }
     }
   ]
